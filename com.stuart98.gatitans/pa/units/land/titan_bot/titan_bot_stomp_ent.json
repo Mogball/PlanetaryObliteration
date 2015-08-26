@@ -1,0 +1,71 @@
+{
+  "recon": {
+    "observable": {
+      "always_visible": true,
+      "ignore_radar": true,
+      "layer": "surface_and_air",
+      "sphere_radius": 5
+    }
+  },
+  "spawn_response": {
+    "audio_cue": "/SE/Impacts/titan_bot_nuke_impact",
+    "camera_shake": {
+      "duration": 3.0,
+      "height": {
+        "keys": [
+          [
+            1.2,
+            0
+          ],
+          [
+            1.3,
+            7.0
+          ],
+          [
+            3.0,
+            0
+          ]
+        ],
+        "stepped": false
+      },
+      "interval": {
+        "keys": [
+          [
+            1.2,
+            0
+          ],
+          [
+            1.3,
+            0.0
+          ],
+          [
+            3.0,
+            0.0
+          ]
+        ],
+        "stepped": false
+      },
+      "max_falloff_dist": 1000.0,
+      "min_falloff_dist": 300.0,
+      "width": {
+        "keys": [
+          [
+            1.2,
+            0
+          ],
+          [
+            1.3,
+            7.0
+          ],
+          [
+            3.0,
+            0
+          ]
+        ],
+        "stepped": false
+      }
+    },
+    "effect_spec": "/pa/units/land/titan_bot/titan_bot_attack.pfx",
+    "effect_world_aligned": true
+  }
+}
