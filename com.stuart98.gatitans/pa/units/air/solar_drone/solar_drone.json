@@ -81,7 +81,7 @@
       "type": "idle"
     }
   ],
-  "max_health": 40,
+  "max_health": 275,
   "mesh_bounds": [
     13.5,
     13.5,
@@ -120,7 +120,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 75,
+          "radius": 90,
           "shape": "capsule"
         }
       ]
