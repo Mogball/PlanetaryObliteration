@@ -50,8 +50,7 @@
     3.1
   ],
   "model": {
-    "arrows": 5,
-    "filename": "/pa/units/air/fighter/fighter.papa"
+    "filename": "/pa/units/air/fighter_beam/fighter_beam.papa"
   },
   "navigation": {
     "acceleration": 40,
