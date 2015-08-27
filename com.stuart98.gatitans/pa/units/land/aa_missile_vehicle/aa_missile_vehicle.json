@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 150,
+  "build_metal_cost": 250,
   "description": "!LOC:Mobile Anti-Air- Equipped with homing missiles. Only attacks air.",
   "display_name": "!LOC:Spinner",
   "events": {
@@ -45,7 +45,7 @@
     }
   },
   "guard_layer": "WL_Air",
-  "max_health": 160,
+  "max_health": 250,
   "mesh_bounds": [
     3.8,
     5,
@@ -60,10 +60,10 @@
     "walk_speed": 7
   },
   "navigation": {
-    "acceleration": 100,
-    "brake": 100,
-    "move_speed": 10,
-    "turn_speed": 180,
+    "acceleration": 2,
+    "brake": 2,
+    "move_speed": 13,
+    "turn_speed": 80,
     "type": "land-small"
   },
   "nearby_target_tick_update_interval": 3,
@@ -76,12 +76,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }
