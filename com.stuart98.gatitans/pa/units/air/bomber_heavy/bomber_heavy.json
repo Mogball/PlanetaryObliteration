@@ -15,9 +15,6 @@
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 1250,
-  "consumption": {
-    "energy": 500
-  },
   "death_weapon": {
     "air_ammo_spec": "/pa/ammo/air_pbaoe/air_pbaoe.json"
   },
@@ -219,7 +216,7 @@
       "radius": 2.5
     }
   ],
-  "max_health": 450,
+  "max_health": 2000,
   "mesh_bounds": [
     14,
     7.5,
@@ -235,19 +232,20 @@
     "animtree": "/pa/anim/anim_trees/bomber_heavy_anim_tree.json",
     "filename": "/pa/units/air/bomber_heavy/bomber_heavy.papa"
   },
-  "navigation": {
-    "acceleration": 50,
-    "aggressive_distance": 10,
-    "aggressive_height": 100,
-    "brake": 20,
-    "dodge_multiplier": 0,
-    "dodge_radius": 0,
-    "move_speed": 80,
-    "turn_speed": 45,
-    "type": "air",
-    "wobble_factor": 0.01,
-    "wobble_speed": 0.01
-  },
+    "navigation": {
+        "type": "air",
+        "acceleration": 20,
+        "brake": 30,
+        "move_speed":50,
+        "turn_speed": 110,
+        "dodge_radius": 0,
+        "dodge_multiplier": 0,
+        "aggressive_distance": 50,
+        "aggressive_height": 100,
+        "wobble_factor": 0.05,
+        "wobble_speed": 0.1,
+        "bank_factor": 0.25
+    },
   "physics": {
     "air_friction": 1.0,
     "allow_pushing": false,
@@ -257,11 +255,6 @@
     "radius": 6
   },
   "recon": {
-    "observable": {
-      "ignore_radar": true,
-      "layer": "surface_and_air",
-      "uses_energy": true
-    },
     "observer": {
       "items": [
         {
