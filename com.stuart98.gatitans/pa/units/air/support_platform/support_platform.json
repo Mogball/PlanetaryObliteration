@@ -29,7 +29,7 @@
     }
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 5500,
+  "build_metal_cost": 800,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -130,7 +130,7 @@
       "type": "build"
     }
   ],
-  "max_health": 1000,
+  "max_health": 600,
   "mesh_bounds": [
     5,
     5,
