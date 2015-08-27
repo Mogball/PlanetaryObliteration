@@ -23,7 +23,7 @@
     }
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 130,
+  "build_metal_cost": 100,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -86,7 +86,7 @@
       "type": "moving_forward"
     }
   ],
-  "max_health": 40,
+  "max_health": 250,
   "mesh_bounds": [
     13.5,
     13.5,
@@ -100,10 +100,10 @@
     "filename": "/pa/units/air/transport/transport.papa"
   },
   "navigation": {
-    "acceleration": 30,
-    "brake": 20,
+    "acceleration": 10,
+    "brake": 10,
     "hover_time": -1.0,
-    "move_speed": 70,
+    "move_speed": 60,
     "turn_speed": 180,
     "type": "air",
     "vertical_speed": 100
@@ -118,7 +118,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 70,
+          "radius": 100,
           "shape": "capsule"
         }
       ]
@@ -130,7 +130,7 @@
   "transporter": {
     "capacity": 1,
     "transportable_attach_offset": "head",
-    "transportable_unit_types": "Mobile & Land - Commander",
+    "transportable_unit_types": "Mobile & Land - Commander | Fabber & Mobile & (Sea | Air)",
     "transporter_attach_bone": "bone_payload"
   },
   "unit_types": [
@@ -142,7 +142,7 @@
   ],
   "usable": true,
   "useable": {
-    "range": 10,
+    "range": 15,
     "type": "transport"
   }
 }
