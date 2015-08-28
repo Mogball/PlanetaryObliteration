@@ -4,7 +4,7 @@
   "atrophy_cool_down": 15,
   "atrophy_rate": 5,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 225,
+  "build_metal_cost": 650,
   "command_caps": [
     "ORDER_Attack"
   ],
@@ -24,7 +24,7 @@
     }
   },
   "guard_layer": "WL_Air",
-  "max_health": 1000,
+  "max_health": 900,
   "mesh_bounds": [
     5,
     5,
@@ -50,13 +50,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 155,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 155,
+          "radius": 115,
           "shape": "capsule"
         }
       ]
@@ -82,9 +76,10 @@
     "UNITTYPE_Land",
     "UNITTYPE_AirDefense",
     "UNITTYPE_Defense",
-    "UNITTYPE_CmdBuild",
+    "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_FabBuild",
     "UNITTYPE_FabAdvBuild",
-    "UNITTYPE_CombatFabAdvBuild"
+    "UNITTYPE_Custom1",
+    "UNITTYPE_Custom4"
   ]
 }
