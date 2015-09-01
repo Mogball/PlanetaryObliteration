@@ -27,6 +27,11 @@
       "/pa/effects/specs/scorch_a_01.json"
     ]
   },
+  "death_weapon": {
+    "air_ammo_spec": "/pa/units/land/base_bot/base_bot_death_weapon.json",
+    "air_height_threshold": 7,
+    "ground_ammo_spec": "/pa/units/land/base_bot/base_bot_death_weapon.json"
+  },
   "description": "Base Bot Description - If you're seeing this, something is wrong in your bot.",
   "display_name": "Base Bot",
   "events": {
@@ -108,12 +113,6 @@
           "layer": "surface_and_air",
           "radius": 85,
           "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 120,
-          "shape": "capsule"
         }
       ]
     }
@@ -126,11 +125,5 @@
     "UNITTYPE_Land",
     "UNITTYPE_NoBuild"
   ],
-  "wreckage": {
-    "collision": [
-      "none"
-    ],
-    "remove_ground_cost_stamp": true
-  },
-  "wreckage_health_frac": 0.7
+  "wreckage_health_frac": 3.5
 }
