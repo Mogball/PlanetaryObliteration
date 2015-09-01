@@ -12,6 +12,9 @@
       "/pa/effects/specs/scorch_b_01.json"
     ]
   },
+  "death_weapon": {
+    "ground_ammo_spec": "/pa/units/land/base_structure/base_structure_death_weapon.json"
+  },
   "description": "Base Structure Description - If you're seeing this, something is wrong in your structure.",
   "display_name": "Base Structure",
   "events": {
