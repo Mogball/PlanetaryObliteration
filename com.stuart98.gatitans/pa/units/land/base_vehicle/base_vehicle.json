@@ -106,5 +106,5 @@
     "UNITTYPE_Land",
     "UNITTYPE_NoBuild"
   ],
-  "wreckage_health_frac": 0.7
+  "wreckage_health_frac": 2.5
 }
