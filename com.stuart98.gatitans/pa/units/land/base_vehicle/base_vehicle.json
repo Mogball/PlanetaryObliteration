@@ -27,6 +27,11 @@
       "/pa/effects/specs/scorch_a_01.json"
     ]
   },
+  "death_weapon": {
+    "air_ammo_spec": "/pa/units/land/base_vehicle/base_vehicle_death_weapon.json",
+    "air_height_threshold": 7,
+    "ground_ammo_spec": "/pa/units/land/base_vehicle/base_vehicle_death_weapon.json"
+  },
   "description": "Base Vehicle Description - If you're seeing this, something is wrong in your vehicle.",
   "display_name": "Base Vehicle",
   "events": {
@@ -89,12 +94,6 @@
           "layer": "surface_and_air",
           "radius": 100,
           "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 120,
-          "shape": "capsule"
         }
       ]
     }
@@ -107,11 +106,5 @@
     "UNITTYPE_Land",
     "UNITTYPE_NoBuild"
   ],
-  "wreckage": {
-    "collision": [
-      "none"
-    ],
-    "remove_ground_cost_stamp": true
-  },
   "wreckage_health_frac": 0.7
 }
