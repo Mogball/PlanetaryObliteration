@@ -25,7 +25,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 750,
+  "build_metal_cost": 500,
   "description": "!LOC:Flak Tank- Damage over a very wide area. Only attacks air targets.",
   "display_name": "!LOC:Storm",
   "events": {
@@ -43,7 +43,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 300,
+  "max_health": 325,
   "mesh_bounds": [
     7,
     7.5,
@@ -55,10 +55,10 @@
     "filename": "/pa/units/land/tank_flak/tank_flak.papa"
   },
   "navigation": {
-    "acceleration": 100,
-    "brake": 100,
+    "acceleration": 1,
+    "brake": 1,
     "group_preference": "back",
-    "move_speed": 10,
+    "move_speed": 13,
     "turn_speed": 60,
     "type": "land-small"
   },
@@ -73,13 +73,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 100,
+          "radius": 90,
           "shape": "capsule"
         }
       ]
@@ -96,8 +90,12 @@
     {
       "aim_bone": "socket_aim",
       "muzzle_bone": [
-        "socket_muzzle01"
+        "socket_muzzle01",
+        "socket_muzzle02",
+        "socket_muzzle03",
+        "socket_muzzle04"
       ],
+      "projectiles_per_fire": 2,
       "spec_id": "/pa/units/land/tank_flak/tank_flak_tool_weapon.json"
     }
   ],
