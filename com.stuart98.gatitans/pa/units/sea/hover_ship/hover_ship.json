@@ -203,13 +203,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 200,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 200,
+          "radius": 160,
           "shape": "capsule"
         }
       ]
@@ -267,6 +261,7 @@
   ],
   "unit_types": [
     "UNITTYPE_Naval",
+	"UNITTYPE_Tank",
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",
     "UNITTYPE_Advanced",

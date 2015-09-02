@@ -8,7 +8,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 900,
+  "build_metal_cost": 1500,
   "command_caps": [
     "ORDER_Attack"
   ],
@@ -45,7 +45,7 @@
       "radius": 1.75
     }
   ],
-  "max_health": 1000,
+  "max_health": 1800,
   "mesh_bounds": [
     8,
     10,
@@ -81,12 +81,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }

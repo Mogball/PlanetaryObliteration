@@ -1,21 +1,14 @@
 {
-  "audio_loop": "/SE/Movement/missile/artillery_short_missile_fly_loop",
+  "armor_damage_map": {
+    "AT_Naval": 2.0
+  },
+  "audio_loop": "/SE/Movement/missile/artillery_long_missile_fly_loop",
   "base_spec": "/pa/ammo/base_artillery/base_artillery.json",
-  "damage": 300,
-  "events": {
-    "died": {
-      "audio_cue": "/SE/Impacts/missile_artillery_short",
-      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
-    }
-  },
-  "full_damage_splash_radius": 2,
-  "influence_radius": 400,
-  "initial_velocity": 150.0,
+  "damage": 180,
+  "full_damage_splash_radius": 5,
+  "initial_velocity": 275.0,
   "lifetime": 30,
-  "model": {
-    "filename": "/pa/units/air/shell_large/shell_large.papa"
-  },
-  "splash_damage": 300,
-  "splash_damages_allies": false,
-  "splash_radius": 12
+  "splash_damage": 75,
+  "splash_damages_allies": true,
+  "splash_radius": 10
 }
