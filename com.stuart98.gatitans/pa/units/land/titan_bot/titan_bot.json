@@ -31,7 +31,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 30000,
+  "build_metal_cost": 16000,
   "build_stamp": {
     "shape": "sphere",
     "type_data": [
@@ -98,7 +98,7 @@
   "guard_layer": "WL_AnySurface",
   "guard_radius": 100,
   "has_death_effects": true,
-  "max_health": 40000,
+  "max_health": 60000,
   "mesh_bounds": [
     35,
     35,
@@ -174,13 +174,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 200,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 200,
+          "radius": 160,
           "shape": "capsule"
         }
       ]
@@ -207,5 +201,5 @@
     "UNITTYPE_Important",
     "UNITTYPE_FabOrbBuild"
   ],
-  "wreckage_health_frac": 0.7
+  "wreckage_health_frac": 1.0
 }
