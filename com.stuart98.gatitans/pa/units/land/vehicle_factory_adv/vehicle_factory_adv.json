@@ -14,8 +14,8 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 3600,
-  "buildable_types": "Mobile & Tank & FactoryBuild",
+  "build_metal_cost": 1500,
+  "buildable_types": "Mobile & Tank & FactoryBuild & Advanced",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -34,7 +34,7 @@
       "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx"
     }
   },
-  "factory_cooldown_time": 4,
+  "factory_cooldown_time": 6,
   "fx_offsets": [
     {
       "bone": "socket_nozzle01",
@@ -268,7 +268,7 @@
       "radius": 4.0
     }
   ],
-  "max_health": 30000,
+  "max_health": 6000,
   "mesh_bounds": [
     50,
     50,
@@ -298,12 +298,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }
