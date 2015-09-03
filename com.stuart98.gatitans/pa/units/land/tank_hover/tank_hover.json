@@ -29,7 +29,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 225,
+  "build_metal_cost": 500,
   "description": "!LOC:Hover Tank- Fast. Can cross water and lava. Attacks land and sea targets.",
   "display_name": "!LOC:Drifter",
   "events": {
@@ -155,7 +155,7 @@
       ]
     }
   ],
-  "max_health": 250,
+  "max_health": 400,
   "mesh_bounds": [
     4.93769,
     6.4,
@@ -169,10 +169,11 @@
     "filename": "/pa/units/land/tank_hover/tank_hover.papa"
   },
   "navigation": {
-    "acceleration": 140,
-    "brake": 140,
-    "move_speed": 14,
-    "turn_speed": 90,
+    "acceleration": 35,
+    "brake": 35,
+    "move_speed": 11,
+    "turn_in_place": true,
+    "turn_speed": 10,
     "type": "hover"
   },
   "physics": {
@@ -185,7 +186,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
+          "radius": 75,
           "shape": "capsule"
         }
       ]
