@@ -319,6 +319,10 @@
   "selection_icon": {
     "diameter": 74.0
   },
+  "storage": {
+    "energy": 1800,
+    "metal": 400
+  },
   "tools": [
     {
       "aim_bone": "bone_root",
