@@ -27,7 +27,7 @@
       "effect_spec": "/pa/units/air/base_flyer/base_flyer_death.pfx"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/air/fighter_fire"
+      "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire"
     }
   },
   "fx_offsets": [
