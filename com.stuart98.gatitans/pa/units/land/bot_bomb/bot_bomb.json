@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 45,
+  "build_metal_cost": 70,
   "description": "!LOC:Bomb bot- Self-Destructs to deal very heavy damage over an area. Extremely fast.",
   "display_name": "!LOC:Boom",
   "events": {
@@ -46,7 +46,7 @@
     }
   },
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 10,
+  "max_health": 60,
   "mesh_bounds": [
     3.8,
     4.5,
@@ -79,13 +79,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 20,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 20,
+          "radius": 50,
           "shape": "capsule"
         }
       ]
