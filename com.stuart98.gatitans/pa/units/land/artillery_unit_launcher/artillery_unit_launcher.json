@@ -8,11 +8,11 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 2000,
+  "build_metal_cost": 1000,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Bot Launcher- Builds and fires bots at nearby targets.",
+  "description": "Boom Launcher- Builds and fires boom bots at nearby targets.",
   "display_name": "Lob",
   "events": {
     "build_complete": {
