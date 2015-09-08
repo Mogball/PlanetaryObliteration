@@ -29,8 +29,8 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 300,
-  "description": "!Riot Bot - Heavy anti-light fire with high aoe. Low health and slow.",
-  "display_name": "!LOC:Spark",
+  "description": "Riot Bot - Heavy anti-light fire with high aoe. Low health and slow.",
+  "display_name": "Spark",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
