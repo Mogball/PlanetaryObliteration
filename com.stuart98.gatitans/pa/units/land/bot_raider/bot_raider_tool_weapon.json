@@ -1,6 +1,6 @@
 {
-  "ammo_capacity": 110,
-  "ammo_demand": 18,
+  "ammo_capacity": 140,
+  "ammo_demand": 20,
   "ammo_id": [
     {
       "id": "/pa/units/land/amphibious_bot/amphibious_bot_ammo.json",
@@ -11,6 +11,8 @@
   "ammo_source": "energy",
   "auto_attack": true,
   "base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
+  "carpet_fire": true,
+  "carpet_wait_for_full_ammo": true,
   "idle_aim_delay": 1.0,
   "max_range": 80,
   "pitch_range": 90,
