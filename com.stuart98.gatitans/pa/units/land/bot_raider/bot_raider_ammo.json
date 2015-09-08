@@ -14,5 +14,5 @@
   "max_velocity": 130.0,
   "model": null,
   "splash_damage": 10,
-  "splash_radius": 1
+  "splash_radius": 0.5
 }
