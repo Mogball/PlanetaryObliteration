@@ -7,7 +7,7 @@
     "AT_Vehicle": 0.0
   },
   "base_spec": "/pa/ammo/base_ammo/base_ammo.json",
-  "damage": 80,
+  "damage": 40,
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/shell_artillery",
@@ -30,7 +30,7 @@
   "model": {
     "filename": ""
   },
-  "splash_damage": 80,
+  "splash_damage": 40,
   "splash_damages_allies": true,
   "splash_radius": 25
 }
