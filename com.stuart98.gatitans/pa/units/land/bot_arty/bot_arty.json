@@ -53,28 +53,25 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 235,
+  "max_health": 180,
   "mesh_bounds": [
-    4,
-    2,
-    4
+    5.36,
+    4.02,
+    5.36
   ],
   "model": {
     "animations": {
-      "aim_down": "/pa/units/land/assault_bot/assault_bot_anim_aim_dwn.papa",
-      "aim_up": "/pa/units/land/assault_bot/assault_bot_anim_aim_up.papa",
-      "death01": "/pa/units/land/assault_bot/assault_bot_anim_death01.papa",
-      "idle": "/pa/units/land/assault_bot/assault_bot_anim_idle.papa",
-      "walk": "/pa/units/land/assault_bot/assault_bot_anim_run.papa"
+      "idle": "/pa/units/land/bot_arty/bot_arty_anim_idleX.papa",
+      "walk": "/pa/units/land/bot_arty/bot_arty_anim_walkX.papa"
     },
-    "animtree": "/pa/anim/anim_trees/bipedal_mech_anim_tree.json",
-    "filename": "/pa/units/land/assault_bot/assault_bot.papa",
-    "walk_speed": 11
+    "animtree": "/pa/units/land/bot_arty/Bassault22_at.json",
+    "filename": "/pa/units/land/bot_arty/bot_artyX.papa",
+    "walk_speed": 5
   },
   "navigation": {
     "acceleration": 250,
     "brake": -1,
-    "move_speed": 11,
+    "move_speed": 10,
     "turn_speed": 720,
     "type": "land-small"
   },
@@ -87,7 +84,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 70,
+          "radius": 105,
           "shape": "capsule"
         }
       ]
@@ -98,13 +95,18 @@
   },
   "tools": [
     {
-      "aim_bone": "socket_aim",
-      "muzzle_bone": [
-        "socket_leftMuzzle",
-        "socket_rightMuzzle"
-      ],
-      "projectiles_per_fire": 2,
-      "spec_id": "/pa/units/land/assault_bot/assault_bot_tool_weapon.json"
+      "aim_bone": "turret00",
+      "fire_event": "fired1",
+      "muzzle_bone": "muzzle02",
+      "record_index": 0,
+      "spec_id": "/pa/units/land/bot_arty/bot_arty_tool_weapon.json"
+    },
+    {
+      "aim_bone": "turret00",
+      "fire_event": "fired2",
+      "muzzle_bone": "muzzle01",
+      "record_index": 1,
+      "spec_id": "/pa/units/land/bot_arty/bot_arty_sidearm_weapon.json"
     }
   ],
   "transportable": {
