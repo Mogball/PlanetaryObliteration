@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 225,
+  "build_metal_cost": 300,
   "description": "!LOC:Tesla Bot- Very high damage over an area. Uses energy. Attacks land targets.",
   "display_name": "!LOC:Spark",
   "events": {
@@ -45,7 +45,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 210,
+  "max_health": 180,
   "mesh_bounds": [
     5,
     5,
