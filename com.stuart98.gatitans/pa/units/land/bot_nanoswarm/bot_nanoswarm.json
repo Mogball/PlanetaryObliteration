@@ -34,7 +34,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 240,
+  "build_metal_cost": 300,
   "buildable_types": "",
   "description": "!LOC:Nanobot Swarm- Extremely Fast. Cheap. Close range. Devastating damage. Attacks land targets.",
   "display_name": "!LOC:Locusts",
@@ -93,13 +93,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 40,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 40,
+          "radius": 80,
           "shape": "capsule"
         }
       ]
@@ -122,6 +116,7 @@
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
+    "UNITTYPE_Naval",
     "UNITTYPE_Offense",
     "UNITTYPE_Advanced",
     "UNITTYPE_Deconstruction",
