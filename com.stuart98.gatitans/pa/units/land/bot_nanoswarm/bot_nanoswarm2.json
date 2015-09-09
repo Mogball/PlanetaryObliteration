@@ -120,7 +120,6 @@
     "UNITTYPE_Offense",
     "UNITTYPE_Advanced",
     "UNITTYPE_Deconstruction",
-    "UNITTYPE_FactoryBuild",
     "UNITTYPE_Hover",
     "UNITTYPE_CannonBuildable"
   ],
