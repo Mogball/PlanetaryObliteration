@@ -36,8 +36,8 @@
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 300,
   "buildable_types": "",
-  "description": "!LOC:Nanobot Swarm- Extremely Fast. Cheap. Close range. Devastating damage. Attacks land targets.",
-  "display_name": "!LOC:Locusts",
+  "description": "Nanobot Swarm - Fast, hovers, does devastating damage at short range. Reproduces by attacking.",
+  "display_name": "Locusts",
   "events": {
     "died": {
       "audio_cue": "/SE/Death/swarm",
