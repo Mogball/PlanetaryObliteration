@@ -9,7 +9,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 400,
+  "build_metal_cost": 300,
   "description": "!LOC:Basic manufacturing- Produces energy.",
   "display_name": "!LOC:Energy Plant",
   "events": {
@@ -192,7 +192,7 @@
       "radius": 3.0
     }
   ],
-  "max_health": 1000,
+  "max_health": 750,
   "mesh_bounds": [
     10,
     10,
@@ -222,7 +222,7 @@
     15
   ],
   "production": {
-    "energy": 600
+    "energy": 900
   },
   "recon": {
     "observer": {
@@ -232,18 +232,15 @@
           "layer": "surface_and_air",
           "radius": 100,
           "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 100,
-          "shape": "capsule"
         }
       ]
     }
   },
   "selection_icon": {
     "diameter": 21.5
+  },
+  "storage": {
+    "energy": 1200
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "unit_types": [
