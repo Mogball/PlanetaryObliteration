@@ -17,7 +17,8 @@
     "ORDER_Move",
     "ORDER_Patrol",
     "ORDER_Attack",
-    "ORDER_Assist"
+    "ORDER_Assist",
+    "ORDER_Use"
   ],
   "description": "Base Ship Description - If you're seeing this, something is wrong in your ship.",
   "display_name": "Base Ship",
@@ -77,6 +78,7 @@
   },
   "spawn_layers": "WL_WaterSurface",
   "strategic_icon_priority": 3,
+  "teleportable": {},
   "unit_types": [
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
@@ -88,5 +90,11 @@
     ],
     "remove_ground_cost_stamp": true
   },
-  "wreckage_health_frac": 0.0
+  "wreckage": {
+    "collision": [
+      "none"
+    ],
+    "remove_ground_cost_stamp": true
+  },
+  "wreckage_health_frac": 1.0
 }
