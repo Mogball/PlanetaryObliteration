@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 800,
+  "build_metal_cost": 900,
   "description": "!LOC:Sniper- Long-range. High damage. Slow rate of fire. Intercepts missiles. Attacks land, air and sea targets.",
   "display_name": "Gil-E",
   "events": {
@@ -108,7 +108,7 @@
       "radius": 1.5
     }
   ],
-  "max_health": 150,
+  "max_health": 300,
   "mesh_bounds": [
     6.5,
     7,
@@ -124,13 +124,13 @@
     },
     "animtree": "/pa/anim/anim_trees/bot_sniper_anim_tree.json",
     "filename": "/pa/units/land/bot_sniper/bot_sniper.papa",
-    "walk_speed": 12
+    "walk_speed": 8
   },
   "navigation": {
     "acceleration": 120,
     "brake": -1,
     "group_preference": "back",
-    "move_speed": 12,
+    "move_speed": 8,
     "turn_speed": 720,
     "type": "land-small"
   },
@@ -144,13 +144,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 180,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 180,
+          "radius": 100,
           "shape": "capsule"
         }
       ]
@@ -166,13 +160,6 @@
       "muzzle_bone": "socket_muzzle01",
       "record_index": 0,
       "spec_id": "/pa/units/land/bot_sniper/bot_sniper_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_turret",
-      "fire_event": "fired1",
-      "muzzle_bone": "socket_muzzle02",
-      "record_index": 1,
-      "spec_id": "/pa/units/land/bot_sniper/bot_sniper_beam_tool_weapon.json"
     }
   ],
   "transportable": {
