@@ -120,7 +120,7 @@
       "fire_event": "fired2",
       "muzzle_bone": [
         "socket_muzzle01"
-      ]
+      ],
       "record_index": 2,
       "spec_id": "/pa/units/sea/battlecruiser/battlecruiser_laser_tool_weapon.json"
     }
