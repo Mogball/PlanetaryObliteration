@@ -9,7 +9,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 450,
+  "build_metal_cost": 650,
   "description": "!LOC:Manufacturing- Increases maximum energy storage capacity.",
   "display_name": "!LOC:Energy Storage",
   "events": {
@@ -173,7 +173,7 @@
       "radius": 3.0
     }
   ],
-  "max_health": 7500,
+  "max_health": 5000,
   "mesh_bounds": [
     20,
     20,
@@ -202,12 +202,6 @@
           "layer": "surface_and_air",
           "radius": 100,
           "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 100,
-          "shape": "capsule"
         }
       ]
     }
@@ -217,13 +211,11 @@
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "storage": {
-    "energy": 100000
+    "energy": 500000
   },
   "unit_types": [
     "UNITTYPE_Structure",
-    "UNITTYPE_Basic",
-    "UNITTYPE_CmdBuild",
-    "UNITTYPE_FabBuild",
+    "UNITTYPE_Advanced",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Economy"
   ]
