@@ -28,9 +28,9 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 800,
+  "build_metal_cost": 600,
   "description": "!LOC:Mobile Tactical Missile- Long-range. Fires homing missiles. Heavy damage. Attacks land, sea and orbital targets.",
-  "display_name": "Bluehawk",
+  "display_name": "Brawler",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
@@ -46,7 +46,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 200,
+  "max_health": 600,
   "mesh_bounds": [
     8.2,
     7,
@@ -61,13 +61,13 @@
     },
     "animtree": "/pa/anim/anim_trees/bot_tactical_missile_anim_tree.json",
     "filename": "/pa/units/land/bot_tactical_missile/bot_tactical_missile.papa",
-    "walk_speed": 12
+    "walk_speed": 7
   },
   "navigation": {
     "acceleration": 120,
     "brake": -1,
     "group_preference": "back",
-    "move_speed": 12,
+    "move_speed": 7,
     "turn_speed": 720,
     "type": "land-small"
   },
@@ -81,12 +81,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }
