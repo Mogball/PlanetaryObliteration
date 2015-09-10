@@ -34,7 +34,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 7000,
+  "build_metal_cost": 3000,
   "buildable_types": "Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Titan & Bot",
   "command_caps": [
     "ORDER_Move",
@@ -46,8 +46,13 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Proxy Commander -- Builds advanced structures. Durable. High damage. Attacks everything but orbital.",
-  "display_name": "!LOC:Colonel",
+  "death_weapon": {
+    "air_ammo_spec": "/pa/units/land/bot_support_commander/supcom_death.json",
+    "air_height_threshold": 50,
+    "ground_ammo_spec": "/pa/units/land/bot_support_commander/supcom_death.json"
+  },
+  "description": "Support Commander - Builds advanced structures. Durable. Generates economy. Medium damage. Attacks everything but orbital.",
+  "display_name": "Colonel",
   "events": {
     "died": {
       "audio_cue": "/SE/Death/Bot",
@@ -66,7 +71,7 @@
       "type": "build"
     }
   ],
-  "max_health": 8000,
+  "max_health": 10000,
   "mesh_bounds": [
     12.6,
     8.71255,
@@ -97,18 +102,16 @@
     "radius": 9,
     "sync_radius_to_extents": true
   },
+  "production": {
+    "energy": 1000,
+    "metal": 5
+  },
   "recon": {
     "observer": {
       "items": [
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 150,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 150,
           "shape": "capsule"
         }
@@ -119,6 +122,10 @@
     "diameter": 15.0
   },
   "show_in_orbital_layer": true,
+  "storage": {
+    "energy": 10000,
+    "metal": 500
+  },
   "strategic_icon_priority": 0,
   "teleportable": {},
   "tools": [
