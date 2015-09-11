@@ -34,7 +34,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 1800,
+  "build_metal_cost": 1000,
   "buildable_types": "Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Titan & Bot",
   "command_caps": [
     "ORDER_Move",
@@ -45,8 +45,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Builder- Builds advanced structures. Cheap. Fast. Less powerful than other builders.",
-  "display_name": "!LOC:Advanced Fabrication Bot",
+  "description": "Builder - Builds advanced structures. Cheap. Slow. Extremely efficient.",
+  "display_name": "Advanced Fabrication Bot",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
@@ -90,7 +90,7 @@
     }
   ],
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 150,
+  "max_health": 400,
   "mesh_bounds": [
     6,
     6,
@@ -112,7 +112,7 @@
     "acceleration": 160,
     "brake": -1,
     "group_preference": "back",
-    "move_speed": 16,
+    "move_speed": 6,
     "turn_speed": 720,
     "type": "land-small"
   },
@@ -126,12 +126,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }

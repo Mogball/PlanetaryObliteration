@@ -54,11 +54,6 @@
   "description": "Support Commander - Builds advanced structures. Durable. Generates economy. Medium damage. Attacks everything but orbital.",
   "display_name": "Colonel",
   "events": {
-    "died": {
-      "audio_cue": "/SE/Death/Bot",
-      "effect_scale": 1.7,
-      "effect_spec": "/pa/effects/specs/default_explosion_bot_t2.pfx"
-    },
     "fired": {
       "audio_cue": "/SE/Weapons/bot/sub_commander_gun_fire_laser",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
