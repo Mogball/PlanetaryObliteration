@@ -133,6 +133,7 @@
   "selection_icon": {
     "diameter": 74.5
   },
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {
       "aim_bone": "socket_aim",
