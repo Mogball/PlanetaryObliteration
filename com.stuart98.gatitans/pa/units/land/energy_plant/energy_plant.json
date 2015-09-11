@@ -239,10 +239,10 @@
   "selection_icon": {
     "diameter": 21.5
   },
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "storage": {
     "energy": 1200
   },
-  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "unit_types": [
     "UNITTYPE_Structure",
     "UNITTYPE_EnergyProduction",

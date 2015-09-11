@@ -19,7 +19,7 @@
     "ORDER_Move",
     "ORDER_Patrol",
     "ORDER_Assist",
-	"ORDER_Use"
+    "ORDER_Use"
   ],
   "description": "!LOC: Scout- Fast. Can see far away. Does not attack.",
   "display_name": "!LOC:Firefly",

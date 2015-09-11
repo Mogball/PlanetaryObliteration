@@ -4,11 +4,12 @@
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/missile_tactical",
-      "effect_spec": "/pa/effects/specs/default_explosion.pfx",
-	  "effect_scale": 0.3
+      "effect_scale": 0.3,
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     }
   },
   "flight_type": "Seeking",
+  "full_damage_splash_radius": 0.75,
   "fx_trail": {
     "filename": "/pa/effects/specs/rocket_proj_trail.pfx",
     "offset": [
@@ -17,7 +18,6 @@
       0.0
     ]
   },
-  "full_damage_splash_radius": 0.75,
   "initial_velocity": 90.0,
   "lifetime": 2,
   "max_velocity": 110.0,

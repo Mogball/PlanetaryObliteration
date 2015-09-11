@@ -176,6 +176,6 @@
     "UNITTYPE_Basic",
     "UNITTYPE_Hover",
     "UNITTYPE_FactoryBuild",
-	"UNITTYPE_Custom4"
+    "UNITTYPE_Custom4"
   ]
 }

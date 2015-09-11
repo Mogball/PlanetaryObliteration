@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 600,
+  "build_metal_cost": 650,
   "description": "!LOC:Assault Tank- Devastating damage. Heavy armor. Vulnerable to flanking. Attacks land and sea targets.",
   "display_name": "!LOC:Leveler",
   "events": {
@@ -46,7 +46,7 @@
     }
   },
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 1500,
+  "max_health": 700,
   "mesh_bounds": [
     6.8,
     7.5,
@@ -58,9 +58,9 @@
     "filename": "/pa/units/land/tank_laser_adv/tank_laser_adv.papa"
   },
   "navigation": {
-    "acceleration": 100,
-    "brake": 100,
-    "move_speed": 10,
+    "acceleration": 10,
+    "brake": 10,
+    "move_speed": 16,
     "turn_speed": 60,
     "type": "land-small"
   },
@@ -75,6 +75,12 @@
           "layer": "surface_and_air",
           "radius": 100,
           "shape": "capsule"
+        },
+        {
+          "channel": "radar",
+          "layer": "surface_and_air",
+          "radius": 130,
+          "shape": "capsule"
         }
       ]
     }
@@ -86,10 +92,15 @@
     {
       "aim_bone": "socket_aim",
       "muzzle_bone": [
-        "socket_leftMuzzle",
+        "socket_leftMuzzle"
+      ],
+      "spec_id": "/pa/units/land/tank_laser_adv/tank_laser_adv_tool_weapon.json"
+    },
+    {
+      "aim_bone": "socket_aim",
+      "muzzle_bone": [
         "socket_rightMuzzle"
       ],
-      "projectiles_per_fire": 2,
       "spec_id": "/pa/units/land/tank_laser_adv/tank_laser_adv_tool_weapon.json"
     }
   ],

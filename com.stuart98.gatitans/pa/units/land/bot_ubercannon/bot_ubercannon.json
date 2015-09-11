@@ -121,7 +121,7 @@
     "animtree": "/pa/anim/anim_trees/commander_imperial_anim_tree.json",
     "filename": "/pa/units/land/bot_ubercannon/bot_ubercannon.papa",
     "walk_speed": 7.0
-  }
+  },
   "navigation": {
     "acceleration": 250,
     "brake": -1,
@@ -163,7 +163,7 @@
     "UNITTYPE_Offense",
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
-	"UNITTYPE_Custom4"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom4"
   ]
 }

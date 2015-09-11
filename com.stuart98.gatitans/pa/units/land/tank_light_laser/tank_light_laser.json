@@ -28,9 +28,9 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 150,
-  "description": "!LOC:Light tank- Well-rounded. Reliable. Attacks land and sea targets.",
-  "display_name": "!LOC:Bolo",
+  "build_metal_cost": 400,
+  "description": "Tank - Anti-land and anti-ship cannons. Slow speed. Heavy armor.",
+  "display_name": "Ant",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "max_health": 250,
+  "max_health": 650,
   "mesh_bounds": [
     4.93769,
     6.4,
@@ -81,9 +81,9 @@
     "filename": "/pa/units/land/tank_light_laser/tank_light_laser.papa"
   },
   "navigation": {
-    "acceleration": 100,
-    "brake": 100,
-    "move_speed": 10,
+    "acceleration": 2,
+    "brake": 2,
+    "move_speed": 14,
     "turn_speed": 90,
     "type": "land-small"
   },

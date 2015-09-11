@@ -59,6 +59,7 @@
     "diameter": 16.0
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "tools": [
     {
       "aim_bone": "bone_pitch",
       "muzzle_bone": [

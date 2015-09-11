@@ -232,20 +232,20 @@
     "animtree": "/pa/anim/anim_trees/bomber_heavy_anim_tree.json",
     "filename": "/pa/units/air/bomber_heavy/bomber_heavy.papa"
   },
-    "navigation": {
-        "type": "air",
-        "acceleration": 20,
-        "brake": 30,
-        "move_speed":50,
-        "turn_speed": 110,
-        "dodge_radius": 0,
-        "dodge_multiplier": 0,
-        "aggressive_distance": 50,
-        "aggressive_height": 100,
-        "wobble_factor": 0.05,
-        "wobble_speed": 0.1,
-        "bank_factor": 0.25
-    },
+  "navigation": {
+    "acceleration": 20,
+    "aggressive_distance": 50,
+    "aggressive_height": 100,
+    "bank_factor": 0.25,
+    "brake": 30,
+    "dodge_multiplier": 0,
+    "dodge_radius": 0,
+    "move_speed": 50,
+    "turn_speed": 110,
+    "type": "air",
+    "wobble_factor": 0.05,
+    "wobble_speed": 0.1
+  },
   "physics": {
     "air_friction": 1.0,
     "allow_pushing": false,

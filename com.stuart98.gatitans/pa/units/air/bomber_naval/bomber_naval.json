@@ -22,7 +22,7 @@
       "audio_cue": "/SE/Build_Complete/air"
     },
     "died": {
-      "audio_cue": "/SE/Death/Air",
+      "audio_cue": "/SE/Death/Air"
     },
     "fired": {
       "audio_cue": "/SE/Weapons/air/bomber_fire"

@@ -83,7 +83,6 @@
     3.8
   ],
   "model": {
-  "model": {
     "animations": {
       "idle": "/pa/units/land/hover_aa/Vaa22_anim_idle.papa"
     },
@@ -135,7 +134,7 @@
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
     "UNITTYPE_Hover",
-	"UNITTYPE_AirDefense",
+    "UNITTYPE_AirDefense",
     "UNITTYPE_FactoryBuild"
   ]
 }

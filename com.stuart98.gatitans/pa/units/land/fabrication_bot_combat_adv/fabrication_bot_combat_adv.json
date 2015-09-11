@@ -43,7 +43,7 @@
     "ORDER_Reclaim",
     "ORDER_Repair",
     "ORDER_Assist",
-	"ORDER_Attack",
+    "ORDER_Attack",
     "ORDER_Use"
   ],
   "description": "!LOC:Advanced Support Fabricator- Repairs much faster. Can build turrets in addition to mines.",

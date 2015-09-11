@@ -24,7 +24,7 @@
     "ORDER_Repair",
     "ORDER_Attack",
     "ORDER_Assist",
-	"ORDER_Use"
+    "ORDER_Use"
   ],
   "description": "!LOC:Advanced manufacturing- Builds air units.",
   "display_name": "!LOC:Advanced Air Factory",
