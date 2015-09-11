@@ -11,7 +11,7 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 500,
+  "build_metal_cost": 550,
   "description": "!LOC:Submarine- High damage. Cannot be targeted by cannons. Attacks sea and undersea targets.",
   "display_name": "!LOC:Barracuda",
   "events": {
@@ -34,7 +34,7 @@
     }
   ],
   "guard_layer": "WL_AnyWater",
-  "max_health": 550,
+  "max_health": 1200,
   "mesh_bounds": [
     4,
     15,
@@ -47,7 +47,7 @@
   "navigation": {
     "acceleration": 40,
     "brake": 140,
-    "move_speed": 14,
+    "move_speed": 16,
     "turn_accel": 30,
     "turn_speed": 60,
     "type": "underwater"
@@ -63,13 +63,13 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 150,
+          "radius": 140,
           "shape": "capsule"
         },
         {
           "channel": "sight",
           "layer": "underwater",
-          "radius": 150,
+          "radius": 110,
           "shape": "capsule"
         }
       ]
