@@ -14,60 +14,76 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 4800,
-  "description": "!LOC:Battleship- Long range advanced anti-ship, and anti-land guns.",
-  "display_name": "!LOC:Leviathan",
+  "build_metal_cost": 30000,
+  "description": "Nuclear Battleship Titan - Fast with incredible range. Vulnerable to subs.",
+  "display_name": "Proteus",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
     },
     "died": {
       "audio_cue": "/SE/Death/Sea_large",
-      "effect_scale": 1.0,
+      "effect_scale": 2.0,
       "effect_spec": "/pa/effects/specs/default_explosion_naval_t2.pfx"
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
-      "effect_scale": 5.0,
+      "effect_scale": 10.0,
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle02 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle03 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle01"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
-      "effect_scale": 5.0,
+      "effect_scale": 10.0,
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle05 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle06 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle04"
     },
     "fired2": {
       "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
-      "effect_scale": 5.0,
+      "effect_scale": 10.0,
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle08 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle09 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle07"
     },
     "fired3": {
       "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
-      "effect_scale": 5.0,
+      "effect_scale": 10.0,
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle11 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle12 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle10"
     }
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/sea/battleship/battleship_wake.pfx",
-      "type": "moving_forward"
+      "bone": "bone_root",
+      "filename": "/pa/units/sea/battleship/wtrail_generated.pfx",
+      "offset": [
+        0,
+        40,
+        0
+      ],
+      "type": "moving"
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/sea/battleship/front_strings.pfx",
+      "offset": [
+        0,
+        -40,
+        0
+      ],
+      "type": "moving"
     }
   ],
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 6000,
+  "max_health": 50000,
   "mesh_bounds": [
-    9,
-    40,
-    12
+    18,
+    80,
+    24
   ],
   "model": {
     "animtree": "/pa/anim/anim_trees/battleship_anim_tree.json",
     "filename": "/pa/units/sea/battleship/battleship.papa"
   },
   "navigation": {
-    "acceleration": 30,
-    "brake": 80,
-    "move_speed": 8,
+    "acceleration": 1,
+    "brake": 1,
+    "move_speed": 30,
     "park_stamp_cost": 30,
     "park_stamp_type": "box",
     "turn_accel": 15,
@@ -85,13 +101,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 200,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 200,
+          "radius": 325,
           "shape": "capsule"
         }
       ]
