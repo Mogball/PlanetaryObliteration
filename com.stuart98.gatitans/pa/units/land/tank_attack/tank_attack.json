@@ -45,7 +45,7 @@
   },
   "fx_offsets": [
     {
-      "bone": "hover",
+      "bone": "bone_root",
       "filename": "/pa/effects/specs/hover.pfx",
       "offset": [
         1.6,
@@ -55,7 +55,7 @@
       "type": "idle"
     },
     {
-      "bone": "hover",
+      "bone": "bone_root",
       "filename": "/pa/effects/specs/hover.pfx",
       "offset": [
         -1.6,
@@ -65,7 +65,7 @@
       "type": "idle"
     },
     {
-      "bone": "hover",
+      "bone": "bone_root",
       "filename": "/pa/effects/specs/hover.pfx",
       "offset": [
         1.6,
@@ -75,7 +75,7 @@
       "type": "idle"
     },
     {
-      "bone": "hover",
+      "bone": "bone_root",
       "filename": "/pa/effects/specs/hover.pfx",
       "offset": [
         -1.6,

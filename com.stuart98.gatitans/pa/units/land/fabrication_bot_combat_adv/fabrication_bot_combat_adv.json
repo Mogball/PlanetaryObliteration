@@ -34,7 +34,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 1200,
+  "build_metal_cost": 500,
   "buildable_types": "CombatFabAdvBuild",
   "command_caps": [
     "ORDER_Move",
@@ -43,18 +43,19 @@
     "ORDER_Reclaim",
     "ORDER_Repair",
     "ORDER_Assist",
+	"ORDER_Attack",
     "ORDER_Use"
   ],
   "description": "!LOC:Advanced Support Fabricator- Repairs much faster. Can build turrets in addition to mines.",
   "display_name": "!LOC:Mend",
   "events": {
     "build_complete": {
-      "audio_cue": "/SE/Build_Complete/fab"
+      "audio_cue": "/SE/Build_Complete/fab",
+      "effect_scale": 0.65
     },
     "died": {
       "audio_cue": "/SE/Death/Bot",
-      "effect_scale": 1.3,
-      "effect_spec": "/pa/effects/specs/default_explosion_bot_t2.pfx"
+      "effect_scale": 0.52
     }
   },
   "fx_offsets": [
@@ -75,21 +76,21 @@
     }
   ],
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 150,
+  "max_health": 500,
   "mesh_bounds": [
-    4.4,
-    7.5,
-    10
+    2.86,
+    4.875,
+    6.5
   ],
   "model": {
     "animations": {
-      "death01": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01.papa",
-      "idle": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_idle.papa",
-      "walk": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_run.papa"
+      "death01": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01X.papa",
+      "idle": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_idleX.papa",
+      "walk": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_runX.papa"
     },
     "animtree": "/pa/anim/anim_trees/fabrication_bot_combat_adv_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.papa",
+    "filename": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_advX.papa",
     "walk_speed": 12
   },
   "navigation": {
@@ -98,7 +99,7 @@
     "group_preference": "back",
     "move_speed": 12,
     "turn_speed": 720,
-    "type": "land-small"
+    "type": "amphibious"
   },
   "physics": {
     "allow_pushing": true,
@@ -110,12 +111,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         },
@@ -135,7 +130,14 @@
   "tools": [
     {
       "aim_bone": "bone_turretBack",
+      "record_index": 0,
       "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json"
+    },
+    {
+      "aim_bone": "bone_turretFront",
+      "muzzle_bone": "socket_muzzleFront",
+      "record_index": 1,
+      "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_tool_weapon.json"
     }
   ],
   "transportable": {

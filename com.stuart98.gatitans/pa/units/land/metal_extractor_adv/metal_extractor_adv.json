@@ -9,7 +9,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 1500,
+  "build_metal_cost": 1600,
   "consumption": {
     "energy": 0
   },
@@ -44,7 +44,7 @@
       "radius": 5.0
     }
   ],
-  "max_health": 5000,
+  "max_health": 450,
   "mesh_bounds": [
     15.5,
     13.3685,
@@ -75,7 +75,7 @@
     16
   ],
   "production": {
-    "metal": 20
+    "metal": 10
   },
   "recon": {
     "observer": {
@@ -83,12 +83,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }
@@ -102,12 +96,17 @@
     "diameter": 28.0
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "storage": {
+    "metal": 1000
+  },
   "strategic_icon_priority": 5,
   "unit_types": [
     "UNITTYPE_Structure",
     "UNITTYPE_Advanced",
     "UNITTYPE_MetalProduction",
+    "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_FabAdvBuild",
-    "UNITTYPE_Economy"
+    "UNITTYPE_Economy",
+    "UNITTYPE_Custom1"
   ]
 }

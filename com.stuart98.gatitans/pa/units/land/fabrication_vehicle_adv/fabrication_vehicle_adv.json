@@ -34,7 +34,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 2025,
+  "build_metal_cost": 800,
   "buildable_types": "Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild | Titan & (Tank | Naval)",
   "command_caps": [
     "ORDER_Move",
@@ -75,7 +75,7 @@
     }
   ],
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 400,
+  "max_health": 300,
   "mesh_bounds": [
     5.2,
     6,
@@ -91,10 +91,10 @@
     "filename": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.papa"
   },
   "navigation": {
-    "acceleration": 120,
-    "brake": 120,
+    "acceleration": 12,
+    "brake": 12,
     "group_preference": "back",
-    "move_speed": 12,
+    "move_speed": 20,
     "turn_speed": 360,
     "type": "land-small"
   },
@@ -108,12 +108,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }

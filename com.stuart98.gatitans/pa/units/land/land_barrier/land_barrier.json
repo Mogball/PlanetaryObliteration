@@ -1,10 +1,10 @@
-{
+x{
   "TEMP_texelinfo": 7.58193,
   "area_build_separation": 0.5,
   "atrophy_cool_down": 0.5,
   "atrophy_rate": 20.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 50,
+  "build_metal_cost": 80,
   "description": "!LOC:Very durable. Blocks units and protects from incoming fire.",
   "display_name": "!LOC:Wall",
   "events": {
@@ -29,7 +29,7 @@
       "type": "idle"
     }
   ],
-  "max_health": 2000,
+  "max_health": 1000,
   "mesh_bounds": [
     5,
     5,
