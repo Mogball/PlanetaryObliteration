@@ -7,7 +7,7 @@
       "effect_spec": "/pa/units/orbital/titan_orbital/titan_orbital_beam_hit.pfx"
     }
   },
-  "full_damage_splash_radius": 2,
+  "full_damage_splash_radius": 5,
   "fx_trail": {
     "filename": "/pa/effects/specs/tesla_proj_trail.pfx"
   },
@@ -22,6 +22,6 @@
     "radius": 1,
     "type": "Projectile"
   },
-  "splash_damage": 50,
-  "splash_radius": 6.5
+  "splash_damage": 70,
+  "splash_radius": 7.5
 }

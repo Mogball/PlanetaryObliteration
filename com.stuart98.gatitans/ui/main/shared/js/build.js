@@ -145,8 +145,9 @@ var Build = (function() {
                 "/pa/units/sea/nuclear_sub/nuclear_sub.json": ["seaadv", 21],
                 "/pa/units/sea/hover_ship/hover_ship.json": ["seaadv",23],
                  "/pa/units/sea/frigate/frigate.json": ["seaadv", 22],
+
 				 
-                "/pa/units/sea/attack_boat/attack_boat.json": ["sea", 20],
+                "/pa/units/sea/boat_torpedo/boat_torpedo.json": ["sea", 20],
                 "/pa/units/sea/destroyer/destroyer.json": ["sea", 21],
                 "/pa/units/sea/attack_sub/attack_sub.json": ["sea", 22],
                 "/pa/units/sea/sea_scout/sea_scout.json": ["sea", 19],

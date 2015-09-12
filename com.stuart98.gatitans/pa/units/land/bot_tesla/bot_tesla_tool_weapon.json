@@ -1,5 +1,5 @@
 {
-  "ammo_capacity": 160,
+  "ammo_capacity": 100,
   "ammo_demand": 10,
   "ammo_id": "/pa/units/land/bot_tesla/bot_tesla_ammo.json",
   "ammo_per_shot": 10,
