@@ -1,13 +1,6 @@
 {
-  "ammo_id": [
-    {
-      "id": "/pa/units/land/hover_aa/hover_aa_ammo.json",
-      "layer": "WL_AnyLand"
-    }
-  ],
   "auto_attack": true,
-  "base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
-  "idle_aim_delay": 1.0,
+  "base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
   "max_range": 260,
   "pitch_range": 90,
   "pitch_rate": 3600,

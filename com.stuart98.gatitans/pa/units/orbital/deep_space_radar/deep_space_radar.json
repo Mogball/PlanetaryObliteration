@@ -8,9 +8,9 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 600,
+  "build_metal_cost": 2000,
   "consumption": {
-    "energy": 150
+    "energy": 2000
   },
   "description": "!LOC:Orbital and deepspace radar- Orbital and Celestial radar telemetry.",
   "display_name": "!LOC:Orbital and Deepspace Radar",
@@ -61,7 +61,7 @@
       "type": "energy"
     }
   ],
-  "max_health": 750,
+  "max_health": 2000,
   "mesh_bounds": [
     29,
     29,
@@ -103,28 +103,33 @@
           "shape": "capsule"
         },
         {
-          "channel": "sight",
+          "channel": "radar",
           "layer": "celestial",
           "radius": 1,
           "shape": "sphere",
           "uses_energy": true
         },
         {
-          "channel": "sight",
+          "channel": "radar",
           "layer": "orbital",
-          "radius": 1000,
+          "radius": 300,
           "shape": "capsule",
           "uses_energy": true
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 70,
-          "shape": "capsule"
         }
       ]
     }
   },
+  "selection_icon": {
+    "diameter": 22.0
+  },
   "spawn_layers": "WL_AnySurface",
-  "unit_types": []
+  "unit_types": [
+    "UNITTYPE_Orbital",
+    "UNITTYPE_Structure",
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_Recon",
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_Important"
+  ]
 }

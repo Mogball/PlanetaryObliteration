@@ -31,7 +31,7 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 2400,
+  "build_metal_cost": 1200,
   "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild",
   "command_caps": [
     "ORDER_Move",
@@ -89,7 +89,7 @@
       "type": "moving_forward"
     }
   ],
-  "max_health": 600,
+  "max_health": 500,
   "mesh_bounds": [
     6.8,
     15,
@@ -100,9 +100,9 @@
     "filename": "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.papa"
   },
   "navigation": {
-    "acceleration": 100,
-    "brake": 100,
-    "move_speed": 10,
+    "acceleration": 10,
+    "brake": 10,
+    "move_speed": 30,
     "park_stamp_cost": 10,
     "park_stamp_type": "sphere",
     "turn_speed": 90,
@@ -119,12 +119,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }

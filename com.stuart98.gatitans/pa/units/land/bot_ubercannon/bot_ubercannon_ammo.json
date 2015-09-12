@@ -3,7 +3,7 @@
   "audio_loop": "/SE/Weapons/commander/Commander_uber_cannon_fire",
   "burn_damage": 500,
   "burn_radius": 15,
-  "damage": 2000,
+  "damage": 6000,
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/cannon_uber",
@@ -35,7 +35,7 @@
     }
   },
   "spawn_layers": "WL_Air",
-  "splash_damage": 2000,
+  "splash_damage": 6000,
   "splash_radius": 15,
   "turn_rate": 180
 }

@@ -12,8 +12,8 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 150,
-  "description": "!LOC:Gunboat- Cheap. Fast. Expendable. Attacks land and sea targets.",
-  "display_name": "!LOC:Piranha",
+  "description": "AA - Anti-naval lasers, anti-anything missiles.",
+  "display_name": "!LOC(units:piranha.message):Piranha",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
@@ -23,8 +23,11 @@
       "effect_scale": 0.6,
       "effect_spec": "/pa/effects/specs/default_explosion_naval.pfx"
     },
-    "fired": {
-      "audio_cue": "/SE/Weapons/sea/sea_scout_fire"
+    "fired1": {
+      "audio_cue": "/SE/Weapons/veh/land_scout_fire"
+    },
+    "fired2": {
+      "audio_cue": "/SE/Weapons/air/fighter_fire"
     }
   },
   "fx_offsets": [
@@ -33,7 +36,7 @@
       "type": "moving_forward"
     }
   ],
-  "max_health": 175,
+  "max_health": 350,
   "mesh_bounds": [
     4,
     11,
@@ -44,9 +47,9 @@
     "filename": "/pa/units/sea/sea_scout/sea_scout.papa"
   },
   "navigation": {
-    "acceleration": 75,
-    "brake": 200,
-    "move_speed": 20,
+    "acceleration": 5,
+    "brake": 12,
+    "move_speed": 25,
     "turn_in_place": false,
     "turn_speed": 180,
     "type": "deepwater"
@@ -60,13 +63,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 150,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 150,
+          "radius": 180,
           "shape": "capsule"
         }
       ]
@@ -79,8 +76,15 @@
   "tools": [
     {
       "aim_bone": "bone_turret",
+      "fire_event": "fired1",
       "muzzle_bone": "socket_muzzle",
       "spec_id": "/pa/units/sea/sea_scout/sea_scout_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_root",
+      "fire_event": "fired2",
+      "muzzle_bone": "bone_root",
+      "spec_id": "/pa/units/sea/sea_scout/sea_scout_tool_weapon_missile.json"
     }
   ],
   "unit_types": [

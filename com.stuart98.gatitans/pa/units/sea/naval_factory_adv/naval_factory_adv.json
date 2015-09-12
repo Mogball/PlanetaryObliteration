@@ -17,8 +17,8 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 3600,
-  "buildable_types": "Naval & Mobile & FactoryBuild",
+  "build_metal_cost": 2000,
+  "buildable_types": "Naval & Mobile & FactoryBuild & Advanced",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -40,7 +40,7 @@
       "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx"
     }
   },
-  "factory_cooldown_time": 6,
+  "factory_cooldown_time": 15,
   "fx_offsets": [
     {
       "bone": "socket_muzzle01",
@@ -103,7 +103,7 @@
       "type": "build"
     }
   ],
-  "max_health": 30000,
+  "max_health": 8000,
   "mesh_bounds": [
     25,
     50,
@@ -150,6 +150,10 @@
     "diameter": 59.0
   },
   "spawn_layers": "WL_DeepWater",
+  "storage": {
+    "energy": 1800,
+    "metal": 400
+  },
   "tools": [
     {
       "aim_bone": "bone_root",

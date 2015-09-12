@@ -1,5 +1,5 @@
 {
-  "ammo_capacity": 80,
+  "ammo_capacity": 110,
   "ammo_demand": 10,
   "ammo_id": "/pa/units/land/bot_aa_adv/bot_aa_adv_ammo.json",
   "ammo_per_shot": 20,
@@ -11,7 +11,7 @@
   "max_range": 180,
   "pitch_range": 85,
   "pitch_rate": 360,
-  "rate_of_fire": 2.5,
+  "rate_of_fire": 1.5,
   "spread_fire": true,
   "target_layers": [
     "WL_Air"

@@ -38,7 +38,7 @@
       "type": "moving_forward"
     }
   ],
-  "max_health": 2100,
+  "max_health": 1800,
   "mesh_bounds": [
     5,
     35,
@@ -53,11 +53,11 @@
     "filename": "/pa/units/sea/nuclear_sub/nuclear_sub.papa"
   },
   "navigation": {
-    "acceleration": 40,
+    "acceleration": 4,
     "brake": 120,
     "dodge_multiplier": 1.0,
     "dodge_radius": 10,
-    "move_speed": 12,
+    "move_speed": 15,
     "turn_accel": 20,
     "turn_speed": 60,
     "type": "underwater",
@@ -70,7 +70,6 @@
   },
   "recon": {
     "observable": {
-      "ignore_radar": true,
       "layer": "underwater"
     },
     "observer": {

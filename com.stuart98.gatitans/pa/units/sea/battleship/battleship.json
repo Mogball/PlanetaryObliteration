@@ -78,7 +78,7 @@
   ],
   "model": {
     "animtree": "/pa/anim/anim_trees/battleship_anim_tree.json",
-    "filename": "/pa/units/sea/battleship/battleship.papa"
+    "filename": "/pa/units/sea/battleship/battleshipX.papa"
   },
   "navigation": {
     "acceleration": 1,
@@ -167,6 +167,6 @@
     "UNITTYPE_Offense",
     "UNITTYPE_Artillery",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FabAdvBuild"
   ]
 }
