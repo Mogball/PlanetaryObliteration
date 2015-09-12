@@ -1,9 +1,9 @@
 {
   "ammo_id": [
     {
-	  "id": "/pa/units/land/bot_mortar/bot_mortar_ammo.json",
+      "id": "/pa/units/land/bot_mortar/bot_mortar_ammo.json",
       "layer": "WL_AnyLand"
-	}
+    }
   ],
   "arc_type": "ARC_Low",
   "auto_attack": true,

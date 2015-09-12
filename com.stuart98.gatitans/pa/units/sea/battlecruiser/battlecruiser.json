@@ -94,32 +94,32 @@
   "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
-      "aim_bone": "turret02",
+      "aim_bone": "pitchA02",
       "fire_event": "fired0",
       "muzzle_bone": [
-        "socket_muzzleA02",
-        "socket_muzzleB02"
+        "muzzleA02",
+        "muzzleB02"
       ],
       "projectiles_per_fire": 2,
       "record_index": 0,
       "spec_id": "/pa/units/sea/battlecruiser/battlecruiser_tool_weapon.json"
     },
     {
-      "aim_bone": "turret03",
+      "aim_bone": "pitchA03",
       "fire_event": "fired1",
       "muzzle_bone": [
-        "socket_muzzleA03",
-        "socket_muzzleB03"
+        "muzzleA03",
+        "muzzleB03"
       ],
       "projectiles_per_fire": 2,
       "record_index": 1,
       "spec_id": "/pa/units/sea/battlecruiser/battlecruiser_tool_weapon.json"
     },
     {
-      "aim_bone": "turret01",
+      "aim_bone": "pitch01",
       "fire_event": "fired2",
       "muzzle_bone": [
-        "socket_muzzle01"
+        "muzzle01"
       ],
       "record_index": 2,
       "spec_id": "/pa/units/sea/battlecruiser/battlecruiser_laser_tool_weapon.json"
