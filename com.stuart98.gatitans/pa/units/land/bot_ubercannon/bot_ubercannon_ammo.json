@@ -35,7 +35,7 @@
     }
   },
   "spawn_layers": "WL_Air",
-  "splash_damage": 6000,
-  "splash_radius": 15,
+  "splash_damage": 1000,
+  "splash_radius": 10,
   "turn_rate": 180
 }

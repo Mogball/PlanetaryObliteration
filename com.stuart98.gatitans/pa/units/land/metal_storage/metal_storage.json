@@ -132,9 +132,7 @@
   },
   "unit_types": [
     "UNITTYPE_Structure",
-    "UNITTYPE_Basic",
-    "UNITTYPE_CmdBuild",
-    "UNITTYPE_FabBuild",
+    "UNITTYPE_Advanced",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Economy"
   ]

@@ -45,10 +45,10 @@ var Build = (function() {
                 "/pa/units/land/metal_storage/metal_storage.json": ["utility", 17],
 
 
-				"/pa/units/sea/battleship/battleship.json": ["factory", 9],
-                "/pa/units/air/titan_air/titan_air.json": ["factory", 10],
-                "/pa/units/land/titan_bot/titan_bot.json": ["factory", 11],
-                "/pa/units/land/titan_vehicle/titan_vehicle.json": ["factory", 12],
+				"/pa/units/sea/battleship/battleship.json": ["factory", 8],
+                "/pa/units/air/titan_air/titan_air.json": ["factory", 9],
+                "/pa/units/land/titan_bot/titan_bot.json": ["factory", 10],
+                "/pa/units/land/titan_vehicle/titan_vehicle.json": ["factory", 11],
                 "/pa/units/land/unit_cannon/unit_cannon.json": ["factory", 13],
                 "/pa/units/sea/naval_factory_adv/naval_factory_adv.json": ["factory", 14],
                 "/pa/units/air/air_factory_adv/air_factory_adv.json": ["factory", 15],

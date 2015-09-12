@@ -405,7 +405,7 @@
     "UNITTYPE_Titan",
     "UNITTYPE_Hover",
     "UNITTYPE_Important",
-    "UNITTYPE_FabOrbBuild"
+    "UNITTYPE_FabAdvBuild"
   ],
   "wreckage_health_frac": 0.7
 }
