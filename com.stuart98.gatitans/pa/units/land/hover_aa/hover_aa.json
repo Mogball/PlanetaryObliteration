@@ -118,8 +118,8 @@
   },
   "tools": [
     {
-      "aim_bone": "socket_aim",
-      "muzzle_bone": "socket_muzzle",
+      "aim_bone": "turret00",
+      "muzzle_bone": "muzzle00",
       "spec_id": "/pa/units/land/hover_aa/hover_aa_tool_weapon.json"
     }
   ],

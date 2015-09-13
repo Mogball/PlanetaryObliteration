@@ -41,7 +41,7 @@
       "effect_spec": "/pa/effects/specs/default_explosion_bot_t2.pfx"
     },
     "fired": {
-      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
     }
   },
   "guard_layer": "WL_LandHorizontal",
@@ -100,7 +100,10 @@
   "tools": [
     {
       "aim_bone": "bone_turret",
-      "muzzle_bone": "socket_muzzle",
+      "muzzle_bone": [
+        "socket_rightMuzzle",
+        "socket_leftMuzzle"
+      ],
       "spec_id": "/pa/units/land/tank_heavy_armor/tank_heavy_armor_tool_weapon.json"
     }
   ],
