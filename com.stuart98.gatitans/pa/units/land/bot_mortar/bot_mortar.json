@@ -63,7 +63,7 @@
     "brake": -1,
     "move_speed": 10,
     "turn_speed": 720,
-    "type": "land-small"
+    "type": "amphibious"
   },
   "physics": {
     "radius": 2.0

@@ -125,7 +125,7 @@
     "acceleration": 5,
     "brake": 5,
     "move_speed": 12,
-    "turn_in_place": true,
+    "turn_in_place": false,
     "turn_speed": 20,
     "type": "hover"
   },

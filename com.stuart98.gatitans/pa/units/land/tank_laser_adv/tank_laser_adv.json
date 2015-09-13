@@ -41,8 +41,7 @@
       "effect_spec": "/pa/effects/specs/default_explosion_bot_t2.pfx"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/veh/tank_T2_leveler",
-      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle"
+      "audio_cue": "/SE/Weapons/orb/orb_ssx_laser_fire"
     }
   },
   "guard_layer": "WL_LandHorizontal",

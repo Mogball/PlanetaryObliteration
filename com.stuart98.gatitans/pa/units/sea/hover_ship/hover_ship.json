@@ -212,7 +212,7 @@
   "selection_icon": {
     "diameter": 38.0
   },
-  "spawn_layers": "WL_DeepWater",
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {
       "aim_bone": "bone_pitch01",

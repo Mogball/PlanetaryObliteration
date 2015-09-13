@@ -1,5 +1,5 @@
 {
-  "ammo_capacity": 140,
+  "ammo_capacity": 200,
   "ammo_demand": 20,
   "ammo_id": "/pa/units/land/bot_raider/bot_raider_ammo.json",
   "ammo_per_shot": 8,
