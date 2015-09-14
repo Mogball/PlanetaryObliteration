@@ -12,8 +12,8 @@
   "consumption": {
     "energy": 2000
   },
-  "description": "!LOC:Orbital and deepspace radar- Orbital and Celestial radar telemetry.",
-  "display_name": "!LOC:Orbital and Deepspace Radar",
+  "description": "Orbital and deepspace radar- Orbital and Celestial radar telemetry.",
+  "display_name": "Orbital and Deepspace Radar",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {
