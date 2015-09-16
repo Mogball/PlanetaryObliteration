@@ -75,6 +75,7 @@
     "diameter": 110.0,
     "thickness": 2.0
   },
+  "si_name": "titan",
   "tools": [
     {
       "aim_bone": "bone_root",
