@@ -340,6 +340,7 @@
     "diameter": 74.0,
     "thickness": 2.0
   },
+  "si_name": "titan",
   "tools": [
     {
       "aim_bone": "socket_main_aim",
