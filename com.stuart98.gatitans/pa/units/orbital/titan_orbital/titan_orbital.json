@@ -234,6 +234,7 @@
     "diameter": 122.0,
     "thickness": 2.0
   },
+  "si_name": "titan",
   "spawn_layers": "WL_Orbital",
   "teleporter": {
     "energy_demand": 1000,
