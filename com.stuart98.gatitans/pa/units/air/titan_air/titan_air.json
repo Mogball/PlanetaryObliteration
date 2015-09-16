@@ -113,6 +113,7 @@
     "diameter": 60.0,
     "thickness": 2.0
   },
+  "si_name": "titan",
   "tools": [
     {
       "aim_bone": "socket_muzzle_center",
