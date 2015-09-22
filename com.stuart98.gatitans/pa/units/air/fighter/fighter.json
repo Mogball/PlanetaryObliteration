@@ -15,8 +15,8 @@
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 200,
-  "description": "!LOC:Fighter- Fast. High damage. Only attacks air targets.",
-  "display_name": "!LOC:Hummingbird",
+  "description": "!Interceptor - Anti-air missiles and an anti-anything light machine gun.",
+  "display_name": "Hummingbird",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"
