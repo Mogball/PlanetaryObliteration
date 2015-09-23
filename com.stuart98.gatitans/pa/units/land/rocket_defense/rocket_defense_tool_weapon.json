@@ -1,5 +1,5 @@
 {
-  "ammo_capacity": 35,
+  "ammo_capacity": 40,
   "ammo_demand": 5,
   "ammo_id": "/pa/units/land/rocket_defense/rocket_defense_ammo.json",
   "ammo_per_shot": 10,
