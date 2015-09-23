@@ -28,8 +28,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "!LOC:Basic manufacturing- Builds naval units.",
-  "display_name": "!LOC:Naval Factory",
+  "description": "Generalist Naval Factory - Builds well rounded ships, subs, and hovercraft.",
+  "display_name": "Generalist Naval Factory",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

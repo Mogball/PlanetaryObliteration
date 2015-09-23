@@ -8,8 +8,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "!LOC:Torpedo Launcher- Basic anti-ship defense.",
-  "display_name": "!LOC:Torpedo Launcher",
+  "description": "Light Torpedo Launcher - Light rapid-fire anti-ship torpedos.",
+  "display_name": "Vortex",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

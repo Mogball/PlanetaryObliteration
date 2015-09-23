@@ -19,8 +19,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "!LOC:Defense Satellite- Area denial. Rapid-fire. Durable. Attacks everything.",
-  "display_name": "!LOC:Anchor",
+  "description": "Defense Satellite - Area denial. Medium rate of fire. Durable. Attacks everything.",
+  "display_name": "Anchor",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"

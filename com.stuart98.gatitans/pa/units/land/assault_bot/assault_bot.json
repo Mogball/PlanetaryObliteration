@@ -29,7 +29,7 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 90,
-  "description": "!LOC:Basic Infantry- Fast, adaptable, expendable. Amphibious. Attacks land, air and sea targets.",
+  "description": "Basic Assault Infantry - Cheap, decently armed and armored bot exceptional for assaulting defended locations.",
   "display_name": "Dox",
   "events": {
     "build_complete": {

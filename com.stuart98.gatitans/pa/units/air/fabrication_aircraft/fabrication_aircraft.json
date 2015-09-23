@@ -45,8 +45,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Builder- Builds structures. Very mobile. Vulnerable.",
-  "display_name": "!LOC:Fabrication Aircraft",
+  "description": "Builder - Builds structures. Very mobile. Vulnerable.",
+  "display_name": "Fabrication Aircraft",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

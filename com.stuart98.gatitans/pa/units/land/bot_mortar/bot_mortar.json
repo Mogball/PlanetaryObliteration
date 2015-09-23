@@ -29,7 +29,7 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 180,
-  "description": "Artillery - Lobs shots over wreckage, but does low damage. Amphibous.",
+  "description": "Artillery - Lobs shots over wreckage, but does low damage. Amphibious.",
   "display_name": "Smasher",
   "events": {
     "build_complete": {

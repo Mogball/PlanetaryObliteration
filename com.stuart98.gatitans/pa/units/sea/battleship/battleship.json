@@ -15,6 +15,11 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 30000,
+  "death_weapon": {
+    "air_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe_air.json",
+    "air_height_threshold": 50,
+    "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe.json"
+  },
   "description": "Nuclear Battleship Titan - Fast with incredible range. Vulnerable to subs.",
   "display_name": "Proteus",
   "events": {

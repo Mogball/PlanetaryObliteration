@@ -26,8 +26,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Advanced manufacturing- Builds land vehicles.",
-  "display_name": "!LOC:Advanced Vehicle Factory",
+  "description": "Specialist Factory - Builds specialized vehicles.",
+  "display_name": "Specialist Vehicle Factory",
   "events": {
     "died": {
       "effect_scale": 1.0,

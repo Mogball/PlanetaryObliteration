@@ -13,8 +13,8 @@
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/land/energy_plant_adv/energy_plant_adv_ammo.json"
   },
-  "description": "!LOC:Advanced manufacturing- Produces energy.",
-  "display_name": "!LOC:Advanced Energy Plant",
+  "description": "Advanced manufacturing - Produces energy extremely efficiently, but volatile.",
+  "display_name": "Advanced Energy Plant",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/energy"

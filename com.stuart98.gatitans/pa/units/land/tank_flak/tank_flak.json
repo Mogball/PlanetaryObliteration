@@ -26,8 +26,8 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 500,
-  "description": "!LOC:Flak Tank- Damage over a very wide area. Only attacks air targets.",
-  "display_name": "!LOC:Storm",
+  "description": "Flak Tank - Damage over a very wide area. Only attacks air targets.",
+  "display_name": "Storm",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

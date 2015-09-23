@@ -26,8 +26,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Advanced manufacturing- Builds air units.",
-  "display_name": "!LOC:Advanced Air Factory",
+  "description": "Specialist Factory - Builds specialized air units.",
+  "display_name": "Specialist Air Factory",
   "events": {
     "died": {
       "effect_scale": 1.0,

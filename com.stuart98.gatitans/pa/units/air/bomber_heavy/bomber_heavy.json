@@ -18,7 +18,7 @@
   "death_weapon": {
     "air_ammo_spec": "/pa/ammo/air_pbaoe/air_pbaoe.json"
   },
-  "description": "!LOC:Siege Bomber- Durable. Slow. Devastating damage. Attacks land and sea targets.",
+  "description": "Siege Bomber - Durable. Slow. Devastating damage. Attacks land and sea targets.",
   "display_name": "!LOC:Wyrm",
   "events": {
     "build_complete": {

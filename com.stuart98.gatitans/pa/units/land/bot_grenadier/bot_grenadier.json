@@ -29,7 +29,7 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 250,
-  "description": "Heavy Flak Bot - Area anti-air with a low rate of fire.",
+  "description": "Heavy Flak AA - Area anti-air with a low rate of fire.",
   "display_name": "Crasher",
   "events": {
     "build_complete": {

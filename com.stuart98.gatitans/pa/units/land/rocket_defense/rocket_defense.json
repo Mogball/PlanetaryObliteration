@@ -8,7 +8,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Light Missile Tower: Anti-anything missiles. Moderately effective against all targets. Fires in volleys. Named by Timp13.",
+  "description": "Light Missile Tower - Anti-anything missiles. Moderately effective against all targets. Fires in volleys. Named by Timp13.",
   "display_name": "Slinger",
   "events": {
     "build_complete": {

@@ -14,8 +14,8 @@
   "consumption": {
     "energy": 900
   },
-  "description": "!LOC:Basic radar- Detects nearby enemy land, sea, and air units.",
-  "display_name": "!LOC:Radar",
+  "description": "Basic Radar - Detects nearby enemy land, sea, and air units.",
+  "display_name": "Radar",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {

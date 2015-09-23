@@ -8,8 +8,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "!LOC:Torpedo Launcher- Advanced anti-ship defense.",
-  "display_name": "!LOC:Advanced Torpedo Launcher",
+  "description": "Heavy Torpedo Launcher - Heavy anti-naval torpedos with a low rate of fire.",
+  "display_name": "Maelstrom",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

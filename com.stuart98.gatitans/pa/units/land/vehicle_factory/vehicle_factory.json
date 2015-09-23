@@ -31,8 +31,8 @@
       "/pa/effects/specs/scorch_c_01.json"
     ]
   },
-  "description": "!LOC:Basic manufacturing- Builds land vehicles.",
-  "display_name": "!LOC:Vehicle Factory",
+  "description": "Generalist Factory - Builds well rounded vehicles.",
+  "display_name": "Generalist Vehicle Factory",
   "events": {
     "died": {
       "effect_scale": 1.0

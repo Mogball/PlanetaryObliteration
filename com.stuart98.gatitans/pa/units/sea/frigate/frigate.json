@@ -12,8 +12,8 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 900,
-  "description": "!LOC:Frigate- Durable. Rapid-fire. Attacks land, air, and sea targets.",
-  "display_name": "!LOC:Narwhal",
+  "description": "Frigate - Light flak frigate. Heavy anti-air damage, but weak to sea.",
+  "display_name": "Narwhal",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

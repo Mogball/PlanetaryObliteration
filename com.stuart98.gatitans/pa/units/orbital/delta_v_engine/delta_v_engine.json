@@ -16,7 +16,7 @@
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 7000,
   "build_restrictions": "Thrustable",
-  "description": "!LOC:Delta V Engine- Used to move small to medium celestial bodies.",
+  "description": "Delta V Engine- Used to move small to medium celestial bodies. 7 are required to move a decently sized asteroid.",
   "display_name": "Halley",
   "events": {
     "build_complete": {

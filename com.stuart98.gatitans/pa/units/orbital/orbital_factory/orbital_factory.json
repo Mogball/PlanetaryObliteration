@@ -25,8 +25,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "!LOC:Advanced manufacturing- Builds orbital satellites.",
-  "display_name": "!LOC:Orbital Factory",
+  "description": "Advanced manufacturing - Builds orbital satellites.",
+  "display_name": "Orbital Factory",
   "enable_orbital_shell": true,
   "events": {
     "died": {

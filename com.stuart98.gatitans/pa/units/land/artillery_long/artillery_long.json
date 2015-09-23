@@ -12,7 +12,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "!LOC:Advanced Artillery- Extremely long-range heavy damage. Can lay siege from very far away. Attacks land and sea targets.",
+  "description": "Heavy Artillery - Extremely long-range heavy damage. Can lay siege from very far away. Attacks land and sea targets.",
   "display_name": "Holkins",
   "events": {
     "build_complete": {

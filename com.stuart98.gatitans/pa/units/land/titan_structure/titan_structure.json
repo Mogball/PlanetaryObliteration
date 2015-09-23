@@ -20,7 +20,7 @@
       "/pa/effects/specs/scorch_titan_01.json"
     ]
   },
-  "description": "!LOC:Doomsday Titan- Destroys the planet it's built on once finished.",
+  "description": "Doomsday Titan - Destroys the planet it's built on once finished.",
   "display_name": "Ragnarok",
   "events": {
     "build_complete": {

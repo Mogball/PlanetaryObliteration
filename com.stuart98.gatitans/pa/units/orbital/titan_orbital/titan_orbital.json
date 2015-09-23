@@ -28,7 +28,7 @@
     "ORDER_Patrol",
     "ORDER_Attack"
   ],
-  "description": "!LOC:Invasion Titan- Can link with a teleporter and send units directly to a planet's surface. Attacks everything.",
+  "description": "Invasion Titan- Can link with a teleporter and send units directly to a planet's surface. Attacks everything.",
   "display_name": "Helios",
   "energy_efficiency_requirement": 1.0,
   "events": {

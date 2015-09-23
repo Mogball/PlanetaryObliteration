@@ -17,7 +17,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "!LOC:Railgun Platform- Long-range. High damage. Very low rate of fire. Uses energy. Attacks orbital.",
+  "description": "Railgun Platform - Long-range. High damage. Very low rate of fire. Uses energy. Attacks orbital.",
   "display_name": "Artemis",
   "events": {
     "build_complete": {

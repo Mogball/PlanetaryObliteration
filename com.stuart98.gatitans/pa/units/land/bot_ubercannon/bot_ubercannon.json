@@ -30,7 +30,7 @@
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 8000,
   "description": "Uber Cannon Bot - Rapid fires an uber cannon at short range.",
-  "display_name": "Brutaliser",
+  "display_name": "Brutalizer",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"

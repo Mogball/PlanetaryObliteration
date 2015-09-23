@@ -6,8 +6,8 @@
   "atrophy_rate": 500,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 30000,
-  "description": "!LOC:Super Weapon- Build five on a metal planet to activate the Annihilazer.",
-  "display_name": "!LOC:Catalyst",
+  "description": "Super Weapon - Build five on a metal planet to activate the Annihilazer.",
+  "display_name": "Catalyst",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/control_point"

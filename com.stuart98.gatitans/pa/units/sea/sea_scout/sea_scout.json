@@ -13,7 +13,7 @@
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 150,
   "description": "AA - Anti-naval lasers, anti-anything missiles.",
-  "display_name": "!LOC(units:piranha.message):Piranha",
+  "display_name": "Piranha",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

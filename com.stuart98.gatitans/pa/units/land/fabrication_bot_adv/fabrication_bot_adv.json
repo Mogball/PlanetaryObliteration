@@ -45,7 +45,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Builder - Builds advanced structures. Cheap. Slow. Extremely efficient.",
+  "description": "Builder - Builds advanced structures. Slow, but extremely efficient.",
   "display_name": "Advanced Fabrication Bot",
   "events": {
     "build_complete": {

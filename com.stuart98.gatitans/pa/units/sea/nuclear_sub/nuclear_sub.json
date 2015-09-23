@@ -12,8 +12,8 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 1800,
-  "description": "!LOC:Stealth Sub- Very high damage. Radar stealth. Attacks land, sea, and undersea targets.",
-  "display_name": "!LOC:Kraken",
+  "description": "Missile Sub - Very high damage. Attacks land, sea, and undersea targets.",
+  "display_name": "Kraken",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

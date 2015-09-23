@@ -24,8 +24,8 @@
     "ORDER_FactoryBuild",
     "ORDER_Attack"
   ],
-  "description": "!LOC:Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.",
-  "display_name": "!LOC:Nuclear Missile Launcher",
+  "description": "Nuke Launcher - Produces a long range, large area damage, nuclear missile.",
+  "display_name": "Nuclear Missile Launcher",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/factory"

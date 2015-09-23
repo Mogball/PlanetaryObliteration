@@ -29,8 +29,8 @@
     "ORDER_Unload",
     "ORDER_SpecialMove"
   ],
-  "description": "!LOC:Orbital lander- Load it up, get units to other planets.",
-  "display_name": "!LOC:Astraeus",
+  "description": "Orbital Lander - Load it up, get units to other planets.",
+  "display_name": "Astraeus",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"

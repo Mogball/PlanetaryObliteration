@@ -12,8 +12,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "!LOC:Tactical Missile Launcher- Very heavy damage. Long-range. Attacks land, sea, and orbital targets.",
-  "display_name": "!LOC:Catapult",
+  "description": "Tactical Missile Launcher - Very heavy damage. Long-range. Attacks land, sea, and orbital targets.",
+  "display_name": "Catapult",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/factory"

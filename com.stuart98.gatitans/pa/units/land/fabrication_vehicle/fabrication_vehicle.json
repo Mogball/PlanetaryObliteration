@@ -45,8 +45,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Builder- Builds structures. Durable. More powerful than other builders.",
-  "display_name": "!LOC:Fabrication Vehicle",
+  "description": "Builder - Builds structures. Durable. More powerful than other builders.",
+  "display_name": "Fabrication Vehicle",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

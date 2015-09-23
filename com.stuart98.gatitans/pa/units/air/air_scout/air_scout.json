@@ -21,8 +21,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC: Scout- Fast. Can see far away. Does not attack.",
-  "display_name": "!LOC:Firefly",
+  "description": "Scout - Fast. Can see far away. Does not attack.",
+  "display_name": "Firefly",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"

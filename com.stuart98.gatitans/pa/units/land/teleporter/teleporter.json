@@ -24,8 +24,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Teleporter: Teleports units from one to another.",
-  "display_name": "!LOC:Teleporter",
+  "description": "Teleporter - Teleports units from one to another.",
+  "display_name": "Teleporter",
   "energy_efficiency_requirement": 1.0,
   "events": {
     "build_complete": {

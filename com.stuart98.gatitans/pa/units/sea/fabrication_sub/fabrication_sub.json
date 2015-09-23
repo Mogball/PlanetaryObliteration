@@ -41,8 +41,8 @@
     "ORDER_Repair",
     "ORDER_Assist"
   ],
-  "description": "!LOC:Support Barge- Repairs damaged ships. Builds and detects mines. Cannot help build things.",
-  "display_name": "!LOC:Barnacle",
+  "description": "Support Barge- Repairs damaged ships. Builds and detects mines. Cannot help build things.",
+  "display_name": "Barnacle",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

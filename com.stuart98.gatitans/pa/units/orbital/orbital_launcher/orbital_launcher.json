@@ -22,8 +22,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "!LOC:Basic manufacturing- Builds and launches satellites and other units.",
-  "display_name": "!LOC:Orbital Launcher",
+  "description": "Basic manufacturing - Builds and launches satellites and other units.",
+  "display_name": "Orbital Launcher",
   "enable_orbital_shell": true,
   "events": {
     "died": {

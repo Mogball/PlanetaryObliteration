@@ -37,8 +37,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Advanced fabricator- Builds orbital satellites and ships.",
-  "display_name": "!LOC:Orbital Fabrication Bot",
+  "description": "Advanced Fabricator - Builds orbital satellites and ships.",
+  "display_name": "Orbital Fabrication Bot",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab_orbital"

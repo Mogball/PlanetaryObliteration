@@ -13,8 +13,8 @@
   "consumption": {
     "energy": 0
   },
-  "description": "!LOC:Basic manufacturing- Produces metal, can only be placed on metal deposits.",
-  "display_name": "!LOC:Metal Extractor",
+  "description": "!Basic manufacturing - Produces metal, can only be placed on metal deposits.",
+  "display_name": "Metal Extractor",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/metal"

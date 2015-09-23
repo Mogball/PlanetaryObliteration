@@ -20,8 +20,8 @@
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/air/titan_air/titan_air_ammo_death.json"
   },
-  "description": "!LOC:Lightning Titan- Heavy damage over a wide area. Attacks any targets except orbital.",
-  "display_name": "!LOC:Zeus",
+  "description": "Heavy Air Titan - Heavy damage over a wide area. Attacks any targets except orbital.",
+  "display_name": "Zeus",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/Titan_Complete"

@@ -15,8 +15,8 @@
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 650,
-  "description": "!LOC:Tactical Bomber- Long range. High damage tactical missiles. Attacks land and sea targets.",
-  "display_name": "!LOC:Hornet",
+  "description": "Carpet Bomber - Drops many low damage bombs in a short period of time to devastate armies.",
+  "display_name": "Hornet",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"

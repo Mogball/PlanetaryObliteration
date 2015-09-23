@@ -29,7 +29,7 @@
       "/pa/effects/specs/scorch_b_s30.json"
     ]
   },
-  "description": "Anti-Orbital: Heavy anti-orbital railgun.",
+  "description": "Anti-Orbital - Heavy anti-orbital railgun.",
   "display_name": "Guardian",
   "events": {
     "build_complete": {

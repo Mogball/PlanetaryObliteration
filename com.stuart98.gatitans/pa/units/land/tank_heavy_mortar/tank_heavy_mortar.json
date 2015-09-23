@@ -26,8 +26,8 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 900,
-  "description": "!LOC:Mortar tank- Equipped with advanced mobile artillery.",
-  "display_name": "!LOC:Sheller",
+  "description": "Heavy Artillery Unit - Equipped with advanced mobile artillery. High damage, but ineffective against mobile targets.",
+  "display_name": "Sheller",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

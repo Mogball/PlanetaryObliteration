@@ -34,8 +34,8 @@
     "air_height_threshold": 7,
     "ground_ammo_spec": ""
   },
-  "description": "!LOC: Scout- Fast. Can see far away. Detects mines. Does not attack.",
-  "display_name": "!LOC:Skitter",
+  "description": "Scout - Fast unit with great vision range, but low health and damage.",
+  "display_name": "",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

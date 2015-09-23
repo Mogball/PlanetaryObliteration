@@ -15,8 +15,8 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 1500,
-  "description": "!LOC:Missile Ship- Long-range. High damage anti-air and tactical missiles. Attacks land, sea, air, and orbital targets.",
-  "display_name": "!LOC:Stingray",
+  "description": "Missile Ship - Long-range. High damage tactical missiles. Attacks land, sea, air, and orbital targets.",
+  "display_name": "Stingray",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

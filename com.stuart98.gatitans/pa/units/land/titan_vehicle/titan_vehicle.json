@@ -46,7 +46,7 @@
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_death.json"
   },
-  "description": "!LOC:Rolling Fortress- Near invincible. Long-range. Heavy damage. Hover. Attacks land and sea targets.",
+  "description": "Rolling Fortress - Near invincible. Long-range. Heavy damage. Hover. Attacks land and sea targets.",
   "display_name": "Ares",
   "events": {
     "build_complete": {

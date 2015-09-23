@@ -10,8 +10,8 @@
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 650,
-  "description": "!LOC:Manufacturing- Increases maximum metal storage capacity.",
-  "display_name": "!LOC:Metal Storage",
+  "description": "!Manufacturing - Increases maximum metal storage capacity.",
+  "display_name": "!Metal Storage",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/metal"

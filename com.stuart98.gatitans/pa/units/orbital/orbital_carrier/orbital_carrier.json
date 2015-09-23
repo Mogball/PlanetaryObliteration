@@ -29,7 +29,7 @@
     "ORDER_Unload",
     "ORDER_SpecialMove"
   ],
-  "description": "Orbital Carrier- Can load up to 12 units.",
+  "description": "Orbital Carrier - Can load up to 12 units.",
   "display_name": "Exodus",
   "events": {
     "build_complete": {

@@ -12,8 +12,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "!LOC:Artillery- Long-range damage for siege and area denial purposes. Attacks land and sea targets.",
-  "display_name": "!LOC:Pelter",
+  "description": "Heavy Cannon - Long-range direct fire damage for siege and area denial purposes. Extremely effective against naval.",
+  "display_name": "Pelter",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

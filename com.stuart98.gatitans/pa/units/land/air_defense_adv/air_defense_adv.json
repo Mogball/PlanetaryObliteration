@@ -8,8 +8,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "!LOC:Advanced Anti-Air- Deals heavy damage over an area. Only attacks air.",
-  "display_name": "!LOC:Flak Cannon",
+  "description": "Heavy Flak Anti-Air - Deals heavy damage over an area. Only attacks air.",
+  "display_name": "Tornado",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

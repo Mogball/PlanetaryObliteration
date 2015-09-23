@@ -21,8 +21,8 @@
   "consumption": {
     "energy": 9000
   },
-  "description": "!LOC:Advanced radar satellite- Detects a vast area for enemy land, sea, and air units.",
-  "display_name": "!LOC:Advanced Radar Satellite",
+  "description": "Advanced radar satellite - Detects a vast area for enemy land, sea, and air units.",
+  "display_name": "Advanced Radar Satellite",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {

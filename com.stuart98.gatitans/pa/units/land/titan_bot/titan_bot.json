@@ -79,7 +79,7 @@
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/land/titan_bot/titan_bot_ammo_death.json"
   },
-  "description": "!LOC:Seismic Titan- Devastating damage to everything nearby. Amphibious. Attacks land, sea, and undersea targets.",
+  "description": "Seismic Titan - Devastating damage to everything nearby. Amphibious. Attacks land, sea, and undersea targets.",
   "display_name": "Atlas",
   "events": {
     "build_complete": {

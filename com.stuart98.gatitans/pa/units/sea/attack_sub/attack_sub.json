@@ -12,8 +12,8 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 550,
-  "description": "!LOC:Submarine- High damage. Cannot be targeted by cannons. Attacks sea and undersea targets.",
-  "display_name": "!LOC:Barracuda",
+  "description": "Submarine - High damage. Cannot be targeted by cannons. Attacks sea and undersea targets.",
+  "display_name": "Barracuda",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

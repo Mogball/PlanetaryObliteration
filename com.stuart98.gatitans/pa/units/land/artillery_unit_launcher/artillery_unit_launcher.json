@@ -12,7 +12,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Boom Launcher- Builds and fires boom bots at nearby targets.",
+  "description": "Boom Launcher - Builds and fires boom bots at nearby targets.",
   "display_name": "Lob",
   "events": {
     "build_complete": {

@@ -23,8 +23,8 @@
     "ORDER_Use",
     "ORDER_FireSecondaryWeapon"
   ],
-  "description": "!LOC:Drone Carrier- Builds and launches missile drones at enemies. Attacks land, air and sea targets.",
-  "display_name": "!LOC:Typhoon",
+  "description": "Drone Carrier - Builds and launches missile drones at enemies. Attacks land, air and sea targets.",
+  "display_name": "Typhoon",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

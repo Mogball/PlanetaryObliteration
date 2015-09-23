@@ -28,8 +28,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "!LOC:Advanced manufacturing- Builds naval units.",
-  "display_name": "!LOC:Advanced Naval Factory",
+  "description": "Specialist Factory - Builds specialized ships, subs, and hovercraft.",
+  "display_name": "Specialist Naval Factory",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

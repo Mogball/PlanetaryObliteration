@@ -26,8 +26,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Advanced manufacturing- Builds bots.",
-  "display_name": "!LOC:Advanced Bot Factory",
+  "description": "Specialist Factory - Builds specialized bots.",
+  "display_name": "Specialist Bot Factory",
   "events": {
     "died": {
       "effect_scale": 1.0,

@@ -14,8 +14,8 @@
   "consumption": {
     "energy": 6000
   },
-  "description": "!LOC:Advanced radar- Detects nearby enemy land, sea, and air units.",
-  "display_name": "!LOC:Advanced Radar",
+  "description": "Advanced Radar - Detects nearby enemy land, sea, and air units.",
+  "display_name": "Advanced Radar",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {

@@ -3,8 +3,8 @@
   "area_build_separation": 1.0,
   "area_build_type": "Sphere",
   "build_metal_cost": 20,
-  "description": "!LOC:Land mine- Detonates when enemy units are in proximity.",
-  "display_name": "!LOC:Land Mine",
+  "description": "Mine - Detonates when enemy units are in proximity.",
+  "display_name": "Mine",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/barrier"

@@ -13,8 +13,8 @@
   "consumption": {
     "energy": 0
   },
-  "description": "!LOC:Advanced manufacturing- Produces metal, can only be placed on metal deposits.",
-  "display_name": "!LOC:Advanced Metal Extractor",
+  "description": "Advanced manufacturing - Produces metal inefficiently and made of paper; can only be placed on metal deposits.",
+  "display_name": "Advanced Metal Extractor",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/metal"

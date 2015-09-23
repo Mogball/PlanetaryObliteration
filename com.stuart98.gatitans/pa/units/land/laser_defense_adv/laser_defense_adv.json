@@ -8,8 +8,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "!LOC:Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses.",
-  "display_name": "!LOC:Advanced Laser Defense Tower",
+  "description": "Riot Turret - Does heavy aoe damage in a volley, but vulnerable to armored units.",
+  "display_name": "Queller",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

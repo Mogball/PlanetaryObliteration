@@ -48,8 +48,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Builder- Builds structures. Cheap. Fast. Less powerful than other builders.",
-  "display_name": "!LOC:Fabrication Bot",
+  "description": "Builder - Builds structures. Medium health and low speed, but efficient.",
+  "display_name": "Fabrication Bot",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

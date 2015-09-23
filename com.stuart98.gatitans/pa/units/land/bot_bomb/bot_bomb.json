@@ -34,8 +34,8 @@
     "air_height_threshold": 7,
     "ground_ammo_spec": "/pa/units/land/bot_bomb/bot_bomb_ammo.json"
   },
-  "description": "!LOC:Bomb bot- Self-Destructs to deal very heavy damage over an area. Extremely fast.",
-  "display_name": "!LOC:Boom",
+  "description": "Bomb Bot - Self-Destructs to deal very heavy damage over an area. Extremely fast.",
+  "display_name": "Boom",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"

@@ -1,6 +1,7 @@
 {
   "ammo_id": "/pa/units/land/land_mine/land_mine_ammo.json",
   "auto_attack": true,
+  "exclude_unit_types": "hover",
   "firing_arc_pitch": 360,
   "firing_arc_yaw": 360,
   "idle_aim_delay": 0,

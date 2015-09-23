@@ -12,8 +12,8 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 700,
-  "description": "!LOC:Destroyer- Long-range. High damage. Very durable. Attacks land, sea and undersea targets.",
-  "display_name": "!LOC:Orca",
+  "description": "Destroyer - Long-range. High damage. Very durable. Attacks land, sea and undersea targets.",
+  "display_name": "Orca",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

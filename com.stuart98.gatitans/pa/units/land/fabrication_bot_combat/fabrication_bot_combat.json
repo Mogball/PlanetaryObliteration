@@ -44,8 +44,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Support Fabricator- Repairs damaged units. Can build and detect mines. Can't help build other structures.",
-  "display_name": "!LOC:Stitch",
+  "description": "Heavy Support Fabricator - Efficiently repairs units, but unable to construct buildings.",
+  "display_name": "Stitch",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab",

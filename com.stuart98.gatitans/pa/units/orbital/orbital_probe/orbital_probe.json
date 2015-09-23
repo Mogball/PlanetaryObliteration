@@ -73,7 +73,7 @@
     }
   ],
   "gravwell_velocity_multiplier": 9.0,
-  "max_health": 150,
+  "max_health": 80,
   "mesh_bounds": [
     20,
     20,

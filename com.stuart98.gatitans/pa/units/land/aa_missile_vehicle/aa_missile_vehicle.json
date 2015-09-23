@@ -29,8 +29,8 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 250,
-  "description": "!LOC:Mobile Anti-Air- Equipped with homing missiles. Only attacks air.",
-  "display_name": "!LOC:Spinner",
+  "description": "AA - Light anti-anything missiles at long range. Low health.",
+  "display_name": "Spinner",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

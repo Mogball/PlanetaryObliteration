@@ -5,8 +5,8 @@
   "atrophy_rate": 20.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 80,
-  "description": "!LOC:Very durable. Blocks units and protects from incoming fire.",
-  "display_name": "!LOC:Wall",
+  "description": "Energy Barrier - Very durable. Blocks units and protects from incoming fire.",
+  "display_name": "Phalanx",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/barrier"

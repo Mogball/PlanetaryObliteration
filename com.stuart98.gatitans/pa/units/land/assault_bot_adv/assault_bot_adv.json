@@ -29,8 +29,8 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 400,
-  "description": "!LOC:Assault Bot- Well-armored. High damage guns and torpedoes. Amphibious. Attacks land and sea.",
-  "display_name": "!LOC:Slammer",
+  "description": "Heavy Assault Bot - Heavy amphibious shotgun bot. High health and damage, but ineffective at range.",
+  "display_name": "Slammer",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"

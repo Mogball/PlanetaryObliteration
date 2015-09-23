@@ -10,8 +10,8 @@
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 300,
-  "description": "!LOC:Basic manufacturing- Produces energy.",
-  "display_name": "!LOC:Energy Plant",
+  "description": "Basic manufacturing - Produces energy.",
+  "display_name": "Energy Plant",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/energy"

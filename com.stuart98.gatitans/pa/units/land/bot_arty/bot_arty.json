@@ -29,7 +29,7 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 180,
-  "description": "Rocket Skirmisher. High damage, low projectile speed. Strong vs defenses and slow units, weak vs raiders.",
+  "description": "Rocket Skirmisher - High damage, low projectile speed. Strong vs defenses and slow units, weak vs raiders.",
   "display_name": "Stomper",
   "events": {
     "build_complete": {

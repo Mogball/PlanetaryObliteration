@@ -9,8 +9,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "!LOC:Anti-Orbital Defense- Rapid-fire. High damage. Attacks orbital targets. Intercepts drop pods.",
-  "display_name": "!LOC:Umbrella",
+  "description": "Anti-Orbital Defense - Rapid-fire. High damage. Attacks orbital targets. Intercepts drop pods.",
+  "display_name": "Umbrella",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

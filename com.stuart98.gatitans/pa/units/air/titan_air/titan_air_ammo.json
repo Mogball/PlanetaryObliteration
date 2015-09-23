@@ -13,5 +13,6 @@
   "fx_beam_spec": "/pa/units/air/titan_air/titan_air_ammo_beam.pfx",
   "fx_collision_spec": "/pa/units/air/titan_air/titan_air_ammo_beam_hit.pfx",
   "splash_damage": 500,
+  "splash_damages_allies": true,
   "splash_radius": 30
 }

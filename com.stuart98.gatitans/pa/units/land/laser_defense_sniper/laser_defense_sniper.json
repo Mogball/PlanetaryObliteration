@@ -8,7 +8,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Long Range Defense: Long range anti-land and anti-ship railguns. Long reload time. Named by probodobodyne.",
+  "description": "Long Range Defense - Long range anti-land and anti-ship railguns. Long reload time. Named by probodobodyne.",
   "display_name": "Shatterer",
   "events": {
     "build_complete": {

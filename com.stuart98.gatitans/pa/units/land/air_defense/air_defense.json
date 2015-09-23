@@ -8,8 +8,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "!LOC:Anti-Air Defense- Equipped with homing missiles. Only attacks air.",
-  "display_name": "!LOC:Galata Turret",
+  "description": "Heavy Defense - Long range AoE missiles with a long reload time.",
+  "display_name": "Chastener",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

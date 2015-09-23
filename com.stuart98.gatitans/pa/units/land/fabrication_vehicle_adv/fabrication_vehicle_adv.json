@@ -45,8 +45,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "!LOC:Builder- Builds advanced structures. Durable. More powerful than other builders.",
-  "display_name": "!LOC:Advanced Fabrication Vehicle",
+  "description": "Builder - Builds advanced structures. Durable. More powerful than other builders.",
+  "display_name": "Advanced Fabrication Vehicle",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

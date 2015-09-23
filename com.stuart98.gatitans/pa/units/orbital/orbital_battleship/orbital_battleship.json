@@ -30,8 +30,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "!LOC:Orbital Battleship- Rapid-Fire. Very durable. Heavy damage. Attacks everything.",
-  "display_name": "!LOC:Omega",
+  "description": "Orbital Battleship- Rapid-Fire. Very durable. Heavy damage. Attacks everything.",
+  "display_name": "Omega",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
