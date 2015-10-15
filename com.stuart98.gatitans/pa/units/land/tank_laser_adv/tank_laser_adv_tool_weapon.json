@@ -1,6 +1,6 @@
 {
-  "ammo_capacity": 30,
-  "ammo_demand": 2.5,
+  "ammo_capacity": 40,
+  "ammo_demand": 3.5,
   "ammo_id": "/pa/units/land/tank_laser_adv/tank_laser_adv_ammo.json",
   "ammo_per_shot": 10,
   "ammo_source": "energy",
