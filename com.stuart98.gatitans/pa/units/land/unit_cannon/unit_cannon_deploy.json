@@ -32,7 +32,7 @@
     "filename": "/pa/units/air/unit_shell/unit_shell_trail.pfx"
   },
   "gravwell_velocity_multiplier": 10.0,
-  "ground_target_area_spread": 30,
+  "ground_target_area_spread": 120,
   "influence_radius": 400,
   "initial_velocity": 150.0,
   "interplanetary_type": "INTER_System",

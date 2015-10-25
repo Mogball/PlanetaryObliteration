@@ -171,9 +171,9 @@
   "navigation": {
     "acceleration": 35,
     "brake": 35,
-    "move_speed": 11,
+    "move_speed": 12,
     "turn_in_place": true,
-    "turn_speed": 10,
+    "turn_speed": 20,
     "type": "hover"
   },
   "physics": {

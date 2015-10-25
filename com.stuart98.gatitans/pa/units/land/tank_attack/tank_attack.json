@@ -123,8 +123,8 @@
     "filename": "/pa/units/land/tank_attack/tank_attack.papa"
   },
   "navigation": {
-    "acceleration": 4,
-    "brake": 6,
+    "acceleration": 30,
+    "brake": 30,
     "dodge_multiplier": 1,
     "dodge_radius": 15,
     "move_speed": 18,

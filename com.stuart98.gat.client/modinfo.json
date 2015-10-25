@@ -1,12 +1,12 @@
 {
   "author": "Stuart98",
-  "build": "87296",
+  "build": "89755",
   "category": [
     "Units",
     "Balance"
   ],
   "context": "client",
-  "date": "2015/09/22",
+  "date": "2015/10/25",
   "dependencies": [
     "com.stuart98.gatitans"
   ],
@@ -18,5 +18,5 @@
   "identifier": "com.stuart98.gat.client",
   "priority": 100,
   "signature": "(not yet implemented)",
-  "version": "2.0"
+  "version": "2.01"
 }

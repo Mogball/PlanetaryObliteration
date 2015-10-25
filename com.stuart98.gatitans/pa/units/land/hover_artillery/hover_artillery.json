@@ -122,11 +122,11 @@
     "filename": "/pa/units/land/hover_artillery/Vartillery23.papa"
   },
   "navigation": {
-    "acceleration": 5,
-    "brake": 5,
-    "move_speed": 12,
+    "acceleration": 10,
+    "brake": 10,
+    "move_speed": 14,
     "turn_in_place": false,
-    "turn_speed": 20,
+    "turn_speed": 30,
     "type": "hover"
   },
   "physics": {

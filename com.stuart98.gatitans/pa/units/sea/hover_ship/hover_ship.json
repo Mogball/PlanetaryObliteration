@@ -14,6 +14,7 @@
       "cue": "/SE/Selection/sea/sea"
     }
   },
+  "build_metal_cost": 1800,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -21,7 +22,6 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "build_metal_cost": 1800,
   "description": "!LOC:Hover Destroyer- Long-Range. Durable. Hover. Attacks land and sea targets.",
   "display_name": "Kaiju",
   "events": {
@@ -196,8 +196,8 @@
     "filename": "/pa/units/sea/hover_ship/hover_ship.papa"
   },
   "navigation": {
-    "acceleration": 30,
-    "brake": 110,
+    "acceleration": 10,
+    "brake": 10,
     "dodge_multiplier": 1.0,
     "dodge_radius": 15,
     "move_speed": 15,
