@@ -10,13 +10,13 @@
   "dependencies": [
     "com.stuart98.gatitans"
   ],
-  "description": "Icons and Hotbuild2 support for GAT.",
-  "display_name": "Galactic Annihilation Titans Client",
+  "description": "A complete rework of PA from the top down focussed on creating a more fluid experience with a TA derived feel.",
+  "display_name": "Galactic Annihilation Titans Client v2.04",
   "enabled": true,
   "forum": "https://forums.uberent.com/threads/soon.70525/",
   "icon": "http://i.imgur.com/g8m0AAg.png?1",
   "identifier": "com.stuart98.gat.client",
   "priority": 100,
   "signature": "(not yet implemented)",
-  "version": "2.03"
+  "version": "2.04"
 }

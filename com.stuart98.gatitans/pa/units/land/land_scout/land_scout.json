@@ -35,7 +35,7 @@
     "ground_ammo_spec": ""
   },
   "description": "Scout - Fast unit with great vision range, but low health and damage.",
-  "display_name": "",
+  "display_name": "Skitter",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

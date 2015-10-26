@@ -19,5 +19,5 @@
   ],
   "sim_fire_effect": "/pa/units/land/bot_support_commander/supcom_death_ent.json",
   "splash_damages_allies": true,
-  "splash_radius": 60
+  "splash_radius": 100
 }
