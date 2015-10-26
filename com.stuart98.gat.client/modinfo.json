@@ -6,7 +6,7 @@
     "Balance"
   ],
   "context": "client",
-  "date": "2015/10/25",
+  "date": "2015/10/26",
   "dependencies": [
     "com.stuart98.gatitans"
   ],
@@ -18,5 +18,5 @@
   "identifier": "com.stuart98.gat.client",
   "priority": 100,
   "signature": "(not yet implemented)",
-  "version": "2.02"
+  "version": "2.03"
 }
