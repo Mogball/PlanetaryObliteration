@@ -14,7 +14,7 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 3600,
+  "build_metal_cost": 3200,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
