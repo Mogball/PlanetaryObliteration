@@ -26,7 +26,7 @@
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 5000,
   "description": "Hover Railgun - Mobile heavy railgun platform. Hovers over water and lava. Heavy damage with a low rate of fire and absurd range.",
-  "display_name": "Penetrator",
+  "display_name": "Disintegrater",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
