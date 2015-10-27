@@ -30,7 +30,7 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 500,
-  "description": "!LOC:Hover Tank- Fast. Can cross water and lava. Attacks land and sea targets.",
+  "description": "Riot Hover - Powerful area of effect riot cannon, medium health and speed. Hovers.",
   "display_name": "!LOC:Drifter",
   "events": {
     "build_complete": {
