@@ -80,6 +80,7 @@ var Build = (function() {
 
 
                 "/pa/units/land/tank_nuke/tank_nuke.json": ["vehicleadv", 12],
+                "/pa/units/sea/hover_ship/hover_ship.json": ["vehicleadv",13],
                 "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.json": ["vehicleadv", 18],
                 "/pa/units/land/tank_laser_adv/tank_laser_adv.json": ["vehicleadv", 19],
                 "/pa/units/land/tank_armor/tank_armor.json": ["vehicleadv", 20],
@@ -138,12 +139,11 @@ var Build = (function() {
 
      
 
-                "/pa/units/sea/drone_carrier/carrier/carrier.json": ["seaadv",12],
+                "/pa/units/sea/drone_carrier/carrier/carrier.json": ["seaadv",23],
                 "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.json": ["seaadv",18],
                 "/pa/units/sea/battlecruiser/battlecruiser.json": ["seaadv", 19],
                 "/pa/units/sea/missile_ship/missile_ship.json": ["seaadv", 20],
                 "/pa/units/sea/nuclear_sub/nuclear_sub.json": ["seaadv", 21],
-                "/pa/units/sea/hover_ship/hover_ship.json": ["seaadv",23],
                  "/pa/units/sea/frigate/frigate.json": ["seaadv", 22],
 
 				 
