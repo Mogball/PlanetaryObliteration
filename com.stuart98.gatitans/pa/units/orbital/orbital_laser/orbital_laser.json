@@ -28,9 +28,7 @@
       "effect_spec": "/pa/units/air/base_flyer/base_flyer_death_t2.pfx"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/orb/orb_ssx_laser_fire",
-      "effect_scale": 3,
-      "effect_spec": "/pa/units/orbital/orbital_laser/orbital_laser_muzzle_flash.pfx socket_muzzle"
+      "audio_cue": "/SE/Weapons/structure/laser_defense_ADV_fire"
     }
   },
   "gravwell_velocity_multiplier": 6.0,
