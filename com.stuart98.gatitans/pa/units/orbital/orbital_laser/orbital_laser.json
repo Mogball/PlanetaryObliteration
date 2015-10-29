@@ -10,13 +10,13 @@
     }
   },
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 3000,
+  "build_metal_cost": 600,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
     "ORDER_Attack"
   ],
-  "description": "Orbital Fire Support- Heavy damage over an area. Uses energy. Attacks land, sea and air targets.",
+  "description": "Orbital Fire Support - Light damage, high rate of fire. Attacks land, sea and air targets.",
   "display_name": "SXX-1304 Laser Platform",
   "events": {
     "build_complete": {
@@ -35,7 +35,7 @@
   },
   "gravwell_velocity_multiplier": 6.0,
   "guard_layer": "WL_AnySurface",
-  "max_health": 1100,
+  "max_health": 400,
   "mesh_bounds": [
     38,
     38,
@@ -51,10 +51,10 @@
     "filename": "/pa/units/orbital/orbital_laser/orbital_laser.papa"
   },
   "navigation": {
-    "acceleration": 25,
-    "brake": 25,
+    "acceleration": 40,
+    "brake": 40,
     "hover_time": -1.0,
-    "move_speed": 25,
+    "move_speed": 40,
     "turn_speed": 90,
     "type": "orbital"
   },
