@@ -13,7 +13,7 @@
     "ORDER_Attack"
   ],
   "description": "Boom Launcher - Builds and fires boom bots at nearby targets.",
-  "display_name": "Lob",
+  "display_name": "Lobber",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"
