@@ -20,7 +20,7 @@
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/orbital/mining_platform/mining_platform_nuke.json"
   },
-  "description": "Gas mining and metal creation satellite. Only works above gas giant planets.",
+  "description": "Gas mining and metal creation satellite. Fuses gasses into heavier metals for unit construction, but uses up a huge amount of energy.",
   "display_name": "Jig",
   "events": {
     "build_complete": {
@@ -181,8 +181,8 @@
     100
   ],
   "production": {
-    "energy": 9000,
-    "metal": 15
+    "energy": -20000,
+    "metal": 5
   },
   "recon": {
     "observer": {
