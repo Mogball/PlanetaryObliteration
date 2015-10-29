@@ -1,8 +1,7 @@
 {
   "ammo_type": "Projectile",
   "armor_damage_map": {
-    "AT_Commander": 0.33,
-    "AT_Orbital": 0.33
+    "AT_Commander": 0.1,
   },
   "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop",
   "build_metal_cost": 30000,
@@ -10,7 +9,7 @@
   "burn_radius": 137,
   "collision_check": "ground",
   "cruise_height": 100,
-  "damage": 33000,
+  "damage": 100000,
   "damage_volume": {
     "burnable_remove_radius": 100.0,
     "delay": 1.5,
@@ -68,7 +67,7 @@
   "signal_type": "nuke",
   "sim_impact_effect": "/pa/units/land/nuke_launcher/nuke_launcher_ammo_explosion_ent.json",
   "spawn_layers": "WL_Air",
-  "splash_damage": 33000,
+  "splash_damage": 100000,
   "splash_damage_orbital": true,
   "splash_damages_allies": true,
   "splash_radius": 150,
