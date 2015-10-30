@@ -135,9 +135,9 @@ var Build = (function() {
                 "/pa/units/air/fighter/fighter.json": ["air", 12],
 		"/pa/units/air/fighter_beam/fighter_beam.json": ["air", 19],
                 "/pa/units/air/bomber/bomber.json": ["air", 20],
-                "/pa/units/air/air_scout/air_scout.json": ["air", 21],
+                "/pa/units/air/air_scout/air_scout.json": ["air", 23],
                 "/pa/units/air/transport/transport.json": ["air", 22],
-                "/pa/units/air/solar_drone/solar_drone.json": ["air", 23],
+                "/pa/units/air/solar_drone/solar_drone.json": ["air", 21],
 
      
 
