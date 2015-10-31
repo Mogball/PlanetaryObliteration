@@ -112,7 +112,8 @@
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_CannonBuildable",
     "UNITTYPE_Offense",
-    "UNITTYPE_SelfDestruct"
+    "UNITTYPE_SelfDestruct",
+    "UNITTYPE_Custom3"
   ],
   "wreckage_health_frac": 0.0
 }

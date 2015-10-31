@@ -68,7 +68,7 @@
     "brake": -1,
     "move_speed": 20,
     "turn_speed": 720,
-    "type": "land-small"
+    "type": "amphibious"
   },
   "physics": {
     "radius": 2.0
@@ -106,6 +106,7 @@
     "UNITTYPE_Scout",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_CannonBuildable"
+    "UNITTYPE_CannonBuildable",
+    "UNITTYPE_Custom3"
   ]
 }
