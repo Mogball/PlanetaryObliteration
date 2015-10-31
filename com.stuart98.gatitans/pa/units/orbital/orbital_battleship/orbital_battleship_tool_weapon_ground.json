@@ -1,7 +1,7 @@
 {
-  "ammo_id": "/pa/units/orbital/orbital_battleship/orbital_battleship_ammo_ground.json",
   "ammo_capacity": 12000,
   "ammo_demand": 3000,
+  "ammo_id": "/pa/units/orbital/orbital_battleship/orbital_battleship_ammo_ground.json",
   "ammo_per_shot": 12000,
   "ammo_source": "energy",
   "auto_attack": true,

@@ -150,6 +150,8 @@ $(document).ready(function () {
             'fabrication_sub',
             'sonar',
             'sonar_adv',
+			'amphibious_factory',
+			'amphibious_fabricator',
         ]);
 
         self.sendIconList = function () {
