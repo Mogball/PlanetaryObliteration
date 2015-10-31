@@ -36,7 +36,7 @@
       "cue": "/SE/Selection/bot/fab"
     }
   },
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/generic/bot.json",
   "build_metal_cost": 150,
   "buildable_types": "Land & Structure & Basic | Factory & Basic FabBuild",
   "command_caps": [
