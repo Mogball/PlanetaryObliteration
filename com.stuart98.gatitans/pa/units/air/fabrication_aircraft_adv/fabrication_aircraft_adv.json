@@ -34,7 +34,7 @@
     }
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 425,
+  "build_metal_cost": 550,
   "buildable_types": "Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Titan & Air",
   "command_caps": [
     "ORDER_Move",
@@ -106,7 +106,7 @@
   ],
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 60,
-  "max_health": 200,
+  "max_health": 120,
   "mesh_bounds": [
     10.5,
     7.52258,
@@ -120,12 +120,12 @@
     "filename": "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.papa"
   },
   "navigation": {
-    "acceleration": 35,
+    "acceleration": 60,
     "aggressive_behavior": "circle",
-    "brake": 35,
+    "brake": 60,
     "circle_max_time": 3,
     "circle_min_time": 1,
-    "move_speed": 35,
+    "move_speed": 60,
     "turn_speed": 180,
     "type": "air"
   },

@@ -25,8 +25,8 @@
   "command_caps": [
     "ORDER_FactoryBuild"
   ],
-  "description": "!LOC:Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon.",
-  "display_name": "!LOC:Anti-Nuke Launcher",
+  "description": "Anti-nuke launcher - Equipped with advanced anti-nuclear missile weapon.",
+  "display_name": "Preserver",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/factory"

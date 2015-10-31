@@ -41,8 +41,8 @@
     "ORDER_Repair",
     "ORDER_Assist"
   ],
-  "description": "Support Barge- Repairs damaged ships. Builds and detects mines. Cannot help build things.",
-  "display_name": "Barnacle",
+  "description": "Support Sub - Repairs units, builds metal extractors and sea defenses. Can only be hit by torpedos.",
+  "display_name": "Remora",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

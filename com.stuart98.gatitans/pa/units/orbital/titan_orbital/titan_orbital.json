@@ -28,7 +28,7 @@
     "ORDER_Patrol",
     "ORDER_Attack"
   ],
-  "description": "Invasion Titan- Can link with a teleporter and send units directly to a planet's surface. Attacks everything.",
+  "description": "Invasion Titan - Can link with a teleporter and send units directly to a planet's surface. Attacks everything.",
   "display_name": "Helios",
   "energy_efficiency_requirement": 1.0,
   "events": {
@@ -237,7 +237,7 @@
   "si_name": "titan",
   "spawn_layers": "WL_Orbital",
   "teleporter": {
-    "energy_demand": 1000,
+    "energy_demand": 10000,
     "spawn_radius": 20,
     "type": "orbital"
   },

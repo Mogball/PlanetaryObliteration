@@ -47,7 +47,7 @@
     "ORDER_Use"
   ],
   "description": "Advanced Support Fabricator - Armed with a light gun for defense and able to build defensive structures, but expensive and inefficient.",
-  "display_name": "Mend",
+  "display_name": "Stitch",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab",

@@ -15,7 +15,7 @@
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 320,
-  "description": "Air Superiority Fighter: Armed with light anti-air railguns.",
+  "description": "Air Superiority Fighter: Armed with long-ranged forward-firing light anti-air railguns.",
   "display_name": "Eagle",
   "events": {
     "build_complete": {

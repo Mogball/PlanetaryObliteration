@@ -45,7 +45,7 @@
     "ORDER_Use"
   ],
   "description": "Heavy Support Fabricator - Efficiently repairs units, but unable to construct buildings.",
-  "display_name": "Stitch",
+  "display_name": "Mend",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab",
