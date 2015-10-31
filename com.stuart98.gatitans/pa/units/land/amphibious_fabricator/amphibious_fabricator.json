@@ -49,7 +49,7 @@
     "ORDER_Use"
   ],
   "description": "Builder - Builds structures. Medium health and low speed. Less efficient than the standard fabber.",
-  "display_name": "Amphibious Fabricator",
+  "display_name": "Amphibious Fabrication Bot",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
@@ -93,10 +93,13 @@
     "allow_pushing": true,
     "radius": 2
   },
+  "selection_icon": {
+    "diameter": 9.0
+  },
   "tools": [
     {
       "aim_bone": "turret00",
-      "spec_id": "/pa/units/land/amphibious_fabricator/Bfab21_build_arm.json"
+      "spec_id": "/pa/units/land/amphibious_fabricator/amphibious_fabricator_build_arm.json"
     }
   ],
   "unit_types": [
