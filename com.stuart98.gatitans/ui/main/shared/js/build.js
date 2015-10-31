@@ -54,6 +54,7 @@ var Build = (function() {
                 "/pa/units/air/air_factory_adv/air_factory_adv.json": ["factory", 15],
                 "/pa/units/land/bot_factory_adv/bot_factory_adv.json": ["factory", 16],
                 "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv.json": ["factory", 17],
+				"/pa/units/sea/amphibious_factory/amphibious_factory.json": ["factory", 18],
                 "/pa/units/orbital/orbital_launcher/orbital_launcher.json": ["factory", 19],
                 "/pa/units/sea/naval_factory/naval_factory.json": ["factory", 20],
                 "/pa/units/air/air_factory/air_factory.json": ["factory", 21],
