@@ -124,13 +124,13 @@
     },
     "animtree": "/pa/anim/anim_trees/bot_sniper_anim_tree.json",
     "filename": "/pa/units/land/bot_sniper/bot_sniper.papa",
-    "walk_speed": 8
+    "walk_speed": 7
   },
   "navigation": {
     "acceleration": 120,
     "brake": -1,
     "group_preference": "back",
-    "move_speed": 8,
+    "move_speed": 7,
     "turn_speed": 720,
     "type": "land-small"
   },

@@ -152,6 +152,7 @@ $(document).ready(function () {
             'sonar_adv',
 			'amphibious_factory',
 			'amphibious_fabricator',
+			'bot_raider',
         ]);
 
         self.sendIconList = function () {
