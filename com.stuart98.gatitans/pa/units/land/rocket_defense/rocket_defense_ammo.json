@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/ammo/base_missiles/base_missile.json",
-  "damage": 80,
+  "damage": 75,
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/missile_tactical",

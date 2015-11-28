@@ -121,6 +121,7 @@
     "UNITTYPE_Artillery",
     "UNITTYPE_Defense",
     "UNITTYPE_FabBuild",
-    "UNITTYPE_Basic"
+    "UNITTYPE_Basic",
+    "UNITTYPE_Custom4"
   ]
 }

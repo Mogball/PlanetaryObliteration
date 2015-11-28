@@ -48,7 +48,7 @@
   "selection_icon": {
     "diameter": 22.0
   },
-  "spawn_layers": "WL_AnySurface",
+  "spawn_layers": "WL_WaterSurface",
   "unit_types": [
     "UNITTYPE_Naval",
     "UNITTYPE_Structure",
