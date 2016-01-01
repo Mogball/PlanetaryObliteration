@@ -153,6 +153,7 @@ $(document).ready(function () {
 			'amphibious_factory',
 			'amphibious_fabricator',
 			'bot_raider',
+			'engineering_station',
         ]);
 
         self.sendIconList = function () {
