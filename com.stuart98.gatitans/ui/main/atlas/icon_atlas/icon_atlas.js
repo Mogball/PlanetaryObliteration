@@ -152,6 +152,7 @@ $(document).ready(function () {
             'sonar_adv',
 			'amphibious_factory',
 			'amphibious_fabricator',
+			'apocalypse_apparatus',
 			'bot_raider',
 			'engineering_station',
         ]);

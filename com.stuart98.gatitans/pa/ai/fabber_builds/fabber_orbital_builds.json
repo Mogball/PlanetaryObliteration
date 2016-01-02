@@ -454,6 +454,7 @@
             "test_type": "CanFindPlaceToBuild"
           }
         ]
+      ],
       "builders": [
         "OrbitalFabber"
       ],
@@ -467,7 +468,7 @@
       "priority": 360,
       "to_build": "OrbitalExtractor"
     },
-      {
+    {
       "build_conditions": [
         [
           {

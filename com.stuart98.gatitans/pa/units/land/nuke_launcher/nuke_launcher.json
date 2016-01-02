@@ -25,7 +25,7 @@
     "ORDER_Attack"
   ],
   "description": "Nuke Launcher - Produces a long range, large area damage, nuclear missile.",
-  "display_name": "Nuclear Missile Launcher",
+  "display_name": "Arbiter",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/factory"

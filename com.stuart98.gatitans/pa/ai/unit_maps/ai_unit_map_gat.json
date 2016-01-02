@@ -141,9 +141,9 @@
     "BasicArtilleryBot": {
       "spec_id": "/pa/units/land/bot_mortar/bot_mortar.json"
     },
-	"BasicArtilleryTank": {
-	  "spec_id": "/pa/units/land/tank_heavy_artillery/tank_heavy_artillery.json"
-	},
+    "BasicArtilleryTank": {
+      "spec_id": "/pa/units/land/tank_heavy_artillery/tank_heavy_artillery.json"
+    },
     "BasicAssaultBot": {
       "spec_id": "/pa/units/land/bot_raider/bot_raider.json"
     },
