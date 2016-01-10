@@ -168,15 +168,14 @@ var Build = (function() {
                 "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json": ["orbital_structure", 16],
                 
 
-                "/pa/units/orbital/orbital_battleship/orbital_battleship.json": ["orbital", 6],
-                "/pa/units/orbital/orbital_laser/orbital_laser.json": ["orbital", 7],
-                "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json": ["orbital", 8],
-                "/pa/units/orbital/orbital_railgun/orbital_railgun.json": ["orbital", 9],
-                "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json": ["orbital", 12],
-                "/pa/units/orbital/orbital_fighter/orbital_fighter.json": ["orbital", 13],
-                "/pa/units/orbital/radar_satellite/radar_satellite.json": ["orbital", 14],
-                "/pa/units/orbital/orbital_lander/orbital_lander.json": ["orbital", 15],
-                "/pa/units/orbital/orbital_probe/orbital_probe.json": ["orbital", 16],
+                "/pa/units/orbital/orbital_battleship/orbital_battleship.json": ["orbital", 12],
+                "/pa/units/orbital/orbital_laser/orbital_laser.json": ["orbital", 13],
+                "/pa/units/orbital/orbital_railgun/orbital_railgun.json": ["orbital", 14],
+                "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json": ["orbital", 18],
+                "/pa/units/orbital/orbital_fighter/orbital_fighter.json": ["orbital", 19],
+                "/pa/units/orbital/radar_satellite/radar_satellite.json": ["orbital", 20],
+                "/pa/units/orbital/orbital_lander/orbital_lander.json": ["orbital", 21],
+                "/pa/units/orbital/orbital_probe/orbital_probe.json": ["orbital", 22],
 
                 "/pa/units/land/land_mine/land_mine.json": ["ammo", 14],
                 "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["ammo", 15],
