@@ -1,2 +1,2 @@
-# Galactic-Annihilation-Titans
-Galactic Annihilation, Rebuilt for Titans.
+# FinalObliteration
+The ultimate TA-Style Planetary Annihilation Titans mod.
