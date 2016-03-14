@@ -72,7 +72,7 @@
   "navigation": {
     "acceleration": 60,
     "brake": -1,
-    "move_speed": 7,
+    "move_speed": 9,
     "park_stamp": {
       "cost": 20,
       "shape": "sphere",

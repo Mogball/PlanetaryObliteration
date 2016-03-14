@@ -21,7 +21,7 @@
   "max_velocity": 35.0,
   "model": {
     "arrows": 3,
-    "filename": "/pa/units/air/bomb/bomb.papa"
+    "filename": "/pa/units/vanilla/air/bomb/bomb.papa"
   },
   "physics": {
     "add_to_spatial_db": false,

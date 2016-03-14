@@ -25,7 +25,7 @@
   "lifetime": 8,
   "max_velocity": 15.0,
   "model": {
-    "filename": "/pa/units/air/bomb/bomb.papa"
+    "filename": "/pa/units/vanilla/air/bomb/bomb.papa"
   },
   "splash_damage": 0,
   "splash_damages_allies": false,

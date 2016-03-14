@@ -14,19 +14,19 @@
   "fx_trail": {
     "filename": "/pa/effects/specs/placeholder_proj_trail.pfx",
     "offset": [
-      0.0,
-      0.0,
-      0.0
+      0,
+      0,
+      0
     ]
   },
-  "initial_velocity": 1.0,
+  "initial_velocity": 1,
   "lifetime": 8,
-  "max_velocity": 1.0,
+  "max_velocity": 1,
   "model": {
     "filename": "/pa/units/generic/placeholder_proj/placeholder_proj.papa"
   },
   "physics": {
-    "add_to_spatial_db": false,
+    "add_to_spatial_db": true,
     "allow_underground": true,
     "gravity_scalar": 3,
     "radius": 1,

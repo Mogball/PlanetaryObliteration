@@ -9,7 +9,7 @@
   },
   "flight_type": "Seeking",
   "fx_trail": {
-    "filename": "/pa/units/air/missile_tactical/missile_tactical_trail.pfx",
+    "filename": "/pa/units/vanilla/air/missile_tactical/missile_tactical_trail.pfx",
     "offset": [
       0.0,
       2.2,
@@ -20,7 +20,7 @@
   "lifetime": 30,
   "max_velocity": 70.0,
   "model": {
-    "filename": "/pa/units/air/atoa_missile/atoa_missile.papa"
+    "filename": "/pa/units/vanilla/air/atoa_missile/atoa_missile.papa"
   },
   "splash_damage": 500,
   "splash_radius": 19,

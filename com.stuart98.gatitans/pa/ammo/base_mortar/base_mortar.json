@@ -19,7 +19,7 @@
   "initial_velocity": 115.0,
   "lifetime": 10,
   "model": {
-    "filename": "/pa/units/air/mortar/mortar.papa"
+    "filename": "/pa/units/vanilla/air/mortar/mortar.papa"
   },
   "physics": {
     "add_to_spatial_db": false,

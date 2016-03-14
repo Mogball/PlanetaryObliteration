@@ -20,7 +20,7 @@
   "lifetime": 30,
   "max_velocity": 70.0,
   "model": {
-    "filename": "/pa/units/air/atoa_missile/atoa_missile.papa"
+    "filename": "/pa/units/vanilla/air/atoa_missile/atoa_missile.papa"
   },
   "physics": {
     "allow_underground": true,

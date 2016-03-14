@@ -22,7 +22,7 @@
   "lifetime": 8,
   "max_velocity": 40.0,
   "model": {
-    "filename": "/pa/units/sea/torpedo/torpedo.papa"
+    "filename": "/pa/units/vanilla/sea/torpedo/torpedo.papa"
   },
   "physics": {
     "add_to_spatial_db": false,
