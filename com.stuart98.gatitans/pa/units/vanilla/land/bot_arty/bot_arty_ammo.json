@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/ammo/base_rocket/base_rocket.json",
-  "damage": 160,
+  "damage": 90,
   "flight_type": "Ballistic",
   "fx_trail": {
     "filename": "/pa/effects/specs/rocket_proj_trail.pfx",
