@@ -41,7 +41,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 235,
+  "max_health": 125,
   "mesh_bounds": [
     4,
     2,
@@ -57,12 +57,12 @@
     },
     "animtree": "/pa/anim/anim_trees/bipedal_mech_anim_tree.json",
     "filename": "/pa/units/vanilla/land/assault_bot/assault_bot.papa",
-    "walk_speed": 11
+    "walk_speed": 16
   },
   "navigation": {
     "acceleration": 250,
     "brake": -1,
-    "move_speed": 11,
+    "move_speed": 16,
     "turn_speed": 720,
     "type": "land-small"
   },
