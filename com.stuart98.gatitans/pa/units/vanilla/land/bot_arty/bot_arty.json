@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
-  "build_metal_cost": 200,
+  "build_metal_cost": 160,
   "description": "Rocket Skirmisher - High damage, low projectile speed. Strong vs defenses and slow units, weak vs raiders.",
   "display_name": "Stomper",
   "events": {
@@ -52,7 +52,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 200,
+  "max_health": 300,
   "mesh_bounds": [
     5.36,
     4.02,
@@ -70,7 +70,7 @@
   "navigation": {
     "acceleration": 250,
     "brake": -1,
-    "move_speed": 8,
+    "move_speed": 9,
     "turn_speed": 720,
     "type": "land-small"
   },
