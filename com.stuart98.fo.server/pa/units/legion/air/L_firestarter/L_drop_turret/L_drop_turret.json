@@ -1,6 +1,4 @@
 {
-  "display_name": "Purifier",
-  "description": "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses.",
   "TEMP_texelinfo": 10.2184,
   "area_build_separation": 18,
   "atrophy_cool_down": 15,
@@ -10,6 +8,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
+  "description": "Basic turret- Equipped with direct fire anti-land, and anti-ship defenses.",
+  "display_name": "Purifier",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

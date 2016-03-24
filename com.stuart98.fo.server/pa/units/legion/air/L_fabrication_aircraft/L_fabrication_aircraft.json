@@ -1,6 +1,4 @@
 {
-  "display_name": "Fabrication Flyer",
-  "description": "Builds Basic Structures. Fast. Can Build Exclusive Flyer Units.",
   "TEMP_texelinfo": 7.11877,
   "attachable": {
     "offsets": {
@@ -47,6 +45,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
+  "description": "Builds Basic Structures. Fast. Can Build Exclusive Flyer Units.",
+  "display_name": "Fabrication Flyer",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

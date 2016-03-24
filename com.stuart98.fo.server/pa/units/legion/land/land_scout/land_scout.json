@@ -1,6 +1,4 @@
 {
-  "display_name": "!LOC:Skitter",
-  "description": "!LOC: Scout- Fast. Can see far away. Detects mines. Does not attack.",
   "TEMP_texelinfo": 4.03457,
   "attachable": {
     "offsets": {
@@ -37,6 +35,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
+  "description": "!LOC: Scout- Fast. Can see far away. Detects mines. Does not attack.",
+  "display_name": "!LOC:Skitter",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

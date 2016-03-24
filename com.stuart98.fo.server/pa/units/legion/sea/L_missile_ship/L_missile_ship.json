@@ -1,6 +1,4 @@
 {
-  "display_name": "Crossbow",
-  "description": "Ballistic Missile Ship.  Equipped with anti-air cannon",
   "TEMP_texelinfo": 30.5603,
   "audio": {
     "loops": {
@@ -17,6 +15,8 @@
   },
   "base_spec": "/pa/units/legion/sea/base_ship/base_ship.json",
   "build_metal_cost": 3750,
+  "description": "Ballistic Missile Ship.  Equipped with anti-air cannon",
+  "display_name": "Crossbow",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

@@ -1,6 +1,4 @@
 {
-  "display_name": "Starship Projector",
-  "description": "Launches Satellites and Basic Orbital Units.",
   "TEMP_texelinfo": 47.5342,
   "atrophy_cool_down": 15.0,
   "atrophy_rate": 45.0,
@@ -24,6 +22,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
+  "description": "Launches Satellites and Basic Orbital Units.",
+  "display_name": "Starship Projector",
   "enable_orbital_shell": true,
   "events": {
     "died": {

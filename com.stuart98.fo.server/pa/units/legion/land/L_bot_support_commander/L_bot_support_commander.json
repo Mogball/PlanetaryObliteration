@@ -1,6 +1,4 @@
 {
-  "display_name": "Shredder",
-  "description": "Auxiliary Commander. Can Build Structures.",
   "TEMP_texelinfo": 25,
   "armor_type": "AT_Commander",
   "attachable": {
@@ -49,6 +47,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
+  "description": "Auxiliary Commander. Can Build Structures.",
+  "display_name": "Shredder",
   "events": {
     "died": {
       "audio_cue": "/SE/Death/Bot",

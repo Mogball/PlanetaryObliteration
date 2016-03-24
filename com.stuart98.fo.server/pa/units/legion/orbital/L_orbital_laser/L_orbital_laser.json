@@ -1,6 +1,4 @@
 {
-  "display_name": "Black Knight",
-  "description": "Mysterious Artifact, engraved with a masterful image of Legari Snarlingpatterned with the Finger of Taking striking down The Abyssal Boat in the late summer of 204",
   "TEMP_texelinfo": 31.6199,
   "attachable": {
     "offsets": {
@@ -18,6 +16,8 @@
     "ORDER_Patrol",
     "ORDER_Attack"
   ],
+  "description": "Mysterious Artifact, engraved with a masterful image of Legari Snarlingpatterned with the Finger of Taking striking down The Abyssal Boat in the late summer of 204",
+  "display_name": "Black Knight",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"

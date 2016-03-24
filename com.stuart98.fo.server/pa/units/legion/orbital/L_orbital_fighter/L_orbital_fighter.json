@@ -1,6 +1,4 @@
 {
-  "display_name": "Aggressor",
-  "description": "Orbital Fighter- Heavy starfighter. Good for harassment and assaulting lightly defended starports.",
   "TEMP_texelinfo": 17.7177,
   "attachable": {
     "offsets": {
@@ -19,6 +17,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
+  "description": "Orbital Fighter- Heavy starfighter. Good for harassment and assaulting lightly defended starports.",
+  "display_name": "Aggressor",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"

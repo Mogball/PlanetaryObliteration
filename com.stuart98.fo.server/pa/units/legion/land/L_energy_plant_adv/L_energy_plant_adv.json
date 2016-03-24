@@ -1,6 +1,4 @@
 {
-  "display_name": "Advanced Power Catalyst",
-  "description": "Fabricates Black Holes and Harnesses Their Energies. Very Unstable. You Might Want to Spread these Things Out.",
   "TEMP_texelinfo": 32.6108,
   "area_build_separation": 2,
   "area_build_type": "Line",
@@ -16,6 +14,8 @@
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/legion/land/L_energy_plant_adv/death_weapon.json"
   },
+  "description": "Fabricates Black Holes and Harnesses Their Energies. Very Unstable. You Might Want to Spread these Things Out.",
+  "display_name": "Advanced Power Catalyst",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/energy"

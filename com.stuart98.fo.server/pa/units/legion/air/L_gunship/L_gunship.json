@@ -1,6 +1,4 @@
 {
-  "display_name": "Eradicator",
-  "description": "Gunship- Heavily armored gunship equipped with seeking missiles and a light machine gun.",
   "audio": {
     "loops": {
       "move": {
@@ -16,6 +14,8 @@
   },
   "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
   "build_metal_cost": 850,
+  "description": "Gunship- Heavily armored gunship equipped with seeking missiles and a light machine gun.",
+  "display_name": "Eradicator",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"

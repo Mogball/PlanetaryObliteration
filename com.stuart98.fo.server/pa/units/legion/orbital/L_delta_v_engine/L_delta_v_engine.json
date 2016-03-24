@@ -1,6 +1,4 @@
 {
-  "display_name": "Shoemaker",
-  "description": "!LOC(units:delta_v_engine_used_to_move_small_to_medium_celestial_bodies.message):Delta V Engine- Used to move small to medium celestial bodies.",
   "TEMP_texelinfo": 77.8386,
   "atrophy_cool_down": 15.0,
   "atrophy_rate": 650,
@@ -18,6 +16,8 @@
   "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
   "build_metal_cost": 40000,
   "build_restrictions": "Thrustable",
+  "description": "!LOC(units:delta_v_engine_used_to_move_small_to_medium_celestial_bodies.message):Delta V Engine- Used to move small to medium celestial bodies.",
+  "display_name": "Shoemaker",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/delta_v"

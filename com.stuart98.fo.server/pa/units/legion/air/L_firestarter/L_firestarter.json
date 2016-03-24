@@ -1,6 +1,4 @@
 {
-  "display_name": "Purgatory",
-  "description": "Relic of the First Nomad War, incinerates rebel enemies without mercy",
   "TEMP_texelinfo": 7,
   "audio": {
     "loops": {
@@ -25,6 +23,8 @@
     "ORDER_Use",
     "ORDER_FireSecondaryWeapon"
   ],
+  "description": "Relic of the First Nomad War, incinerates rebel enemies without mercy",
+  "display_name": "Purgatory",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"

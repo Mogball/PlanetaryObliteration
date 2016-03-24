@@ -1,6 +1,4 @@
 {
-  "display_name": "Stalker",
-  "description": "Equipped with sneaky Spy Camera, radar, and some guns",
   "TEMP_texelinfo": 17,
   "audio": {
     "loops": {
@@ -27,6 +25,8 @@
   "consumption": {
     "energy": 900
   },
+  "description": "Equipped with sneaky Spy Camera, radar, and some guns",
+  "display_name": "Stalker",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"

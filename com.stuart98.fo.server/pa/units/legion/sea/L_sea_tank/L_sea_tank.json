@@ -1,6 +1,4 @@
 {
-  "display_name": "Hydra",
-  "description": "Short range cannon, can ram enemy ships",
   "TEMP_texelinfo": 24.7645,
   "audio": {
     "loops": {
@@ -14,6 +12,8 @@
   },
   "base_spec": "/pa/units/legion/sea/base_ship/base_ship.json",
   "build_metal_cost": 4000,
+  "description": "Short range cannon, can ram enemy ships",
+  "display_name": "Hydra",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

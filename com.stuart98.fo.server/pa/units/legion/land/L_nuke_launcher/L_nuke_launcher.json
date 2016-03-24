@@ -1,6 +1,4 @@
 {
-  "display_name": "Supernova",
-  "description": "Long Range Ballistic Nuclear Launcher. High Damage and High AoE.",
   "TEMP_texelinfo": 30,
   "atrophy_cool_down": 15,
   "atrophy_rate": 240,
@@ -26,6 +24,8 @@
     "ORDER_FactoryBuild",
     "ORDER_Attack"
   ],
+  "description": "Long Range Ballistic Nuclear Launcher. High Damage and High AoE.",
+  "display_name": "Supernova",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/factory"

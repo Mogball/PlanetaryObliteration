@@ -1,6 +1,4 @@
 {
-  "display_name": "Jackal",
-  "description": "Short Range, Light Defense Turret. Attacks Land and Naval Targets.",
   "TEMP_texelinfo": 23.76123,
   "area_build_separation": 18,
   "atrophy_cool_down": 15,
@@ -10,6 +8,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
+  "description": "Short Range, Light Defense Turret. Attacks Land and Naval Targets.",
+  "display_name": "Jackal",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

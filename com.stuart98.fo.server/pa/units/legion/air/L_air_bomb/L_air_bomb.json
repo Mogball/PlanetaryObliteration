@@ -1,6 +1,4 @@
 {
-  "display_name": "Stinger",
-  "description": "Suicide Bomb Plane- attacks air only",
   "TEMP_texelinfo": 10.4837,
   "attachable": {
     "offsets": {
@@ -32,6 +30,8 @@
     "ORDER_Assist",
     "ORDER_Attack"
   ],
+  "description": "Suicide Bomb Plane- attacks air only",
+  "display_name": "Stinger",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"

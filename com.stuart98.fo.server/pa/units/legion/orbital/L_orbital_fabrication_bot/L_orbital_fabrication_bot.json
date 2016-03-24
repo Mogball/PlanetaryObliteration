@@ -1,6 +1,4 @@
 {
-  "display_name": "Fabrication Starship",
-  "description": "Advanced fabricator- Builds Legion Orbital Satellites and Ships. ",
   "TEMP_texelinfo": 38.253,
   "attachable": {
     "offsets": {
@@ -39,6 +37,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
+  "description": "Advanced fabricator- Builds Legion Orbital Satellites and Ships. ",
+  "display_name": "Fabrication Starship",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab_orbital"

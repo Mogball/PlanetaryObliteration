@@ -1,6 +1,4 @@
 {
-  "display_name": "Monstrosity",
-  "description": "Heavy Assault Walker- Virtually unstoppable. Equipped with four heavy machine guns and a heavy plasma projector.",
   "TEMP_texelinfo": 13,
   "attachable": {
     "offsets": {
@@ -31,6 +29,8 @@
   },
   "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
   "build_metal_cost": 1700,
+  "description": "Heavy Assault Walker- Virtually unstoppable. Equipped with four heavy machine guns and a heavy plasma projector.",
+  "display_name": "Monstrosity",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"

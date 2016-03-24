@@ -1,6 +1,4 @@
 {
-  "display_name": "Wraith",
-  "description": "Travels very fast between planets using Legion Slipstream Warp Technology",
   "TEMP_texelinfo": 17.7177,
   "attachable": {
     "offsets": {
@@ -19,6 +17,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
+  "description": "Travels very fast between planets using Legion Slipstream Warp Technology",
+  "display_name": "Wraith",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"

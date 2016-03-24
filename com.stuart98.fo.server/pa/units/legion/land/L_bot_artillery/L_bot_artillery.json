@@ -1,6 +1,4 @@
 {
-  "display_name": "Terrorizer",
-  "description": "Heavy Siege Weapon- Long Range. Fires unstable plasma that explodes several seconds after contact with the ground",
   "TEMP_texelinfo": 10,
   "attachable": {
     "offsets": {
@@ -39,6 +37,8 @@
     "ORDER_Use",
     "ORDER_FireSecondaryWeapon"
   ],
+  "description": "Heavy Siege Weapon- Long Range. Fires unstable plasma that explodes several seconds after contact with the ground",
+  "display_name": "Terrorizer",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"

@@ -1,6 +1,4 @@
 {
-  "display_name": "Orbweaver",
-  "description": "Advanced Mobile AA. Attacks Air.",
   "TEMP_texelinfo": 5.47132,
   "attachable": {
     "offsets": {
@@ -28,6 +26,8 @@
   },
   "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 600,
+  "description": "Advanced Mobile AA. Attacks Air.",
+  "display_name": "Orbweaver",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"

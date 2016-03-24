@@ -1,6 +1,4 @@
 {
-  "display_name": "Ship Foundry",
-  "description": "Basic Manufacturing- Builds Legion Naval Units.",
   "TEMP_texelinfo": 44.3722,
   "area_build_separation": 2,
   "atrophy_cool_down": 15,
@@ -30,6 +28,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
+  "description": "Basic Manufacturing- Builds Legion Naval Units.",
+  "display_name": "Ship Foundry",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

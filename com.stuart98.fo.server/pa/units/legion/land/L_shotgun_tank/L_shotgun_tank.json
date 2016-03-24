@@ -1,6 +1,4 @@
 {
-  "display_name": "Maul",
-  "description": "Close Rage Support. Attacks Land and Naval.",
   "TEMP_texelinfo": 14.523,
   "attachable": {
     "offsets": {
@@ -31,6 +29,8 @@
   },
   "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 300,
+  "description": "Close Rage Support. Attacks Land and Naval.",
+  "display_name": "Maul",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

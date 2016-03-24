@@ -1,6 +1,4 @@
 {
-  "display_name": "Starcannon",
-  "description": "Orbital Unit Cannon- Fires units below.",
   "TEMP_texelinfo": 36,
   "area_build_separation": 75,
   "area_build_type": "Line",
@@ -13,6 +11,8 @@
     "ORDER_FactoryBuild",
     "ORDER_Attack"
   ],
+  "description": "Orbital Unit Cannon- Fires units below.",
+  "display_name": "Starcannon",
   "enable_orbital_shell": true,
   "events": {
     "build_complete": {

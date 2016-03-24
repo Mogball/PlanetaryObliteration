@@ -1,6 +1,4 @@
 {
-  "display_name": "Sky Bridge",
-  "description": "Teleporter. Use to Teleport Units.",
   "TEMP_texelinfo": 30.032139,
   "area_build_type": "Line",
   "atrophy_cool_down": 15,
@@ -26,6 +24,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
+  "description": "Teleporter. Use to Teleport Units.",
+  "display_name": "Sky Bridge",
   "energy_efficiency_requirement": 1,
   "events": {
     "build_complete": {

@@ -1,6 +1,4 @@
 {
-  "display_name": "Loki",
-  "description": "Flying Fortress- Heavily armored and armed to deal with all threats.",
   "TEMP_texelinfo": 35.89798,
   "atrophy_cool_down": 15.0,
   "atrophy_rate": 200.0,
@@ -22,6 +20,8 @@
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/legion/air/titan_air/titan_air_ammo_death.json"
   },
+  "description": "Flying Fortress- Heavily armored and armed to deal with all threats.",
+  "display_name": "Loki",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/Titan_Complete"

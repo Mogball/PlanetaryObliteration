@@ -1,6 +1,4 @@
 {
-  "display_name": "Bandit",
-  "description": "Amphibious Tank- Fast attack tank. Equipped with torpedoes and laser cannon.",
   "TEMP_texelinfo": 9.31488,
   "attachable": {
     "offsets": {
@@ -28,6 +26,8 @@
   },
   "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 200,
+  "description": "Amphibious Tank- Fast attack tank. Equipped with torpedoes and laser cannon.",
+  "display_name": "Bandit",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

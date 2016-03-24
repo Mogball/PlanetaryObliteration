@@ -1,6 +1,4 @@
 {
-  "display_name": "Firebird",
-  "description": "Advanced Fighter/Interceptor. Fast and Armored. Attacks Air. ",
   "TEMP_texelinfo": 7.96209,
   "audio": {
     "loops": {
@@ -17,6 +15,8 @@
   },
   "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
   "build_metal_cost": 820,
+  "description": "Advanced Fighter/Interceptor. Fast and Armored. Attacks Air. ",
+  "display_name": "Firebird",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"

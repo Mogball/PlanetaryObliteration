@@ -1,6 +1,4 @@
 {
-  "display_name": "Guardian",
-  "description": "Combat Fabrication Vehicle. Builds Turrets, Radar, and Repairs Friendly Units.",
   "TEMP_texelinfo": 6.20134,
   "attachable": {
     "offsets": {
@@ -47,6 +45,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
+  "description": "Combat Fabrication Vehicle. Builds Turrets, Radar, and Repairs Friendly Units.",
+  "display_name": "Guardian",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

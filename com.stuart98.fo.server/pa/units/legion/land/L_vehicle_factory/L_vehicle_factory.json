@@ -1,6 +1,4 @@
 {
-  "display_name": "Armour Foundry",
-  "description": "Basic manufacturing- Builds Legion Land Vehicles.",
   "TEMP_texelinfo": 34.745,
   "area_build_separation": 3,
   "atrophy_cool_down": 15,
@@ -33,6 +31,8 @@
       "/pa/effects/specs/scorch_c_01.json"
     ]
   },
+  "description": "Basic manufacturing- Builds Legion Land Vehicles.",
+  "display_name": "Armour Foundry",
   "events": {
     "died": {
       "effect_scale": 1

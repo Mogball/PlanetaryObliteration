@@ -1,6 +1,4 @@
 {
-  "display_name": "!LOC:Stitch",
-  "description": "!LOC:Support Fabricator- Repairs damaged units. Can build and detect mines. Can't help build other structures.",
   "TEMP_texelinfo": 5.11028,
   "attachable": {
     "offsets": {
@@ -47,6 +45,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
+  "description": "!LOC:Support Fabricator- Repairs damaged units. Can build and detect mines. Can't help build other structures.",
+  "display_name": "!LOC:Stitch",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

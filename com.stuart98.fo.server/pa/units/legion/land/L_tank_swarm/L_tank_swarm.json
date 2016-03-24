@@ -1,6 +1,4 @@
 {
-  "display_name": "Havoc",
-  "description": "Shoots chain lightning at land targets",
   "TEMP_texelinfo": 9.31488,
   "attachable": {
     "offsets": {
@@ -35,6 +33,8 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
+  "description": "Shoots chain lightning at land targets",
+  "display_name": "Havoc",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

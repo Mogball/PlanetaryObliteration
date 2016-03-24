@@ -1,6 +1,4 @@
 {
-  "display_name": "Excalibur",
-  "description": "Sword of ages, Slayer of gophers",
   "TEMP_texelinfo": 27,
   "attachable": {
     "offsets": {
@@ -19,6 +17,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
+  "description": "Sword of ages, Slayer of gophers",
+  "display_name": "Excalibur",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"

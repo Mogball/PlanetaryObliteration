@@ -1,6 +1,4 @@
 {
-  "display_name": "Walker Foundry",
-  "description": "Basic Manufacturing- Builds Legion Bots.",
   "TEMP_texelinfo": 33.4936,
   "area_build_separation": 2,
   "atrophy_cool_down": 15,
@@ -33,6 +31,8 @@
       "/pa/effects/specs/scorch_c_01.json"
     ]
   },
+  "description": "Basic Manufacturing- Builds Legion Bots.",
+  "display_name": "Walker Foundry",
   "events": {
     "died": {
       "effect_scale": 1

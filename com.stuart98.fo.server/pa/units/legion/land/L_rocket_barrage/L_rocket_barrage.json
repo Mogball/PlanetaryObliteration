@@ -1,6 +1,4 @@
 {
-  "display_name": "Decimator",
-  "description": "Advanced Defense- Medium Range Heavy Rocket Pods. Attacks Land and Naval Targets.",
   "TEMP_texelinfo": 15.8261,
   "atrophy_cool_down": 15,
   "atrophy_rate": 30,
@@ -14,6 +12,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
+  "description": "Advanced Defense- Medium Range Heavy Rocket Pods. Attacks Land and Naval Targets.",
+  "display_name": "Decimator",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/factory"

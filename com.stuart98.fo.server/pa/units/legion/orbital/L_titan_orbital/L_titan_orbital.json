@@ -1,6 +1,4 @@
 {
-  "display_name": "Tyr",
-  "description": "Mega Laser",
   "TEMP_texelinfo": 33.0,
   "atrophy_cool_down": 15.0,
   "atrophy_rate": 200.0,
@@ -30,6 +28,8 @@
     "ORDER_Patrol",
     "ORDER_Attack"
   ],
+  "description": "Mega Laser",
+  "display_name": "Tyr",
   "energy_efficiency_requirement": 1.0,
   "events": {
     "build_complete": {

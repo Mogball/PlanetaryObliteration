@@ -1,6 +1,4 @@
 {
-  "display_name": "Swarmer",
-  "description": "Anti-land defense. Deploys swarms of weak nanobots.",
   "TEMP_texelinfo": 29.412345,
   "area_build_separation": 18,
   "atrophy_cool_down": 15,
@@ -10,6 +8,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
+  "description": "Anti-land defense. Deploys swarms of weak nanobots.",
+  "display_name": "Swarmer",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

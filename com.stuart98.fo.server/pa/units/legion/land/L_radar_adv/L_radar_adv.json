@@ -1,6 +1,4 @@
 {
-  "display_name": "Overseer",
-  "description": "Advanced Radar. Unveils Units within a Large Radius.",
   "TEMP_texelinfo": 37.63,
   "area_build_separation": 200,
   "area_build_type": "Sphere",
@@ -16,6 +14,8 @@
   "consumption": {
     "energy": 4000
   },
+  "description": "Advanced Radar. Unveils Units within a Large Radius.",
+  "display_name": "Overseer",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {

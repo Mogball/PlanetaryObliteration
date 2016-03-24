@@ -1,6 +1,4 @@
 {
-  "display_name": "Arsonist",
-  "description": "Flame Turret. Fires Napalm at Land Units. ",
   "TEMP_texelinfo": 19.6,
   "area_build_separation": 18,
   "atrophy_cool_down": 15,
@@ -10,6 +8,8 @@
   "command_caps": [
     "ORDER_Attack"
   ],
+  "description": "Flame Turret. Fires Napalm at Land Units. ",
+  "display_name": "Arsonist",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

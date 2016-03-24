@@ -1,6 +1,4 @@
 {
-  "display_name": "Imperator",
-  "description": "Heavy anti-orbital cannons to impose Legion's iron fist upon its enemies",
   "TEMP_texelinfo": 31.6199,
   "attachable": {
     "offsets": {
@@ -19,6 +17,8 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
+  "description": "Heavy anti-orbital cannons to impose Legion's iron fist upon its enemies",
+  "display_name": "Imperator",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

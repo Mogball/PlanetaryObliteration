@@ -1,6 +1,4 @@
 {
-  "display_name": "Spoiler",
-  "description": "Pop up Landmine that sprays shrapnel",
   "TEMP_texelinfo": 24,
   "area_build_pattern": [
     [
@@ -66,6 +64,8 @@
   "area_build_separation": 1,
   "area_build_type": "Sphere",
   "build_metal_cost": 20,
+  "description": "Pop up Landmine that sprays shrapnel",
+  "display_name": "Spoiler",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/barrier"

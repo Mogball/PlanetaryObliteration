@@ -1,6 +1,4 @@
 {
-  "display_name": "Comet",
-  "description": "Interplanetary Teleporter- Mobile teleporter. Heavily armed and armored. Can traverse between planets.",
   "TEMP_texelinfo": 23.6108,
   "atrophy_cool_down": 15,
   "atrophy_rate": 200,
@@ -23,6 +21,8 @@
     "ORDER_Use",
     "ORDER_SpecialMove"
   ],
+  "description": "Interplanetary Teleporter- Mobile teleporter. Heavily armed and armored. Can traverse between planets.",
+  "display_name": "Comet",
   "energy_efficiency_requirement": 1,
   "events": {
     "build_complete": {
