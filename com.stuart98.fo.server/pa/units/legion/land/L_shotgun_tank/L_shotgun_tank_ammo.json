@@ -19,9 +19,10 @@
   "lifetime": 0.38,
   "max_velocity": 200,
   "physics": {
+    "add_to_spatial_db": true,
     "radius": 5,
     "shape": "sphere"
   },
-  "splash_damage": 10,
-  "splash_radius": 7
+  "splash_damage": 7,
+  "splash_radius": 6
 }

@@ -22,7 +22,7 @@
     "ORDER_SpecialMove"
   ],
   "description": "Interplanetary Teleporter- Mobile teleporter. Heavily armed and armored. Can traverse between planets.",
-  "display_name": "Comet",
+  "display_name": "Marshall's Lament",
   "energy_efficiency_requirement": 1,
   "events": {
     "build_complete": {
@@ -175,7 +175,6 @@
   },
   "physics": {
     "gravity_scalar": 1,
-    "push_class": 2,
     "radius": 8
   },
   "recon": {

@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
-  "build_metal_cost": 70,
+  "build_metal_cost": 75,
   "description": "Assault Walker. Attacks Land and Naval.",
   "display_name": "Peacekeeper",
   "events": {
@@ -45,10 +45,10 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 180,
+  "max_health": 140,
   "mesh_bounds": [
     4,
-    2,
+    2.5,
     4
   ],
   "model": {
@@ -69,7 +69,6 @@
     "type": "amphibious"
   },
   "physics": {
-    "push_class": 2,
     "radius": 2
   },
   "recon": {

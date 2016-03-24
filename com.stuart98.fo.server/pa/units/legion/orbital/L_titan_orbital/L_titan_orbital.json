@@ -22,13 +22,13 @@
     }
   },
   "base_spec": "/pa/units/legion/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 30000,
+  "build_metal_cost": 40000,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
     "ORDER_Attack"
   ],
-  "description": "Mega Laser",
+  "description": "Purifies the planet with mega lasers",
   "display_name": "Tyr",
   "energy_efficiency_requirement": 1.0,
   "events": {
@@ -40,9 +40,11 @@
       "effect_scale": 1.0,
       "effect_spec": "/pa/units/legion/orbital/titan_orbital/titan_orbital_death.pfx"
     },
-    "fired": {
-      "audio_cue": "/SE/Weapons/orb/defense_satellite_fire",
+    "fired0": {
       "effect_spec": "/pa/units/legion/orbital/L_titan_orbital/beam.pfx bone_megaLaser"
+    },
+    "fired1": {
+      "effect_spec": "/pa/effects/specs/none.pfx"
     }
   },
   "fx_offsets": [
@@ -176,11 +178,11 @@
       "radius": 3.0
     }
   ],
-  "max_health": 13000,
+  "max_health": 25000,
   "mesh_bounds": [
-    85,
-    85,
-    20
+    116.1,
+    133.2,
+    144.328
   ],
   "model": {
     "animations": {
@@ -190,16 +192,18 @@
     "filename": "/pa/units/legion/orbital/L_titan_orbital/L_titan_orbital.papa"
   },
   "navigation": {
-    "acceleration": 25,
-    "brake": 25,
+    "acceleration": 7.5,
+    "brake": 7.5,
     "hover_time": -1.0,
-    "move_speed": 25,
-    "turn_speed": 45,
+    "move_speed": 15,
+    "turn_accel": 5,
+    "turn_in_place": true,
+    "turn_speed": 25,
     "type": "orbital"
   },
   "physics": {
     "gravity_scalar": 0.001,
-    "radius": 10
+    "radius": 15
   },
   "recon": {
     "observable": {
@@ -233,17 +237,20 @@
     "vertical_offset": -10
   },
   "spawn_layers": "WL_Orbital",
-  "teleporter": {
-    "energy_demand": 1000,
-    "spawn_radius": 20,
-    "type": "orbital"
-  },
   "tools": [
     {
       "aim_bone": "bone_megaLaser",
+      "fire_event": "fired0",
       "muzzle_bone": "bone_megaLaser",
       "show_range": true,
       "spec_id": "/pa/units/legion/orbital/L_titan_orbital/L_titan_orbital_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_megaLaser",
+      "fire_event": "fired1",
+      "muzzle_bone": "bone_megaLaser",
+      "show_range": false,
+      "spec_id": "/pa/units/legion/orbital/L_titan_orbital/L_titan_orbital_effect_tool_weapon.json"
     }
   ],
   "unit_types": [
@@ -257,5 +264,5 @@
     "UNITTYPE_Important",
     "UNITTYPE_Custom1"
   ],
-  "wreckage_health_frac": 0.0
+  "wreckage_health_frac": 0.5
 }

@@ -14,7 +14,7 @@
     }
   },
   "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 800,
+  "build_metal_cost": 300,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -84,7 +84,7 @@
   ],
   "guard_layer": "WL_AnySurface",
   "guard_radius": -110,
-  "max_health": 400,
+  "max_health": 350,
   "mesh_bounds": [
     23.7,
     17.7,
@@ -120,14 +120,14 @@
         {
           "channel": "radar",
           "layer": "surface_and_air",
-          "radius": 400,
+          "radius": 300,
           "shape": "capsule",
           "uses_energy": true
         },
         {
           "channel": "radar",
           "layer": "underwater",
-          "radius": 400,
+          "radius": 300,
           "shape": "capsule",
           "uses_energy": true
         },

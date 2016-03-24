@@ -1,9 +1,6 @@
 {
-  "armor_damage_map": {
-    "AT_Structure": 1.5
-  },
   "base_spec": "/pa/ammo/base_artillery/base_artillery.json",
-  "damage": 500,
+  "damage": 350,
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/bomb_bot_plasma",
@@ -17,7 +14,7 @@
   "impact_decals": [
     "/pa/effects/specs/scorch_a_01.json"
   ],
-  "initial_velocity": 100,
+  "initial_velocity": 80,
   "lifetime": 30,
   "max_velocity": 150,
   "min_velocity": 40,
@@ -25,7 +22,7 @@
     "filename": "/pa/units/legion/land/L_bot_bomb/L_bot_bomb.papa"
   },
   "physics": {
-    "add_to_spatial_db": true
+    "add_to_spatial_db": false
   },
   "recon": {
     "observer": {
@@ -33,13 +30,13 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 10,
+          "radius": 50,
           "shape": "capsule"
         }
       ]
     }
   },
-  "splash_damage": 40,
+  "splash_damage": 50,
   "splash_damages_allies": false,
-  "splash_radius": 12
+  "splash_radius": 15
 }

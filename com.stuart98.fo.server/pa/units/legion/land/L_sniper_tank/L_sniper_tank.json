@@ -95,12 +95,11 @@
   "navigation": {
     "acceleration": 100,
     "brake": 100,
-    "move_speed": 6,
+    "move_speed": 8,
     "turn_speed": 90,
     "type": "land-small"
   },
   "physics": {
-    "push_class": 60,
     "radius": 4
   },
   "recon": {

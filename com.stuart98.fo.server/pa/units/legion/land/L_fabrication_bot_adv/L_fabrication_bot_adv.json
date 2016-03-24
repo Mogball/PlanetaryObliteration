@@ -44,7 +44,7 @@
     "ORDER_Use"
   ],
   "description": "Advanced Fabrication Walker- Builds Advanced Strcutures and Exclusive Walker Units.",
-  "display_name": "Advanced Fabrication Bot",
+  "display_name": "Advanced Fabrication Walker",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
@@ -91,7 +91,6 @@
   },
   "physics": {
     "allow_pushing": true,
-    "push_class": 101,
     "radius": 4
   },
   "selection_icon": {
@@ -111,6 +110,7 @@
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
+    "UNITTYPE_CannonBuildable",
     "UNITTYPE_Custom1"
   ]
 }

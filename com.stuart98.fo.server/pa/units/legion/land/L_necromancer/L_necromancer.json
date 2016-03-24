@@ -29,6 +29,14 @@
   },
   "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
   "build_metal_cost": 1400,
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Attack",
+    "ORDER_Assist",
+    "ORDER_Use",
+    "ORDER_FireSecondaryWeapon"
+  ],
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/legion/land/L_necromancer/death_weapon/pbaoe.json"
   },
@@ -65,7 +73,7 @@
     "acceleration": 80,
     "brake": 80,
     "group_preference": "back",
-    "move_speed": 12,
+    "move_speed": 10,
     "turn_speed": 240,
     "type": "land-small"
   },
@@ -78,13 +86,13 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 200,
+          "radius": 150,
           "shape": "capsule"
         },
         {
           "channel": "sight",
           "layer": "underwater",
-          "radius": 200,
+          "radius": 150,
           "shape": "capsule"
         }
       ]
@@ -105,6 +113,7 @@
         "drop006",
         "drop003"
       ],
+      "projectiles_per_fire": 7,
       "spec_id": "/pa/units/legion/land/L_necromancer/L_necromancer_tool_weapon.json"
     }
   ],

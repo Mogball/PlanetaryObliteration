@@ -81,7 +81,6 @@
   },
   "nearby_target_tick_update_interval": 15,
   "physics": {
-    "push_class": 2,
     "radius": 6,
     "shape": "sphere"
   },
@@ -115,7 +114,7 @@
         "socket_muzzle01"
       ],
       "record_index": 0,
-      "spec_id": "/pa/units/legion/sea/L_battleship/L_battleship_tool_weapon.json"
+      "spec_id": "/pa/units/legion/sea/L_battleship/L_battleship_upper_tool_weapon.json"
     },
     {
       "aim_bone": "bone_turret02",
@@ -124,7 +123,7 @@
         "socket_muzzle02"
       ],
       "record_index": 1,
-      "spec_id": "/pa/units/legion/sea/L_battleship/L_battleship_tool_weapon.json"
+      "spec_id": "/pa/units/legion/sea/L_battleship/L_battleship_lower_tool_weapon.json"
     }
   ],
   "unit_types": [

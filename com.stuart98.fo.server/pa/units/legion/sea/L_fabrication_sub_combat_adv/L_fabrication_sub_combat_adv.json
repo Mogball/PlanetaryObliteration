@@ -41,8 +41,8 @@
     "ORDER_Repair",
     "ORDER_Assist"
   ],
-  "description": "Places Sea Mines and Repairs Friendly Units. Lightly Armored.",
-  "display_name": "Mermaid",
+  "description": "Combat Fabrication- Places Sea Mines and Repairs Friendly Units. Lightly Armored.",
+  "display_name": "Remora",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
@@ -130,7 +130,7 @@
     "size": 1
   },
   "unit_types": [
-    "UNITTYPE_Fabber",
+    "UNITTYPE_Offense",
     "UNITTYPE_Construction",
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",

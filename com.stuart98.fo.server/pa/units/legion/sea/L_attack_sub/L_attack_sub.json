@@ -69,12 +69,15 @@
     "type": "underwater"
   },
   "physics": {
-    "push_class": 2,
     "radius": 3,
     "shape": "sphere",
     "underwater": true
   },
   "recon": {
+    "observable": {
+      "ignore_radar": true,
+      "layer": "underwater"
+    },
     "observer": {
       "items": [
         {
@@ -86,7 +89,7 @@
         {
           "channel": "sight",
           "layer": "underwater",
-          "radius": 75,
+          "radius": 150,
           "shape": "capsule"
         }
       ]

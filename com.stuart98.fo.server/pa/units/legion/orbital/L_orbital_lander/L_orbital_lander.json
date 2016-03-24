@@ -20,7 +20,7 @@
     }
   },
   "base_spec": "/pa/units/legion/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 400,
+  "build_metal_cost": 200,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -29,7 +29,7 @@
     "ORDER_Unload",
     "ORDER_SpecialMove"
   ],
-  "description": "!LOC(units:orbital_lander_load_it_up_get_units_to_other_planets.message):Orbital lander- Load it up, get units to other planets.",
+  "description": "Orbital lander- Load it up, get units to other planets.",
   "display_name": "Orbital Chariot",
   "events": {
     "build_complete": {
@@ -108,7 +108,6 @@
   },
   "physics": {
     "gravity_scalar": 0.001,
-    "push_class": 25,
     "radius": 8
   },
   "recon": {

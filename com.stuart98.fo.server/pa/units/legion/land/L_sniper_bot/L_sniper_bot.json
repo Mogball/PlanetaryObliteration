@@ -47,11 +47,11 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 84,
+  "max_health": 130,
   "mesh_bounds": [
-    3,
-    5,
-    4.8
+    4,
+    2.5,
+    4
   ],
   "model": {
     "animations": {
@@ -113,6 +113,7 @@
     "UNITTYPE_Fighter",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
+    "UNITTYPE_CannonBuildable",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Custom1"
   ]

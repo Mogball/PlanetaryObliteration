@@ -42,7 +42,7 @@
     "ORDER_Assist"
   ],
   "description": "Builds Advanced Structures. Can Build Exclusive Water Units.",
-  "display_name": "Advanced Fabrication Barge",
+  "display_name": "Advanced Fabrication Ship",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
@@ -86,7 +86,6 @@
   },
   "physics": {
     "allow_pushing": true,
-    "push_class": 3,
     "radius": 6,
     "shape": "sphere"
   },

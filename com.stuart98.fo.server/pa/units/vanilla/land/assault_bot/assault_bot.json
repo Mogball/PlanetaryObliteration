@@ -41,7 +41,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 125,
+  "max_health": 210,
   "mesh_bounds": [
     4,
     2,
@@ -91,7 +91,7 @@
         "socket_leftMuzzle",
         "socket_rightMuzzle"
       ],
-      "projectiles_per_fire": 2,
+      "projectiles_per_fire": 1,
       "spec_id": "/pa/units/vanilla/land/assault_bot/assault_bot_tool_weapon.json"
     }
   ],

@@ -13,7 +13,7 @@
   "base_spec": "/pa/units/legion/sea/base_ship/base_ship.json",
   "build_metal_cost": 4000,
   "description": "Short range cannon, can ram enemy ships",
-  "display_name": "Hydra",
+  "display_name": "Swordfish",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
@@ -26,12 +26,12 @@
     "fired0": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire",
       "effect_scale": 2.0,
-      "effect_spec": "/pa/effects/specs/small_gun_smoke.pfx socket_muzzle001 /pa/effects/specs/small_gun_smoke.pfx socket_muzzle002 /pa/effects/specs/small_gun_smoke.pfx socket_muzzle003 /pa/effects/specs/small_gun_smoke.pfx socket_muzzle004"
+      "effect_spec": "/pa/units/legion/sea/L_sea_tank/muzzle_flash.pfx socket_muzzle001 /pa/units/legion/sea/L_sea_tank/muzzle_flash.pfx socket_muzzle002 /pa/units/legion/sea/L_sea_tank/muzzle_flash.pfx socket_muzzle003 /pa/units/legion/sea/L_sea_tank/muzzle_flash.pfx socket_muzzle004"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire",
       "effect_scale": 2.0,
-      "effect_spec": "/pa/effects/specs/small_gun_smoke.pfx socket_muzzle005 /pa/effects/specs/small_gun_smoke.pfx socket_muzzle006 /pa/effects/specs/small_gun_smoke.pfx socket_muzzle007 /pa/effects/specs/small_gun_smoke.pfx socket_muzzle008"
+      "effect_spec": "/pa/units/legion/sea/L_sea_tank/muzzle_flash.pfx socket_muzzle005 /pa/units/legion/sea/L_sea_tank/muzzle_flash.pfx socket_muzzle006 /pa/units/legion/sea/L_sea_tank/muzzle_flash.pfx socket_muzzle007 /pa/units/legion/sea/L_sea_tank/muzzle_flash.pfx socket_muzzle008"
     },
     "fired2": {
       "audio_cue": "/SE/Weapons/sea/torpedo_fire",
@@ -39,7 +39,8 @@
     },
     "fired3": {
       "audio_cue": "/SE/Impacts/shell_artillery",
-      "effect_scale": 3.0
+      "effect_scale": 3.0,
+      "effect_spec": "/pa/units/legion/sea/L_sea_tank/ram_hit.pfx bone_rammer"
     }
   },
   "fx_offsets": [
@@ -62,14 +63,13 @@
     "filename": "/pa/units/legion/sea/L_sea_tank/L_sea_tank.papa"
   },
   "navigation": {
-    "acceleration": 3.6,
-    "brake": 15,
-    "move_speed": 18,
-    "turn_speed": 50,
+    "acceleration": 4,
+    "brake": 25,
+    "move_speed": 20,
+    "turn_speed": 65,
     "type": "deepwater"
   },
   "physics": {
-    "push_class": 2,
     "radius": 11,
     "shape": "sphere"
   },
@@ -105,7 +105,7 @@
         "socket_muzzle003",
         "socket_muzzle004"
       ],
-      "projectiles_per_fire": 2,
+      "projectiles_per_fire": 4,
       "record_index": 0,
       "spec_id": "/pa/units/legion/sea/L_sea_tank/L_sea_tank_tool_weapon.json"
     },
@@ -118,7 +118,7 @@
         "socket_muzzle007",
         "socket_muzzle008"
       ],
-      "projectiles_per_fire": 2,
+      "projectiles_per_fire": 4,
       "record_index": 1,
       "spec_id": "/pa/units/legion/sea/L_sea_tank/L_sea_tank_tool_weapon.json"
     },

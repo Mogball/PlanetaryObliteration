@@ -5,6 +5,7 @@
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/missile_artillery_long_holkins",
+      "effect_scale": 0.75,
       "effect_spec": "/pa/units/legion/land/L_titan_vehicle/proj_hit.pfx"
     }
   },

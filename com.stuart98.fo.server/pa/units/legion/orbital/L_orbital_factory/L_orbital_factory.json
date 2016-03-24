@@ -14,7 +14,7 @@
     }
   },
   "base_spec": "/pa/units/legion/orbital/base_orbital_structure/base_orbital_structure.json",
-  "build_metal_cost": 5400,
+  "build_metal_cost": 3600,
   "buildable_types": "Custom1 & ( Orbital & FactoryBuild )",
   "command_caps": [
     "ORDER_Move",
@@ -25,13 +25,14 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Builds Advanced Orbital Units. Consumes Energy and Metal.",
+  "description": "Builds Advanced Orbital Units",
   "display_name": "Starship Foundry",
   "enable_orbital_shell": true,
   "events": {
     "died": {
       "audio_cue": "/SE/Death/orbital",
-      "effect_scale": 2.5
+      "effect_scale": 1.0,
+      "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx"
     }
   },
   "factory_cooldown_time": 4,
@@ -83,7 +84,6 @@
   "physics": {
     "collision_layers": "WL_Orbital",
     "ignore_gravity": true,
-    "push_class": 15,
     "radius": 20
   },
   "placement_size": [

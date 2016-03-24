@@ -15,13 +15,13 @@
     }
   },
   "base_spec": "/pa/units/legion/orbital/base_orbital_structure/base_orbital_structure.json",
-  "build_metal_cost": 3000,
+  "build_metal_cost": 3600,
   "build_restrictions": "Terrainless",
   "death_weapon": {
-    "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_orbitalpbaoe.json"
+    "ground_ammo_spec": "/pa/units/legion/orbital/mining_platform/mining_platform_nuke.json"
   },
-  "description": "!LOC(units:gas_mining_and_metal_creation_satellite_only_works_above_gas_giant_planets.message):Gas mining and metal creation satellite. Only works above gas giant planets.",
-  "display_name": "Exploiter",
+  "description": "Gas mining and metal creation satellite. Only works above gas giant planets.",
+  "display_name": "Rig",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital_platform"
@@ -42,7 +42,7 @@
       "type": "idle"
     }
   ],
-  "max_health": 500,
+  "max_health": 600,
   "mesh_bounds": [
     118.558,
     118.558,
@@ -58,16 +58,15 @@
   "physics": {
     "collision_layers": "WL_Orbital",
     "ignore_gravity": true,
-    "push_class": 15,
-    "radius": 20
+    "radius": 40
   },
   "placement_size": [
     100,
     100
   ],
   "production": {
-    "energy": 9000,
-    "metal": 36
+    "energy": 1080,
+    "metal": 43
   },
   "recon": {
     "observer": {
