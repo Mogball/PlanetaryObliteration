@@ -122,7 +122,7 @@
       "idle": "/pa/units/vanilla/land/bot_skirmish/bot_skirmish_idle.papa",
       "walk": "/pa/units/vanilla/land/bot_skirmish/bot_skirmish_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/bot_skirmish_anim_tree.json",
+    "animtree": "/pa/anim/anim_trees/L_bot_artillery_adv_anim_tree.json",
     "filename": "/pa/units/vanilla/land/bot_skirmish/bot_skirmish.papa",
     "walk_speed": 4
   },
