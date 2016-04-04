@@ -54,7 +54,7 @@
     "died": {
       "audio_cue": "/SE/Death/Air",
       "effect_scale": 0.75,
-      "effect_spec": "/pa/units/vanilla/air/base_flyer/base_flyer_death_t2.pfx"
+      "effect_spec": "/pa/units/air/base_flyer/base_flyer_death_t2.pfx"
     }
   },
   "fx_offsets": [
@@ -75,7 +75,7 @@
     },
     {
       "bone": "bone_rightWing",
-      "filename": "/pa/units/vanilla/air/fabrication_aircraft_adv/fabrication_aircraft_adv_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv_jets.pfx",
       "offset": [
         1.386,
         0,
@@ -90,7 +90,7 @@
     },
     {
       "bone": "bone_leftWing",
-      "filename": "/pa/units/vanilla/air/fabrication_aircraft_adv/fabrication_aircraft_adv_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv_jets.pfx",
       "offset": [
         -1.386,
         0,
@@ -114,10 +114,10 @@
   ],
   "model": {
     "animations": {
-      "fly": "/pa/units/vanilla/air/fabrication_aircraft_adv/fabrication_aircraft_adv_anim_fly.papa"
+      "fly": "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv_anim_fly.papa"
     },
     "animtree": "/pa/anim/anim_trees/fabrication_aircraft_adv_anim_tree.json",
-    "filename": "/pa/units/vanilla/air/fabrication_aircraft_adv/fabrication_aircraft_adv.papa"
+    "filename": "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.papa"
   },
   "navigation": {
     "acceleration": 60,

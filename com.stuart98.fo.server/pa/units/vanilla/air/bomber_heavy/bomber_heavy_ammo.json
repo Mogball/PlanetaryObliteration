@@ -24,7 +24,7 @@
   "lifetime": 5,
   "max_velocity": 10,
   "model": {
-    "filename": "/pa/units/vanilla/air/bomb_guided/bomb_guided.papa"
+    "filename": "/pa/units/air/bomb_guided/bomb_guided.papa"
   },
   "physics": {
     "add_to_spatial_db": false,

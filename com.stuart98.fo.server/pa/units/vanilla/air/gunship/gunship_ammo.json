@@ -3,7 +3,7 @@
   "damage": 25,
   "flight_type": "Direct",
   "fx_trail": {
-    "filename": "/pa/units/vanilla/air/gunship/gunship_ammo_trail.pfx"
+    "filename": "/pa/units/air/gunship/gunship_ammo_trail.pfx"
   },
   "initial_velocity": 150.0,
   "lifetime": 2,

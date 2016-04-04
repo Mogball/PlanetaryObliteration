@@ -31,7 +31,7 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/vanilla/air/bomber/bomber_jets.pfx",
+      "filename": "/pa/units/air/bomber/bomber_jets.pfx",
       "offset": [
         0,
         2.32,
@@ -50,7 +50,7 @@
   ],
   "model": {
     "arrows": 5,
-    "filename": "/pa/units/vanilla/air/bomber/bomber.papa"
+    "filename": "/pa/units/air/bomber/bomber.papa"
   },
   "navigation": {
     "acceleration": 75,

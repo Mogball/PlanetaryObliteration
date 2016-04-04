@@ -5,7 +5,7 @@
   "lifetime": 5,
   "max_velocity": 85.0,
   "model": {
-    "filename": "/pa/units/vanilla/air/atoa_missile/atoa_missile.papa"
+    "filename": "/pa/units/air/atoa_missile/atoa_missile.papa"
   },
   "splash_damage": 65,
   "splash_damages_allies": true,

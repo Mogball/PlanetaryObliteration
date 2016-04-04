@@ -22,7 +22,7 @@
       "cue": "/SE/Selection/air/transport"
     }
   },
-  "base_spec": "/pa/units/vanilla/air/base_flyer/base_flyer.json",
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 100,
   "command_caps": [
     "ORDER_Move",
@@ -47,7 +47,7 @@
   "fx_offsets": [
     {
       "bone": "bone_leftWing",
-      "filename": "/pa/units/vanilla/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "offset": [
         0,
         0,
@@ -62,7 +62,7 @@
     },
     {
       "bone": "bone_rightWing",
-      "filename": "/pa/units/vanilla/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "offset": [
         0,
         0,
@@ -77,7 +77,7 @@
     },
     {
       "bone": "bone_turret",
-      "filename": "/pa/units/vanilla/air/transport/transport_jets.pfx",
+      "filename": "/pa/units/air/transport/transport_jets.pfx",
       "offset": [
         0,
         1.418,
@@ -94,10 +94,10 @@
   ],
   "model": {
     "animations": {
-      "fly": "/pa/units/vanilla/air/transport/transport_anim_fly.papa"
+      "fly": "/pa/units/air/transport/transport_anim_fly.papa"
     },
     "animtree": "/pa/anim/anim_trees/transport_anim_tree.json",
-    "filename": "/pa/units/vanilla/air/transport/transport.papa"
+    "filename": "/pa/units/air/transport/transport.papa"
   },
   "navigation": {
     "acceleration": 10,

@@ -36,7 +36,7 @@
   "fx_offsets": [
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_large_jets.pfx",
+      "filename": "/pa/units/air/bomber_heavy/bomber_heavy_large_jets.pfx",
       "offset": [
         -1.641,
         5.37,
@@ -51,7 +51,7 @@
     },
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_large_jets.pfx",
+      "filename": "/pa/units/air/bomber_heavy/bomber_heavy_large_jets.pfx",
       "offset": [
         -1.641,
         5.37,
@@ -66,7 +66,7 @@
     },
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_small_jets.pfx",
+      "filename": "/pa/units/air/bomber_heavy/bomber_heavy_small_jets.pfx",
       "offset": [
         1.516,
         -10.98,
@@ -81,7 +81,7 @@
     },
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_small_jets.pfx",
+      "filename": "/pa/units/air/bomber_heavy/bomber_heavy_small_jets.pfx",
       "offset": [
         -0.278,
         -10.98,
@@ -96,7 +96,7 @@
     },
     {
       "bone": "bone_thrusters",
-      "filename": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_small_jets.pfx",
+      "filename": "/pa/units/air/bomber_heavy/bomber_heavy_small_jets.pfx",
       "offset": [
         3.697,
         0.727,
@@ -111,7 +111,7 @@
     },
     {
       "bone": "bone_thrusters",
-      "filename": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_small_jets.pfx",
+      "filename": "/pa/units/air/bomber_heavy/bomber_heavy_small_jets.pfx",
       "offset": [
         -3.697,
         0.727,
@@ -224,13 +224,13 @@
   ],
   "model": {
     "animations": {
-      "build": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_anim_build.papa",
-      "deploy": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_anim_deploy.papa",
-      "fly": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_anim_fly.papa",
-      "idle": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy_anim_idle.papa"
+      "build": "/pa/units/air/bomber_heavy/bomber_heavy_anim_build.papa",
+      "deploy": "/pa/units/air/bomber_heavy/bomber_heavy_anim_deploy.papa",
+      "fly": "/pa/units/air/bomber_heavy/bomber_heavy_anim_fly.papa",
+      "idle": "/pa/units/air/bomber_heavy/bomber_heavy_anim_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/bomber_heavy_anim_tree.json",
-    "filename": "/pa/units/vanilla/air/bomber_heavy/bomber_heavy.papa"
+    "filename": "/pa/units/air/bomber_heavy/bomber_heavy.papa"
   },
   "navigation": {
     "acceleration": 20,

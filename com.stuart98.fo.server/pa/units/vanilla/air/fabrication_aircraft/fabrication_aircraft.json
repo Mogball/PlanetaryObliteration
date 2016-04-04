@@ -73,7 +73,7 @@
     },
     {
       "bone": "bone_leftWing",
-      "filename": "/pa/units/vanilla/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "offset": [
         1.637,
         0.01,
@@ -88,7 +88,7 @@
     },
     {
       "bone": "bone_rightWing",
-      "filename": "/pa/units/vanilla/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "offset": [
         -1.638,
         0.01,
@@ -112,10 +112,10 @@
   ],
   "model": {
     "animations": {
-      "fly": "/pa/units/vanilla/air/fabrication_aircraft/fabrication_aircraft_anim_fly.papa"
+      "fly": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_anim_fly.papa"
     },
     "animtree": "/pa/anim/anim_trees/fabrication_aircraft_anim_tree.json",
-    "filename": "/pa/units/vanilla/air/fabrication_aircraft/fabrication_aircraft.papa"
+    "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft.papa"
   },
   "navigation": {
     "acceleration": 35,
