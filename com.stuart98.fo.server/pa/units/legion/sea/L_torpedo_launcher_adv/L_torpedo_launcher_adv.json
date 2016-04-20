@@ -3,12 +3,12 @@
   "area_build_separation": 18,
   "atrophy_cool_down": 15.0,
   "atrophy_rate": 10.0,
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 3500,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Heavy Anti-Ship Defense. Attacks Naval Targets waves and heavy torpedos.",
+  "description": "Heavy Anti-Ship Wave Machine - Attacks Naval.",
   "display_name": "Tsunami",
   "events": {
     "build_complete": {
@@ -31,10 +31,10 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/sea/L_torpedo_launcher_adv/L_torpedo_launcher_adv_idle.papa"
+      "idle": "/pa/units/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv_idle.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_torpedo_launcher_adv_anim_tree.json",
-    "filename": "/pa/units/legion/sea/L_torpedo_launcher_adv/L_torpedo_launcher_adv.papa"
+    "animtree": "/pa/anim/anim_trees/l_torpedo_launcher_adv_anim_tree.json",
+    "filename": "/pa/units/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv.papa"
   },
   "recon": {
     "observer": {
@@ -81,7 +81,7 @@
       ],
       "projectiles_per_fire": 3,
       "record_index": 0,
-      "spec_id": "/pa/units/legion/sea/L_torpedo_launcher_adv/L_torpedo_launcher_adv_wave_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv_wave_tool_weapon.json"
     },
     {
       "aim_bone": "bone_turret",
@@ -93,7 +93,7 @@
       ],
       "projectiles_per_fire": 3,
       "record_index": 1,
-      "spec_id": "/pa/units/legion/sea/L_torpedo_launcher_adv/L_torpedo_launcher_adv_wave_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv_wave_tool_weapon.json"
     }
   ],
   "unit_types": [

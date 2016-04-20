@@ -13,15 +13,15 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 60000,
   "death": {
     "decals": [
       "/pa/effects/specs/scorch_titan_01.json"
     ]
   },
-  "description": "!LOC:Doomsday Titan- Destroys the planet it's built on once finished.",
-  "display_name": "Ragnarok",
+  "description": "Summons a laser from the heavens.",
+  "display_name": "Holocene",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/delta_v"
@@ -34,6 +34,83 @@
       "audio_cue": ""
     }
   },
+  "fx_offsets": [
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/land/l_titan_structure/l_titan_structure.pfx",
+      "offset": [
+        0,
+        0,
+        50
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "idle"
+    },
+    {
+      "bone": "arm001",
+      "filename": "/pa/units/land/l_titan_structure/pillars_lightning.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "arm002",
+      "filename": "/pa/units/land/l_titan_structure/pillars_lightning.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "arm003",
+      "filename": "/pa/units/land/l_titan_structure/pillars_lightning.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "arm004",
+      "filename": "/pa/units/land/l_titan_structure/pillars_lightning.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "arm005",
+      "filename": "/pa/units/land/l_titan_structure/pillars_lightning.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "arm006",
+      "filename": "/pa/units/land/l_titan_structure/pillars_lightning.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "arm007",
+      "filename": "/pa/units/land/l_titan_structure/pillars_lightning.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "arm008",
+      "filename": "/pa/units/land/l_titan_structure/pillars_lightning.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "spin_a_001",
+      "filename": "/pa/units/land/l_titan_structure/black_hole.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "spin_a_002",
+      "filename": "/pa/units/land/l_titan_structure/black_hole.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "spin_a_003",
+      "filename": "/pa/units/land/l_titan_structure/black_hole.pfx",
+      "type": "idle"
+    },
+    {
+      "bone": "spin_a_004",
+      "filename": "/pa/units/land/l_titan_structure/black_hole.pfx",
+      "type": "idle"
+    }
+  ],
   "has_death_effects": true,
   "max_health": 15000,
   "mesh_bounds": [
@@ -43,14 +120,14 @@
   ],
   "model": {
     "animations": {
-      "dead": "/pa/units/legion/land/titan_structure/titan_structure_anim_dead.papa",
-      "death": "/pa/units/legion/land/titan_structure/titan_structure_anim_death.papa",
-      "end": "/pa/units/legion/land/titan_structure/titan_structure_anim_end.papa",
-      "loop": "/pa/units/legion/land/titan_structure/titan_structure_anim_loop.papa",
-      "start": "/pa/units/legion/land/titan_structure/titan_structure_anim_start.papa"
+      "dead": "/pa/units/land/titan_structure/titan_structure_anim_dead.papa",
+      "death": "/pa/units/land/titan_structure/titan_structure_anim_death.papa",
+      "end": "/pa/units/land/l_titan_structure/l_titan_structure_end.papa",
+      "loop": "/pa/units/land/l_titan_structure/l_titan_structure_loop.papa",
+      "start": "/pa/units/land/l_titan_structure/l_titan_structure_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/titan_structure_anim_tree.json",
-    "filename": "/pa/units/legion/land/titan_structure/titan_structure.papa",
+    "filename": "/pa/units/land/l_titan_structure/l_titan_structure.papa",
     "skirt_decal": "/pa/effects/specs/skirt_titan_structure.json"
   },
   "physics": {
@@ -83,7 +160,7 @@
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/legion/land/titan_structure/titan_structure_tool_weapon.json"
+      "spec_id": "/pa/units/land/titan_structure/titan_structure_tool_weapon.json"
     }
   ],
   "unit_types": [

@@ -30,7 +30,7 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/sea/base_ship/base_ship.json",
+  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 240,
   "buildable_types": "Custom1 & ( Naval & Structure & Basic | Naval & Factory & Advanced | Air & Factory & Basic | FabBuild )",
   "command_caps": [
@@ -42,7 +42,7 @@
     "ORDER_Assist"
   ],
   "description": "Builds Basic Structures. Can Build Exclusive Water Units.",
-  "display_name": "Fabrication Ship",
+  "display_name": "Fabrication Vessel",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea_fab"
@@ -68,7 +68,7 @@
   ],
   "model": {
     "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
-    "filename": "/pa/units/legion/sea/L_fabrication_ship/L_fabrication_ship.papa"
+    "filename": "/pa/units/sea/l_fabrication_ship/l_fabrication_ship.papa"
   },
   "navigation": {
     "acceleration": 100,
@@ -76,13 +76,11 @@
     "move_speed": 9,
     "park_stamp_cost": 10,
     "park_stamp_type": "sphere",
-    "turn_speed": 90,
-    "type": "deepwater"
+    "turn_speed": 90
   },
   "physics": {
     "allow_pushing": true,
-    "radius": 4,
-    "shape": "sphere"
+    "radius": 4
   },
   "recon": {
     "observer": {
@@ -105,11 +103,10 @@
   "selection_icon": {
     "diameter": -13
   },
-  "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/legion/sea/L_fabrication_ship/L_fabrication_ship_build_arm.json"
+      "spec_id": "/pa/units/sea/l_fabrication_ship/l_fabrication_ship_build_arm.json"
     }
   ],
   "transportable": {

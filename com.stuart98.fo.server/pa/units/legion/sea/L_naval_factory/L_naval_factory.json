@@ -16,7 +16,7 @@
       "cue": "/SE/Selection/sea/factory"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 600,
   "buildable_types": "Custom1 & ( (Naval & Mobile & Basic) & FactoryBuild )",
   "command_caps": [
@@ -28,7 +28,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Basic Manufacturing- Builds Legion Naval Units.",
+  "description": "Basic Manufacturing - Builds Naval Ships.",
   "display_name": "Ship Foundry",
   "events": {
     "build_complete": {
@@ -80,12 +80,12 @@
   ],
   "model": {
     "animations": {
-      "build_end": "/pa/units/legion/sea/L_naval_factory/L_naval_factory_end.papa",
-      "build_loop": "/pa/units/legion/sea/L_naval_factory/L_naval_factory_build.papa",
-      "build_start": "/pa/units/legion/sea/L_naval_factory/L_naval_factory_start.papa"
+      "build_end": "/pa/units/sea/l_naval_factory/l_naval_factory_end.papa",
+      "build_loop": "/pa/units/sea/l_naval_factory/l_naval_factory_build.papa",
+      "build_start": "/pa/units/sea/l_naval_factory/l_naval_factory_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-    "filename": "/pa/units/legion/sea/L_naval_factory/L_naval_factory.papa"
+    "filename": "/pa/units/sea/l_naval_factory/l_naval_factory.papa"
   },
   "placement_size": [
     40,
@@ -122,7 +122,7 @@
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/legion/sea/L_naval_factory/L_naval_factory_build_arm.json"
+      "spec_id": "/pa/units/sea/l_naval_factory/l_naval_factory_build_arm.json"
     }
   ],
   "unit_types": [

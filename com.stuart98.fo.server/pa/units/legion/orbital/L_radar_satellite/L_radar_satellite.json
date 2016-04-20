@@ -14,7 +14,7 @@
       "cue": "/SE/Selection/orbital/radar"
     }
   },
-  "base_spec": "/pa/units/legion/orbital/base_orbital/base_orbital.json",
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "build_metal_cost": 800,
   "command_caps": [
     "ORDER_Move",
@@ -24,8 +24,8 @@
   "consumption": {
     "energy": 700
   },
-  "description": "Basic radar satellite- Detects a large area for enemy land, sea, and air units.",
-  "display_name": "Legion Sputnik",
+  "description": "Basic Radar Satellite - Detects Enemy Units Within a Medium-Sized Area.",
+  "display_name": "Sputnik",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {
@@ -40,28 +40,33 @@
   },
   "fx_offsets": [
     {
-      "bone": "bone_radar",
-      "filename": "/pa/units/legion/orbital/radar_satellite/radar_satellite_on.pfx",
+      "bone": "bone_top_rotate",
+      "filename": "/pa/units/land/radar/radar_on.pfx",
       "offset": [
-        0,
-        -1.0,
+        6,
+        0.0,
         0.0
       ],
       "orientation": [
-        0,
+        -90,
         -90,
         0
       ],
       "type": "energy"
     },
     {
-      "bone": "bone_antenna01",
-      "filename": "/pa/units/legion/orbital/radar_satellite/radar_satellite_antenna_on.pfx",
-      "type": "energy"
-    },
-    {
-      "bone": "bone_antenna02",
-      "filename": "/pa/units/legion/orbital/radar_satellite/radar_satellite_antenna_on.pfx",
+      "bone": "bone_top_rotate",
+      "filename": "/pa/units/land/radar/radar_on.pfx",
+      "offset": [
+        -6,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        90,
+        -90,
+        0
+      ],
       "type": "energy"
     }
   ],
@@ -74,24 +79,18 @@
   ],
   "model": {
     "animations": {
-      "closed": "/pa/units/legion/orbital/L_radar_satellite/L_radar_satellite_closed.papa",
-      "deploy": "/pa/units/legion/orbital/L_radar_satellite/L_radar_satellite_deploy.papa",
-      "open": "/pa/units/legion/orbital/L_radar_satellite/L_radar_satellite_open.papa"
+      "closed": "/pa/units/orbital/l_radar_satellite/l_radar_satellite_closed.papa",
+      "deploy": "/pa/units/orbital/l_radar_satellite/l_radar_satellite_deploy.papa",
+      "open": "/pa/units/orbital/l_radar_satellite/l_radar_satellite_open.papa"
     },
     "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
-    "filename": "/pa/units/legion/orbital/L_radar_satellite/L_radar_satellite.papa"
+    "filename": "/pa/units/orbital/l_radar_satellite/l_radar_satellite.papa"
   },
   "navigation": {
     "acceleration": 15,
     "brake": 15,
-    "hover_time": -1.0,
     "move_speed": 15,
-    "turn_speed": 90,
-    "type": "orbital"
-  },
-  "physics": {
-    "gravity_scalar": 0.001,
-    "radius": 5
+    "turn_speed": 90
   },
   "recon": {
     "observer": {

@@ -15,7 +15,7 @@
   "events": {
     "died": {
       "audio_cue": "/SE/Weapons/bot/spark_fire",
-      "effect_spec": "/pa/units/legion/air/L_air_scout_adv/vision/vision_active.pfx"
+      "effect_spec": "/pa/units/air/l_air_scout_adv/vision/vision_active.pfx"
     }
   },
   "flight_type": "Staged",
@@ -32,7 +32,7 @@
   "lifetime": 5.0,
   "max_velocity": 150.0,
   "model": {
-    "filename": "/pa/units/legion/land/bot_nanoswarm/bot_nanoswarm.papa"
+    "filename": "/pa/units/land/bot_nanoswarm/bot_nanoswarm.papa"
   },
   "physics": {
     "add_to_spatial_db": false,
@@ -48,7 +48,7 @@
     }
   },
   "spawn_layers": "WL_Air",
-  "spawn_unit_on_death": "/pa/units/legion/air/L_air_scout_adv/vision/vision.json",
+  "spawn_unit_on_death": "/pa/units/air/l_air_scout_adv/vision/vision.json",
   "spawn_unit_on_death_with_velocity": false,
   "splash_damage": 0,
   "splash_radius": 0,

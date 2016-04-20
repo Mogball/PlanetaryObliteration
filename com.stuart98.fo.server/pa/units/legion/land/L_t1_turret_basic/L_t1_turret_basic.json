@@ -3,12 +3,12 @@
   "area_build_separation": 18,
   "atrophy_cool_down": 15,
   "atrophy_rate": 5,
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 150,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Short Range, Light Defense Turret. Attacks Land and Naval Targets.",
+  "description": "Light Defense Turret - Short Range. Attacks Land and Naval Targets.",
   "display_name": "Jackal",
   "events": {
     "build_complete": {
@@ -20,7 +20,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire",
-      "effect_spec": "/pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzle"
+      "effect_spec": "/pa/units/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzle"
     }
   },
   "guard_layer": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -33,13 +33,13 @@
   "model": [
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
-      "filename": "/pa/units/legion/land/L_t1_turret_basic/L_t1_turret_basic.papa",
+      "filename": "/pa/units/land/l_t1_turret_basic/l_t1_turret_basic.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
     },
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
-      "filename": "/pa/units/legion/land/L_t1_turret_basic/L_t1_turret_basic.papa",
+      "filename": "/pa/units/land/l_t1_turret_basic/l_t1_turret_basic.papa",
       "layer": "WL_WaterSurface"
     }
   ],
@@ -71,7 +71,7 @@
       "muzzle_bone": [
         "socket_muzzle"
       ],
-      "spec_id": "/pa/units/legion/land/L_t1_turret_basic/L_t1_turret_basic_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_t1_turret_basic/l_t1_turret_basic_tool_weapon.json"
     }
   ],
   "unit_types": [

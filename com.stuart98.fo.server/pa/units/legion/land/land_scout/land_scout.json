@@ -27,7 +27,7 @@
       "cue": "/SE/Selection/veh/land_scout"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 75,
   "command_caps": [
     "ORDER_Move",
@@ -38,9 +38,6 @@
   "description": "!LOC: Scout- Fast. Can see far away. Detects mines. Does not attack.",
   "display_name": "!LOC:Skitter",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/veh"
-    },
     "died": {
       "audio_cue": "/SE/Death/Veh_small",
       "effect_scale": 1.0
@@ -58,18 +55,17 @@
   ],
   "model": {
     "animations": {
-      "drive": "/pa/units/legion/land/land_scout/land_scout_anim_drive.papa"
+      "drive": "/pa/units/land/land_scout/land_scout_anim_drive.papa"
     },
     "animtree": "/pa/anim/anim_trees/land_scout_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/legion/land/land_scout/land_scout.papa"
+    "filename": "/pa/units/land/land_scout/land_scout.papa"
   },
   "navigation": {
     "acceleration": 250,
     "brake": 250,
     "move_speed": 25,
-    "turn_speed": 360,
-    "type": "land-small"
+    "turn_speed": 360
   },
   "physics": {
     "radius": 3

@@ -14,7 +14,7 @@
   },
   "flight_type": "Staged",
   "fx_trail": {
-    "filename": "/pa/units/legion/air/missile_tactical/missile_tactical_trail.pfx",
+    "filename": "/pa/units/air/missile_tactical/missile_tactical_trail.pfx",
     "offset": [
       0.0,
       4.6,
@@ -26,7 +26,7 @@
   "lifetime": 15,
   "max_velocity": 80.0,
   "model": {
-    "filename": "/pa/units/legion/air/atoa_missile/atoa_missile.papa"
+    "filename": "/pa/units/air/atoa_missile/atoa_missile.papa"
   },
   "physics": {
     "add_to_spatial_db": true,

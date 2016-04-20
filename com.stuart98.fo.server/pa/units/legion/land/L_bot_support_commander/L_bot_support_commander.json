@@ -34,7 +34,7 @@
       "cue": "/SE/Selection/bot/sub_commander"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 7000,
   "buildable_types": "(Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Titan & Bot) & Custom1",
   "command_caps": [
@@ -47,11 +47,10 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Auxiliary Commander. Can Build Structures.",
-  "display_name": "Shredder",
+  "description": "Auxiliary Commander - Can Build Structures. High Health and Heavily Armed.",
+  "display_name": "Praetorian",
   "events": {
     "died": {
-      "audio_cue": "/SE/Death/Bot",
       "effect_scale": 1.7,
       "effect_spec": "/pa/effects/specs/default_explosion_bot_t2.pfx"
     },
@@ -75,21 +74,17 @@
   ],
   "model": {
     "animations": {
-      "aim_down": "",
-      "aim_up": "",
-      "idle": "/pa/units/legion/land/L_bot_support_commander/L_bot_support_commander_idle.papa",
-      "walk": "/pa/units/legion/land/L_bot_support_commander/L_bot_support_commander_walk.papa",
-      "walk_stop": ""
+      "idle": "/pa/units/land/l_bot_support_commander/l_bot_support_commander_idle.papa",
+      "walk": "/pa/units/land/l_bot_support_commander/l_bot_support_commander_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_bot_support_commander_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_bot_support_commander/L_bot_support_commander.papa",
+    "animtree": "/pa/anim/anim_trees/l_bot_support_commander_anim_tree.json",
+    "filename": "/pa/units/land/l_bot_support_commander/l_bot_support_commander.papa",
     "walk_speed": 4.0
   },
   "navigation": {
     "acceleration": 120,
     "brake": 120,
     "move_speed": 12,
-    "turn_in_place": false,
     "turn_speed": 90,
     "type": "amphibious"
   },
@@ -120,12 +115,11 @@
   },
   "show_in_orbital_layer": true,
   "strategic_icon_priority": 0,
-  "teleportable": {},
   "tools": [
     {
       "aim_bone": "bone_turret",
       "muzzle_bone": "socket_laser",
-      "spec_id": "/pa/units/legion/land/L_bot_support_commander/L_bot_support_commander_tool_build_arm.json"
+      "spec_id": "/pa/units/land/l_bot_support_commander/l_bot_support_commander_tool_build_arm.json"
     },
     {
       "aim_bone": "bone_turret",
@@ -135,7 +129,7 @@
       ],
       "primary_weapon": true,
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/L_bot_support_commander/L_bot_support_commander_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_bot_support_commander/l_bot_support_commander_tool_weapon.json"
     }
   ],
   "transportable": {

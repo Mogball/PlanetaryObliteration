@@ -14,13 +14,13 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/orbital/base_orbital_structure/base_orbital_structure.json",
+  "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json",
   "build_metal_cost": 3600,
   "build_restrictions": "Terrainless",
   "death_weapon": {
-    "ground_ammo_spec": "/pa/units/legion/orbital/mining_platform/mining_platform_nuke.json"
+    "ground_ammo_spec": "/pa/units/orbital/mining_platform/mining_platform_nuke.json"
   },
-  "description": "Gas mining and metal creation satellite. Only works above gas giant planets.",
+  "description": "Gas Planet Economy Structure - Produces Metal and Energy. Only works above gas giant planets.",
   "display_name": "Rig",
   "events": {
     "build_complete": {
@@ -34,11 +34,11 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/legion/orbital/L_mining_platform/top_light.pfx",
+      "filename": "/pa/units/orbital/l_mining_platform/top_light.pfx",
       "type": "idle"
     },
     {
-      "filename": "/pa/units/legion/orbital/L_mining_platform/main_effect.pfx",
+      "filename": "/pa/units/orbital/l_mining_platform/main_effect.pfx",
       "type": "idle"
     }
   ],
@@ -50,13 +50,12 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/orbital/L_mining_platform/L_mining_platform_idle.papa"
+      "idle": "/pa/units/orbital/l_mining_platform/l_mining_platform_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
-    "filename": "/pa/units/legion/orbital/L_mining_platform/L_mining_platform.papa"
+    "filename": "/pa/units/orbital/l_mining_platform/l_mining_platform.papa"
   },
   "physics": {
-    "collision_layers": "WL_Orbital",
     "ignore_gravity": true,
     "radius": 40
   },
@@ -83,7 +82,6 @@
   "selection_icon": {
     "diameter": -83
   },
-  "spawn_layers": "WL_Orbital",
   "storage": {
     "energy": 50000,
     "metal": 10000

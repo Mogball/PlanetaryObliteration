@@ -39,12 +39,13 @@
   },
   "recon": {
     "observable": {
-      "ignore_radar": false
+      "ignore_radar": true,
+      "ignore_sight": true
     }
   },
   "show_in_orbital_layer": false,
   "show_strategic_icon": false,
-  "sim_impact_effect": "/pa/units/legion/orbital/L_titan_orbital/L_titan_orbital_shake.json",
+  "sim_impact_effect": "/pa/units/orbital/l_titan_orbital/l_titan_orbital_shake.json",
   "spawn_layers": "orbital",
   "splash_damage": 300,
   "splash_damage_orbital": false,

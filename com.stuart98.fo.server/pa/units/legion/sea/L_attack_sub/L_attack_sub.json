@@ -10,14 +10,11 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/sea/base_ship/base_ship.json",
+  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 650,
-  "description": "Close range attack submarine",
+  "description": "Attack Submarine - Equipped With Torpedoes. Fast.",
   "display_name": "Akula",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/sea"
-    },
     "died": {
       "audio_cue": "/SE/Death/Sea_sub",
       "effect_scale": 2.0,
@@ -59,7 +56,7 @@
   ],
   "model": {
     "arrows": 5,
-    "filename": "/pa/units/legion/sea/L_attack_sub/L_attack_sub.papa"
+    "filename": "/pa/units/sea/l_attack_sub/l_attack_sub.papa"
   },
   "navigation": {
     "acceleration": 60,
@@ -70,7 +67,6 @@
   },
   "physics": {
     "radius": 3,
-    "shape": "sphere",
     "underwater": true
   },
   "recon": {
@@ -103,7 +99,7 @@
     {
       "aim_bone": "socket_muzzle",
       "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/legion/sea/L_attack_sub/L_attack_sub_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_attack_sub/l_attack_sub_tool_weapon.json"
     }
   ],
   "unit_types": [

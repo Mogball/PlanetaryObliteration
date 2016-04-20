@@ -1,16 +1,16 @@
 {
   "audio_loop": "/SE/Movement/missile/artillery_long_missile_fly_loop",
   "base_spec": "/pa/ammo/missile_seeking/missile_seeking.json",
-  "damage": 300,
+  "damage": 250,
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/missile_tactical",
-      "effect_spec": "/pa/units/legion/air/L_gunship/rocket_explosion.pfx"
+      "effect_spec": "/pa/units/air/l_gunship/rocket_explosion.pfx"
     }
   },
   "full_damage_splash_radius": 2,
   "fx_trail": {
-    "filename": "/pa/units/legion/air/L_gunship/rocket_proj_trail.pfx",
+    "filename": "/pa/units/air/l_gunship/rocket_proj_trail.pfx",
     "offset": [
       0,
       0,
@@ -22,7 +22,7 @@
   "lifetime": 30,
   "max_velocity": 120,
   "model": {
-    "filename": "/pa/units/legion/air/shell/shell.papa"
+    "filename": "/pa/units/air/shell/shell.papa"
   },
   "physics": {
     "add_to_spatial_db": true,

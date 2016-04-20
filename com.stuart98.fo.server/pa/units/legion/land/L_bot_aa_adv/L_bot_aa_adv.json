@@ -24,18 +24,11 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 600,
-  "description": "Advanced Mobile AA. Attacks Air.",
+  "description": "Advanced Mobile AA - Attacks Air.",
   "display_name": "Orbweaver",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/bot"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/bot",
-      "effect_scale": 0.6
-    },
     "fired": {
       "audio_cue": "/SE/Weapons/bot/bot_aa_fire",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
@@ -50,19 +43,18 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/land/L_bot_aa_adv/L_bot_aa_adv_idle.papa",
-      "walk": "/pa/units/legion/land/L_bot_aa_adv/L_bot_aa_adv_walk.papa"
+      "idle": "/pa/units/land/l_bot_aa_adv/l_bot_aa_adv_idle.papa",
+      "walk": "/pa/units/land/l_bot_aa_adv/l_bot_aa_adv_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_bot_aa_adv_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_bot_aa_adv/L_bot_aa_adv.papa",
+    "animtree": "/pa/anim/anim_trees/l_sniper_bot_anim_tree.json",
+    "filename": "/pa/units/land/l_bot_aa_adv/l_bot_aa_adv.papa",
     "walk_speed": 3
   },
   "navigation": {
     "acceleration": 120,
     "brake": 120,
     "move_speed": 12,
-    "turn_speed": 720,
-    "type": "land-small"
+    "turn_speed": 720
   },
   "nearby_target_tick_update_interval": 3,
   "physics": {
@@ -93,7 +85,7 @@
         "socket_muzzle004"
       ],
       "projectiles_per_fire": 4,
-      "spec_id": "/pa/units/legion/land/L_bot_aa_adv/L_bot_aa_adv_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_bot_aa_adv/l_bot_aa_adv_tool_weapon.json"
     }
   ],
   "transportable": {

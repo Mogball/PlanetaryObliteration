@@ -27,29 +27,25 @@
       "cue": "/SE/Selection/bot/sniper"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 1700,
-  "description": "Heavy Assault Walker- Virtually unstoppable. Equipped with four heavy machine guns and a heavy plasma projector.",
+  "description": "Heavy Assault Walker - Heavily Armored. Equipped With Strong Cannons and A Heavy Laser.",
   "display_name": "Monstrosity",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/bot"
-    },
     "died": {
-      "audio_cue": "/SE/Death/Bot",
       "effect_scale": 1.5
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
-      "effect_spec": "/pa/units/legion/land/L_bot_artillery_adv/muzzle_flash.pfx socket_muzzleMain /pa/units/legion/land/L_bot_artillery_adv/ground_smoke.pfx bone_root"
+      "effect_spec": "/pa/units/land/l_bot_artillery_adv/muzzle_flash.pfx socket_muzzleMain /pa/units/land/l_bot_artillery_adv/ground_smoke.pfx bone_root"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
-      "effect_spec": "/pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft01 /pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight01"
+      "effect_spec": "/pa/units/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft01 /pa/units/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight01"
     },
     "fired2": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
-      "effect_spec": "/pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft02 /pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight02"
+      "effect_spec": "/pa/units/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft02 /pa/units/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight02"
     }
   },
   "guard_layer": "WL_AnySurface",
@@ -115,15 +111,15 @@
   "mesh_bounds": [
     10,
     12,
-    13
+    12
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/land/L_bot_artillery_adv/L_bot_artillery_adv_idle.papa",
-      "walk": "/pa/units/legion/land/L_bot_artillery_adv/L_bot_artillery_adv_walk.papa"
+      "idle": "/pa/units/land/l_bot_artillery_adv/l_bot_artillery_adv_idle.papa",
+      "walk": "/pa/units/land/l_bot_artillery_adv/l_bot_artillery_adv_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_bot_artillery_adv_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_bot_artillery_adv/L_bot_artillery_adv.papa",
+    "animtree": "/pa/anim/anim_trees/l_bot_artillery_adv_anim_tree.json",
+    "filename": "/pa/units/land/l_bot_artillery_adv/l_bot_artillery_adv.papa",
     "walk_speed": 4
   },
   "navigation": {
@@ -132,8 +128,7 @@
     "brake": 30,
     "group_preference": "front",
     "move_speed": 12,
-    "turn_speed": 60,
-    "type": "land-small"
+    "turn_speed": 60
   },
   "nearby_target_tick_update_interval": 15,
   "physics": {
@@ -166,7 +161,7 @@
       "fire_event": "fired0",
       "muzzle_bone": "socket_muzzleMain",
       "record_index": 0,
-      "spec_id": "/pa/units/legion/land/L_bot_artillery_adv/L_bot_artillery_adv_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_bot_artillery_adv/l_bot_artillery_adv_tool_weapon.json"
     },
     {
       "aim_bone": "bone_turretLeft",
@@ -177,7 +172,7 @@
       ],
       "projectiles_per_fire": 1,
       "record_index": 1,
-      "spec_id": "/pa/units/legion/land/L_bot_artillery_adv/L_bot_artillery_adv_light_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_bot_artillery_adv/l_bot_artillery_adv_light_tool_weapon.json"
     },
     {
       "aim_bone": "bone_turretRight",
@@ -188,7 +183,7 @@
       ],
       "projectiles_per_fire": 1,
       "record_index": 1,
-      "spec_id": "/pa/units/legion/land/L_bot_artillery_adv/L_bot_artillery_adv_light_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_bot_artillery_adv/l_bot_artillery_adv_light_tool_weapon.json"
     }
   ],
   "transportable": {

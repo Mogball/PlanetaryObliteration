@@ -27,21 +27,17 @@
       "cue": "/SE/Selection/veh/tank_inferno"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 300,
-  "description": "Close Rage Support. Attacks Land and Naval.",
+  "description": "Close Range Shotgun Tank - Attacks Land and Naval.",
   "display_name": "Maul",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/veh"
-    },
     "died": {
-      "audio_cue": "/SE/Death/Veh",
       "effect_scale": 1.4
     },
     "fired": {
       "audio_cue": "/SE/Weapons/bot/artillery_fire",
-      "effect_spec": "/pa/units/legion/land/L_shotgun_tank/muzzle_flash.pfx socket_muzzle"
+      "effect_spec": "/pa/units/land/l_shotgun_tank/muzzle_flash.pfx socket_muzzle"
     }
   },
   "guard_layer": "WL_LandHorizontal",
@@ -54,15 +50,14 @@
   "model": {
     "animtree": "/pa/anim/anim_trees/tank_armor_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/legion/land/L_shotgun_tank/L_shotgun_tank.papa"
+    "filename": "/pa/units/land/l_shotgun_tank/l_shotgun_tank.papa"
   },
   "navigation": {
     "acceleration": 75,
     "brake": -1,
     "group_preference": "front",
     "move_speed": 8,
-    "turn_speed": 180,
-    "type": "land-small"
+    "turn_speed": 180
   },
   "physics": {
     "radius": 4.5
@@ -106,7 +101,7 @@
         "socket_muzzle"
       ],
       "projectiles_per_fire": 8,
-      "spec_id": "/pa/units/legion/land/L_shotgun_tank/L_shotgun_tank_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_shotgun_tank/l_shotgun_tank_tool_weapon.json"
     }
   ],
   "transportable": {

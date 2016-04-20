@@ -27,8 +27,8 @@
       "cue": "/SE/Selection/bot/bot_bomb"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
-  "build_metal_cost": 100,
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "build_metal_cost": 90,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -37,12 +37,9 @@
     "ORDER_Use",
     "ORDER_FireSecondaryWeapon"
   ],
-  "description": "Leaping Boombot Spider - can jump up cliffs",
+  "description": "Leaping Boombot Spider - Launches at Enemies and up Cliffs.",
   "display_name": "Purger",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/bot"
-    },
     "died": {
       "audio_cue": "/SE/Death/Bot_bomb"
     },
@@ -54,7 +51,7 @@
   "fx_offsets": [
     {
       "bone": "bone_root",
-      "filename": "/pa/units/legion/land/L_bot_bomb/rocket_trail.pfx",
+      "filename": "/pa/units/land/l_bot_bomb/rocket_trail.pfx",
       "offset": [
         0,
         0,
@@ -78,20 +75,19 @@
   ],
   "model": {
     "animations": {
-      "death01": "/pa/units/legion/land/bot_bomb/bot_bomb_anim_death01.papa",
-      "idle": "/pa/units/legion/land/L_bot_bomb/L_bot_bomb_idle.papa",
-      "walk": "/pa/units/legion/land/L_bot_bomb/L_bot_bomb_walk.papa"
+      "death01": "/pa/units/land/bot_bomb/bot_bomb_anim_death01.papa",
+      "idle": "/pa/units/land/l_bot_bomb/l_bot_bomb_idle.papa",
+      "walk": "/pa/units/land/l_bot_bomb/l_bot_bomb_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_bot_bomb_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_bot_bomb/L_bot_bomb.papa",
+    "animtree": "/pa/anim/anim_trees/l_bot_bomb_anim_tree.json",
+    "filename": "/pa/units/land/l_bot_bomb/l_bot_bomb.papa",
     "walk_speed": 1
   },
   "navigation": {
     "acceleration": 200,
     "brake": -1,
     "move_speed": 30,
-    "turn_speed": 720,
-    "type": "land-small"
+    "turn_speed": 720
   },
   "physics": {
     "allow_pushing": true,
@@ -123,12 +119,12 @@
     {
       "aim_bone": "bone_root",
       "primary_weapon": true,
-      "spec_id": "/pa/units/legion/land/L_bot_bomb/L_bot_bomb_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_bot_bomb/l_bot_bomb_tool_weapon.json"
     },
     {
       "aim_bone": "bone_root",
       "secondary_weapon": true,
-      "spec_id": "/pa/units/legion/land/L_bot_bomb/L_bot_bomb_jump_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_bot_bomb/l_bot_bomb_jump_tool_weapon.json"
     }
   ],
   "transportable": {

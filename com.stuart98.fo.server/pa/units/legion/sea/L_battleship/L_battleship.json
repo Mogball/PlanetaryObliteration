@@ -13,14 +13,11 @@
       "cue": "/SE/Selection/sea/sea_large"
     }
   },
-  "base_spec": "/pa/units/legion/sea/base_ship/base_ship.json",
+  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 6000,
-  "description": "Fires Long Range, High Velocity Projectiles. Armored and Slow. Can Attack Land and Sea.",
+  "description": "Battleship - Equipped with High-Damage Laser Cannons. Attacks Land and Naval Targets. ",
   "display_name": "Epoch",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/sea"
-    },
     "died": {
       "audio_cue": "/SE/Death/Sea_large",
       "effect_scale": 2.0,
@@ -29,18 +26,18 @@
     "fired0": {
       "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
       "effect_scale": 1,
-      "effect_spec": "/pa/units/legion/sea/L_battleship/t2_muzzle_flash.pfx socket_muzzle01"
+      "effect_spec": "/pa/units/sea/l_battleship/t2_muzzle_flash.pfx socket_muzzle01"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
       "effect_scale": 1,
-      "effect_spec": "/pa/units/legion/sea/L_battleship/t2_muzzle_flash.pfx socket_muzzle02"
+      "effect_spec": "/pa/units/sea/l_battleship/t2_muzzle_flash.pfx socket_muzzle02"
     }
   },
   "fx_offsets": [
     {
       "bone": "socket_muzzle01",
-      "filename": "/pa/units/legion/sea/L_battleship/idle.pfx",
+      "filename": "/pa/units/sea/l_battleship/idle.pfx",
       "offset": [
         0,
         0,
@@ -50,7 +47,7 @@
     },
     {
       "bone": "socket_muzzle02",
-      "filename": "/pa/units/legion/sea/L_battleship/idle.pfx",
+      "filename": "/pa/units/sea/l_battleship/idle.pfx",
       "offset": [
         0,
         0,
@@ -67,8 +64,8 @@
     12
   ],
   "model": {
-    "animtree": "/pa/anim/anim_trees/L_battleship_anim_tree.json",
-    "filename": "/pa/units/legion/sea/L_battleship/L_battleship.papa"
+    "animtree": "/pa/anim/anim_trees/l_battleship_anim_tree.json",
+    "filename": "/pa/units/sea/l_battleship/l_battleship.papa"
   },
   "navigation": {
     "acceleration": 30,
@@ -76,14 +73,9 @@
     "move_speed": 8,
     "park_stamp_cost": 30,
     "park_stamp_type": "box",
-    "turn_speed": 30,
-    "type": "deepwater"
+    "turn_speed": 30
   },
   "nearby_target_tick_update_interval": 15,
-  "physics": {
-    "radius": 6,
-    "shape": "sphere"
-  },
   "recon": {
     "observer": {
       "items": [
@@ -103,9 +95,8 @@
     }
   },
   "selection_icon": {
-    "diameter": -46
+    "diameter": -55
   },
-  "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
       "aim_bone": "bone_turret01",
@@ -114,7 +105,7 @@
         "socket_muzzle01"
       ],
       "record_index": 0,
-      "spec_id": "/pa/units/legion/sea/L_battleship/L_battleship_upper_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_battleship/l_battleship_upper_tool_weapon.json"
     },
     {
       "aim_bone": "bone_turret02",
@@ -123,7 +114,7 @@
         "socket_muzzle02"
       ],
       "record_index": 1,
-      "spec_id": "/pa/units/legion/sea/L_battleship/L_battleship_lower_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_battleship/l_battleship_lower_tool_weapon.json"
     }
   ],
   "unit_types": [

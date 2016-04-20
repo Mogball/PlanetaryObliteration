@@ -1,8 +1,22 @@
 {
-  "ammo_type": "AMMO_Beam",
+  "base_spec": "/pa/ammo/base_shell/base_shell.json",
   "damage": 20,
-  "fx_collision_spec": "/pa/effects/specs/flame_death.pfx",
+  "events": {
+    "died": {
+      "effect_spec": "/pa/effects/specs/flame_death.pfx"
+    }
+  },
+  "flight_type": "direct",
+  "fx_trail": {
+    "filename": "/pa/effects/specs/none.pfx"
+  },
+  "initial_velocity": 130.0,
+  "lifetime": 2,
+  "max_velocity": 130.0,
+  "model": null,
+  "physics": {
+    "add_to_spatial_db": false
+  },
   "splash_damage": 20,
-  "splash_damages_allies": false,
   "splash_radius": 10
 }

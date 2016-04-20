@@ -24,32 +24,26 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 200,
-  "description": "Amphibious Tank- Fast attack tank. Equipped with torpedoes and laser cannon.",
-  "display_name": "Bandit",
+  "description": "Fast Amphibious Attack Tank - Equipped with Torpedoes and a Light Cannon.",
+  "display_name": "Stoke",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/veh"
-    },
     "died": {
-      "audio_cue": "/SE/Death/Veh",
       "effect_scale": 1.4
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/bot/spark_fire",
       "effect_scale": 1.0,
-      "effect_spec": "/pa/units/legion/land/L_mortar_tank/muzzle_flash.pfx socket_muzzle"
+      "effect_spec": "/pa/units/land/l_mortar_tank/muzzle_flash.pfx socket_muzzle"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/sea/attack_sub_fire",
-      "effect_scale": 1.0,
-      "effect_spec": ""
+      "effect_scale": 1.0
     }
   },
   "guard_layer": "WL_AnySurface",
   "guard_radius": 10,
-  "influence_radius": 400,
   "max_health": 225,
   "mesh_bounds": [
     5,
@@ -59,12 +53,12 @@
   "model": {
     "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/legion/land/L_mortar_tank/L_mortar_tank.papa"
+    "filename": "/pa/units/land/l_mortar_tank/l_mortar_tank.papa"
   },
   "navigation": {
     "acceleration": 40,
     "brake": 40,
-    "move_speed": 14,
+    "move_speed": 13,
     "turn_speed": 100,
     "type": "amphibious"
   },
@@ -98,7 +92,7 @@
       "fire_event": "fired0",
       "muzzle_bone": "socket_muzzle",
       "record_index": 0,
-      "spec_id": "/pa/units/legion/land/L_mortar_tank/L_mortar_tank_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_mortar_tank/l_mortar_tank_tool_weapon.json"
     },
     {
       "aim_bone": "bone_turret",
@@ -106,7 +100,7 @@
       "muzzle_bone": "socket_muzzle",
       "record_index": 1,
       "show_range": false,
-      "spec_id": "/pa/units/legion/land/L_mortar_tank/L_mortar_tank_torpedo_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_mortar_tank/l_mortar_tank_torpedo_tool_weapon.json"
     }
   ],
   "transportable": {

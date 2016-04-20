@@ -64,7 +64,7 @@
   "area_build_separation": 1,
   "area_build_type": "Sphere",
   "build_metal_cost": 20,
-  "description": "Pop up Landmine that sprays shrapnel",
+  "description": "Pop-Up Landmine - Sprays Shrapnel Then Explodes After Four Seconds.",
   "display_name": "Spoiler",
   "events": {
     "build_complete": {
@@ -85,7 +85,7 @@
   ],
   "model": [
     {
-      "filename": "/pa/units/legion/land/L_land_mine/L_land_mine.papa",
+      "filename": "/pa/units/land/l_land_mine/l_land_mine.papa",
       "layer": "WL_LandHorizontal"
     }
   ],
@@ -122,7 +122,7 @@
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/legion/land/L_land_mine/L_land_mine_trigger_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_land_mine/l_land_mine_trigger_tool_weapon.json"
     }
   ],
   "unit_types": [

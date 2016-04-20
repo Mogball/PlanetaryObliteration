@@ -14,7 +14,7 @@
       "cue": "/SE/Selection/orbital/radar"
     }
   },
-  "base_spec": "/pa/units/legion/orbital/base_orbital/base_orbital.json",
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "build_metal_cost": 4800,
   "command_caps": [
     "ORDER_Move",
@@ -25,16 +25,12 @@
   "consumption": {
     "energy": 9000
   },
-  "description": "!LOC(units:advanced_radar_satellite_detects_a_vast_area_for_enemy_land_sea_and_air_units.message):Advanced radar satellite- Detects a vast area for enemy land, sea, and air units.",
-  "display_name": "Legion Advanced Radar Satellite",
+  "description": "Armored Advanced Radar Satellite - Detects Units Within a Massive Area. Attacks Orbital.",
+  "display_name": "Kosmos",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/orbital",
-      "effect_scale": 1.5
     },
     "fired": {
       "audio_cue": "/SE/Weapons/orb/defense_satellite_fire"
@@ -43,12 +39,32 @@
   "fx_offsets": [
     {
       "bone": "bone_top_thing001",
-      "filename": "/pa/units/legion/orbital/radar_satellite_adv/radar_satellite_adv_dish01_on.pfx",
+      "filename": "/pa/units/orbital/l_radar_satellite_adv/radar_on.pfx",
+      "offset": [
+        -1,
+        -0.8,
+        -0.2
+      ],
+      "orientation": [
+        -90,
+        -90,
+        0
+      ],
       "type": "energy"
     },
     {
       "bone": "bone_top_thing002",
-      "filename": "/pa/units/legion/orbital/radar_satellite_adv/radar_satellite_adv_dish02_on.pfx",
+      "filename": "/pa/units/orbital/l_radar_satellite_adv/radar_on.pfx",
+      "offset": [
+        1,
+        -0.8,
+        -0.2
+      ],
+      "orientation": [
+        90,
+        -90,
+        0
+      ],
       "type": "energy"
     }
   ],
@@ -61,22 +77,16 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/orbital/L_radar_satellite_adv/L_radar_satellite_adv_idle.papa"
+      "idle": "/pa/units/orbital/l_radar_satellite_adv/l_radar_satellite_adv_idle.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_radar_satellite_adv_anim_tree.json",
-    "filename": "/pa/units/legion/orbital/L_radar_satellite_adv/L_radar_satellite_adv.papa"
+    "animtree": "/pa/anim/anim_trees/one_turret_mobile_idle_recoil_anim_tree.json",
+    "filename": "/pa/units/orbital/l_radar_satellite_adv/l_radar_satellite_adv.papa"
   },
   "navigation": {
     "acceleration": 10,
     "brake": 10,
-    "hover_time": -1.0,
     "move_speed": 10,
-    "turn_speed": 90,
-    "type": "orbital"
-  },
-  "physics": {
-    "gravity_scalar": 0.001,
-    "radius": 5
+    "turn_speed": 90
   },
   "recon": {
     "observer": {
@@ -122,7 +132,6 @@
   "selection_icon": {
     "diameter": -33
   },
-  "spawn_layers": "WL_Orbital",
   "tools": [
     {
       "aim_bone": "bone_turret",
@@ -133,7 +142,7 @@
       ],
       "projectiles_per_fire": 2,
       "record_index": 0,
-      "spec_id": "/pa/units/legion/orbital/L_radar_satellite_adv/L_radar_satellite_adv_tool_weapon.json"
+      "spec_id": "/pa/units/orbital/l_radar_satellite_adv/l_radar_satellite_adv_tool_weapon.json"
     }
   ],
   "unit_types": [

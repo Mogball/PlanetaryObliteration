@@ -13,17 +13,11 @@
       "cue": "/SE/Selection/air/fighter"
     }
   },
-  "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 240,
-  "description": "Air Fighter/Interceptor. Fast. Attacks Air.",
-  "display_name": "Beamer",
+  "description": "Fast Air Interceptor. Attacks Air.",
+  "display_name": "Scythe",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/air"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/Air"
-    },
     "fired": {
       "audio_cue": "/SE/Weapons/air/fighter_fire"
     }
@@ -31,27 +25,27 @@
   "fx_offsets": [
     {
       "bone": "thrust_right",
-      "filename": "/pa/units/legion/air/L_fighter/fighter_lines_thrust.pfx",
+      "filename": "/pa/units/air/l_fighter/fighter_lines_thrust.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust_left",
-      "filename": "/pa/units/legion/air/L_fighter/fighter_lines_thrust.pfx",
+      "filename": "/pa/units/air/l_fighter/fighter_lines_thrust.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust_right",
-      "filename": "/pa/units/legion/air/L_fighter/fighter_jets.pfx",
+      "filename": "/pa/units/air/l_fighter/fighter_jets.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust_left",
-      "filename": "/pa/units/legion/air/L_fighter/fighter_jets.pfx",
+      "filename": "/pa/units/air/l_fighter/fighter_jets.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust_left",
-      "filename": "/pa/units/legion/air/L_fighter/fighter_lines.pfx",
+      "filename": "/pa/units/air/l_fighter/fighter_lines.pfx",
       "offset": [
         1.828,
         -2.175,
@@ -61,7 +55,7 @@
     },
     {
       "bone": "thrust_right",
-      "filename": "/pa/units/legion/air/L_fighter/fighter_lines.pfx",
+      "filename": "/pa/units/air/l_fighter/fighter_lines.pfx",
       "offset": [
         -1.828,
         -2.175,
@@ -79,20 +73,14 @@
   ],
   "model": {
     "arrows": 5,
-    "filename": "/pa/units/legion/air/L_fighter/L_fighter.papa"
+    "filename": "/pa/units/air/l_fighter/l_fighter.papa"
   },
   "navigation": {
     "acceleration": 180,
-    "aggressive_distance": 50,
     "bank_factor": 5,
     "brake": 80,
     "move_speed": 95,
-    "turn_speed": 300,
-    "type": "air"
-  },
-  "physics": {
-    "gravity_scalar": 1,
-    "radius": 6
+    "turn_speed": 300
   },
   "recon": {
     "observer": {
@@ -123,7 +111,7 @@
         "socket_muzzleRight"
       ],
       "projectiles_per_fire": 2,
-      "spec_id": "/pa/units/legion/air/L_fighter/L_fighter_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_fighter/l_fighter_tool_weapon.json"
     }
   ],
   "unit_types": [

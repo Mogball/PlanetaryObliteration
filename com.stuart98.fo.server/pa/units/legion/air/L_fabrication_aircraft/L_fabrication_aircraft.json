@@ -33,7 +33,7 @@
       "cue": "/SE/Selection/air/fabber"
     }
   },
-  "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 225,
   "buildable_types": "Custom1 & (Land & Structure & Basic | Factory & Basic | Factory & Advanced & Air | FabBuild )",
   "command_caps": [
@@ -45,14 +45,11 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Builds Basic Structures. Fast. Can Build Exclusive Flyer Units.",
+  "description": "Builds Basic Structures - Fast. Can Build Exclusive Flyer Units.",
   "display_name": "Fabrication Flyer",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/Air"
     }
   },
   "fx_offsets": [
@@ -63,22 +60,22 @@
     },
     {
       "bone": "thrust001",
-      "filename": "/pa/units/legion/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "type": "moving"
     },
     {
       "bone": "thrust002",
-      "filename": "/pa/units/legion/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "type": "moving"
     },
     {
       "bone": "thrust003",
-      "filename": "/pa/units/legion/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "type": "moving"
     },
     {
       "bone": "thrust004",
-      "filename": "/pa/units/legion/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "type": "moving"
     }
   ],
@@ -91,10 +88,10 @@
   ],
   "model": {
     "animations": {
-      "fly": "/pa/units/legion/air/L_fabrication_aircraft/L_fabrication_aircraft_fly.papa"
+      "fly": "/pa/units/air/l_fabrication_aircraft/l_fabrication_aircraft_fly.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_fabrication_aircraft_anim_tree.json",
-    "filename": "/pa/units/legion/air/L_fabrication_aircraft/L_fabrication_aircraft.papa"
+    "animtree": "/pa/anim/anim_trees/l_fabrication_aircraft_anim_tree.json",
+    "filename": "/pa/units/air/l_fabrication_aircraft/l_fabrication_aircraft.papa"
   },
   "navigation": {
     "acceleration": 30,
@@ -103,11 +100,9 @@
     "circle_max_time": 3,
     "circle_min_time": 1,
     "move_speed": 30,
-    "turn_speed": 180,
-    "type": "air"
+    "turn_speed": 180
   },
   "physics": {
-    "gravity_scalar": 1,
     "radius": 4
   },
   "recon": {
@@ -134,7 +129,7 @@
   "tools": [
     {
       "aim_bone": "turret",
-      "spec_id": "/pa/units/legion/air/L_fabrication_aircraft/L_fabrication_aircraft_build_arm.json"
+      "spec_id": "/pa/units/air/l_fabrication_aircraft/l_fabrication_aircraft_build_arm.json"
     }
   ],
   "transportable": {

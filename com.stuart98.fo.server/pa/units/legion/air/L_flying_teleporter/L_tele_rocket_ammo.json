@@ -15,7 +15,7 @@
   "max_health": 1,
   "max_velocity": 150,
   "model": {
-    "filename": "/pa/units/legion/air/shell/shell.papa"
+    "filename": "/pa/units/air/shell/shell.papa"
   },
   "physics": {
     "add_to_spatial_db": true,

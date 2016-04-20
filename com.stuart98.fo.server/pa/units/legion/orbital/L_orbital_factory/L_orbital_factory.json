@@ -1,5 +1,5 @@
 {
-  "TEMP_texelinfo": 65.6074,
+  "TEMP_texelinfo": 48.28787,
   "area_build_separation": 7,
   "atrophy_cool_down": 15,
   "atrophy_rate": 90,
@@ -13,7 +13,7 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/orbital/base_orbital_structure/base_orbital_structure.json",
+  "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json",
   "build_metal_cost": 3600,
   "buildable_types": "Custom1 & ( Orbital & FactoryBuild )",
   "command_caps": [
@@ -25,13 +25,12 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Builds Advanced Orbital Units",
+  "description": "Advanced Manufacturing - Builds Advanced Orbital Units.",
   "display_name": "Starship Foundry",
   "enable_orbital_shell": true,
   "events": {
     "died": {
       "audio_cue": "/SE/Death/orbital",
-      "effect_scale": 1.0,
       "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx"
     }
   },
@@ -72,17 +71,16 @@
   "model": [
     {
       "animations": {
-        "build_end": "/pa/units/legion/orbital/L_orbital_factory/L_orbital_factory_end.papa",
-        "build_loop": "/pa/units/legion/orbital/L_orbital_factory/L_orbital_factory_build.papa",
-        "build_start": "/pa/units/legion/orbital/L_orbital_factory/L_orbital_factory_start.papa"
+        "build_end": "/pa/units/orbital/l_orbital_factory/l_orbital_factory_end.papa",
+        "build_loop": "/pa/units/orbital/l_orbital_factory/l_orbital_factory_build.papa",
+        "build_start": "/pa/units/orbital/l_orbital_factory/l_orbital_factory_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-      "filename": "/pa/units/legion/orbital/L_orbital_factory/L_orbital_factory.papa",
+      "filename": "/pa/units/orbital/l_orbital_factory/l_orbital_factory.papa",
       "layer": "WL_Orbital"
     }
   ],
   "physics": {
-    "collision_layers": "WL_Orbital",
     "ignore_gravity": true,
     "radius": 20
   },
@@ -115,13 +113,12 @@
     ]
   ],
   "selection_icon": {
-    "diameter": -67
+    "diameter": -77
   },
-  "spawn_layers": "WL_Orbital",
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/legion/orbital/L_orbital_factory/L_orbital_factory_build_arm.json"
+      "spec_id": "/pa/units/orbital/l_orbital_factory/l_orbital_factory_build_arm.json"
     }
   ],
   "unit_types": [
@@ -134,6 +131,5 @@
     "UNITTYPE_Important",
     "UNITTYPE_Custom1"
   ],
-  "wait_to_rolloff_time": 0,
-  "wreckage_health_frac": 0
+  "wait_to_rolloff_time": 0
 }

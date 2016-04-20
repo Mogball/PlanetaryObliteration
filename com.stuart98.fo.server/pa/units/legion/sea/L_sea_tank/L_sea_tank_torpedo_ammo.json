@@ -6,7 +6,7 @@
   "lifetime": 8.0,
   "max_velocity": 50.0,
   "model": {
-    "filename": "/pa/units/legion/sea/torpedo_small/torpedo_small.papa"
+    "filename": "/pa/units/sea/torpedo_small/torpedo_small.papa"
   },
   "turn_rate": 150
 }

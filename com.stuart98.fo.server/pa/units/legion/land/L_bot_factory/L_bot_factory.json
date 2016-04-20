@@ -13,7 +13,7 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 600,
   "buildable_types": "Custom1 & ( Bot & Mobile & Basic & FactoryBuild )",
   "command_caps": [
@@ -31,13 +31,8 @@
       "/pa/effects/specs/scorch_c_01.json"
     ]
   },
-  "description": "Basic Manufacturing- Builds Legion Bots.",
+  "description": "Basic Manufacturing - Builds Legion Walkers.",
   "display_name": "Walker Foundry",
-  "events": {
-    "died": {
-      "effect_scale": 1
-    }
-  },
   "factory_cooldown_time": 3,
   "fx_offsets": [
     {
@@ -99,6 +94,26 @@
         0
       ],
       "type": "build"
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/effects/specs/factory_smoke.pfx",
+      "offset": [
+        -14,
+        -5.5,
+        19
+      ],
+      "type": "enabled"
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/effects/specs/factory_smoke.pfx",
+      "offset": [
+        -14,
+        5.5,
+        19
+      ],
+      "type": "enabled"
     }
   ],
   "max_health": 6000,
@@ -109,17 +124,14 @@
   ],
   "model": {
     "animations": {
-      "build_end": "/pa/units/legion/land/L_bot_factory/L_bot_factory_end.papa",
-      "build_loop": "/pa/units/legion/land/L_bot_factory/L_bot_factory_build.papa",
-      "build_start": "/pa/units/legion/land/L_bot_factory/L_bot_factory_start.papa",
-      "idle": "/pa/units/legion/land/L_bot_factory/L_bot_factory_idle.papa"
+      "build_end": "/pa/units/land/l_bot_factory/l_bot_factory_end.papa",
+      "build_loop": "/pa/units/land/l_bot_factory/l_bot_factory_build.papa",
+      "build_start": "/pa/units/land/l_bot_factory/l_bot_factory_start.papa",
+      "idle": "/pa/units/land/l_bot_factory/l_bot_factory_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_bot_factory/L_bot_factory.papa",
+    "filename": "/pa/units/land/l_bot_factory/l_bot_factory.papa",
     "skirt_decal": "/pa/effects/specs/skirt_bot.json"
-  },
-  "physics": {
-    "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface"
   },
   "placement_size": [
     40,
@@ -161,7 +173,7 @@
   "tools": [
     {
       "aim_bone": "bone_platform",
-      "spec_id": "/pa/units/legion/land/L_bot_factory/L_bot_factory_build_arm.json"
+      "spec_id": "/pa/units/land/l_bot_factory/l_bot_factory_build_arm.json"
     }
   ],
   "unit_types": [

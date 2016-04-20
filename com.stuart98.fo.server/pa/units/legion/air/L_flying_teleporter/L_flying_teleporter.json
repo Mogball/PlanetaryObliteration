@@ -11,7 +11,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 2400,
   "command_caps": [
     "ORDER_Move",
@@ -21,8 +21,8 @@
     "ORDER_Use",
     "ORDER_SpecialMove"
   ],
-  "description": "Interplanetary Teleporter- Mobile teleporter. Heavily armed and armored. Can traverse between planets.",
-  "display_name": "Marshall's Lament",
+  "description": "Interplanetary Mobile Teleporter - Heavily Armored.",
+  "display_name": "Comet",
   "energy_efficiency_requirement": 1,
   "events": {
     "build_complete": {
@@ -31,29 +31,29 @@
     "died": {
       "audio_cue": "/SE/Death/orbital",
       "effect_scale": 1,
-      "effect_spec": "/pa/units/legion/air/titan_air/titan_air_death.pfx"
+      "effect_spec": "/pa/units/air/titan_air/titan_air_death.pfx"
     },
     "disabled": {
       "audio_cue": "/SE/Buildings/teleporter_disabled",
-      "effect_spec": "/pa/units/legion/land/teleporter/teleporter_power_down.pfx event_horizon"
+      "effect_spec": "/pa/units/air/l_flying_teleporter/teleporter_power_down.pfx event_horizon"
     },
     "enabled": {
       "audio_cue": "/SE/Buildings/teleporter_enabled",
-      "effect_spec": "/pa/units/legion/land/teleporter/teleporter_power_on.pfx event_horizon"
+      "effect_spec": "/pa/units/air/l_flying_teleporter/teleporter_power_on.pfx event_horizon"
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/sea/nuclear_sub_fire",
-      "effect_spec": "/pa/units/legion/air/L_flying_teleporter/launch_smoke.pfx rocket002 /pa/units/legion/air/L_flying_teleporter/launch_smoke.pfx rocket005"
+      "effect_spec": "/pa/units/air/l_flying_teleporter/launch_smoke.pfx rocket002 /pa/units/air/l_flying_teleporter/launch_smoke.pfx rocket005"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/sea/nuclear_sub_fire",
-      "effect_spec": "/pa/units/legion/air/L_flying_teleporter/launch_smoke.pfx rocket008 /pa/units/legion/air/L_flying_teleporter/launch_smoke.pfx rocket011"
+      "effect_spec": "/pa/units/air/l_flying_teleporter/launch_smoke.pfx rocket008 /pa/units/air/l_flying_teleporter/launch_smoke.pfx rocket011"
     }
   },
   "fx_offsets": [
     {
       "bone": "thrust_leftWing",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         180,
@@ -63,7 +63,7 @@
     },
     {
       "bone": "thrust_rightWing",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         90,
@@ -73,7 +73,7 @@
     },
     {
       "bone": "thrust_back01",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         180,
@@ -83,7 +83,7 @@
     },
     {
       "bone": "thrust_back02",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         180,
@@ -93,7 +93,7 @@
     },
     {
       "bone": "thrust_back03",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         180,
@@ -103,7 +103,7 @@
     },
     {
       "bone": "thrust_back04",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         180,
@@ -113,7 +113,7 @@
     },
     {
       "bone": "bone_root",
-      "filename": "/pa/units/legion/air/L_flying_teleporter/dust.pfx",
+      "filename": "/pa/units/air/l_flying_teleporter/dust.pfx",
       "offset": [
         0,
         0,
@@ -128,7 +128,7 @@
     },
     {
       "bone": "bone_root",
-      "filename": "/pa/units/legion/air/L_flying_teleporter/event_horizon.pfx",
+      "filename": "/pa/units/air/l_flying_teleporter/event_horizon.pfx",
       "offset": [
         0,
         0,
@@ -144,7 +144,7 @@
   ],
   "gravwell_velocity_multiplier": 6.0,
   "guard_layer": "WL_Anysurface",
-  "max_health": 4800,
+  "max_health": 4000,
   "mesh_bounds": [
     35,
     40,
@@ -152,29 +152,25 @@
   ],
   "model": {
     "animations": {
-      "fly": "/pa/units/legion/air/L_flying_teleporter/L_flying_teleporter_fly.papa",
-      "idle": "/pa/units/legion/air/L_flying_teleporter/L_flying_teleporter_idle.papa"
+      "fly": "/pa/units/air/l_flying_teleporter/l_flying_teleporter_fly.papa",
+      "idle": "/pa/units/air/l_flying_teleporter/l_flying_teleporter_idle.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_flying_teleporter_anim_tree.json",
-    "filename": "/pa/units/legion/air/L_flying_teleporter/L_flying_teleporter.papa"
+    "animtree": "/pa/anim/anim_trees/l_flying_teleporter_anim_tree.json",
+    "filename": "/pa/units/air/l_flying_teleporter/l_flying_teleporter.papa"
   },
   "navigation": {
     "acceleration": 10,
     "aggressive_behavior": "circle",
-    "aggressive_distance": 50,
-    "bank_factor": 1,
+    "bank_factor": 0.3,
     "brake": 10,
     "circle_max_time": 2,
     "circle_min_time": 1,
-    "hover_time": -1,
     "inter_planetary_type": "system",
     "move_speed": 40,
     "turn_speed": 50,
-    "type": "air",
-    "vertical_speed": 100
+    "vertical_speed": 50
   },
   "physics": {
-    "gravity_scalar": 1,
     "radius": 8
   },
   "recon": {
@@ -196,8 +192,7 @@
     }
   },
   "selection_icon": {
-    "diameter": -40,
-    "vertical_offset": 0
+    "diameter": -40
   },
   "system_velocity_multiplier": 15.0,
   "teleporter": {
@@ -218,7 +213,7 @@
         "rocket004"
       ],
       "projectiles_per_fire": 2,
-      "spec_id": "/pa/units/legion/air/L_flying_teleporter/L_tele_rocket_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_flying_teleporter/l_tele_rocket_tool_weapon.json"
     },
     {
       "aim_bone": "bone_root",
@@ -232,7 +227,7 @@
         "rocket010"
       ],
       "projectiles_per_fire": 2,
-      "spec_id": "/pa/units/legion/air/L_flying_teleporter/L_tele_rocket_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_flying_teleporter/l_tele_rocket_tool_weapon.json"
     }
   ],
   "unit_types": [

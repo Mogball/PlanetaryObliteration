@@ -13,14 +13,14 @@
       ]
     }
   },
-  "base_spec": "/pa/units/legion/orbital/base_orbital_structure/base_orbital_structure.json",
+  "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json",
   "build_metal_cost": 1500,
   "command_caps": [
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Orbital Defense- Heavy defensive satelite. Attacks all unit types. Well armored.",
-  "display_name": "Stalwart",
+  "description": "Orbital Defense - Heavy Defensive Satellite. Attacks Anything.",
+  "display_name": "Centurion",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"
@@ -42,13 +42,12 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/orbital/L_defense_satellite/L_defense_satellite_idle.papa"
+      "idle": "/pa/units/orbital/l_defense_satellite/l_defense_satellite_idle.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_defense_satellite_anim_tree.json",
-    "filename": "/pa/units/legion/orbital/L_defense_satellite/L_defense_satellite.papa"
+    "animtree": "/pa/anim/anim_trees/l_defense_satellite_anim_tree.json",
+    "filename": "/pa/units/orbital/l_defense_satellite/l_defense_satellite.papa"
   },
   "physics": {
-    "collision_layers": "WL_Orbital",
     "gravity_scalar": 0.001,
     "radius": 15
   },
@@ -77,20 +76,24 @@
   "selection_icon": {
     "diameter": -43
   },
-  "spawn_layers": "WL_Orbital",
   "tools": [
     {
       "aim_bone": "bone_turret",
+      "fire_event": "fired1",
       "muzzle_bone": [
         "socket_muzzle001",
         "socket_muzzle002"
       ],
       "projectiles_per_fire": 2,
-      "spec_id": "/pa/units/legion/orbital/L_defense_satellite/L_defense_satellite_tool_weapon.json"
+      "record_index": 1,
+      "spec_id": "/pa/units/orbital/l_defense_satellite/l_defense_satellite_tool_weapon.json"
     },
     {
       "aim_bone": "laser",
-      "spec_id": "/pa/units/legion/orbital/L_defense_satellite/L_defense_satellite_ground_tool_weapon.json"
+      "fire_event": "fired2",
+      "muzzle_bone": "laser",
+      "record_index": 2,
+      "spec_id": "/pa/units/orbital/l_defense_satellite/l_defense_satellite_ground_tool_weapon.json"
     }
   ],
   "unit_types": [

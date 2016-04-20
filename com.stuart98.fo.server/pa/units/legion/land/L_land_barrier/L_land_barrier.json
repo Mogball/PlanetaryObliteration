@@ -3,9 +3,9 @@
   "area_build_separation": 1.2,
   "atrophy_cool_down": 0.5,
   "atrophy_rate": 20,
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 50,
-  "description": "Highly Armored Land Barrier.",
+  "description": "Heavily Armored Siege Defense Barrier.",
   "display_name": "Clot",
   "events": {
     "build_complete": {
@@ -17,7 +17,7 @@
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     }
   },
-  "max_health": 3000,
+  "max_health": 2000,
   "mesh_bounds": [
     5,
     5,
@@ -25,24 +25,14 @@
   ],
   "model": [
     {
-      "filename": "/pa/units/legion/land/L_land_barrier/L_land_barrier.papa",
+      "filename": "/pa/units/land/l_land_barrier/l_land_barrier.papa",
       "layer": "WL_LandHorizontal"
     },
     {
-      "filename": "/pa/units/legion/land/L_land_barrier/sea/L_land_barrier.papa",
+      "filename": "/pa/units/land/l_land_barrier/sea/l_land_barrier.papa",
       "layer": "WL_WaterSurface"
     }
   ],
-  "physics": {
-    "air_friction": 1.0,
-    "allow_pushing": false,
-    "allow_underground": false,
-    "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-    "push_sideways": false,
-    "radius": 1,
-    "shape": "Box",
-    "type": "Structure"
-  },
   "placement_size": [
     4,
     4
@@ -96,5 +86,5 @@
     "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_Custom1"
   ],
-  "wreckage_health_frac": 0.2
+  "wreckage_health_frac": 0.0
 }

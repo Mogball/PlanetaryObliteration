@@ -27,26 +27,20 @@
       "cue": "/SE/Selection/veh/tank_light_laser"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 1200,
-  "description": "Sniper. Attacks Land and Naval.",
+  "description": "Sniper - Equipped with a High-Damage Beam Cannon. Attacks Land and Naval.",
   "display_name": "Deathmark",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/veh"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/Veh"
-    },
     "fired": {
       "audio_cue": "/SE/Weapons/veh/tank_T2_leveler",
-      "effect_spec": "/pa/units/legion/land/L_sniper_tank/muzzle_flash.pfx socket_muzzle /pa/units/legion/land/L_sniper_tank/artillery_muzzle_ground.pfx bone_root /pa/effects/specs/default_muzzle_flash.pfx bone_effect"
+      "effect_spec": "/pa/units/land/l_sniper_tank/muzzle_flash.pfx socket_muzzle /pa/units/land/l_sniper_tank/artillery_muzzle_ground.pfx bone_root /pa/effects/specs/default_muzzle_flash.pfx bone_effect"
     }
   },
   "fx_offsets": [
     {
       "bone": "bone_turret",
-      "filename": "/pa/units/legion/land/L_sniper_tank/energy_rods.pfx",
+      "filename": "/pa/units/land/l_sniper_tank/energy_rods.pfx",
       "offset": [
         0,
         0,
@@ -90,14 +84,13 @@
   "model": {
     "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/legion/land/L_sniper_tank/L_sniper_tank.papa"
+    "filename": "/pa/units/land/l_sniper_tank/l_sniper_tank.papa"
   },
   "navigation": {
     "acceleration": 100,
     "brake": 100,
     "move_speed": 8,
-    "turn_speed": 90,
-    "type": "land-small"
+    "turn_speed": 90
   },
   "physics": {
     "radius": 4
@@ -121,7 +114,7 @@
     {
       "aim_bone": "bone_turret",
       "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/legion/land/L_sniper_tank/L_sniper_tank_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_sniper_tank/l_sniper_tank_tool_weapon.json"
     }
   ],
   "transportable": {

@@ -13,7 +13,7 @@
       "cue": "/SE/Selection/air/air"
     }
   },
-  "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 3000,
   "command_caps": [
     "ORDER_Move",
@@ -21,7 +21,7 @@
     "ORDER_Assist",
     "ORDER_Attack"
   ],
-  "description": "Launches Flyer Drones. Strong.",
+  "description": "Air Carrier - Launches Fast-Flying Drones at Enemies. Attacks Everything Except Orbital.",
   "display_name": "Meteor",
   "events": {
     "build_complete": {
@@ -29,8 +29,8 @@
     },
     "died": {
       "audio_cue": "/SE/Death/Air",
-      "effect_scale": 0.25,
-      "effect_spec": "/pa/units/legion/air/missile_nuke/missile_nuke_implosion.pfx"
+      "effect_scale": 1,
+      "effect_spec": "/pa/units/air/base_flyer/base_flyer_death_t2.pfx"
     },
     "fired": {
       "audio_cue": "/SE/Weapons/air/air_scout_fire"
@@ -39,72 +39,72 @@
   "fx_offsets": [
     {
       "bone": "thrust01",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_jets_big.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_jets_big.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust02",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_jets.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_jets.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust03",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_jets.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_jets.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust04",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_jets.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_jets.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust05",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_jets.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_jets.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust01",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_lines_thrust_big.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_lines_thrust_big.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust02",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_lines_thrust.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_lines_thrust.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust03",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_lines_thrust.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_lines_thrust.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust04",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_lines_thrust.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_lines_thrust.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "thrust05",
-      "filename": "/pa/units/legion/air/L_air_carrier/carrier_lines_thrust.pfx",
+      "filename": "/pa/units/air/l_air_carrier/carrier_lines_thrust.pfx",
       "type": "moving_forward"
     },
     {
       "bone": "hole_frontLeft",
-      "filename": "/pa/units/legion/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "type": "idle"
     },
     {
       "bone": "hole_frontRight",
-      "filename": "/pa/units/legion/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "type": "idle"
     },
     {
       "bone": "hole_backLeft",
-      "filename": "/pa/units/legion/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "type": "idle"
     },
     {
       "bone": "hole_backRight",
-      "filename": "/pa/units/legion/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "type": "idle"
     }
   ],
@@ -116,7 +116,7 @@
   ],
   "model": {
     "arrows": 5,
-    "filename": "/pa/units/legion/air/L_air_carrier/L_air_carrier.papa"
+    "filename": "/pa/units/air/l_air_carrier/l_air_carrier.papa"
   },
   "navigation": {
     "acceleration": 30,
@@ -162,7 +162,7 @@
         "socket_muzzleLeft"
       ],
       "record_index": 0,
-      "spec_id": "/pa/units/legion/air/L_air_carrier/L_air_carrier_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_air_carrier/l_air_carrier_tool_weapon.json"
     },
     {
       "aim_bone": "socket_muzzleRight",
@@ -171,7 +171,7 @@
         "socket_muzzleRight"
       ],
       "record_index": 1,
-      "spec_id": "/pa/units/legion/air/L_air_carrier/L_air_carrier_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_air_carrier/l_air_carrier_tool_weapon.json"
     }
   ],
   "unit_types": [

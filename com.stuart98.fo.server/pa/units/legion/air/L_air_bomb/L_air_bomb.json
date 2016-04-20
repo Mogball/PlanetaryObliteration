@@ -22,29 +22,14 @@
       "cue": "/SE/Selection/air/transport"
     }
   },
-  "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 105,
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_Assist",
-    "ORDER_Attack"
-  ],
-  "description": "Suicide Bomb Plane- attacks air only",
-  "display_name": "Stinger",
-  "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/air"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/Air",
-      "effect_scale": 0.5
-    }
-  },
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+  "build_metal_cost": 90,
+  "description": "Suicide Bomb Plane - attacks air only.",
+  "display_name": "Nova",
   "fx_offsets": [
     {
       "bone": "bone_root",
-      "filename": "/pa/units/legion/air/L_air_bomb/L_air_bomb.pfx",
+      "filename": "/pa/units/air/l_air_bomb/l_air_bomb.pfx",
       "type": "idle"
     }
   ],
@@ -57,28 +42,18 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/air/L_air_bomb/L_air_bomb_idle.papa"
+      "idle": "/pa/units/air/l_air_bomb/l_air_bomb_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
-    "filename": "/pa/units/legion/air/L_air_bomb/L_air_bomb.papa"
+    "filename": "/pa/units/air/l_air_bomb/l_air_bomb.papa"
   },
   "navigation": {
-    "acceleration": 75,
-    "brake": 25,
-    "hover_time": -1.0,
-    "move_speed": 75,
-    "turn_in_place": true,
+    "acceleration": 120,
+    "brake": 120,
+    "move_speed": 90,
     "turn_speed": 1080,
-    "type": "air",
     "wobble_factor": 0.25,
     "wobble_speed": 0.2
-  },
-  "physics": {
-    "air_friction": 1.0,
-    "allow_pushing": false,
-    "gravity_scalar": 1,
-    "push_sideways": false,
-    "radius": 6
   },
   "recon": {
     "observer": {
@@ -98,7 +73,7 @@
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/legion/air/L_air_bomb/L_air_bomb_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_air_bomb/l_air_bomb_tool_weapon.json"
     }
   ],
   "unit_types": [

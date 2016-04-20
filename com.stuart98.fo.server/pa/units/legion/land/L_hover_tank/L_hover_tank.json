@@ -1,5 +1,5 @@
 {
-  "TEMP_texelinfo": 22.4238,
+  "TEMP_texelinfo": 20.4238,
   "armor_type": "AT_Hover",
   "attachable": {
     "offsets": {
@@ -28,16 +28,12 @@
       "cue": "/SE/Selection/veh/tank_hover"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 400,
-  "description": "Hover Artillery- Medium range. Attacks Land and Naval.",
+  "description": "Hover Artillery - Medium Range. Attacks Land and Naval.",
   "display_name": "Corsair",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/veh"
-    },
     "died": {
-      "audio_cue": "/SE/Death/Veh",
       "effect_scale": 1.4
     },
     "fired": {
@@ -159,15 +155,15 @@
   "max_health": 125,
   "mesh_bounds": [
     6.468,
-    7.765,
+    8,
     5.711
   ],
   "model": {
     "animations": {
-      "hover": "/pa/units/legion/land/tank_hover/tank_hover_anim_hover.papa"
+      "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_hover_tank_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_hover_tank/L_hover_tank.papa"
+    "animtree": "/pa/anim/anim_trees/l_hover_tank_anim_tree.json",
+    "filename": "/pa/units/land/l_hover_tank/l_hover_tank.papa"
   },
   "navigation": {
     "acceleration": 50,
@@ -180,7 +176,7 @@
   "nearby_target_tick_update_interval": 15,
   "physics": {
     "air_friction": 0.5,
-    "radius": 3
+    "radius": 6
   },
   "recon": {
     "observer": {
@@ -211,7 +207,7 @@
         "socket_muzzleRight"
       ],
       "projectiles_per_fire": 2,
-      "spec_id": "/pa/units/legion/land/L_hover_tank/L_hover_tank_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_hover_tank/l_hover_tank_tool_weapon.json"
     }
   ],
   "transportable": {

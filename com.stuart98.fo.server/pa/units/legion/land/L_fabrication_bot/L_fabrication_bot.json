@@ -36,7 +36,7 @@
       "cue": "/SE/Selection/bot/fab"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 210,
   "buildable_types": "Custom1 & ( Land & Structure & Basic | Factory & Basic | Factory & Advanced & Bot & Land | FabBuild )",
   "command_caps": [
@@ -48,14 +48,13 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Builds Basic Structures. Can Build Exclusive Walker Units.",
+  "description": "Fabricator - Builds Basic Structures. Can Build Exclusive Walker Units.",
   "display_name": "Fabrication Walker",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
     },
     "died": {
-      "audio_cue": "/SE/Death/Bot",
       "effect_scale": 0.8
     }
   },
@@ -75,11 +74,11 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/land/L_fabrication_bot/L_fabrication_bot_idle.papa",
-      "walk": "/pa/units/legion/land/L_fabrication_bot/L_fabrication_bot_walk.papa"
+      "idle": "/pa/units/land/l_fabrication_bot/l_fabrication_bot_idle.papa",
+      "walk": "/pa/units/land/l_fabrication_bot/l_fabrication_bot_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/one_turret_walk_idle.json",
-    "filename": "/pa/units/legion/land/L_fabrication_bot/L_fabrication_bot.papa",
+    "animtree": "/pa/anim/anim_trees/l_fabrication_bot_anim_tree.json",
+    "filename": "/pa/units/land/l_fabrication_bot/l_fabrication_bot.papa",
     "walk_speed": 2.75
   },
   "navigation": {
@@ -87,8 +86,7 @@
     "brake": 120,
     "group_preference": "back",
     "move_speed": 14,
-    "turn_speed": 360,
-    "type": "land-small"
+    "turn_speed": 360
   },
   "physics": {
     "allow_pushing": true,
@@ -118,7 +116,7 @@
   "tools": [
     {
       "aim_bone": "turret00",
-      "spec_id": "/pa/units/legion/land/L_fabrication_bot/L_fabrication_bot_build_arm.json"
+      "spec_id": "/pa/units/land/l_fabrication_bot/l_fabrication_bot_build_arm.json"
     }
   ],
   "transportable": {

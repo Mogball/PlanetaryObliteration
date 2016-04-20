@@ -27,7 +27,7 @@
       "cue": "/SE/Selection/structure/radar"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 150,
   "command_caps": [
     "ORDER_FireSecondaryWeapon"
@@ -35,33 +35,20 @@
   "consumption": {
     "energy": 100
   },
-  "death": {},
   "description": "Radar vision but immobile",
   "display_name": "Scout Bot Radar mode",
+  "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/radar"
     },
     "died": {},
-    "fired": {
-      "audio_cue": "/SE/Weapons/bot/assault_fire",
-      "effect_spec": "/pa/units/legion/land/L_scout_bot/L_scout_bot_superman_debris.pfx"
-    }
+    "fired": null
   },
   "fx_offsets": [
     {
       "bone": "bone_radar",
-      "filename": "/pa/units/legion/land/L_scout_bot/L_scout_bot_radar_on.pfx",
-      "offset": [
-        0,
-        0,
-        0
-      ],
-      "orientation": [
-        0,
-        0,
-        0
-      ],
+      "filename": "/pa/units/land/l_scout_bot/l_scout_bot_radar_on.pfx",
       "type": "energy"
     }
   ],
@@ -84,17 +71,16 @@
   ],
   "max_health": 60,
   "mesh_bounds": [
-    4,
+    2,
     2,
     4
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/land/L_scout_bot/L_scout_bot_idle.papa",
-      "walk": "/pa/units/legion/land/L_scout_bot/L_scout_bot_walk.papa"
+      "idle": "/pa/units/land/l_scout_bot/radar_mode/l_scout_bot_radar_mode_idle.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_scout_bot_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_scout_bot/L_scout_bot.papa",
+    "animtree": "/pa/anim/anim_trees/l_scout_bot_anim_tree.json",
+    "filename": "/pa/units/land/l_scout_bot/radar_mode/l_scout_bot_radar_mode.papa",
     "walk_speed": 2.75
   },
   "navigation": {
@@ -105,9 +91,22 @@
     "type": "amphibious"
   },
   "physics": {
-    "radius": 2
+    "allow_pushing": false,
+    "allow_underground": false,
+    "collide_with_types": [
+      "Projectile",
+      "Feature"
+    ],
+    "push_sideways": false,
+    "radius": 0,
+    "shape": "Box",
+    "type": "Structure"
   },
   "recon": {
+    "observable": {
+      "ignore_sight": true,
+      "layer": "surface_and_air"
+    },
     "observer": {
       "items": [
         {
@@ -138,11 +137,7 @@
           "shape": "capsule",
           "uses_energy": true
         }
-      ],
-      "observable": {
-        "ignore_sight": true,
-        "layer": "surface_and_air"
-      }
+      ]
     }
   },
   "selection_icon": {
@@ -151,10 +146,10 @@
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {
-      "aim_bone": "bone_turret",
+      "aim_bone": "bone_root",
       "primary_weapon": false,
       "secondary_weapon": true,
-      "spec_id": "/pa/units/legion/land/L_scout_bot/L_scout_bot_radar_mode_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_scout_bot/l_scout_bot_radar_mode_tool_weapon.json"
     }
   ],
   "transportable": {

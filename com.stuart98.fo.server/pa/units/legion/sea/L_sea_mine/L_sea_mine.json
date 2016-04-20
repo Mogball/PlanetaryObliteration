@@ -1,10 +1,71 @@
 {
   "TEMP_texelinfo": 2.37699,
+  "area_build_pattern": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
   "area_build_separation": 1,
   "area_build_type": "Sphere",
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 80,
-  "description": "Proximity Bomb. You Should Probably Stay Away from These.",
+  "description": "Proximity Bomb - Destroys Naval Units that get too Close.",
   "display_name": "Sea Urchin",
   "events": {
     "build_complete": {
@@ -25,20 +86,14 @@
   "model": [
     {
       "animations": {
-        "idle": "/pa/units/legion/sea/L_sea_mine/L_sea_mine_float.papa"
+        "idle": "/pa/units/sea/l_sea_mine/l_sea_mine_float.papa"
       },
       "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
-      "filename": "/pa/units/legion/sea/L_sea_mine/L_sea_mine.papa"
+      "filename": "/pa/units/sea/l_sea_mine/l_sea_mine.papa"
     }
   ],
   "physics": {
-    "allow_pushing": false,
-    "allow_underground": false,
-    "ignore_collisions": true,
-    "push_sideways": false,
-    "radius": 1,
-    "shape": "Box",
-    "type": "Structure"
+    "ignore_collisions": true
   },
   "recon": {
     "observable": {
@@ -70,7 +125,7 @@
     {
       "aim_bone": "bone_root",
       "muzzle_bone": "bone_root",
-      "spec_id": "/pa/units/legion/sea/L_sea_mine/L_sea_mine_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_sea_mine/l_sea_mine_tool_weapon.json"
     }
   ],
   "unit_types": [

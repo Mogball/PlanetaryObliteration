@@ -5,7 +5,7 @@
     "died": {
       "audio_cue": "/SE/Impacts/unit_cannon_unit_impact",
       "effect_scale": 0.5,
-      "effect_spec": "/pa/units/legion/air/unit_shell/unit_shell_deploy.pfx"
+      "effect_spec": "/pa/units/air/unit_shell/unit_shell_deploy.pfx"
     }
   },
   "full_damage_splash_radius": 0,
@@ -14,9 +14,9 @@
   "lifetime": 7,
   "max_velocity": 15.0,
   "model": {
-    "filename": "/pa/units/legion/air/unit_shell_small/unit_shell_small.papa"
+    "filename": "/pa/units/air/unit_shell_small/unit_shell_small.papa"
   },
-  "spawn_unit_on_death": "/pa/units/legion/air/L_firestarter/L_drop_turret/L_drop_turret.json",
+  "spawn_unit_on_death": "/pa/units/air/l_firestarter/l_drop_turret/l_drop_turret.json",
   "splash_damage": 0,
   "splash_radius": 0
 }

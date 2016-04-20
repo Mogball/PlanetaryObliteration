@@ -10,14 +10,11 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/sea/base_ship/base_ship.json",
+  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 800,
-  "description": "Medium Range Anti-Land Anti-Sea Vessel.",
+  "description": "Destroyer - Equipped with Heavy Cannons. Attacks Naval and Land.",
   "display_name": "Bowhead",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/sea"
-    },
     "died": {
       "audio_cue": "/SE/Death/Sea_large",
       "effect_scale": 1.0
@@ -25,17 +22,17 @@
     "fired0": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire",
       "effect_scale": 5.0,
-      "effect_spec": "/pa/units/legion/sea/L_destroyer/muzzle_flash.pfx socket_small_left_muzzle"
+      "effect_spec": "/pa/units/sea/l_destroyer/muzzle_flash.pfx socket_small_left_muzzle"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire",
       "effect_scale": 5.0,
-      "effect_spec": "/pa/units/legion/sea/L_destroyer/muzzle_flash.pfx socket_small_right_muzzle"
+      "effect_spec": "/pa/units/sea/l_destroyer/muzzle_flash.pfx socket_small_right_muzzle"
     },
     "fired2": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire",
       "effect_scale": 5.0,
-      "effect_spec": "/pa/units/legion/sea/L_destroyer/muzzle_flash.pfx socket_main_muzzle"
+      "effect_spec": "/pa/units/sea/l_destroyer/muzzle_flash.pfx socket_main_muzzle"
     }
   },
   "guard_layer": "WL_AnySurface",
@@ -46,22 +43,20 @@
     7
   ],
   "model": {
-    "animtree": "/pa/anim/anim_trees/L_destroyer_anim_tree.json",
-    "filename": "/pa/units/legion/sea/L_destroyer/L_destroyer.papa"
+    "animtree": "/pa/anim/anim_trees/l_destroyer_anim_tree.json",
+    "filename": "/pa/units/sea/l_destroyer/l_destroyer.papa"
   },
   "navigation": {
     "acceleration": 50,
     "brake": 90,
-    "move_speed": 8,
+    "move_speed": 9,
     "park_stamp_cost": 20,
     "park_stamp_type": "box",
-    "turn_speed": 40,
-    "type": "deepwater"
+    "turn_speed": 40
   },
   "nearby_target_tick_update_interval": 15,
   "physics": {
-    "radius": 3,
-    "shape": "sphere"
+    "radius": 3
   },
   "recon": {
     "observer": {
@@ -94,7 +89,7 @@
       ],
       "projectiles_per_fire": 1,
       "record_index": 0,
-      "spec_id": "/pa/units/legion/sea/L_destroyer/L_destroyer_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_destroyer/l_destroyer_tool_weapon.json"
     },
     {
       "aim_bone": "bone_small_pitch_right",
@@ -104,7 +99,7 @@
       ],
       "projectiles_per_fire": 1,
       "record_index": 1,
-      "spec_id": "/pa/units/legion/sea/L_destroyer/L_destroyer_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_destroyer/l_destroyer_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch_main",
@@ -114,7 +109,7 @@
       ],
       "projectiles_per_fire": 1,
       "record_index": 2,
-      "spec_id": "/pa/units/legion/sea/L_destroyer/L_destroyer_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_destroyer/l_destroyer_tool_weapon.json"
     }
   ],
   "unit_types": [

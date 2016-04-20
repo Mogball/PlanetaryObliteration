@@ -162,7 +162,7 @@
     5.711
   ],
   "model": {
-	{
+    "animations": {
       "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
     },
     "animtree": "/pa/anim/anim_trees/L_hover_tank_anim_tree.json",

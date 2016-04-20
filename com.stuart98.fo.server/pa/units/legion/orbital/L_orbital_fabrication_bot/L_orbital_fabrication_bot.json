@@ -25,7 +25,7 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/orbital/base_orbital/base_orbital.json",
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "build_metal_cost": 1300,
   "buildable_types": "Custom1 & FabOrbBuild | Titan & Custom1",
   "command_caps": [
@@ -37,14 +37,11 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Advanced fabricator- Builds Legion Orbital Satellites and Ships. ",
+  "description": "Advanced Fabricator - Builds Legion Orbital Satellites and Ships.",
   "display_name": "Fabrication Starship",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab_orbital"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/orbital"
     }
   },
   "fx_offsets": [
@@ -57,6 +54,16 @@
       "bone": "socket_muzzle002",
       "filename": "/pa/effects/specs/legion_fab_spray.pfx",
       "type": "build"
+    },
+    {
+      "bone": "thrust001",
+      "filename": "/pa/units/orbital/l_orbital_fabrication_bot/orbital_jets.pfx",
+      "type": "moving_forward"
+    },
+    {
+      "bone": "thrust002",
+      "filename": "/pa/units/orbital/l_orbital_fabrication_bot/orbital_jets.pfx",
+      "type": "moving_forward"
     }
   ],
   "gravwell_velocity_multiplier": 6.0,
@@ -69,12 +76,12 @@
   ],
   "model": {
     "animations": {
-      "closed": "/pa/units/legion/orbital/L_orbital_fabrication_bot/L_orbital_fabrication_bot_closed.papa",
-      "deploy": "/pa/units/legion/orbital/L_orbital_fabrication_bot/L_orbital_fabrication_bot_deploy.papa",
-      "open": "/pa/units/legion/orbital/L_orbital_fabrication_bot/L_orbital_fabrication_bot_open.papa"
+      "closed": "/pa/units/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot_closed.papa",
+      "deploy": "/pa/units/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot_deploy.papa",
+      "open": "/pa/units/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot_open.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_orbital_fabrication_bot_anim_tree.json",
-    "filename": "/pa/units/legion/orbital/L_orbital_fabrication_bot/L_orbital_fabrication_bot.papa"
+    "animtree": "/pa/anim/anim_trees/l_orbital_fabrication_bot_anim_tree.json",
+    "filename": "/pa/units/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot.papa"
   },
   "navigation": {
     "acceleration": 10,
@@ -82,13 +89,8 @@
     "aggressive_distance": 120,
     "bank_factor": 10,
     "brake": 10,
-    "hover_time": -1.0,
     "move_speed": 20,
-    "turn_speed": 75,
-    "type": "orbital"
-  },
-  "physics": {
-    "radius": 5
+    "turn_speed": 75
   },
   "recon": {
     "observer": {
@@ -117,12 +119,10 @@
   "selection_icon": {
     "diameter": -27
   },
-  "spawn_layers": "WL_Orbital",
-  "system_velocity_multiplier": 15.0,
   "tools": [
     {
-      "aim_bone": "bone_pitch",
-      "spec_id": "/pa/units/legion/orbital/L_orbital_fabrication_bot/L_orbital_fabrication_bot_build_arm.json"
+      "aim_bone": "bone_turret",
+      "spec_id": "/pa/units/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot_build_arm.json"
     }
   ],
   "unit_types": [

@@ -33,8 +33,8 @@
       "cue": "/SE/Selection/veh/fab"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 200,
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "build_metal_cost": 350,
   "buildable_types": "Custom1 & CombatFabBuild",
   "command_caps": [
     "ORDER_Move",
@@ -45,14 +45,13 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Combat Fabrication Vehicle. Builds Turrets, Radar, and Repairs Friendly Units.",
+  "description": "Combat Fabrication Vehicle - Builds Turrets, Mines, Radar, and Repairs Friendly Units. Can Reclaim Trees.",
   "display_name": "Guardian",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
     },
     "died": {
-      "audio_cue": "/SE/Death/Veh",
       "effect_scale": 1.5
     }
   },
@@ -72,19 +71,18 @@
   ],
   "model": {
     "animations": {
-      "drive": "/pa/units/legion/land/L_fabrication_vehicle_combat/L_fabrication_vehicle_combat_drive.papa"
+      "drive": "/pa/units/land/l_fabrication_vehicle_combat/l_fabrication_vehicle_combat_drive.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_fabrication_vehicle_combat_anim.json",
+    "animtree": "/pa/anim/anim_trees/l_fabrication_vehicle_combat_anim.json",
     "arrows": 5,
-    "filename": "/pa/units/legion/land/L_fabrication_vehicle_combat/L_fabrication_vehicle_combat.papa"
+    "filename": "/pa/units/land/l_fabrication_vehicle_combat/l_fabrication_vehicle_combat.papa"
   },
   "navigation": {
     "acceleration": 180,
     "brake": 120,
     "group_preference": "back",
     "move_speed": 10,
-    "turn_speed": 360,
-    "type": "land-small"
+    "turn_speed": 360
   },
   "physics": {
     "allow_pushing": true,
@@ -110,6 +108,12 @@
           "layer": "mine",
           "radius": 100,
           "shape": "capsule"
+        },
+        {
+          "channel": "radar",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
         }
       ]
     }
@@ -120,7 +124,7 @@
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/legion/land/L_fabrication_vehicle_combat/L_fabrication_vehicle_combat_build_arm.json"
+      "spec_id": "/pa/units/land/l_fabrication_vehicle_combat/l_fabrication_vehicle_combat_build_arm.json"
     }
   ],
   "transportable": {

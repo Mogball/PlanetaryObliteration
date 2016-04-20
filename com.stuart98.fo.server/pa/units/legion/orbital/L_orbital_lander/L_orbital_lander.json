@@ -19,7 +19,7 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/orbital/base_orbital/base_orbital.json",
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "build_metal_cost": 200,
   "command_caps": [
     "ORDER_Move",
@@ -29,56 +29,93 @@
     "ORDER_Unload",
     "ORDER_SpecialMove"
   ],
-  "description": "Orbital lander- Load it up, get units to other planets.",
-  "display_name": "Orbital Chariot",
+  "description": "Orbital Lander - Interplanetary Transportation Carrier.",
+  "display_name": "Chariot",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/orbital"
     }
   },
   "fx_offsets": [
     {
       "bone": "thrust001",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "type": "moving"
     },
     {
       "bone": "thrust002",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "type": "moving"
     },
     {
       "bone": "thrust003",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "type": "moving"
     },
     {
       "bone": "thrust004",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "type": "moving"
     },
     {
       "bone": "thrust005",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
-      "type": "moving"
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "type": "idle"
     },
     {
       "bone": "thrust006",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
-      "type": "moving"
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "type": "idle"
     },
     {
       "bone": "thrust007",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
-      "type": "moving"
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "type": "idle"
     },
     {
       "bone": "thrust008",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
-      "type": "moving"
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "orientation": [
+        0,
+        180,
+        0
+      ],
+      "type": "idle"
     }
   ],
   "gravwell_velocity_multiplier": 5.0,
@@ -90,24 +127,21 @@
   ],
   "model": {
     "animations": {
-      "closed": "/pa/units/legion/orbital/L_orbital_lander/L_orbital_lander_closed.papa",
-      "deploy": "/pa/units/legion/orbital/L_orbital_lander/L_orbital_lander_deploy.papa",
-      "open": "/pa/units/legion/orbital/L_orbital_lander/L_orbital_lander_open.papa"
+      "closed": "/pa/units/orbital/l_orbital_lander/l_orbital_lander_closed.papa",
+      "deploy": "/pa/units/orbital/l_orbital_lander/l_orbital_lander_deploy.papa",
+      "open": "/pa/units/orbital/l_orbital_lander/l_orbital_lander_open.papa"
     },
     "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
-    "filename": "/pa/units/legion/orbital/L_orbital_lander/L_orbital_lander.papa"
+    "filename": "/pa/units/orbital/l_orbital_lander/l_orbital_lander.papa"
   },
   "navigation": {
     "acceleration": 25,
     "brake": 25,
-    "hover_time": -1.0,
     "move_speed": 25,
     "turn_speed": 360,
-    "type": "orbital",
     "vertical_speed": 200
   },
   "physics": {
-    "gravity_scalar": 0.001,
     "radius": 8
   },
   "recon": {

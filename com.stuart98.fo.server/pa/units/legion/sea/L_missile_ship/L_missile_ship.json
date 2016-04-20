@@ -13,17 +13,11 @@
       "cue": "/SE/Selection/sea/sea_large"
     }
   },
-  "base_spec": "/pa/units/legion/sea/base_ship/base_ship.json",
+  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 3750,
-  "description": "Ballistic Missile Ship.  Equipped with anti-air cannon",
-  "display_name": "Crossbow",
+  "description": "Ballistic Missile Ship - Equipped with Heavy Rockets and Anti-Air Cannons.",
+  "display_name": "Manta",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/sea"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/Sea"
-    },
     "fired0": {
       "audio_cue": "/SE/Weapons/structure/air_defense_fire",
       "effect_scale": 0.5,
@@ -44,24 +38,22 @@
   ],
   "model": {
     "animations": {
-      "deploy": "/pa/units/legion/sea/L_missile_ship/L_missile_ship_deploy.papa",
-      "open": "/pa/units/legion/sea/L_missile_ship/L_missile_ship_open.papa"
+      "deploy": "/pa/units/sea/l_missile_ship/l_missile_ship_deploy.papa",
+      "open": "/pa/units/sea/l_missile_ship/l_missile_ship_open.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_missile_ship_anim_tree.json",
-    "filename": "/pa/units/legion/sea/L_missile_ship/L_missile_ship.papa"
+    "animtree": "/pa/anim/anim_trees/l_missile_ship_anim_tree.json",
+    "filename": "/pa/units/sea/l_missile_ship/l_missile_ship.papa"
   },
   "navigation": {
     "acceleration": 30,
     "brake": 80,
     "move_speed": 8,
     "turn_accel": 15,
-    "turn_speed": 45,
-    "type": "deepwater"
+    "turn_speed": 45
   },
   "nearby_target_tick_update_interval": 20,
   "physics": {
-    "radius": 3,
-    "shape": "sphere"
+    "radius": 3
   },
   "recon": {
     "observer": {
@@ -84,7 +76,6 @@
   "selection_icon": {
     "diameter": -32
   },
-  "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
       "aim_bone": "pitch001",
@@ -95,7 +86,7 @@
       ],
       "projectiles_per_fire": 2,
       "record_index": 0,
-      "spec_id": "/pa/units/legion/sea/L_missile_ship/L_missile_ship_light_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_missile_ship/l_missile_ship_light_tool_weapon.json"
     },
     {
       "aim_bone": "pitch003",
@@ -106,7 +97,7 @@
       ],
       "projectiles_per_fire": 2,
       "record_index": 1,
-      "spec_id": "/pa/units/legion/sea/L_missile_ship/L_missile_ship_light_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_missile_ship/l_missile_ship_light_tool_weapon.json"
     },
     {
       "aim_bone": "pitch001",
@@ -115,7 +106,7 @@
         "muzzle002"
       ],
       "projectiles_per_fire": 2,
-      "spec_id": "/pa/units/legion/sea/L_missile_ship/L_missile_ship_beam_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_missile_ship/l_missile_ship_beam_tool_weapon.json"
     },
     {
       "aim_bone": "pitch003",
@@ -124,7 +115,7 @@
         "muzzle004"
       ],
       "projectiles_per_fire": 2,
-      "spec_id": "/pa/units/legion/sea/L_missile_ship/L_missile_ship_beam_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_missile_ship/l_missile_ship_beam_tool_weapon.json"
     },
     {
       "aim_bone": "rocket002",
@@ -135,7 +126,7 @@
         "rocket003"
       ],
       "record_index": 5,
-      "spec_id": "/pa/units/legion/sea/L_missile_ship/L_missile_ship_rocket_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_missile_ship/l_missile_ship_rocket_tool_weapon.json"
     },
     {
       "aim_bone": "rocket002",
@@ -146,7 +137,7 @@
         "rocket003"
       ],
       "record_index": 5,
-      "spec_id": "/pa/units/legion/sea/L_missile_ship/L_missile_ship_antiuc_tool_weapon.json"
+      "spec_id": "/pa/units/sea/l_missile_ship/l_missile_ship_antiuc_tool_weapon.json"
     }
   ],
   "unit_types": [

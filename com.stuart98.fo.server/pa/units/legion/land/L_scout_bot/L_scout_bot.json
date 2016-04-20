@@ -27,7 +27,7 @@
       "cue": "/SE/Selection/bot/assault"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 150,
   "command_caps": [
     "ORDER_Move",
@@ -36,13 +36,12 @@
     "ORDER_Use",
     "ORDER_FireSecondaryWeapon"
   ],
-  "death": {},
-  "description": "Scout Bot. Provides Short Range Vision and Radar Coverage For Friendly Units.",
-  "display_name": "Creeper",
+  "death": {
+    "decals": []
+  },
+  "description": "Scout Bot - Deploys into a Hidden Short Range Radar via Alt-Fire.",
+  "display_name": "Investigator",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/bot"
-    },
     "died": {},
     "fired": {
       "audio_cue": "/SE/Weapons/bot/assault_fire",
@@ -58,11 +57,11 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/land/L_scout_bot/L_scout_bot_idle.papa",
-      "walk": "/pa/units/legion/land/L_scout_bot/L_scout_bot_walk.papa"
+      "idle": "/pa/units/land/l_scout_bot/l_scout_bot_idle.papa",
+      "walk": "/pa/units/land/l_scout_bot/l_scout_bot_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_scout_bot_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_scout_bot/L_scout_bot.papa",
+    "animtree": "/pa/anim/anim_trees/l_scout_bot_anim_tree.json",
+    "filename": "/pa/units/land/l_scout_bot/l_scout_bot.papa",
     "walk_speed": 2.75
   },
   "navigation": {
@@ -104,10 +103,10 @@
   },
   "tools": [
     {
-      "aim_bone": "bone_turret",
+      "aim_bone": "bone_root",
       "primary_weapon": false,
       "secondary_weapon": true,
-      "spec_id": "/pa/units/legion/land/L_scout_bot/L_scout_bot_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_scout_bot/l_scout_bot_tool_weapon.json"
     }
   ],
   "transportable": {

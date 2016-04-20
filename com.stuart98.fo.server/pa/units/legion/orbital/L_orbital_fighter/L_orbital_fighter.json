@@ -9,7 +9,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/legion/orbital/base_orbital/base_orbital.json",
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "build_metal_cost": 350,
   "command_caps": [
     "ORDER_Move",
@@ -17,24 +17,21 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Legion starfighter. Attacks orbital targets",
-  "display_name": "Alpha's sneaky chuckle",
+  "description": "Orbital Fighter - Attacks Orbital Units. Fast.",
+  "display_name": "Viper",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"
     },
-    "died": {
-      "audio_cue": "/SE/Death/orbital"
-    },
     "fired": {
       "audio_cue": "/SE/Weapons/orb/orb_fighter_fire",
-      "effect_spec": "/pa/units/legion/orbital/L_orbital_fighter/muzzle_flash.pfx socket_muzzle"
+      "effect_spec": "/pa/units/orbital/l_orbital_fighter/muzzle_flash.pfx socket_muzzle"
     }
   },
   "fx_offsets": [
     {
       "bone": "bone_body",
-      "filename": "/pa/units/legion/orbital/L_orbital_fighter/thrusters.pfx",
+      "filename": "/pa/units/orbital/l_orbital_fighter/thrusters.pfx",
       "offset": [
         0,
         2,
@@ -59,12 +56,10 @@
   ],
   "model": {
     "animations": {
-      "closed": "/pa/units/legion/orbital/orbital_fighter/orbital_fighter_anim_closed.papa",
-      "deploy": "/pa/units/legion/orbital/orbital_fighter/orbital_fighter_anim_deploy.papa",
-      "open": "/pa/units/legion/orbital/L_orbital_fighter/L_orbital_fighter_open.papa"
+      "idle": "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter_open.papa"
     },
-    "animtree": "/pa/anim/anim_trees/orbital_fighter_anim_tree.json",
-    "filename": "/pa/units/legion/orbital/L_orbital_fighter/L_orbital_fighter.papa"
+    "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+    "filename": "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter.papa"
   },
   "navigation": {
     "acceleration": 65,
@@ -73,13 +68,10 @@
     "brake": 20,
     "circle_max_time": 4,
     "circle_min_time": 2,
-    "hover_time": -1.0,
     "move_speed": 65,
-    "turn_speed": 200,
-    "type": "orbital"
+    "turn_speed": 200
   },
   "physics": {
-    "gravity_scalar": 0.001,
     "radius": 5
   },
   "recon": {
@@ -97,12 +89,11 @@
   "selection_icon": {
     "diameter": -30
   },
-  "spawn_layers": "WL_Orbital",
   "tools": [
     {
       "aim_bone": "bone_body",
       "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/legion/orbital/L_orbital_fighter/L_orbital_fighter_tool_weapon.json"
+      "spec_id": "/pa/units/orbital/l_orbital_fighter/l_orbital_fighter_tool_weapon.json"
     }
   ],
   "unit_types": [
@@ -113,6 +104,5 @@
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Custom1"
-  ],
-  "wreckage_health_frac": 0.0
+  ]
 }

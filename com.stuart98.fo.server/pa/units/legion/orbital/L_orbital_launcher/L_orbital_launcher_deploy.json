@@ -17,13 +17,13 @@
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/orbital_launcher_deployed",
-      "effect_spec": "/pa/units/legion/air/missile_orbital/missile_orbital_explosion.pfx",
+      "effect_spec": "/pa/units/air/missile_orbital/missile_orbital_explosion.pfx",
       "effect_world_aligned": false
     }
   },
   "flight_type": "Staged",
   "fx_trail": {
-    "filename": "/pa/units/legion/air/missile_orbital/missile_orbital_trail.pfx",
+    "filename": "/pa/units/air/missile_orbital/missile_orbital_trail.pfx",
     "offset": [
       0.0,
       0.0,
@@ -35,7 +35,7 @@
   "lifetime": 0,
   "max_velocity": 75.0,
   "model": {
-    "filename": "/pa/units/legion/air/missile_orbital/missile_orbital.papa"
+    "filename": "/pa/units/air/missile_orbital/missile_orbital.papa"
   },
   "physics": {
     "add_to_spatial_db": false,

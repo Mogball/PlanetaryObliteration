@@ -1,5 +1,5 @@
 {
-  "TEMP_texelinfo": 15.0973,
+  "TEMP_texelinfo": 24.0973,
   "area_build_type": "Sphere",
   "atrophy_cool_down": 15,
   "atrophy_rate": 2.5,
@@ -8,19 +8,18 @@
       "cue": "/SE/Selection/structure/metal"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 250,
   "consumption": {
     "energy": 0
   },
-  "description": "Legion metal extractors produce more metal but cost more to build.",
+  "description": "Extracts Mass - can only be placed on metal deposits.",
   "display_name": "Mass Extractor",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/metal"
     },
     "died": {
-      "audio_cue": "/SE/Death/Factory",
       "effect_scale": 0.75
     }
   },
@@ -29,7 +28,7 @@
   ],
   "fx_offsets": [
     {
-      "filename": "/pa/units/legion/land/L_mex/L_mex.pfx",
+      "filename": "/pa/units/land/l_mex/l_mex.pfx",
       "offset": [
         0,
         0,
@@ -46,17 +45,17 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/land/L_mex/L_metal_extractor_idle.papa"
+      "idle": "/pa/units/land/l_mex/l_metal_extractor_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/simple_building_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_mex/L_metal_extractor.papa"
+    "filename": "/pa/units/land/l_mex/l_metal_extractor.papa"
   },
   "placement_size": [
     20,
     16
   ],
   "production": {
-    "metal": 9
+    "metal": 8
   },
   "recon": {
     "observer": {
@@ -77,7 +76,7 @@
     }
   },
   "replaceable_units": [
-    "/pa/units/legion/land/L_mex_adv/L_mex_adv.json"
+    "/pa/units/land/l_mex_adv/l_mex_adv.json"
   ],
   "selection_icon": {
     "diameter": -24

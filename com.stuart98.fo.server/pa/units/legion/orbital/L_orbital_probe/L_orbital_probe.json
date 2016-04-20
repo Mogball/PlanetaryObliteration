@@ -9,7 +9,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/legion/orbital/base_orbital/base_orbital.json",
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "build_metal_cost": 300,
   "command_caps": [
     "ORDER_Move",
@@ -17,14 +17,11 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Travels very fast between planets using Legion Slipstream Warp Technology",
-  "display_name": "Ghost",
+  "description": "Orbital Radar Probe - Fast. Small Vision Radius.",
+  "display_name": "Wraith",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/orbital"
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/orb/orb_fighter_fire",
@@ -34,17 +31,17 @@
     "fired1": {
       "audio_cue": "/SE/Weapons/orb/orb_fighter_fire",
       "effect_scale": 0.4,
-      "effect_spec": "/pa/units/legion/land/L_bot_artillery_adv/muzzle_flash.pfx bone_muzzle01"
+      "effect_spec": "/pa/units/land/l_bot_artillery_adv/muzzle_flash.pfx bone_muzzle01"
     }
   },
   "fx_offsets": [
     {
       "bone": "bone_body",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "offset": [
         0,
-        8.5,
-        0
+        5.5,
+        1
       ],
       "orientation": [
         0,
@@ -52,6 +49,51 @@
         0
       ],
       "type": "moving"
+    },
+    {
+      "bone": "bone_body",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "offset": [
+        2.4,
+        2.5,
+        0.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "moving"
+    },
+    {
+      "bone": "bone_body",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "offset": [
+        -2.4,
+        2.5,
+        0.9
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "moving"
+    },
+    {
+      "bone": "bone_body",
+      "filename": "/pa/units/orbital/l_orbital_probe/idle.pfx",
+      "offset": [
+        0,
+        -2.0,
+        7.8
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "idle"
     }
   ],
   "gravwell_velocity_multiplier": 50,
@@ -63,25 +105,19 @@
   ],
   "model": {
     "animations": {
-      "closed": "/pa/units/legion/orbital/L_orbital_probe/L_orbital_probe_closed.papa",
-      "deploy": "/pa/units/legion/orbital/L_orbital_probe/L_orbital_probe_deploy.papa",
-      "open": "/pa/units/legion/orbital/L_orbital_probe/L_orbital_probe_open.papa"
+      "closed": "/pa/units/orbital/l_orbital_probe/l_orbital_probe_closed.papa",
+      "deploy": "/pa/units/orbital/l_orbital_probe/l_orbital_probe_deploy.papa",
+      "open": "/pa/units/orbital/l_orbital_probe/l_orbital_probe_open.papa"
     },
     "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
-    "filename": "/pa/units/legion/orbital/L_orbital_probe/L_orbital_probe.papa"
+    "filename": "/pa/units/orbital/l_orbital_probe/l_orbital_probe.papa"
   },
   "navigation": {
     "acceleration": 75,
     "bank_factor": 2,
     "brake": 75,
-    "hover_time": -1,
     "move_speed": 75,
-    "turn_speed": 75,
-    "type": "orbital"
-  },
-  "physics": {
-    "gravity_scalar": 0.001,
-    "radius": 6
+    "turn_speed": 75
   },
   "recon": {
     "observer": {
@@ -113,7 +149,6 @@
   "selection_icon": {
     "diameter": -28.0
   },
-  "spawn_layers": "WL_Orbital",
   "unit_types": [
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
@@ -122,6 +157,5 @@
     "UNITTYPE_Scout",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Custom1"
-  ],
-  "wreckage_health_frac": 0
+  ]
 }

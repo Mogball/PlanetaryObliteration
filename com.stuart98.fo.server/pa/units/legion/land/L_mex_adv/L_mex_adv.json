@@ -8,19 +8,18 @@
       "cue": "/SE/Selection/structure/metal"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 1400,
   "consumption": {
     "energy": 0
   },
-  "description": "Basic Economy. Extracts Mass to Produce a Metal Income.",
+  "description": "Extracts Mass - can only be placed on metal deposits.",
   "display_name": "Advanced Mass Extractor",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/metal"
     },
     "died": {
-      "audio_cue": "/SE/Death/Factory",
       "effect_scale": 0.8
     }
   },
@@ -52,11 +51,11 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/land/L_mex_adv/L_metal_extractor_adv_idle.papa"
+      "idle": "/pa/units/land/l_mex_adv/l_metal_extractor_adv_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/simple_building_anim_tree.json",
     "arrows": 10,
-    "filename": "/pa/units/legion/land/L_mex_adv/L_metal_extractor_adv.papa",
+    "filename": "/pa/units/land/l_mex_adv/l_metal_extractor_adv.papa",
     "layer": "WL_LandHorizontal"
   },
   "placement_size": [
@@ -64,7 +63,7 @@
     16
   ],
   "production": {
-    "metal": 22
+    "metal": 23
   },
   "recon": {
     "observer": {
@@ -85,7 +84,7 @@
     }
   },
   "replaceable_units": [
-    "/pa/units/legion/land/L_mex/L_mex.json"
+    "/pa/units/land/l_mex/l_mex.json"
   ],
   "selection_icon": {
     "diameter": -28

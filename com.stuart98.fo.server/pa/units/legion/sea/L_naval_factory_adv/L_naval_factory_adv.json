@@ -16,7 +16,7 @@
       "cue": "/SE/Selection/sea/factory"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 3600,
   "buildable_types": "Custom1 & ( Naval & Mobile & FactoryBuild )",
   "command_caps": [
@@ -28,7 +28,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Advanced Manufacturing- Builds Legion Naval Units.",
+  "description": "Advanced Manufacturing - Builds Advanced Naval Ships.",
   "display_name": "Advanced Ship Foundry",
   "events": {
     "build_complete": {
@@ -69,17 +69,17 @@
     {
       "bone": "smoke002",
       "filename": "/pa/effects/specs/factory_smoke.pfx",
-      "type": "build"
+      "type": "enabled"
     },
     {
       "bone": "smoke003",
       "filename": "/pa/effects/specs/factory_smoke.pfx",
-      "type": "build"
+      "type": "enabled"
     },
     {
       "bone": "smoke004",
       "filename": "/pa/effects/specs/factory_smoke.pfx",
-      "type": "build"
+      "type": "enabled"
     }
   ],
   "max_health": 30000,
@@ -90,12 +90,12 @@
   ],
   "model": {
     "animations": {
-      "build_end": "/pa/units/legion/sea/L_naval_factory_adv/L_naval_factory_adv_end.papa",
-      "build_loop": "/pa/units/legion/sea/L_naval_factory_adv/L_naval_factory_adv_build.papa",
-      "build_start": "/pa/units/legion/sea/L_naval_factory_adv/L_naval_factory_adv_start.papa"
+      "build_end": "/pa/units/sea/l_naval_factory_adv/l_naval_factory_adv_end.papa",
+      "build_loop": "/pa/units/sea/l_naval_factory_adv/l_naval_factory_adv_build.papa",
+      "build_start": "/pa/units/sea/l_naval_factory_adv/l_naval_factory_adv_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-    "filename": "/pa/units/legion/sea/L_naval_factory_adv/L_naval_factory_adv.papa"
+    "filename": "/pa/units/sea/l_naval_factory_adv/l_naval_factory_adv.papa"
   },
   "placement_size": [
     75,
@@ -132,7 +132,7 @@
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/legion/sea/L_naval_factory_adv/L_naval_factory_adv_build_arm.json"
+      "spec_id": "/pa/units/sea/l_naval_factory_adv/l_naval_factory_adv_build_arm.json"
     }
   ],
   "unit_types": [

@@ -7,12 +7,12 @@
       "cue": "/SE/Selection/structure/artillery"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 900,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Medium Anti-Ship, Anti-Land Railgun. Requires Energy to Fire.",
+  "description": "Medium Anti-Ship & Anti-Land Railgun - Requires Energy to Fire.",
   "display_name": "Theodor",
   "events": {
     "build_complete": {
@@ -53,14 +53,14 @@
   ],
   "model": [
     {
-      "animtree": "/pa/anim/anim_trees/L_artillery_anim_tree.json",
-      "filename": "/pa/units/legion/land/L_artillery_short/L_artillery_short.papa",
+      "animtree": "/pa/anim/anim_trees/l_artillery_anim_tree.json",
+      "filename": "/pa/units/land/l_artillery_short/l_artillery_short.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_artillery_short.json"
     },
     {
-      "animtree": "/pa/anim/anim_trees/L_artillery_anim_tree.json",
-      "filename": "/pa/units/legion/land/L_artillery_short/L_artillery_short.papa",
+      "animtree": "/pa/anim/anim_trees/l_artillery_anim_tree.json",
+      "filename": "/pa/units/land/l_artillery_short/l_artillery_short.papa",
       "layer": "WL_WaterSurface"
     }
   ],
@@ -91,7 +91,7 @@
     {
       "aim_bone": "bone_pitch",
       "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/legion/land/L_artillery_short/L_artillery_short_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_artillery_short/l_artillery_short_tool_weapon.json"
     }
   ],
   "unit_types": [

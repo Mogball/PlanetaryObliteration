@@ -8,12 +8,9 @@
         "should_start_func": "is_moving",
         "should_stop_func": "is_not_moving"
       }
-    },
-    "selection_response": {
-      "cue": "/SE/Selection/air/air"
     }
   },
-  "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 300,
   "command_caps": [
     "ORDER_Move",
@@ -25,16 +22,12 @@
   "consumption": {
     "energy": 900
   },
-  "description": "Equipped with sneaky Spy Camera, radar, and some guns",
-  "display_name": "Stalker",
+  "description": "Advanced Stealth Plane - Equipped With a Sneaky Spy Camera. Consumes Energy",
+  "display_name": "Infiltrator",
+  "energy_efficiency_requirement": 0.9,
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/air"
-    },
     "died": {
-      "audio_cue": "/SE/Death/Air",
-      "effect_scale": 0.25,
-      "effect_spec": "/pa/units/legion/air/missile_nuke/missile_nuke_implosion.pfx"
+      "effect_scale": 1.25
     },
     "fired": {
       "audio_cue": "/SE/Weapons/air/air_scout_fire"
@@ -43,7 +36,7 @@
   "fx_offsets": [
     {
       "bone": "thrust01",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         0,
@@ -53,7 +46,7 @@
     },
     {
       "bone": "thrust02",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         0,
@@ -63,7 +56,7 @@
     },
     {
       "bone": "thrust03",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         0,
@@ -73,7 +66,7 @@
     },
     {
       "bone": "thrust04",
-      "filename": "/pa/units/legion/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "orientation": [
         0,
         0,
@@ -92,27 +85,18 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/legion/air/L_air_scout_adv/L_air_scout_adv_idle.papa"
+      "idle": "/pa/units/air/l_air_scout_adv/l_air_scout_adv_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/legion/air/L_air_scout_adv/L_air_scout_adv.papa"
+    "filename": "/pa/units/air/l_air_scout_adv/l_air_scout_adv.papa"
   },
   "navigation": {
-    "acceleration": 50,
+    "acceleration": 60,
     "bank_factor": 2,
-    "brake": 50,
-    "dodge_multiplier": 1,
-    "dodge_radius": 10,
+    "brake": 60,
     "move_speed": 90,
-    "turn_speed": 120,
-    "type": "air",
-    "wobble_factor": 0.25,
-    "wobble_speed": 0.1
-  },
-  "physics": {
-    "gravity_scalar": 1,
-    "radius": 6
+    "turn_speed": 180
   },
   "recon": {
     "observer": {
@@ -125,30 +109,30 @@
           "uses_energy": true
         },
         {
-          "channel": "radar",
-          "layer": "underwater",
+          "channel": "sight",
+          "layer": "surface_and_air",
           "radius": 300,
           "shape": "capsule",
           "uses_energy": true
         },
         {
           "channel": "sight",
-          "layer": "surface_and_air",
-          "radius": 150,
+          "layer": "mine",
+          "radius": 300,
           "shape": "capsule",
           "uses_energy": true
         },
         {
           "channel": "sight",
           "layer": "orbital",
-          "radius": 150,
+          "radius": 300,
           "shape": "capsule",
           "uses_energy": true
         },
         {
           "channel": "sight",
           "layer": "underwater",
-          "radius": 150,
+          "radius": 300,
           "shape": "capsule",
           "uses_energy": true
         }
@@ -167,7 +151,7 @@
         "gun03"
       ],
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/air/L_air_scout_adv/L_air_scout_adv_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_air_scout_adv/l_air_scout_adv_tool_weapon.json"
     },
     {
       "aim_bone": "bone_root",
@@ -177,13 +161,13 @@
         "gun06"
       ],
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/air/L_air_scout_adv/L_air_scout_adv_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_air_scout_adv/l_air_scout_adv_tool_weapon.json"
     },
     {
       "aim_bone": "bone_root",
       "muzzle": "light",
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/air/L_air_scout_adv/L_air_scout_adv_vision_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_air_scout_adv/l_air_scout_adv_vision_tool_weapon.json"
     }
   ],
   "unit_types": [

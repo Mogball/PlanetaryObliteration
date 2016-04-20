@@ -28,20 +28,14 @@
       "cue": "/SE/Selection/veh/tank_hover"
     }
   },
-  "base_spec": "/pa/units/legion/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 1200,
-  "description": "Hover Assault- Medium range rockets. Attacks Land and Naval.",
-  "display_name": "Dominator",
+  "description": "Hover Assault - Medium Range Rockets. Attacks Land, Air, Naval, and Orbital.",
+  "display_name": "Panzer",
   "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/veh"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/Veh"
-    },
     "fired": {
       "audio_cue": "/SE/Weapons/veh/tank_hover_fire",
-      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleRight01 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleRight02 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleRight03 /pa/units/legion/land/L_hover_tank_adv/launch_smoke.pfx socket_muzzleRight02 /pa/units/legion/land/L_hover_tank_adv/launch_smoke.pfx socket_muzzleLeft02 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleLeft01 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleLeft02 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleLeft03"
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleRight01 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleRight02 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleRight03 /pa/units/land/l_hover_tank_adv/launch_smoke.pfx socket_muzzleRight02 /pa/units/land/l_hover_tank_adv/launch_smoke.pfx socket_muzzleLeft02 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleLeft01 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleLeft02 /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleLeft03"
     }
   },
   "fx_offsets": [
@@ -163,10 +157,10 @@
   ],
   "model": {
     "animations": {
-      "hover": "/pa/units/legion/land/tank_hover/tank_hover_anim_hover.papa"
+      "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
     },
-    "animtree": "/pa/anim/anim_trees/L_hover_tank_adv_anim_tree.json",
-    "filename": "/pa/units/legion/land/L_hover_tank_adv/L_hover_tank_adv.papa"
+    "animtree": "/pa/anim/anim_trees/l_hover_tank_adv_anim_tree.json",
+    "filename": "/pa/units/land/l_hover_tank_adv/l_hover_tank_adv.papa"
   },
   "navigation": {
     "acceleration": 100,
@@ -187,6 +181,12 @@
           "layer": "surface_and_air",
           "radius": 100,
           "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 100,
+          "shape": "capsule"
         }
       ]
     }
@@ -201,7 +201,7 @@
         "socket_muzzleRight01"
       ],
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_hover_tank_adv/l_hover_tank_adv_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch",
@@ -209,7 +209,7 @@
         "socket_muzzleRight02"
       ],
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_hover_tank_adv/l_hover_tank_adv_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch",
@@ -217,7 +217,7 @@
         "socket_muzzleRight03"
       ],
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_hover_tank_adv/l_hover_tank_adv_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch",
@@ -225,7 +225,7 @@
         "socket_muzzleLeft01"
       ],
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_hover_tank_adv/l_hover_tank_adv_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch",
@@ -233,7 +233,7 @@
         "socket_muzzleLeft02"
       ],
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_hover_tank_adv/l_hover_tank_adv_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch",
@@ -241,7 +241,7 @@
         "socket_muzzleLeft03"
       ],
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json"
+      "spec_id": "/pa/units/land/l_hover_tank_adv/l_hover_tank_adv_tool_weapon.json"
     }
   ],
   "transportable": {

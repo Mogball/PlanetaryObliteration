@@ -14,7 +14,7 @@
   "flight_type": "Staged",
   "full_damage_splash_radius": 0,
   "fx_trail": {
-    "filename": "/pa/units/legion/sea/drone_carrier/carrier/carrier_ammo_trail.pfx",
+    "filename": "/pa/units/sea/drone_carrier/carrier/carrier_ammo_trail.pfx",
     "offset": [
       0,
       0.727,
@@ -25,7 +25,7 @@
   "lifetime": 5,
   "max_velocity": 110,
   "model": {
-    "filename": "/pa/units/legion/air/L_air_carrier/L_drone/L_drone.papa"
+    "filename": "/pa/units/air/l_air_carrier/l_drone/l_drone.papa"
   },
   "physics": {
     "allow_underground": true,
@@ -39,7 +39,7 @@
     }
   },
   "spawn_layers": "WL_Air",
-  "spawn_unit_on_death": "/pa/units/legion/air/L_air_carrier/L_drone/L_drone.json",
+  "spawn_unit_on_death": "/pa/units/air/l_air_carrier/l_drone/l_drone.json",
   "spawn_unit_on_death_with_velocity": true,
   "splash_damage": 0,
   "splash_radius": 0,

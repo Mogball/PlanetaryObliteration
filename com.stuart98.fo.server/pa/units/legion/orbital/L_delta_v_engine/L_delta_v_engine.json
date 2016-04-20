@@ -13,11 +13,11 @@
       }
     }
   },
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 50000,
   "build_restrictions": "Thrustable",
-  "description": "First planet mover component - Used to move small to medium celestial bodies.",
-  "display_name": "Goku",
+  "description": "Planet Engine - Used to Smash Celestial Bodies.",
+  "display_name": "Diplomat",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/delta_v"
@@ -30,15 +30,61 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/legion/orbital/delta_v_engine/delta_v_jet.pfx",
+      "bone": "bone_thrust001",
+      "filename": "/pa/units/orbital/l_delta_v_engine/delta_v_jet.pfx",
       "offset": [
         0,
-        0,
-        21
+        -10,
+        0
       ],
       "orientation": [
         0,
+        90,
+        0
+      ],
+      "type": "enabled"
+    },
+    {
+      "bone": "bone_thrust002",
+      "filename": "/pa/units/orbital/l_delta_v_engine/delta_v_jet.pfx",
+      "offset": [
         0,
+        -10,
+        0
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "type": "enabled"
+    },
+    {
+      "bone": "bone_thrust003",
+      "filename": "/pa/units/orbital/l_delta_v_engine/delta_v_jet.pfx",
+      "offset": [
+        0,
+        -10,
+        0
+      ],
+      "orientation": [
+        0,
+        90,
+        0
+      ],
+      "type": "enabled"
+    },
+    {
+      "bone": "bone_thrust004",
+      "filename": "/pa/units/orbital/l_delta_v_engine/delta_v_jet.pfx",
+      "offset": [
+        0,
+        -10,
+        0
+      ],
+      "orientation": [
+        0,
+        90,
         0
       ],
       "type": "enabled"
@@ -320,12 +366,12 @@
   ],
   "model": {
     "animations": {
-      "end": "/pa/units/legion/orbital/L_delta_v_engine/L_delta_v_engine_end.papa",
-      "loop": "/pa/units/legion/orbital/L_delta_v_engine/L_delta_v_engine_loop.papa",
-      "start": "/pa/units/legion/orbital/L_delta_v_engine/L_delta_v_engine_start.papa"
+      "end": "/pa/units/orbital/l_delta_v_engine/l_delta_v_engine_end.papa",
+      "loop": "/pa/units/orbital/l_delta_v_engine/l_delta_v_engine_loop.papa",
+      "start": "/pa/units/orbital/l_delta_v_engine/l_delta_v_engine_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/constant_idle_transition_anim_tree.json",
-    "filename": "/pa/units/legion/orbital/L_delta_v_engine/L_delta_v_engine.papa"
+    "filename": "/pa/units/orbital/l_delta_v_engine/l_delta_v_engine.papa"
   },
   "orbital_thruster": {
     "power": 1

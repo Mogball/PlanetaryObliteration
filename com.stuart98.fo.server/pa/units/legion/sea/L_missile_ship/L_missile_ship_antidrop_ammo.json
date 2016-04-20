@@ -5,7 +5,7 @@
   "damage": 400,
   "flight_type": "Seeking",
   "fx_trail": {
-    "filename": "/pa/units/legion/orbital/ion_defense/ion_defense_antidrop_ammo_trail.pfx",
+    "filename": "/pa/units/orbital/ion_defense/ion_defense_antidrop_ammo_trail.pfx",
     "offset": [
       0.0,
       1.4,
@@ -16,7 +16,7 @@
   "lifetime": 3,
   "max_velocity": 200.0,
   "model": {
-    "filename": "/pa/units/legion/air/missile/missile.papa"
+    "filename": "/pa/units/air/missile/missile.papa"
   },
   "splash_damage": 0,
   "splash_radius": 0,

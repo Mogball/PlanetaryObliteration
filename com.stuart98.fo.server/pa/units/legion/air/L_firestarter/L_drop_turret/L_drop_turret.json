@@ -3,7 +3,7 @@
   "area_build_separation": 18,
   "atrophy_cool_down": 15,
   "atrophy_rate": 5,
-  "base_spec": "/pa/units/legion/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 225,
   "command_caps": [
     "ORDER_Attack"
@@ -20,11 +20,11 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/veh/tank_flame",
-      "effect_spec": "/pa/units/legion/land/L_flame_turret/fire.pfx socket_muzzleTop"
+      "effect_spec": "/pa/units/air/l_firestarter/l_drop_turret/fire.pfx socket_muzzleTop"
     }
   },
   "guard_layer": "WL_AnyHorizontalGroundOrWaterSurface",
-  "max_health": 3000,
+  "max_health": 1500,
   "mesh_bounds": [
     10.7,
     11.2,
@@ -33,7 +33,7 @@
   "model": [
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
-      "filename": "/pa/units/legion/air/L_firestarter/L_drop_turret/L_drop_turret.papa",
+      "filename": "/pa/units/air/l_firestarter/l_drop_turret/l_drop_turret.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
     }
@@ -59,7 +59,6 @@
   "selection_icon": {
     "diameter": -10
   },
-  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {
       "aim_bone": "bone_pitch",
@@ -67,12 +66,12 @@
         "socket_muzzleTop",
         "socket_muzzleBottom"
       ],
-      "spec_id": "/pa/units/legion/air/L_firestarter/L_drop_turret/L_drop_turret_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_firestarter/l_drop_turret/l_drop_turret_tool_weapon.json"
     },
     {
       "aim_bone": "bone_root",
       "record_index": 0,
-      "spec_id": "/pa/units/legion/air/L_firestarter/L_drop_turret/L_drop_turret_death_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_firestarter/l_drop_turret/l_drop_turret_death_tool_weapon.json"
     }
   ],
   "unit_types": [

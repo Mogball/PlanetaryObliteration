@@ -3,7 +3,7 @@
   "damage": 200,
   "flight_type": "Seeking",
   "fx_trail": {
-    "filename": "/pa/units/legion/orbital/ion_defense/ion_defense_proj_trail.pfx"
+    "filename": "/pa/units/orbital/ion_defense/ion_defense_proj_trail.pfx"
   },
   "initial_velocity": 1000,
   "lifetime": 3,

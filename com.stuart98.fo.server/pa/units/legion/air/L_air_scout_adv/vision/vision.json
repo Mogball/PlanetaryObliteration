@@ -1,18 +1,14 @@
 {
   "TEMP_texelinfo": 5.39039,
   "audio": {
-    "loops": {
-      "idle": {
-        "cue": "/SE/Selection/structure/radar"
-      }
-    },
     "selection_response": {
       "cue": "/SE/Selection/structure/radar"
     }
   },
-  "base_spec": "/pa/units/legion/air/base_flyer/base_flyer.json",
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 1,
-  "description": "Camera Focus",
+  "death": {},
+  "description": "Camera Target",
   "display_name": "Camera Target",
   "events": {
     "died": {
@@ -20,29 +16,40 @@
       "effect_spec": "/pa/effects/specs/tesla_hit.pfx"
     }
   },
+  "fx_offsets": [
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/land/l_scout_bot/l_scout_bot_radar_on.pfx",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "idle"
+    }
+  ],
   "max_health": 20,
   "mesh_bounds": [
     0.01,
     0.01,
     0.01
   ],
-  "model": {
-    "animations": {
-      "idle": "/pa/units/legion/land/bot_nanoswarm/bot_nanoswarm_anim_idle.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/bot_nanoswarm_anim_tree.json",
-    "filename": "/pa/units/legion/land/bot_nanoswarm/bot_nanoswarm.papa"
-  },
   "navigation": {
-    "acceleration": 0,
-    "bank_factor": 0,
-    "brake": 0,
+    "acceleration": 400,
+    "brake": 400,
     "move_speed": 0,
     "turn_speed": 0,
-    "type": "air"
+    "type": "hover",
+    "wobble_factor": 0.1,
+    "wobble_speed": 0.2
   },
   "physics": {
-    "gravity_scalar": 1,
+    "allow_pushing": true,
     "radius": 0
   },
   "recon": {
@@ -56,31 +63,45 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 150,
+          "radius": 200,
+          "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "mine",
+          "radius": 200,
+          "shape": "capsule"
+        },
+        {
+          "channel": "radar",
+          "layer": "surface_and_air",
+          "radius": 200,
           "shape": "capsule"
         },
         {
           "channel": "sight",
           "layer": "underwater",
-          "radius": 150,
+          "radius": 200,
           "shape": "capsule"
         }
       ]
     }
   },
   "selection_icon": {
-    "diameter": -1.0
+    "diameter": -9
   },
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/legion/air/L_air_scout_adv/vision/vision_death_tool_weapon.json"
+      "spec_id": "/pa/units/air/l_air_scout_adv/vision/vision_death_tool_weapon.json"
     }
   ],
   "unit_types": [
-    "UNITTYPE_Scout",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Air",
-    "UNITTYPE_Basic"
-  ]
+    "UNITTYPE_Bot",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Custom1"
+  ],
+  "wreckage_health_frac": 0.0
 }
