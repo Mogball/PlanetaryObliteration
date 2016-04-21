@@ -21,7 +21,7 @@
   "initial_velocity": 200.0,
   "lifetime": 30,
   "model": {
-    "filename": "/pa/units/vanilla/air/shell_large/shell_large.papa"
+    "filename": "/pa/units/air/shell_large/shell_large.papa"
   },
   "physics": {
     "add_to_spatial_db": false,
