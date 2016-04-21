@@ -53,10 +53,10 @@
   ],
   "model": {
     "animations": {
-      "run": "/pa/units/vanilla/land/aa_missile_vehicle/aa_missile_vehicle_anim_run.papa"
+      "run": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle_anim_run.papa"
     },
     "animtree": "/pa/anim/anim_trees/aa_missile_vehicle_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/aa_missile_vehicle/aa_missile_vehicle.papa",
+    "filename": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.papa",
     "walk_speed": 7
   },
   "navigation": {
@@ -89,7 +89,7 @@
     {
       "aim_bone": "bone_pivot",
       "muzzle_bone": "bone_pivot",
-      "spec_id": "/pa/units/vanilla/land/aa_missile_vehicle/aa_missile_vehicle_tool_weapon.json"
+      "spec_id": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle_tool_weapon.json"
     }
   ],
   "transportable": {
