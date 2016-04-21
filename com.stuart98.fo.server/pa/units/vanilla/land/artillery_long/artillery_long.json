@@ -54,13 +54,13 @@
   "model": [
     {
       "animtree": "/pa/anim/anim_trees/artillery_building_long_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/artillery_long/artillery_long.papa",
+      "filename": "/pa/units/land/artillery_long/artillery_long.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_artillery_long.json"
     },
     {
       "animtree": "/pa/anim/anim_trees/artillery_building_long_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/artillery_long/artillery_long.papa",
+      "filename": "/pa/units/sea/artillery_long/artillery_long.papa",
       "layer": "WL_WaterSurface"
     }
   ],
