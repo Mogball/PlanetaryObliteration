@@ -123,36 +123,37 @@
   "model": [
     {
       "animations": {
-        "build_end_1": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd01.papa",
-        "build_end_2": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd02.papa",
-        "build_end_3": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd03.papa",
-        "build_loop_1": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop01.papa",
-        "build_loop_2": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop02.papa",
-        "build_loop_3": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop03.papa",
-        "build_start_1": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart01.papa",
-        "build_start_2": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart02.papa",
-        "build_start_3": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart03.papa",
-        "idle": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_idle.papa"
+        "build_end_1": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd01.papa",
+        "build_end_2": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd02.papa",
+        "build_end_3": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd03.papa",
+        "build_loop_1": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop01.papa",
+        "build_loop_2": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop02.papa",
+        "build_loop_3": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop03.papa",
+        "build_start_1": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart01.papa",
+        "build_start_2": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart02.papa",
+        "build_start_3": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart03.papa",
+        "idle": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_idle.papa"
       },
       "animtree": "/pa/anim/anim_trees/anti_nuke_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher.papa",
+      "filename": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_antinuke.json"
     },
     {
       "animations": {
-        "build_end_1": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd01.papa",
-        "build_end_2": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd02.papa",
-        "build_end_3": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd03.papa",
-        "build_loop_1": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop01.papa",
-        "build_loop_2": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop02.papa",
-        "build_loop_3": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop03.papa",
-        "build_start_1": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart01.papa",
-        "build_start_2": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart02.papa",
-        "build_start_3": "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart03.papa"
+        "build_end_1": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd01.papa",
+        "build_end_2": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd02.papa",
+        "build_end_3": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildEnd03.papa",
+        "build_loop_1": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop01.papa",
+        "build_loop_2": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop02.papa",
+        "build_loop_3": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildLoop03.papa",
+        "build_start_1": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart01.papa",
+        "build_start_2": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart02.papa",
+        "build_start_3": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart03.papa",
+        "idle": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_idle.papa"
       },
       "animtree": "/pa/anim/anim_trees/anti_nuke_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/anti_nuke_launcher/anti_nuke_launcher.papa",
+      "filename": "/pa/units/sea/anti_nuke_launcher/anti_nuke_launcher.papa",
       "layer": "WL_WaterSurface"
     }
   ],
