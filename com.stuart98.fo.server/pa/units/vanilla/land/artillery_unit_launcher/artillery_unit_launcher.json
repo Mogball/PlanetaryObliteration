@@ -24,13 +24,13 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/structure/artillery_short_fire",
-      "effect_spec": "/pa/units/vanilla/land/artillery_unit_launcher/artillery_unit_launcher_fire.pfx socket_muzzle"
+      "effect_spec": "/pa/units/land/artillery_unit_launcher/artillery_unit_launcher_fire.pfx socket_muzzle"
     }
   },
   "fx_offsets": [
     {
       "bone": "socket_muzzle",
-      "filename": "/pa/units/vanilla/land/artillery_unit_launcher/artillery_unit_launcher_idle.pfx",
+      "filename": "/pa/units/land/artillery_unit_launcher/artillery_unit_launcher_idle.pfx",
       "offset": [
         0,
         0,
@@ -66,19 +66,19 @@
   "model": [
     {
       "animations": {
-        "aim_up": "/pa/units/vanilla/land/artillery_short/artillery_short_anim_aimUp.papa"
+        "aim_up": "/pa/units/land/artillery_short/artillery_short_anim_aimUp.papa"
       },
       "animtree": "/pa/anim/anim_trees/artillery_unit_launcher_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/artillery_unit_launcher/artillery_unit_launcher.papa",
+      "filename": "/pa/units/land/artillery_unit_launcher/artillery_unit_launcher.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_artillery_short.json"
     },
     {
       "animations": {
-        "aim_up": "/pa/units/vanilla/sea/artillery_short/artillery_short_anim_aimUp.papa"
+        "aim_up": "/pa/units/sea/artillery_short/artillery_short_anim_aimUp.papa"
       },
       "animtree": "/pa/anim/anim_trees/artillery_unit_launcher_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/artillery_unit_launcher/artillery_unit_launcher.papa",
+      "filename": "/pa/units/land/artillery_unit_launcher/artillery_unit_launcher.papa",
       "layer": "WL_WaterSurface"
     }
   ],

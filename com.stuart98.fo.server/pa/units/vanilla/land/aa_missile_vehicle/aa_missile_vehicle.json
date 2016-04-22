@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 250,
+  "build_metal_cost": 200,
   "description": "AA - Light anti-anything missiles at long range. Low health.",
   "display_name": "Spinner",
   "events": {
@@ -45,7 +45,7 @@
     }
   },
   "guard_layer": "WL_Air",
-  "max_health": 250,
+  "max_health": 500,
   "mesh_bounds": [
     3.8,
     5,

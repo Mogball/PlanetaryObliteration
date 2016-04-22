@@ -60,11 +60,11 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/vanilla/land/bot_arty/bot_arty_anim_idleX.papa",
-      "walk": "/pa/units/vanilla/land/bot_arty/bot_arty_anim_walkX.papa"
+      "idle": "/pa/units/vanilla/land/bot_arty/bot_arty_anim_idle.papa",
+      "walk": "/pa/units/vanilla/land/bot_arty/bot_arty_anim_walk.papa"
     },
-    "animtree": "/pa/units/vanilla/land/bot_arty/Bassault22_at.json",
-    "filename": "/pa/units/vanilla/land/bot_arty/bot_artyX.papa",
+    "animtree": "/pa/units/vanilla/land/bot_arty/assault22_at.json",
+    "filename": "/pa/units/vanilla/land/bot_arty/bot_arty.papa",
     "walk_speed": 5
   },
   "navigation": {

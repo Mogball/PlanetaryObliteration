@@ -6,7 +6,7 @@
     "died": {
       "audio_cue": "/SE/Impacts/unit_cannon_unit_impact",
       "effect_scale": 0.5,
-      "effect_spec": "/pa/units/vanilla/air/unit_shell/unit_shell_deploy.pfx"
+      "effect_spec": "/pa/units/air/unit_shell/unit_shell_deploy.pfx"
     }
   },
   "full_damage_splash_radius": 0,
@@ -14,7 +14,7 @@
   "initial_velocity": 150.0,
   "lifetime": 30,
   "model": {
-    "filename": "/pa/units/vanilla/air/unit_shell_small/unit_shell_small.papa"
+    "filename": "/pa/units/air/unit_shell_small/unit_shell_small.papa"
   },
   "spawn_unit_on_death": "/pa/units/vanilla/land/bot_bomb/bot_bomb.json",
   "splash_damage": 0,

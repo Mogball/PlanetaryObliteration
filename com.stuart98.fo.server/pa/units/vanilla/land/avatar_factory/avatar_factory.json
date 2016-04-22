@@ -125,10 +125,10 @@
   ],
   "model": {
     "animations": {
-      "build_end": "/pa/units/vanilla/land/vehicle_factory/vehicle_factory_anim_end.papa",
-      "build_loop": "/pa/units/vanilla/land/vehicle_factory/vehicle_factory_anim_build.papa",
-      "build_start": "/pa/units/vanilla/land/vehicle_factory/vehicle_factory_anim_start.papa",
-      "idle": "/pa/units/vanilla/land/vehicle_factory/vehicle_factory_anim_build.papa"
+      "build_end": "/pa/units/land/vehicle_factory/vehicle_factory_anim_end.papa",
+      "build_loop": "/pa/units/land/vehicle_factory/vehicle_factory_anim_build.papa",
+      "build_start": "/pa/units/land/vehicle_factory/vehicle_factory_anim_start.papa",
+      "idle": "/pa/units/land/vehicle_factory/vehicle_factory_anim_build.papa"
     },
     "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
     "filename": "/pa/units/vanilla/land/vehicle_factory/vehicle_factory.papa",

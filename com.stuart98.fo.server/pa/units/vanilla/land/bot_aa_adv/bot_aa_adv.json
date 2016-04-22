@@ -55,15 +55,15 @@
   ],
   "model": {
     "animations": {
-      "aim_down": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_aimDownX.papa",
-      "aim_up": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_aimUpX.papa",
-      "death01": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_death01X.papa",
-      "idle": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_idleX.papa",
-      "walk": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_runX.papa"
+      "aim_down": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_aimDown.papa",
+      "aim_up": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_aimUp.papa",
+      "death01": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_death01.papa",
+      "idle": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_idle.papa",
+      "walk": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_run.papa"
     },
     "animtree": "/pa/anim/anim_trees/bot_aa_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_advX.papa",
+    "filename": "/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv.papa",
     "walk_speed": 13
   },
   "navigation": {

@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 400,
+  "build_metal_cost": 280,
   "description": "Tank - Medium damage with good armor and medium speed, but mildly inaccurate.",
   "display_name": "Ant",
   "events": {
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "max_health": 650,
+  "max_health": 700,
   "mesh_bounds": [
     4.93769,
     6.4,
