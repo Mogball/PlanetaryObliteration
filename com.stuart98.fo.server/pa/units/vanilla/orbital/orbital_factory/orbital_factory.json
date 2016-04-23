@@ -15,7 +15,7 @@
   },
   "base_spec": "/pa/units/vanilla/orbital/base_orbital_structure/base_orbital_structure.json",
   "build_metal_cost": 2000,
-  "buildable_types": "Orbital & FactoryBuild",
+  "buildable_types": "(Orbital & FactoryBuild) - Custom1",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -137,12 +137,12 @@
   "model": [
     {
       "animations": {
-        "build_end": "/pa/units/vanilla/orbital/orbital_factory/orbital_factory_anim_end.papa",
-        "build_loop": "/pa/units/vanilla/orbital/orbital_factory/orbital_factory_anim_build.papa",
-        "build_start": "/pa/units/vanilla/orbital/orbital_factory/orbital_factory_anim_start.papa"
+        "build_end": "/pa/units/orbital/orbital_factory/orbital_factory_anim_end.papa",
+        "build_loop": "/pa/units/orbital/orbital_factory/orbital_factory_anim_build.papa",
+        "build_start": "/pa/units/orbital/orbital_factory/orbital_factory_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-      "filename": "/pa/units/vanilla/orbital/orbital_factory/orbital_factory.papa",
+      "filename": "/pa/units/orbital/orbital_factory/orbital_factory.papa",
       "layer": "WL_Orbital"
     }
   ],

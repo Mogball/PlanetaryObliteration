@@ -34,7 +34,7 @@
   "fx_offsets": [
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "offset": [
         0,
         8.9,
@@ -59,11 +59,11 @@
   ],
   "model": {
     "animations": {
-      "closed": "/pa/units/vanilla/orbital/orbital_fighter/orbital_fighter_anim_closed.papa",
-      "deploy": "/pa/units/vanilla/orbital/orbital_fighter/orbital_fighter_anim_deploy.papa"
+      "closed": "/pa/units/orbital/orbital_fighter/orbital_fighter_anim_closed.papa",
+      "deploy": "/pa/units/orbital/orbital_fighter/orbital_fighter_anim_deploy.papa"
     },
     "animtree": "/pa/anim/anim_trees/orbital_fighter_anim_tree.json",
-    "filename": "/pa/units/vanilla/orbital/orbital_fighter/orbital_fighter.papa"
+    "filename": "/pa/units/orbital/orbital_fighter/orbital_fighter.papa"
   },
   "navigation": {
     "acceleration": 65,

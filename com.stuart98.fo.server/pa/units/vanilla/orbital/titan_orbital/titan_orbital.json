@@ -38,15 +38,15 @@
     "died": {
       "audio_cue": "/SE/Death/orbital",
       "effect_scale": 1.0,
-      "effect_spec": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_death.pfx"
+      "effect_spec": "/pa/units/orbital/titan_orbital/titan_orbital_death.pfx"
     },
     "disabled": {
       "audio_cue": "/SE/Buildings/teleporter_disabled",
-      "effect_spec": "/pa/units/vanilla/land/teleporter/teleporter_power_down.pfx bone_root"
+      "effect_spec": "/pa/units/land/teleporter/teleporter_power_down.pfx bone_root"
     },
     "enabled": {
       "audio_cue": "/SE/Buildings/teleporter_enabled",
-      "effect_spec": "/pa/units/vanilla/land/teleporter/teleporter_power_on.pfx bone_root"
+      "effect_spec": "/pa/units/land/teleporter/teleporter_power_on.pfx bone_root"
     },
     "fired": {
       "audio_cue": "/SE/Weapons/orb/titan_orbital_fire"
@@ -55,57 +55,57 @@
   "fx_offsets": [
     {
       "bone": "bone_rotatorTop",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_rotator_top_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_rotator_top_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "bone_rotatorBottom",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_rotator_bottom_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_rotator_bottom_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "socket_muzzle01",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "socket_muzzle02",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "socket_muzzle03",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "socket_muzzle04",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "socket_muzzle05",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "socket_muzzle06",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "socket_muzzle07",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "socket_muzzle08",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/titan_orbital_muzzle_idle.pfx",
       "type": "idle"
     },
     {
       "bone": "bone_root",
-      "filename": "/pa/units/vanilla/orbital/titan_orbital/teleporter_event_horizon.pfx",
+      "filename": "/pa/units/orbital/titan_orbital/teleporter_event_horizon.pfx",
       "offset": [
         0,
         0,
@@ -191,10 +191,10 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital_anim_idle.papa"
+      "idle": "/pa/units/orbital/titan_orbital/titan_orbital_anim_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
-    "filename": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital.papa"
+    "filename": "/pa/units/orbital/titan_orbital/titan_orbital.papa"
   },
   "navigation": {
     "acceleration": 25,

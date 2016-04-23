@@ -39,7 +39,7 @@
     "died": {
       "audio_cue": "/SE/Death/orbital",
       "effect_scale": 2.5,
-      "effect_spec": "/pa/units/vanilla/air/base_flyer/base_flyer_death_t2.pfx"
+      "effect_spec": "/pa/units/air/base_flyer/base_flyer_death_t2.pfx"
     },
     "fired": {
       "audio_cue": "/SE/Weapons/orb/orbital_battleship_fire",
@@ -69,7 +69,7 @@
   "fx_offsets": [
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "offset": [
         4,
         21.7,
@@ -84,7 +84,7 @@
     },
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "offset": [
         6.4,
         20.5,
@@ -99,7 +99,7 @@
     },
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "offset": [
         8.3,
         15.5,
@@ -114,7 +114,7 @@
     },
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "offset": [
         -4,
         21.7,
@@ -129,7 +129,7 @@
     },
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "offset": [
         -6.4,
         20.5,
@@ -144,7 +144,7 @@
     },
     {
       "bone": "bone_body",
-      "filename": "/pa/units/vanilla/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
       "offset": [
         -8.3,
         15.5,
@@ -168,7 +168,7 @@
   ],
   "model": {
     "animtree": "/pa/anim/anim_trees/orbital_battleship_anim_tree.json",
-    "filename": "/pa/units/vanilla/orbital/orbital_battleship/orbital_battleship.papa"
+    "filename": "/pa/units/orbital/orbital_battleship/orbital_battleship.papa"
   },
   "navigation": {
     "acceleration": 30,

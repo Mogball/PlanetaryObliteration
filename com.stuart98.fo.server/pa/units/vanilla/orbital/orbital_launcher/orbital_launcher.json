@@ -14,7 +14,7 @@
   },
   "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
   "build_metal_cost": 1500,
-  "buildable_types": "Orbital & FactoryBuild & Basic",
+  "buildable_types": "(Orbital & FactoryBuild & Basic) - Custom1",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -321,23 +321,23 @@
   "model": [
     {
       "animations": {
-        "build_end": "/pa/units/vanilla/orbital/orbital_launcher/orbital_launcher_anim_end.papa",
-        "build_loop": "/pa/units/vanilla/orbital/orbital_launcher/orbital_launcher_anim_build.papa",
-        "build_start": "/pa/units/vanilla/orbital/orbital_launcher/orbital_launcher_anim_start.papa"
+        "build_end": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_end.papa",
+        "build_loop": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_build.papa",
+        "build_start": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-      "filename": "/pa/units/vanilla/orbital/orbital_launcher/orbital_launcher.papa",
+      "filename": "/pa/units/orbital/orbital_launcher/orbital_launcher.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_orbital_launcher.json"
     },
     {
       "animations": {
-        "build_end": "/pa/units/vanilla/orbital/orbital_launcher/orbital_launcher_anim_end.papa",
-        "build_loop": "/pa/units/vanilla/orbital/orbital_launcher/orbital_launcher_anim_build.papa",
-        "build_start": "/pa/units/vanilla/orbital/orbital_launcher/orbital_launcher_anim_start.papa"
+        "build_end": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_end.papa",
+        "build_loop": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_build.papa",
+        "build_start": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/orbital_launcher/orbital_launcher.papa",
+      "filename": "/pa/units/sea/orbital_launcher/orbital_launcher.papa",
       "layer": "WL_WaterSurface"
     }
   ],

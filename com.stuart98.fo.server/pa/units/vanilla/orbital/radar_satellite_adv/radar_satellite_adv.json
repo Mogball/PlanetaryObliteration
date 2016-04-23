@@ -45,12 +45,12 @@
   ],
   "model": {
     "animations": {
-      "closed": "/pa/units/vanilla/orbital/radar_satellite_adv/radar_satellite_adv_anim_closed.papa",
-      "deploy": "/pa/units/vanilla/orbital/radar_satellite_adv/radar_satellite_adv_anim_deploy.papa",
-      "open": "/pa/units/vanilla/orbital/radar_satellite_adv/radar_satellite_adv_anim_open.papa"
+      "closed": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_closed.papa",
+      "deploy": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_deploy.papa",
+      "open": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_open.papa"
     },
     "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
-    "filename": "/pa/units/vanilla/orbital/radar_satellite_adv/radar_satellite_adv.papa"
+    "filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.papa"
   },
   "physics": {
     "gravity_scalar": 0.001,

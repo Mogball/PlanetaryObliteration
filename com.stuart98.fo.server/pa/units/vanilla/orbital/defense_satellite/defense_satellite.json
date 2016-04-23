@@ -48,10 +48,10 @@
   ],
   "model": {
     "animations": {
-      "fire": "/pa/units/vanilla/orbital/defense_satellite/defense_satellite_anim_fire.papa"
+      "fire": "/pa/units/orbital/defense_satellite/defense_satellite_anim_fire.papa"
     },
     "animtree": "/pa/anim/anim_trees/defense_satellite_anim_tree.json",
-    "filename": "/pa/units/vanilla/orbital/defense_satellite/defense_satellite.papa"
+    "filename": "/pa/units/orbital/defense_satellite/defense_satellite.papa"
   },
   "physics": {
     "collision_layers": "WL_Orbital",

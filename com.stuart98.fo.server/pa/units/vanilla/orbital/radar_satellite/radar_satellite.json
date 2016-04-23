@@ -41,7 +41,7 @@
   "fx_offsets": [
     {
       "bone": "bone_radar",
-      "filename": "/pa/units/vanilla/orbital/radar_satellite/radar_satellite_on.pfx",
+      "filename": "/pa/units/orbital/radar_satellite/radar_satellite_on.pfx",
       "offset": [
         0,
         -1.0,
@@ -56,12 +56,12 @@
     },
     {
       "bone": "bone_antenna01",
-      "filename": "/pa/units/vanilla/orbital/radar_satellite/radar_satellite_antenna_on.pfx",
+      "filename": "/pa/units/orbital/radar_satellite/radar_satellite_antenna_on.pfx",
       "type": "energy"
     },
     {
       "bone": "bone_antenna02",
-      "filename": "/pa/units/vanilla/orbital/radar_satellite/radar_satellite_antenna_on.pfx",
+      "filename": "/pa/units/orbital/radar_satellite/radar_satellite_antenna_on.pfx",
       "type": "energy"
     }
   ],
@@ -74,12 +74,12 @@
   ],
   "model": {
     "animations": {
-      "closed": "/pa/units/vanilla/orbital/radar_satellite/radar_satellite_anim_closed.papa",
-      "deploy": "/pa/units/vanilla/orbital/radar_satellite/radar_satellite_anim_deploy.papa",
-      "open": "/pa/units/vanilla/orbital/radar_satellite/radar_satellite_anim_open.papa"
+      "closed": "/pa/units/orbital/radar_satellite/radar_satellite_anim_closed.papa",
+      "deploy": "/pa/units/orbital/radar_satellite/radar_satellite_anim_deploy.papa",
+      "open": "/pa/units/orbital/radar_satellite/radar_satellite_anim_open.papa"
     },
     "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
-    "filename": "/pa/units/vanilla/orbital/radar_satellite/radar_satellite.papa"
+    "filename": "/pa/units/orbital/radar_satellite/radar_satellite.papa"
   },
   "navigation": {
     "acceleration": 15,

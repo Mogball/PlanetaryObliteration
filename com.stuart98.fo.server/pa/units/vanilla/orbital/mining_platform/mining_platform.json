@@ -34,7 +34,7 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/vanilla/orbital/mining_platform/mining_platform_idle.pfx",
+      "filename": "/pa/units/orbital/mining_platform/mining_platform_idle.pfx",
       "offset": [
         0,
         0,
@@ -44,7 +44,7 @@
     },
     {
       "bone": "bone_hose07",
-      "filename": "/pa/units/vanilla/orbital/mining_platform/mining_platform_idle_tip.pfx",
+      "filename": "/pa/units/orbital/mining_platform/mining_platform_idle_tip.pfx",
       "offset": [
         0,
         0,
@@ -164,12 +164,12 @@
   ],
   "model": {
     "animations": {
-      "end": "/pa/units/vanilla/orbital/mining_platform/mining_platform_anim_loop.papa",
-      "loop": "/pa/units/vanilla/orbital/mining_platform/mining_platform_anim_loop.papa",
-      "start": "/pa/units/vanilla/orbital/mining_platform/mining_platform_anim_start.papa"
+      "end": "/pa/units/orbital/mining_platform/mining_platform_anim_loop.papa",
+      "loop": "/pa/units/orbital/mining_platform/mining_platform_anim_loop.papa",
+      "start": "/pa/units/orbital/mining_platform/mining_platform_anim_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/constant_idle_transition_anim_tree.json",
-    "filename": "/pa/units/vanilla/orbital/mining_platform/mining_platform.papa"
+    "filename": "/pa/units/orbital/mining_platform/mining_platform.papa"
   },
   "physics": {
     "collision_layers": "WL_Orbital",
