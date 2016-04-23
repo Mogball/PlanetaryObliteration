@@ -24,7 +24,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/structure/tact_mis_launcher_catapult_fire",
-      "effect_spec": "/pa/units/vanilla/land/tactical_missile_launcher/tactical_missile_launcher_launch.pfx"
+      "effect_spec": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_launch.pfx"
     }
   },
   "guard_layer": "WL_AnySurface",
@@ -37,21 +37,21 @@
   "model": [
     {
       "animations": {
-        "end": "/pa/units/vanilla/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa",
-        "start": "/pa/units/vanilla/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa"
+        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa",
+        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/tactical_missile_launcher_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/tactical_missile_launcher/tactical_missile_launcher.papa",
+      "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_08.json"
     },
     {
       "animations": {
-        "end": "/pa/units/vanilla/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa",
-        "start": "/pa/units/vanilla/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa"
+        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa",
+        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/tactical_missile_launcher_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/tactical_missile_launcher/tactical_missile_launcher.papa",
+      "filename": "/pa/units/sea/tactical_missile_launcher/tactical_missile_launcher.papa",
       "layer": "WL_WaterSurface"
     }
   ],

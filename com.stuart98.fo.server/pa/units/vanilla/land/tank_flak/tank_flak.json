@@ -1,11 +1,11 @@
 {
-  "TEMP_texelinfo": 5.84968,
+  "TEMP_texelinfo": 9.31488,
   "attachable": {
     "offsets": {
       "head": [
         0,
         0,
-        2.7
+        3.1
       ],
       "root": [
         0,
@@ -17,17 +17,17 @@
   "audio": {
     "loops": {
       "move": {
-        "cue": "/SE/Movement/veh/tank_light_laser_loop",
+        "cue": "/SE/Movement/veh/tank_heavy_mortar_loop_sheller_T2",
         "flag": "vel_changed",
         "should_start_func": "is_moving",
         "should_stop_func": "is_not_moving"
       }
     }
   },
-  "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 500,
-  "description": "Flak Tank - Damage over a very wide area. Only attacks air targets.",
-  "display_name": "Shredder",
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "build_metal_cost": 750,
+  "description": "Flak Tank- Damage over a very wide area. Only attacks air targets.",
+  "display_name": "Storm",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
@@ -38,58 +38,32 @@
       "effect_spec": "/pa/effects/specs/default_explosion_bot_t2.pfx"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/structure/air_defense_flak_fire",
-      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle01 /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle02 /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle03 /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle01"
+      "audio_cue": "/SE/Weapons/veh/tank_T2_sheller",
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle01 /pa/effects/specs/default_muzzle_flash.pfx socket_muzzle02 /pa/effects/specs/default_muzzle_flash.pfx socket_muzzle03 /pa/effects/specs/default_muzzle_flash.pfx socket_muzzle04"
     }
   },
   "guard_layer": "WL_AnySurface",
-  "headlights": [
-    {
-      "color": [
-        0.9,
-        0.92,
-        1.0
-      ],
-      "far_distance": 20.0,
-      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
-      "intensity": 1.4,
-      "near_distance": 1.2,
-      "near_height": 2.0,
-      "near_width": 2.0,
-      "offset": [
-        0.0,
-        -1.0,
-        1.5
-      ],
-      "orientation": [
-        0.0,
-        65.0,
-        0.0
-      ]
-    }
-  ],
-  "max_health": 325,
+  "max_health": 900,
   "mesh_bounds": [
-    5.3,
-    9,
-    4.2
+    7,
+    7.5,
+    3.8
   ],
   "model": {
     "animtree": "/pa/anim/anim_trees/tank_flak_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/vanilla/land/tank_flak/tank_flaka.papa"
+    "filename": "/pa/units/land/tank_flak/tank_flak.papa"
   },
   "navigation": {
-    "acceleration": 1,
-    "brake": 1,
+    "acceleration": 100,
+    "brake": 100,
     "group_preference": "back",
-    "move_speed": 13,
+    "move_speed": 10,
     "turn_speed": 60,
     "type": "land-small"
   },
   "nearby_target_tick_update_interval": 15,
   "physics": {
-    "push_class": 60,
     "radius": 6
   },
   "recon": {
@@ -98,7 +72,13 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 90,
+          "radius": 100,
+          "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 100,
           "shape": "capsule"
         }
       ]
@@ -109,22 +89,13 @@
     "uv_split": 0.899
   },
   "selection_icon": {
-    "diameter": 16.0
+    "diameter": 14.0
   },
   "tools": [
     {
-      "aim_bone": "bone_pitch",
+      "aim_bone": "socket_aim",
       "muzzle_bone": [
-        "socket_rightMuzzle01",
-        "socket_leftMuzzle02"
-      ],
-      "spec_id": "/pa/units/vanilla/land/tank_flak/tank_flak_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch",
-      "muzzle_bone": [
-        "socket_leftMuzzle01",
-        "socket_rightMuzzle02"
+        "socket_muzzle01"
       ],
       "spec_id": "/pa/units/vanilla/land/tank_flak/tank_flak_tool_weapon.json"
     }

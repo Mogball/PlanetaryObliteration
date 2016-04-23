@@ -29,7 +29,7 @@
   "fx_offsets": [
     {
       "bone": "bone_rotator",
-      "filename": "/pa/units/vanilla/land/radar_adv/radar_adv_top_on.pfx",
+      "filename": "/pa/units/land/radar_adv/radar_adv_top_on.pfx",
       "offset": [
         0,
         0.145,
@@ -44,7 +44,7 @@
     },
     {
       "bone": "bone_dish01",
-      "filename": "/pa/units/vanilla/land/radar_adv/radar_adv_dish01_on.pfx",
+      "filename": "/pa/units/land/radar_adv/radar_adv_dish01_on.pfx",
       "offset": [
         0,
         -0.264,
@@ -59,7 +59,7 @@
     },
     {
       "bone": "bone_dish02",
-      "filename": "/pa/units/vanilla/land/radar_adv/radar_adv_dish02_on.pfx",
+      "filename": "/pa/units/land/radar_adv/radar_adv_dish02_on.pfx",
       "offset": [
         0,
         -0.264,
@@ -99,23 +99,23 @@
   "model": [
     {
       "animations": {
-        "end": "/pa/units/vanilla/land/radar_adv/radar_adv_anim_end.papa",
-        "loop": "/pa/units/vanilla/land/radar_adv/radar_adv_anim_loop.papa",
-        "start": "/pa/units/vanilla/land/radar_adv/radar_adv_anim_start.papa"
+        "end": "/pa/units/land/radar_adv/radar_adv_anim_end.papa",
+        "loop": "/pa/units/land/radar_adv/radar_adv_anim_loop.papa",
+        "start": "/pa/units/land/radar_adv/radar_adv_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/radar_adv/radar_adv.papa",
+      "filename": "/pa/units/land/radar_adv/radar_adv.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_radar_adv.json"
     },
     {
       "animations": {
-        "end": "/pa/units/vanilla/land/radar_adv/radar_adv_anim_end.papa",
-        "loop": "/pa/units/vanilla/land/radar_adv/radar_adv_anim_loop.papa",
-        "start": "/pa/units/vanilla/land/radar_adv/radar_adv_anim_start.papa"
+        "end": "/pa/units/land/radar_adv/radar_adv_anim_end.papa",
+        "loop": "/pa/units/land/radar_adv/radar_adv_anim_loop.papa",
+        "start": "/pa/units/land/radar_adv/radar_adv_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/radar_adv/radar_adv.papa",
+      "filename": "/pa/units/sea/radar_adv/radar_adv.papa",
       "layer": "WL_WaterSurface"
     }
   ],

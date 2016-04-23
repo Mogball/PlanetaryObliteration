@@ -15,7 +15,7 @@
     "radius_velocity": 280.0
   },
   "full_damage_splash_radius": 10,
-  "sim_fire_effect": "/pa/units/vanilla/land/titan_bot/titan_bot_stomp_ent.json",
+  "sim_fire_effect": "/pa/units/land/titan_bot/titan_bot_stomp_ent.json",
   "splash_damages_allies": false,
   "splash_radius": 50
 }

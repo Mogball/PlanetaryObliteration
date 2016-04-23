@@ -106,19 +106,19 @@
   ],
   "model": {
     "animations": {
-      "attack": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_attack.papa",
-      "build": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_build.papa",
-      "dead": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_dead.papa",
-      "death": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_death.papa",
-      "deploy": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_deploy.papa",
-      "idle": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_idle.papa",
-      "turn_left": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_left_turn.papa",
-      "turn_right": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_right_turn.papa",
-      "walk": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_walk.papa",
-      "walk_stop": "/pa/units/vanilla/land/titan_bot/titan_bot_anim_walk_stop.papa"
+      "attack": "/pa/units/land/titan_bot/titan_bot_anim_attack.papa",
+      "build": "/pa/units/land/titan_bot/titan_bot_anim_build.papa",
+      "dead": "/pa/units/land/titan_bot/titan_bot_anim_dead.papa",
+      "death": "/pa/units/land/titan_bot/titan_bot_anim_death.papa",
+      "deploy": "/pa/units/land/titan_bot/titan_bot_anim_deploy.papa",
+      "idle": "/pa/units/land/titan_bot/titan_bot_anim_idle.papa",
+      "turn_left": "/pa/units/land/titan_bot/titan_bot_anim_left_turn.papa",
+      "turn_right": "/pa/units/land/titan_bot/titan_bot_anim_right_turn.papa",
+      "walk": "/pa/units/land/titan_bot/titan_bot_anim_walk.papa",
+      "walk_stop": "/pa/units/land/titan_bot/titan_bot_anim_walk_stop.papa"
     },
     "animtree": "/pa/anim/anim_trees/titan_bot_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/titan_bot/titan_bot.papa",
+    "filename": "/pa/units/land/titan_bot/titan_bot.papa",
     "walk_speed": 13
   },
   "navigation": {

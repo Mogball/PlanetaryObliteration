@@ -41,7 +41,7 @@
     "died": {
       "audio_cue": "/SE/Death/Veh",
       "effect_scale": 2.5,
-      "effect_spec": "/pa/units/vanilla/land/bot_bomb/bot_bomb_ammo_explosion.pfx"
+      "effect_spec": "/pa/units/land/bot_bomb/bot_bomb_ammo_explosion.pfx"
     },
     "fired": {
       "audio_cue": "",
@@ -51,7 +51,7 @@
   "fx_offsets": [
     {
       "bone": "bone_rotator",
-      "filename": "/pa/units/vanilla/land/tank_nuke/tank_nuke_idle.pfx",
+      "filename": "/pa/units/land/tank_nuke/tank_nuke_idle.pfx",
       "type": "idle"
     }
   ],
@@ -149,11 +149,11 @@
   ],
   "model": {
     "animations": {
-      "drive": "/pa/units/vanilla/land/tank_nuke/tank_nuke_anim_drive.papa",
-      "idle": "/pa/units/vanilla/land/tank_nuke/tank_nuke_anim_idle.papa"
+      "drive": "/pa/units/land/tank_nuke/tank_nuke_anim_drive.papa",
+      "idle": "/pa/units/land/tank_nuke/tank_nuke_anim_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/tank_nuke_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/tank_nuke/tank_nuke.papa"
+    "filename": "/pa/units/land/tank_nuke/tank_nuke.papa"
   },
   "navigation": {
     "acceleration": 5,

@@ -35,7 +35,7 @@
   },
   "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
   "build_metal_cost": 500,
-  "buildable_types": "CombatFabAdvBuild",
+  "buildable_types": "CombatFabAdvBuild - Custom1",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",

@@ -35,7 +35,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/structure/unit_cannon_fire",
-      "effect_spec": "/pa/units/vanilla/land/unit_cannon/unit_cannon_fire.pfx bone_recoil02"
+      "effect_spec": "/pa/units/land/unit_cannon/unit_cannon_fire.pfx bone_recoil02"
     }
   },
   "factory": {
@@ -101,7 +101,7 @@
     },
     {
       "bone": "bone_recoil02",
-      "filename": "/pa/units/vanilla/land/unit_cannon/unit_cannon_idle.pfx",
+      "filename": "/pa/units/land/unit_cannon/unit_cannon_idle.pfx",
       "offset": [
         0,
         0,
@@ -118,13 +118,13 @@
   ],
   "model": {
     "animations": {
-      "aim_up": "/pa/units/vanilla/land/unit_cannon/unit_cannon_anim_aimUp.papa",
-      "build": "/pa/units/vanilla/land/unit_cannon/unit_cannon_anim_build.papa",
-      "end": "/pa/units/vanilla/land/unit_cannon/unit_cannon_anim_end.papa",
-      "start": "/pa/units/vanilla/land/unit_cannon/unit_cannon_anim_start.papa"
+      "aim_up": "/pa/units/land/unit_cannon/unit_cannon_anim_aimUp.papa",
+      "build": "/pa/units/land/unit_cannon/unit_cannon_anim_build.papa",
+      "end": "/pa/units/land/unit_cannon/unit_cannon_anim_end.papa",
+      "start": "/pa/units/land/unit_cannon/unit_cannon_anim_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/unit_cannon_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/unit_cannon/unit_cannon.papa"
+    "filename": "/pa/units/land/unit_cannon/unit_cannon.papa"
   },
   "placement_size": [
     65,

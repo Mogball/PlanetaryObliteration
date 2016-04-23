@@ -37,18 +37,18 @@
     },
     "disabled": {
       "audio_cue": "/SE/Buildings/teleporter_disabled",
-      "effect_spec": "/pa/units/vanilla/land/teleporter/teleporter_power_down.pfx bone_innerRingMaster"
+      "effect_spec": "/pa/units/land/teleporter/teleporter_power_down.pfx bone_innerRingMaster"
     },
     "enabled": {
       "audio_cue": "/SE/Buildings/teleporter_enabled",
-      "effect_spec": "/pa/units/vanilla/land/teleporter/teleporter_power_on.pfx bone_innerRingMaster"
+      "effect_spec": "/pa/units/land/teleporter/teleporter_power_on.pfx bone_innerRingMaster"
     }
   },
   "flip_drag_orientation": true,
   "fx_offsets": [
     {
       "bone": "bone_innerRingMaster",
-      "filename": "/pa/units/vanilla/land/teleporter/teleporter_event_horizon.pfx",
+      "filename": "/pa/units/land/teleporter/teleporter_event_horizon.pfx",
       "offset": [
         0,
         0,
@@ -63,7 +63,7 @@
     },
     {
       "bone": "bone_innerRing01",
-      "filename": "/pa/units/vanilla/land/teleporter/teleporter_brace_glow.pfx",
+      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "offset": [
         0,
         0,
@@ -78,7 +78,7 @@
     },
     {
       "bone": "bone_innerRing02",
-      "filename": "/pa/units/vanilla/land/teleporter/teleporter_brace_glow.pfx",
+      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "offset": [
         0,
         0,
@@ -93,7 +93,7 @@
     },
     {
       "bone": "bone_innerRing03",
-      "filename": "/pa/units/vanilla/land/teleporter/teleporter_brace_glow.pfx",
+      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "offset": [
         0,
         0,
@@ -108,7 +108,7 @@
     },
     {
       "bone": "bone_innerRing04",
-      "filename": "/pa/units/vanilla/land/teleporter/teleporter_brace_glow.pfx",
+      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "offset": [
         0,
         0,
@@ -130,12 +130,12 @@
   ],
   "model": {
     "animations": {
-      "end": "/pa/units/vanilla/land/teleporter/teleporter_anim_end.papa",
-      "loop": "/pa/units/vanilla/land/teleporter/teleporter_anim_loop.papa",
-      "start": "/pa/units/vanilla/land/teleporter/teleporter_anim_start.papa"
+      "end": "/pa/units/land/teleporter/teleporter_anim_end.papa",
+      "loop": "/pa/units/land/teleporter/teleporter_anim_loop.papa",
+      "start": "/pa/units/land/teleporter/teleporter_anim_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/teleporter/teleporter.papa",
+    "filename": "/pa/units/land/teleporter/teleporter.papa",
     "skirt_decal": "/pa/effects/specs/skirt_teleporter.json"
   },
   "orders": {

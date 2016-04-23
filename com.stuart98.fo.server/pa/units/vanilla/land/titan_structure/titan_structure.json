@@ -43,14 +43,14 @@
   ],
   "model": {
     "animations": {
-      "dead": "/pa/units/vanilla/land/titan_structure/titan_structure_anim_dead.papa",
-      "death": "/pa/units/vanilla/land/titan_structure/titan_structure_anim_death.papa",
-      "end": "/pa/units/vanilla/land/titan_structure/titan_structure_anim_end.papa",
-      "loop": "/pa/units/vanilla/land/titan_structure/titan_structure_anim_loop.papa",
-      "start": "/pa/units/vanilla/land/titan_structure/titan_structure_anim_start.papa"
+      "dead": "/pa/units/land/titan_structure/titan_structure_anim_dead.papa",
+      "death": "/pa/units/land/titan_structure/titan_structure_anim_death.papa",
+      "end": "/pa/units/land/titan_structure/titan_structure_anim_end.papa",
+      "loop": "/pa/units/land/titan_structure/titan_structure_anim_loop.papa",
+      "start": "/pa/units/land/titan_structure/titan_structure_anim_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/titan_structure_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/titan_structure/titan_structure.papa",
+    "filename": "/pa/units/land/titan_structure/titan_structure.papa",
     "skirt_decal": "/pa/effects/specs/skirt_titan_structure.json"
   },
   "physics": {

@@ -31,7 +31,7 @@
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 500,
   "description": "Riot Hover - Powerful area of effect riot cannon, medium health and speed. Hovers.",
-  "display_name": "!LOC:Drifter",
+  "display_name": "Drifter",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
@@ -163,10 +163,10 @@
   ],
   "model": {
     "animations": {
-      "hover": "/pa/units/vanilla/land/tank_hover/tank_hover_anim_hover.papa"
+      "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
     },
     "animtree": "/pa/anim/anim_trees/tank_hover_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/tank_hover/tank_hover.papa"
+    "filename": "/pa/units/land/tank_hover/tank_hover.papa"
   },
   "navigation": {
     "acceleration": 35,

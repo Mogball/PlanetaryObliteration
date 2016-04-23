@@ -15,7 +15,7 @@
   },
   "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
   "build_metal_cost": 1500,
-  "buildable_types": "Mobile & Tank & FactoryBuild & Advanced",
+  "buildable_types": "(Mobile & Tank & FactoryBuild & Advanced) - Custom1",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -276,13 +276,13 @@
   ],
   "model": {
     "animations": {
-      "build_end": "/pa/units/vanilla/land/vehicle_factory_adv/vehicle_factory_adv_anim_end.papa",
-      "build_loop": "/pa/units/vanilla/land/vehicle_factory_adv/vehicle_factory_adv_anim_build.papa",
-      "build_start": "/pa/units/vanilla/land/vehicle_factory_adv/vehicle_factory_adv_anim_start.papa",
-      "idle": "/pa/units/vanilla/land/vehicle_factory_adv/vehicle_factory_adv_anim_build.papa"
+      "build_end": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv_anim_end.papa",
+      "build_loop": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv_anim_build.papa",
+      "build_start": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv_anim_start.papa",
+      "idle": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv_anim_build.papa"
     },
     "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/vehicle_factory_adv/vehicle_factory_adv.papa",
+    "filename": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv.papa",
     "skirt_decal": "/pa/effects/specs/skirt_02.json"
   },
   "physics": {
