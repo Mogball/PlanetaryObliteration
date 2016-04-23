@@ -116,14 +116,14 @@
   ],
   "model": {
     "animations": {
-      "aimDown": "/pa/units/vanilla/land/bot_sniper/bot_sniper_anim_aimDown.papa",
-      "aimUp": "/pa/units/vanilla/land/bot_sniper/bot_sniper_anim_aimUp.papa",
-      "death": "/pa/units/vanilla/land/bot_sniper/bot_sniper_anim_death.papa",
-      "idle": "/pa/units/vanilla/land/bot_sniper/bot_sniper_anim_idle.papa",
-      "walk": "/pa/units/vanilla/land/bot_sniper/bot_sniper_anim_walk.papa"
+      "aimDown": "/pa/units/land/bot_sniper/bot_sniper_anim_aimDown.papa",
+      "aimUp": "/pa/units/land/bot_sniper/bot_sniper_anim_aimUp.papa",
+      "death": "/pa/units/land/bot_sniper/bot_sniper_anim_death.papa",
+      "idle": "/pa/units/land/bot_sniper/bot_sniper_anim_idle.papa",
+      "walk": "/pa/units/land/bot_sniper/bot_sniper_anim_walk.papa"
     },
     "animtree": "/pa/anim/anim_trees/bot_sniper_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/bot_sniper/bot_sniper.papa",
+    "filename": "/pa/units/land/bot_sniper/bot_sniper.papa",
     "walk_speed": 7
   },
   "navigation": {

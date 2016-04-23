@@ -53,12 +53,12 @@
   ],
   "model": {
     "animations": {
-      "death01": "/pa/units/vanilla/land/bot_grenadier/bot_grenadier_anim_death.papa",
-      "idle": "/pa/units/vanilla/land/bot_grenadier/bot_grenadier_anim_idle.papa",
-      "walk": "/pa/units/vanilla/land/bot_grenadier/bot_grenadier_anim_run.papa"
+      "death01": "/pa/units/land/bot_grenadier/bot_grenadier_anim_death.papa",
+      "idle": "/pa/units/land/bot_grenadier/bot_grenadier_anim_idle.papa",
+      "walk": "/pa/units/land/bot_grenadier/bot_grenadier_anim_run.papa"
     },
     "animtree": "/pa/anim/anim_trees/bot_grenadier_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/bot_grenadier/bot_grenadier.papa",
+    "filename": "/pa/units/land/bot_grenadier/bot_grenadier.papa",
     "walk_speed": 10
   },
   "navigation": {

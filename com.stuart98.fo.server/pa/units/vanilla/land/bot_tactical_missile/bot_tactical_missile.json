@@ -54,13 +54,13 @@
   ],
   "model": {
     "animations": {
-      "death01": "/pa/units/vanilla/land/bot_tactical_missile/bot_tactical_missile_anim_death01.papa",
-      "fire": "/pa/units/vanilla/land/bot_tactical_missile/bot_tactical_missile_anim_fire.papa",
-      "idle": "/pa/units/vanilla/land/bot_tactical_missile/bot_tactical_missile_anim_idle.papa",
-      "run": "/pa/units/vanilla/land/bot_tactical_missile/bot_tactical_missile_anim_run.papa"
+      "death01": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_anim_death01.papa",
+      "fire": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_anim_fire.papa",
+      "idle": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_anim_idle.papa",
+      "run": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_anim_run.papa"
     },
     "animtree": "/pa/anim/anim_trees/bot_tactical_missile_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/bot_tactical_missile/bot_tactical_missile.papa",
+    "filename": "/pa/units/land/bot_tactical_missile/bot_tactical_missile.papa",
     "walk_speed": 7
   },
   "navigation": {

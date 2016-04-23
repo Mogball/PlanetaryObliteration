@@ -45,11 +45,11 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/vanilla/land/bot_orbital/Bao32_anim_idle.papa",
-      "walk": "/pa/units/vanilla/land/bot_orbital/Bao32_anim_walk.papa"
+      "idle": "/pa/units/vanilla/land/bot_orbital/ao32_anim_idle.papa",
+      "walk": "/pa/units/vanilla/land/bot_orbital/ao32_anim_walk.papa"
     },
-    "animtree": "/pa/units/vanilla/land/bot_orbital/Bao32_at.json",
-    "filename": "/pa/units/vanilla/land/bot_orbital/Bao32.papa",
+    "animtree": "/pa/units/vanilla/land/bot_orbital/ao32_at.json",
+    "filename": "/pa/units/vanilla/land/bot_orbital/ao32.papa",
     "walk_speed": 3.5
   },
   "navigation": {

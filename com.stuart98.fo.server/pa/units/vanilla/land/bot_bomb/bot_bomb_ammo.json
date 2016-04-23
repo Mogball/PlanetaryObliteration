@@ -7,7 +7,7 @@
   "impact_decals": [
     "/pa/effects/specs/scorch_b_01.json"
   ],
-  "sim_fire_effect": "/pa/units/vanilla/land/bot_bomb/bot_bomb_ammo_explosion_ent.json",
+  "sim_fire_effect": "/pa/units/land/bot_bomb/bot_bomb_ammo_explosion_ent.json",
   "splash_damages_allies": false,
   "splash_radius": 15
 }

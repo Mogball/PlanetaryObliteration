@@ -53,11 +53,11 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/vanilla/land/bot_tesla/bot_tesla_anim_idle.papa",
-      "walk": "/pa/units/vanilla/land/bot_tesla/bot_tesla_anim_walk.papa"
+      "idle": "/pa/units/land/bot_tesla/bot_tesla_anim_idle.papa",
+      "walk": "/pa/units/land/bot_tesla/bot_tesla_anim_walk.papa"
     },
     "animtree": "/pa/anim/anim_trees/bot_tesla_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/bot_tesla/bot_tesla.papa",
+    "filename": "/pa/units/land/bot_tesla/bot_tesla.papa",
     "walk_speed": 8
   },
   "navigation": {

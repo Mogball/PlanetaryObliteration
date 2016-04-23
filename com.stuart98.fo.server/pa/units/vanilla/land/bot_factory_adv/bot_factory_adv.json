@@ -15,7 +15,7 @@
   },
   "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
   "build_metal_cost": 1500,
-  "buildable_types": "Bot & Mobile & FactoryBuild & Advanced",
+  "buildable_types": "(Bot & Mobile & FactoryBuild & Advanced) - Custom1",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -202,12 +202,12 @@
   ],
   "model": {
     "animations": {
-      "build_end": "/pa/units/vanilla/land/bot_factory_adv/bot_factory_adv_anim_end.papa",
-      "build_loop": "/pa/units/vanilla/land/bot_factory_adv/bot_factory_adv_anim_build.papa",
-      "build_start": "/pa/units/vanilla/land/bot_factory_adv/bot_factory_adv_anim_start.papa"
+      "build_end": "/pa/units/land/bot_factory_adv/bot_factory_adv_anim_end.papa",
+      "build_loop": "/pa/units/land/bot_factory_adv/bot_factory_adv_anim_build.papa",
+      "build_start": "/pa/units/land/bot_factory_adv/bot_factory_adv_anim_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/bot_factory_adv/bot_factory_adv.papa",
+    "filename": "/pa/units/land/bot_factory_adv/bot_factory_adv.papa",
     "skirt_decal": "/pa/effects/specs/skirt_bot_adv.json"
   },
   "physics": {

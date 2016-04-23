@@ -43,7 +43,7 @@
     "died": {
       "audio_cue": "/SE/Death/Bot_bomb",
       "effect_scale": 1.0,
-      "effect_spec": "/pa/units/vanilla/land/bot_bomb/bot_bomb_ammo_explosion.pfx"
+      "effect_spec": "/pa/units/land/bot_bomb/bot_bomb_ammo_explosion.pfx"
     },
     "fired": {
       "audio_cue": "",
@@ -59,12 +59,12 @@
   ],
   "model": {
     "animations": {
-      "death01": "/pa/units/vanilla/land/bot_bomb/bot_bomb_anim_death01.papa",
-      "idle": "/pa/units/vanilla/land/bot_bomb/bot_bomb_anim_idle.papa",
-      "walk": "/pa/units/vanilla/land/bot_bomb/bot_bomb_anim_run.papa"
+      "death01": "/pa/units/land/bot_bomb/bot_bomb_anim_death01.papa",
+      "idle": "/pa/units/land/bot_bomb/bot_bomb_anim_idle.papa",
+      "walk": "/pa/units/land/bot_bomb/bot_bomb_anim_run.papa"
     },
     "animtree": "/pa/anim/anim_trees/bot_bomb_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/bot_bomb/bot_bomb.papa",
+    "filename": "/pa/units/land/bot_bomb/bot_bomb.papa",
     "walk_speed": 35
   },
   "navigation": {
@@ -112,8 +112,7 @@
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_CannonBuildable",
     "UNITTYPE_Offense",
-    "UNITTYPE_SelfDestruct",
-    "UNITTYPE_Custom3"
+    "UNITTYPE_SelfDestruct"
   ],
   "wreckage_health_frac": 0.0
 }

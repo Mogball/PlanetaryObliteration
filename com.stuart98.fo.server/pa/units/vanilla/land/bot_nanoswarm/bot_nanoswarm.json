@@ -69,10 +69,10 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/vanilla/land/bot_nanoswarm/bot_nanoswarm_anim_idle.papa"
+      "idle": "/pa/units/land/bot_nanoswarm/bot_nanoswarm_anim_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/bot_nanoswarm_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/bot_nanoswarm/bot_nanoswarm.papa"
+    "filename": "/pa/units/land/bot_nanoswarm/bot_nanoswarm.papa"
   },
   "navigation": {
     "acceleration": 400,
