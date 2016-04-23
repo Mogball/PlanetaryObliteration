@@ -29,7 +29,7 @@
   "fx_offsets": [
     {
       "bone": "bone_rotator",
-      "filename": "/pa/units/vanilla/land/radar/radar_on.pfx",
+      "filename": "/pa/units/land/radar/radar_on.pfx",
       "offset": [
         0,
         0.145,
@@ -68,23 +68,23 @@
   "model": [
     {
       "animations": {
-        "end": "/pa/units/vanilla/land/radar/radar_anim_end.papa",
-        "loop": "/pa/units/vanilla/land/radar/radar_anim_loop.papa",
-        "start": "/pa/units/vanilla/land/radar/radar_anim_start.papa"
+        "end": "/pa/units/land/radar/radar_anim_end.papa",
+        "loop": "/pa/units/land/radar/radar_anim_loop.papa",
+        "start": "/pa/units/land/radar/radar_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/radar/radar.papa",
+      "filename": "/pa/units/land/radar/radar.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_radar.json"
     },
     {
       "animations": {
-        "end": "/pa/units/vanilla/land/radar/radar_anim_end.papa",
-        "loop": "/pa/units/vanilla/land/radar/radar_anim_loop.papa",
-        "start": "/pa/units/vanilla/land/radar/radar_anim_start.papa"
+        "end": "/pa/units/land/radar/radar_anim_end.papa",
+        "loop": "/pa/units/land/radar/radar_anim_loop.papa",
+        "start": "/pa/units/land/radar/radar_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/radar/radar.papa",
+      "filename": "/pa/units/sea/radar/radar.papa",
       "layer": "WL_WaterSurface"
     }
   ],

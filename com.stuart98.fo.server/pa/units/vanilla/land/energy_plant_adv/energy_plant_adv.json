@@ -256,19 +256,19 @@
   "model": [
     {
       "animations": {
-        "idle": "/pa/units/vanilla/land/energy_plant_adv/energy_plant_adv_anim_work.papa"
+        "idle": "/pa/units/land/energy_plant_adv/energy_plant_adv_anim_work.papa"
       },
       "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/energy_plant_adv/energy_plant_adv.papa",
+      "filename": "/pa/units/land/energy_plant_adv/energy_plant_adv.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_energy_adv.json"
     },
     {
       "animations": {
-        "idle": "/pa/units/vanilla/land/energy_plant_adv/energy_plant_adv_anim_work.papa"
+        "idle": "/pa/units/land/energy_plant_adv/energy_plant_adv_anim_work.papa"
       },
       "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/sea_energy_plant_adv/sea_energy_plant_adv.papa",
+      "filename": "/pa/units/sea/sea_energy_plant_adv/sea_energy_plant_adv.papa",
       "layer": "WL_WaterSurface"
     }
   ],

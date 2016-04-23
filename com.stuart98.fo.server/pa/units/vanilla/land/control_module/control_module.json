@@ -26,7 +26,7 @@
   "fx_offsets": [
     {
       "bone": "bone_rightArm",
-      "filename": "/pa/units/vanilla/land/control_module/control_module_strobe01.pfx",
+      "filename": "/pa/units/land/control_module/control_module_strobe01.pfx",
       "offset": [
         0.35,
         -112.156,
@@ -36,7 +36,7 @@
     },
     {
       "bone": "bone_leftArm",
-      "filename": "/pa/units/vanilla/land/control_module/control_module_strobe02.pfx",
+      "filename": "/pa/units/land/control_module/control_module_strobe02.pfx",
       "offset": [
         -0.35,
         -112.156,
@@ -46,7 +46,7 @@
     },
     {
       "bone": "bone_conductor02",
-      "filename": "/pa/units/vanilla/land/control_module/control_module_enabled.pfx",
+      "filename": "/pa/units/land/control_module/control_module_enabled.pfx",
       "offset": [
         0,
         -63,
@@ -143,12 +143,12 @@
   ],
   "model": {
     "animations": {
-      "end": "/pa/units/vanilla/land/control_module/control_module_anim_end.papa",
-      "loop": "/pa/units/vanilla/land/control_module/control_module_anim_loop.papa",
-      "start": "/pa/units/vanilla/land/control_module/control_module_anim_start.papa"
+      "end": "/pa/units/land/control_module/control_module_anim_end.papa",
+      "loop": "/pa/units/land/control_module/control_module_anim_loop.papa",
+      "start": "/pa/units/land/control_module/control_module_anim_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/control_module/control_module.papa"
+    "filename": "/pa/units/land/control_module/control_module.papa"
   },
   "placement_size": [
     100,

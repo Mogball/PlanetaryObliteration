@@ -3,5 +3,5 @@
   "impact_decals": [
     "/pa/effects/specs/scorch_b_01.json"
   ],
-  "sim_fire_effect": "/pa/units/vanilla/land/land_mine/land_mine_ammo_explosion_ent.json"
+  "sim_fire_effect": "/pa/units/land/land_mine/land_mine_ammo_explosion_ent.json"
 }

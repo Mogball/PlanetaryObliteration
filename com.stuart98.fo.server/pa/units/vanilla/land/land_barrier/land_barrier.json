@@ -20,7 +20,7 @@
   "fx_offsets": [
     {
       "bone": "bone_shield",
-      "filename": "/pa/units/vanilla/land/land_barrier/land_barrier_wall.pfx",
+      "filename": "/pa/units/land/land_barrier/land_barrier_wall.pfx",
       "offset": [
         0,
         0,
@@ -38,20 +38,20 @@
   "model": [
     {
       "animations": {
-        "deploy": "/pa/units/vanilla/land/land_barrier/land_barrier_anim_deploy.papa",
-        "idle": "/pa/units/vanilla/land/land_barrier/land_barrier_anim_idle.papa"
+        "deploy": "/pa/units/land/land_barrier/land_barrier_anim_deploy.papa",
+        "idle": "/pa/units/land/land_barrier/land_barrier_anim_idle.papa"
       },
       "animtree": "/pa/anim/anim_trees/land_barrier_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/land_barrier/land_barrier.papa",
+      "filename": "/pa/units/land/land_barrier/land_barrier.papa",
       "layer": "WL_LandHorizontal"
     },
     {
       "animations": {
-        "deploy": "/pa/units/vanilla/land/land_barrier/land_barrier_anim_deploy.papa",
-        "idle": "/pa/units/vanilla/land/land_barrier/land_barrier_anim_idle.papa"
+        "deploy": "/pa/units/land/land_barrier/land_barrier_anim_deploy.papa",
+        "idle": "/pa/units/land/land_barrier/land_barrier_anim_idle.papa"
       },
       "animtree": "/pa/anim/anim_trees/land_barrier_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/sea_barrier/sea_barrier.papa",
+      "filename": "/pa/units/sea/sea_barrier/sea_barrier.papa",
       "layer": "WL_WaterSurface"
     }
   ],

@@ -181,12 +181,12 @@
   ],
   "model": [
     {
-      "filename": "/pa/units/vanilla/land/energy_storage/energy_storage.papa",
+      "filename": "/pa/units/land/energy_storage/energy_storage.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_energy_adv.json"
     },
     {
-      "filename": "/pa/units/vanilla/sea/sea_energy_storage/sea_energy_storage.papa",
+      "filename": "/pa/units/sea/sea_energy_storage/sea_energy_storage.papa",
       "layer": "WL_WaterSurface"
     }
   ],

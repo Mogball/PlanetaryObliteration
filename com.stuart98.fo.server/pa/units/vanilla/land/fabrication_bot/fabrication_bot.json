@@ -100,14 +100,14 @@
   ],
   "model": {
     "animations": {
-      "aim_down": "/pa/units/vanilla/land/fabrication_bot/fabrication_bot_anim_aimDown.papa",
-      "aim_up": "/pa/units/vanilla/land/fabrication_bot/fabrication_bot_anim_aimUp.papa",
-      "death01": "/pa/units/vanilla/land/fabrication_bot/fabrication_bot_anim_death01.papa",
-      "idle": "/pa/units/vanilla/land/fabrication_bot/fabrication_bot_anim_idle.papa",
-      "walk": "/pa/units/vanilla/land/fabrication_bot/fabrication_bot_anim_run.papa"
+      "aim_down": "/pa/units/land/fabrication_bot/fabrication_bot_anim_aimDown.papa",
+      "aim_up": "/pa/units/land/fabrication_bot/fabrication_bot_anim_aimUp.papa",
+      "death01": "/pa/units/land/fabrication_bot/fabrication_bot_anim_death01.papa",
+      "idle": "/pa/units/land/fabrication_bot/fabrication_bot_anim_idle.papa",
+      "walk": "/pa/units/land/fabrication_bot/fabrication_bot_anim_run.papa"
     },
     "animtree": "/pa/anim/anim_trees/fabrication_bipedal_mech_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/fabrication_bot/fabrication_bot.papa",
+    "filename": "/pa/units/land/fabrication_bot/fabrication_bot.papa",
     "walk_speed": 12
   },
   "navigation": {

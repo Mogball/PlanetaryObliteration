@@ -53,20 +53,20 @@
   "model": [
     {
       "animations": {
-        "idle": "/pa/units/vanilla/land/metal_extractor_adv/metal_extractor_adv_anim_work.papa"
+        "idle": "/pa/units/land/metal_extractor_adv/metal_extractor_adv_anim_work.papa"
       },
       "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
       "arrows": 10,
-      "filename": "/pa/units/vanilla/land/metal_extractor_adv/metal_extractor_adv.papa",
+      "filename": "/pa/units/land/metal_extractor_adv/metal_extractor_adv.papa",
       "layer": "WL_LandHorizontal"
     },
     {
       "animations": {
-        "idle": "/pa/units/vanilla/sea/sea_metal_extractor_adv/sea_metal_extractor_adv_anim_work.papa"
+        "idle": "/pa/units/sea/sea_metal_extractor_adv/sea_metal_extractor_adv_anim_work.papa"
       },
       "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
       "arrows": 10,
-      "filename": "/pa/units/vanilla/sea/sea_metal_extractor_adv/sea_metal_extractor_adv.papa",
+      "filename": "/pa/units/sea/sea_metal_extractor_adv/sea_metal_extractor_adv.papa",
       "layer": "WL_WaterSurface"
     }
   ],

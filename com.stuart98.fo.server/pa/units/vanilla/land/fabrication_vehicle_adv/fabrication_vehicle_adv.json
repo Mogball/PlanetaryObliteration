@@ -83,12 +83,12 @@
   ],
   "model": {
     "animations": {
-      "death01": "/pa/units/vanilla/land/fabrication_vehicle_adv/fabrication_vehicle_adv_anim_death01.papa",
-      "drive": "/pa/units/vanilla/land/fabrication_vehicle_adv/fabrication_vehicle_adv_anim_drive.papa"
+      "death01": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv_anim_death01.papa",
+      "drive": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv_anim_drive.papa"
     },
     "animtree": "/pa/anim/anim_trees/turret_wheels_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/vanilla/land/fabrication_vehicle_adv/fabrication_vehicle_adv.papa"
+    "filename": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.papa"
   },
   "navigation": {
     "acceleration": 12,

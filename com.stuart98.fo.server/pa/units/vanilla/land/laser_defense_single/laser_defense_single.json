@@ -33,13 +33,13 @@
   "model": [
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/laser_defense_single/laser_defense_single.papa",
+      "filename": "/pa/units/land/laser_defense_single/laser_defense_single.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
     },
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/floating_laser_single/floating_laser_single.papa",
+      "filename": "/pa/units/sea/floating_laser_single/floating_laser_single.papa",
       "layer": "WL_WaterSurface"
     }
   ],
@@ -65,7 +65,7 @@
       "muzzle_bone": [
         "socket_muzzle"
       ],
-      "spec_id": "/pa/units/vanilla/land/laser_defense_single/laser_defense_single_tool_weapon.json"
+      "spec_id": "/pa/units/land/laser_defense_single/laser_defense_single_tool_weapon.json"
     }
   ],
   "unit_types": [
