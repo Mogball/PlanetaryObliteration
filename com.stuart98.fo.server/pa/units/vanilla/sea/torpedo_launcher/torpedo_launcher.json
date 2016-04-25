@@ -32,18 +32,18 @@
   "model": [
     {
       "animations": {
-        "idle": "/pa/units/vanilla/sea/torpedo_launcher/torpedo_launcher_anim_idle.papa"
+        "idle": "/pa/units/sea/torpedo_launcher/torpedo_launcher_anim_idle.papa"
       },
       "animtree": "/pa/anim/anim_trees/torpedo_launcher_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/torpedo_launcher/torpedo_launcher.papa",
+      "filename": "/pa/units/land/torpedo_launcher/torpedo_launcher.papa",
       "layer": "WL_LandHorizontal"
     },
     {
       "animations": {
-        "idle": "/pa/units/vanilla/sea/torpedo_launcher/torpedo_launcher_anim_idle.papa"
+        "idle": "/pa/units/sea/torpedo_launcher/torpedo_launcher_anim_idle.papa"
       },
       "animtree": "/pa/anim/anim_trees/torpedo_launcher_anim_tree.json",
-      "filename": "/pa/units/vanilla/sea/torpedo_launcher/torpedo_launcher.papa",
+      "filename": "/pa/units/sea/torpedo_launcher/torpedo_launcher.papa",
       "layer": "WL_WaterSurface"
     }
   ],

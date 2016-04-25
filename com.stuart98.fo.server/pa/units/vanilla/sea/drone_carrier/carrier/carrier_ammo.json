@@ -14,7 +14,7 @@
   "flight_type": "Staged",
   "full_damage_splash_radius": 0,
   "fx_trail": {
-    "filename": "/pa/units/vanilla/sea/drone_carrier/carrier/carrier_ammo_trail.pfx",
+    "filename": "/pa/units/sea/drone_carrier/carrier/carrier_ammo_trail.pfx",
     "offset": [
       0.0,
       0.727,
@@ -25,7 +25,7 @@
   "lifetime": 5.0,
   "max_velocity": 110.0,
   "model": {
-    "filename": "/pa/units/vanilla/sea/drone_carrier/drone/drone.papa"
+    "filename": "/pa/units/sea/drone_carrier/drone/drone.papa"
   },
   "physics": {
     "allow_underground": true,
@@ -39,7 +39,7 @@
     }
   },
   "spawn_layers": "WL_Air",
-  "spawn_unit_on_death": "/pa/units/vanilla/sea/drone_carrier/drone/drone.json",
+  "spawn_unit_on_death": "/pa/units/sea/drone_carrier/drone/drone.json",
   "spawn_unit_on_death_with_velocity": true,
   "splash_damage": 0,
   "splash_radius": 0,

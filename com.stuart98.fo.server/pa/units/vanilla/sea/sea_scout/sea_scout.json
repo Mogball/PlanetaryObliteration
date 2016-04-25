@@ -44,7 +44,7 @@
   ],
   "model": {
     "animtree": "/pa/anim/anim_trees/sea_scout_anim_tree.json",
-    "filename": "/pa/units/vanilla/sea/sea_scout/sea_scout.papa"
+    "filename": "/pa/units/sea/sea_scout/sea_scout.papa"
   },
   "navigation": {
     "acceleration": 5,

@@ -41,7 +41,7 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/vanilla/sea/drone_carrier/carrier/carrier_wake.pfx",
+      "filename": "/pa/units/sea/drone_carrier/carrier/carrier_wake.pfx",
       "type": "moving_forward"
     }
   ],
@@ -262,7 +262,7 @@
     7
   ],
   "model": {
-    "filename": "/pa/units/vanilla/sea/drone_carrier/carrier/carrier.papa"
+    "filename": "/pa/units/sea/drone_carrier/carrier/carrier.papa"
   },
   "navigation": {
     "acceleration": 2,

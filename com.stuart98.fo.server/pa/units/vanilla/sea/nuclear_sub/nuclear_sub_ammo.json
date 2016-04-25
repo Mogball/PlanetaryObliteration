@@ -13,7 +13,7 @@
   "lifetime": 4.0,
   "max_velocity": 50.0,
   "model": {
-    "filename": "/pa/units/vanilla/sea/torpedo/torpedo.papa"
+    "filename": "/pa/units/sea/torpedo/torpedo.papa"
   },
   "splash_damage": 100,
   "splash_damages_allies": true,

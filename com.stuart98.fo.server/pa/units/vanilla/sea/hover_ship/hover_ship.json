@@ -190,10 +190,10 @@
   ],
   "model": {
     "animations": {
-      "hover": "/pa/units/vanilla/land/tank_hover/tank_hover_anim_hover.papa"
+      "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
     },
     "animtree": "/pa/anim/anim_trees/hover_ship_anim_tree.json",
-    "filename": "/pa/units/vanilla/sea/hover_ship/hover_ship.papa"
+    "filename": "/pa/units/sea/hover_ship/hover_ship.papa"
   },
   "navigation": {
     "acceleration": 10,

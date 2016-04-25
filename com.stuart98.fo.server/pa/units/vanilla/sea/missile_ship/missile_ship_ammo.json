@@ -16,7 +16,7 @@
   "lifetime": 60,
   "max_velocity": 80,
   "model": {
-    "filename": "/pa/units/vanilla/air/missile_tactical/missile_tactical.papa"
+    "filename": "/pa/units/air/missile_tactical/missile_tactical.papa"
   },
   "splash_damage": 500,
   "splash_damages_allies": true,

@@ -6,7 +6,7 @@
   "damage": 40,
   "full_damage_splash_radius": 0.75,
   "fx_trail": {
-    "filename": "/pa/units/vanilla/sea/drone_carrier/drone/drone_ammo_trail.pfx",
+    "filename": "/pa/units/sea/drone_carrier/drone/drone_ammo_trail.pfx",
     "offset": [
       0.0,
       0.0,

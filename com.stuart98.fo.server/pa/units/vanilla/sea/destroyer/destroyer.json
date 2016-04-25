@@ -54,7 +54,7 @@
   ],
   "model": {
     "animtree": "/pa/anim/anim_trees/destroyer_anim_tree.json",
-    "filename": "/pa/units/vanilla/sea/destroyer/destroyer.papa"
+    "filename": "/pa/units/sea/destroyer/destroyer.papa"
   },
   "navigation": {
     "acceleration": 3,

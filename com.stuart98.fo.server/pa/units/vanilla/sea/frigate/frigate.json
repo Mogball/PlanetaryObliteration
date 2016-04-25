@@ -49,7 +49,7 @@
   ],
   "model": {
     "animtree": "/pa/anim/anim_trees/frigate_anim_tree.json",
-    "filename": "/pa/units/vanilla/sea/frigate/frigate.papa"
+    "filename": "/pa/units/sea/frigate/frigate.papa"
   },
   "navigation": {
     "acceleration": 3,

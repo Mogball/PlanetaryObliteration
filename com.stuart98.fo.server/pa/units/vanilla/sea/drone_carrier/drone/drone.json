@@ -24,7 +24,7 @@
     "died": {
       "audio_cue": "/SE/Death/Air",
       "effect_scale": 0.4,
-      "effect_spec": "/pa/units/vanilla/air/base_flyer/base_flyer_death.pfx"
+      "effect_spec": "/pa/units/air/base_flyer/base_flyer_death.pfx"
     },
     "fired": {
       "audio_cue": "/SE/Weapons/air/carrier_drone_fire"
@@ -32,7 +32,7 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/vanilla/sea/drone_carrier/drone/drone_jets.pfx",
+      "filename": "/pa/units/sea/drone_carrier/drone/drone_jets.pfx",
       "offset": [
         0,
         0.727,
@@ -51,11 +51,11 @@
   ],
   "model": {
     "animations": {
-      "deploy": "/pa/units/vanilla/sea/drone_carrier/drone/drone_anim_deploy.papa",
-      "idle": "/pa/units/vanilla/sea/drone_carrier/drone/drone_anim_idle.papa"
+      "deploy": "/pa/units/sea/drone_carrier/drone/drone_anim_deploy.papa",
+      "idle": "/pa/units/sea/drone_carrier/drone/drone_anim_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/drone_anim_tree.json",
-    "filename": "/pa/units/vanilla/sea/drone_carrier/drone/drone.papa"
+    "filename": "/pa/units/sea/drone_carrier/drone/drone.papa"
   },
   "navigation": {
     "acceleration": 90,

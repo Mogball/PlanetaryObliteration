@@ -42,7 +42,7 @@
   ],
   "model": {
     "arrows": 5,
-    "filename": "/pa/units/vanilla/sea/attack_sub/attack_sub.papa"
+    "filename": "/pa/units/sea/attack_sub/attack_sub.papa"
   },
   "navigation": {
     "acceleration": 40,
