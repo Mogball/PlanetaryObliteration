@@ -48,7 +48,7 @@
   "fx_offsets": [
     {
       "bone": "bone_radar",
-      "filename": "/pa/units/land/l_scout_bot/l_scout_bot_radar_on.pfx",
+      "filename": "/pa/units/legion/land/l_scout_bot/l_scout_bot_radar_on.pfx",
       "type": "energy"
     }
   ],
@@ -77,10 +77,10 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/land/l_scout_bot/radar_mode/l_scout_bot_radar_mode_idle.papa"
+      "idle": "/pa/units/legion/land/l_scout_bot/radar_mode/l_scout_bot_radar_mode_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/l_scout_bot_anim_tree.json",
-    "filename": "/pa/units/land/l_scout_bot/radar_mode/l_scout_bot_radar_mode.papa",
+    "filename": "/pa/units/legion/land/l_scout_bot/radar_mode/l_scout_bot_radar_mode.papa",
     "walk_speed": 2.75
   },
   "navigation": {
@@ -149,7 +149,7 @@
       "aim_bone": "bone_root",
       "primary_weapon": false,
       "secondary_weapon": true,
-      "spec_id": "/pa/units/land/l_scout_bot/l_scout_bot_radar_mode_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/l_scout_bot/l_scout_bot_radar_mode_tool_weapon.json"
     }
   ],
   "transportable": {

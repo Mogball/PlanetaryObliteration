@@ -21,7 +21,7 @@
   "full_damage_splash_radius": 0,
   "fx_trail": {
     "bone": "bone_root",
-    "filename": "/pa/units/land/l_bot_artillery/trail.pfx",
+    "filename": "/pa/units/legion/land/l_bot_artillery/trail.pfx",
     "offset": [
       0,
       0,
@@ -39,7 +39,7 @@
     "gravity_scalar": 6,
     "radius": 2
   },
-  "spawn_unit_on_death": "/pa/units/land/l_bot_artillery/bomb/bomb.json",
+  "spawn_unit_on_death": "/pa/units/legion/land/l_bot_artillery/bomb/bomb.json",
   "spawn_unit_on_death_with_velocity": false,
   "splash_damage": 0,
   "splash_damages_allies": true,

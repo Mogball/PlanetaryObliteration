@@ -86,10 +86,10 @@
   "model": [
     {
       "animations": {
-        "idle": "/pa/units/sea/l_sea_mine/l_sea_mine_float.papa"
+        "idle": "/pa/units/legion/sea/l_sea_mine/l_sea_mine_float.papa"
       },
       "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
-      "filename": "/pa/units/sea/l_sea_mine/l_sea_mine.papa"
+      "filename": "/pa/units/legion/sea/l_sea_mine/l_sea_mine.papa"
     }
   ],
   "physics": {
@@ -125,7 +125,7 @@
     {
       "aim_bone": "bone_root",
       "muzzle_bone": "bone_root",
-      "spec_id": "/pa/units/sea/l_sea_mine/l_sea_mine_tool_weapon.json"
+      "spec_id": "/pa/units/legion/sea/l_sea_mine/l_sea_mine_tool_weapon.json"
     }
   ],
   "unit_types": [

@@ -3,7 +3,7 @@
   "ammo_demand": 1,
   "ammo_id": [
     {
-      "id": "/pa/units/air/l_flying_teleporter/l_tele_rocket_ammo.json",
+      "id": "/pa/units/legion/air/l_flying_teleporter/l_tele_rocket_ammo.json",
       "layer": "WL_Air"
     }
   ],

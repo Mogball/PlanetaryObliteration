@@ -163,7 +163,7 @@
       "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
     },
     "animtree": "/pa/anim/anim_trees/l_hover_tank_anim_tree.json",
-    "filename": "/pa/units/land/l_hover_tank/l_hover_tank.papa"
+    "filename": "/pa/units/legion/land/l_hover_tank/l_hover_tank.papa"
   },
   "navigation": {
     "acceleration": 50,
@@ -207,7 +207,7 @@
         "socket_muzzleRight"
       ],
       "projectiles_per_fire": 2,
-      "spec_id": "/pa/units/land/l_hover_tank/l_hover_tank_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/l_hover_tank/l_hover_tank_tool_weapon.json"
     }
   ],
   "transportable": {

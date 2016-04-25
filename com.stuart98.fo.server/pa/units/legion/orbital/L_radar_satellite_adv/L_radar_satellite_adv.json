@@ -39,7 +39,7 @@
   "fx_offsets": [
     {
       "bone": "bone_top_thing001",
-      "filename": "/pa/units/orbital/l_radar_satellite_adv/radar_on.pfx",
+      "filename": "/pa/units/legion/orbital/l_radar_satellite_adv/radar_on.pfx",
       "offset": [
         -1,
         -0.8,
@@ -54,7 +54,7 @@
     },
     {
       "bone": "bone_top_thing002",
-      "filename": "/pa/units/orbital/l_radar_satellite_adv/radar_on.pfx",
+      "filename": "/pa/units/legion/orbital/l_radar_satellite_adv/radar_on.pfx",
       "offset": [
         1,
         -0.8,
@@ -77,10 +77,10 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/orbital/l_radar_satellite_adv/l_radar_satellite_adv_idle.papa"
+      "idle": "/pa/units/legion/orbital/l_radar_satellite_adv/l_radar_satellite_adv_idle.papa"
     },
     "animtree": "/pa/anim/anim_trees/one_turret_mobile_idle_recoil_anim_tree.json",
-    "filename": "/pa/units/orbital/l_radar_satellite_adv/l_radar_satellite_adv.papa"
+    "filename": "/pa/units/legion/orbital/l_radar_satellite_adv/l_radar_satellite_adv.papa"
   },
   "navigation": {
     "acceleration": 10,
@@ -142,7 +142,7 @@
       ],
       "projectiles_per_fire": 2,
       "record_index": 0,
-      "spec_id": "/pa/units/orbital/l_radar_satellite_adv/l_radar_satellite_adv_tool_weapon.json"
+      "spec_id": "/pa/units/legion/orbital/l_radar_satellite_adv/l_radar_satellite_adv_tool_weapon.json"
     }
   ],
   "unit_types": [

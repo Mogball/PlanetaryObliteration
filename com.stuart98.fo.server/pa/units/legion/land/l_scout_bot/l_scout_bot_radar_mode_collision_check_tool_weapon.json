@@ -3,11 +3,11 @@
   "ammo_demand": 1,
   "ammo_id": [
     {
-      "id": "/pa/units/land/l_scout_bot/l_scout_bot_radar_mode_collision_check_land_ammo.json",
+      "id": "/pa/units/legion/land/l_scout_bot/l_scout_bot_radar_mode_collision_check_land_ammo.json",
       "layer": "WL_LandHorizontal"
     },
     {
-      "id": "/pa/units/land/l_scout_bot/l_scout_bot_radar_mode_collision_check_water_ammo.json",
+      "id": "/pa/units/legion/land/l_scout_bot/l_scout_bot_radar_mode_collision_check_water_ammo.json",
       "layer": "WL_Seafloor"
     }
   ],

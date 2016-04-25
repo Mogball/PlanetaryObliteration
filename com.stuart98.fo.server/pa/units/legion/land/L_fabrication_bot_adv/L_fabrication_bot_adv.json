@@ -79,11 +79,11 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/land/l_fabrication_bot_adv/l_fabrication_bot_adv_idle.papa",
-      "walk": "/pa/units/land/l_fabrication_bot_adv/l_fabrication_bot_adv_walk.papa"
+      "idle": "/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv_idle.papa",
+      "walk": "/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv_walk.papa"
     },
     "animtree": "/pa/anim/anim_trees/l_fabrication_bot_adv_anim_tree.json",
-    "filename": "/pa/units/land/l_fabrication_bot_adv/l_fabrication_bot_adv.papa",
+    "filename": "/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv.papa",
     "walk_speed": 3
   },
   "navigation": {
@@ -121,7 +121,7 @@
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/land/l_fabrication_bot_adv/l_fabrication_bot_adv_build_arm.json"
+      "spec_id": "/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv_build_arm.json"
     }
   ],
   "transportable": {

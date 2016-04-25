@@ -127,12 +127,12 @@
   ],
   "model": {
     "animations": {
-      "closed": "/pa/units/orbital/l_orbital_lander/l_orbital_lander_closed.papa",
-      "deploy": "/pa/units/orbital/l_orbital_lander/l_orbital_lander_deploy.papa",
-      "open": "/pa/units/orbital/l_orbital_lander/l_orbital_lander_open.papa"
+      "closed": "/pa/units/legion/orbital/l_orbital_lander/l_orbital_lander_closed.papa",
+      "deploy": "/pa/units/legion/orbital/l_orbital_lander/l_orbital_lander_deploy.papa",
+      "open": "/pa/units/legion/orbital/l_orbital_lander/l_orbital_lander_open.papa"
     },
     "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
-    "filename": "/pa/units/orbital/l_orbital_lander/l_orbital_lander.papa"
+    "filename": "/pa/units/legion/orbital/l_orbital_lander/l_orbital_lander.papa"
   },
   "navigation": {
     "acceleration": 25,

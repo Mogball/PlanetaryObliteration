@@ -31,7 +31,7 @@
   "fx_offsets": [
     {
       "bone": "bone_thrust001",
-      "filename": "/pa/units/orbital/l_delta_v_engine/delta_v_jet.pfx",
+      "filename": "/pa/units/legion/orbital/l_delta_v_engine/delta_v_jet.pfx",
       "offset": [
         0,
         -10,
@@ -46,7 +46,7 @@
     },
     {
       "bone": "bone_thrust002",
-      "filename": "/pa/units/orbital/l_delta_v_engine/delta_v_jet.pfx",
+      "filename": "/pa/units/legion/orbital/l_delta_v_engine/delta_v_jet.pfx",
       "offset": [
         0,
         -10,
@@ -61,7 +61,7 @@
     },
     {
       "bone": "bone_thrust003",
-      "filename": "/pa/units/orbital/l_delta_v_engine/delta_v_jet.pfx",
+      "filename": "/pa/units/legion/orbital/l_delta_v_engine/delta_v_jet.pfx",
       "offset": [
         0,
         -10,
@@ -76,7 +76,7 @@
     },
     {
       "bone": "bone_thrust004",
-      "filename": "/pa/units/orbital/l_delta_v_engine/delta_v_jet.pfx",
+      "filename": "/pa/units/legion/orbital/l_delta_v_engine/delta_v_jet.pfx",
       "offset": [
         0,
         -10,
@@ -366,12 +366,12 @@
   ],
   "model": {
     "animations": {
-      "end": "/pa/units/orbital/l_delta_v_engine/l_delta_v_engine_end.papa",
-      "loop": "/pa/units/orbital/l_delta_v_engine/l_delta_v_engine_loop.papa",
-      "start": "/pa/units/orbital/l_delta_v_engine/l_delta_v_engine_start.papa"
+      "end": "/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine_end.papa",
+      "loop": "/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine_loop.papa",
+      "start": "/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/constant_idle_transition_anim_tree.json",
-    "filename": "/pa/units/orbital/l_delta_v_engine/l_delta_v_engine.papa"
+    "filename": "/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine.papa"
   },
   "orbital_thruster": {
     "power": 1
