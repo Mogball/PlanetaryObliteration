@@ -12,7 +12,7 @@
       "cue": "/SE/Selection/air/gunship"
     }
   },
-  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+  "base_spec": "/pa/units/vanilla/air/base_flyer/base_flyer.json",
   "build_metal_cost": 800,
   "description": "Gunship - Heavily Armored. Equipped with Seeking Missiles and a Light Machine Gun.",
   "display_name": "Lockheed",

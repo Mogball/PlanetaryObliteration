@@ -17,7 +17,7 @@
       "cue": "/SE/Selection/structure/anti_nuke"
     }
   },
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
   "build_metal_cost": 12000,
   "buildable_projectiles": [
     "/pa/units/legion/land/l_anti_nuke_launcher/l_anti_nuke_launcher_ammo.json"

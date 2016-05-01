@@ -10,7 +10,7 @@
       }
     }
   },
-  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
+  "base_spec": "/pa/units/vanilla/sea/base_ship/base_ship.json",
   "build_metal_cost": 4000,
   "description": "Heavily Armored Barge - Rams Enemy Ships. Equipped with Heavy Direct-Fire Cannons.",
   "display_name": "Hammerhead",

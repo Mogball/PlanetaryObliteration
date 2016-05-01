@@ -24,7 +24,7 @@
       }
     }
   },
-  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 200,
   "description": "Fast Amphibious Attack Tank - Equipped with Torpedoes and a Light Cannon.",
   "display_name": "Stoke",

@@ -5,7 +5,7 @@
       "cue": "/SE/Selection/structure/radar"
     }
   },
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
   "build_metal_cost": 1,
   "death": {},
   "description": "Camera Target",

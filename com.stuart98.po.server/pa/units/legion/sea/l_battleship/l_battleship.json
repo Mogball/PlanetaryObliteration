@@ -13,7 +13,7 @@
       "cue": "/SE/Selection/sea/sea_large"
     }
   },
-  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
+  "base_spec": "/pa/units/vanilla/sea/base_ship/base_ship.json",
   "build_metal_cost": 6000,
   "description": "Battleship - Equipped with High-Damage Laser Cannons. Attacks Land and Naval Targets. ",
   "display_name": "Epoch",

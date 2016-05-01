@@ -27,7 +27,7 @@
       "cue": "/SE/Selection/bot/sniper"
     }
   },
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
   "build_metal_cost": 150,
   "description": "Laser Walker - Medium Range Laser Weapon. Attacks Land and Naval.",
   "display_name": "Lancer",

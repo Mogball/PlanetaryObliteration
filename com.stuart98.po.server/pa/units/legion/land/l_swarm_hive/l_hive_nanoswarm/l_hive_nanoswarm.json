@@ -13,7 +13,7 @@
       "cue": "/SE/Selection/bot/swarm"
     }
   },
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
   "build_metal_cost": 30,
   "description": "BEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEES",
   "display_name": "Bees",

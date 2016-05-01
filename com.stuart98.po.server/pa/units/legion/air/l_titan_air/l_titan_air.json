@@ -15,7 +15,7 @@
       "cue": "/SE/Selection/titan/air"
     }
   },
-  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+  "base_spec": "/pa/units/vanilla/air/base_flyer/base_flyer.json",
   "build_metal_cost": 30000,
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/air/titan_air/titan_air_ammo_death.json"

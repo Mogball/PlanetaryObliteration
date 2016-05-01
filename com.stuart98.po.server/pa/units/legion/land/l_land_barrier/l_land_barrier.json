@@ -3,7 +3,7 @@
   "area_build_separation": 1.2,
   "atrophy_cool_down": 0.5,
   "atrophy_rate": 20,
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
   "build_metal_cost": 50,
   "description": "Heavily Armored Siege Defense Barrier.",
   "display_name": "Clot",

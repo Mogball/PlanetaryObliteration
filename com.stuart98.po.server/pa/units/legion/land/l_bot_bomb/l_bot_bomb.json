@@ -27,7 +27,7 @@
       "cue": "/SE/Selection/bot/bot_bomb"
     }
   },
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
   "build_metal_cost": 90,
   "command_caps": [
     "ORDER_Move",
