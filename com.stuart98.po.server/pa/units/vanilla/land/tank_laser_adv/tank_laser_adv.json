@@ -29,7 +29,7 @@
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 650,
-  "description": "Lightning Raider Tank - Fast with a heavy lightning cannon, but low health.",
+  "description": "Tank Destroyer- Heavy cannons, but can only fire forward.",
   "display_name": "Leveler",
   "events": {
     "build_complete": {

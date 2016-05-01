@@ -43,17 +43,17 @@
     "fired0": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
       "effect_scale": 0.65,
-      "effect_spec": "/pa/units/vanilla/land/bot_skirmish/muzzle_flash.pfx socket_muzzleMain /pa/units/vanilla/land/bot_skirmish/ground_smoke.pfx bone_root"
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzleMain /pa/units/vanilla/land/bot_skirmish/ground_smoke.pfx bone_root"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
       "effect_scale": 0.65,
-      "effect_spec": "/pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft01 /pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight01"
+      "effect_spec": "/pa/units/legion/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft01 /pa/units/legion/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight01"
     },
     "fired2": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
       "effect_scale": 0.65,
-      "effect_spec": "/pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft02 /pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight02"
+      "effect_spec": "/pa/units/legion/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft02 /pa/units/legion/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight02"
     }
   },
   "guard_layer": "WL_AnySurface",
@@ -115,7 +115,7 @@
       "radius": 1.5
     }
   ],
-  "max_health": 6100,
+  "max_health": 1000,
   "mesh_bounds": [
     6.5,
     7.7999997,
@@ -135,7 +135,7 @@
     "aggressive_distance": 90,
     "brake": 30,
     "group_preference": "front",
-    "move_speed": 12,
+    "move_speed": 14,
     "turn_speed": 60,
     "type": "land-small"
   },
