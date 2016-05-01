@@ -100,7 +100,7 @@
         },
         {
           "channel": "sight",
-          "layer: "surface_and_air",
+          "layer": "surface_and_air",
           "radius": 600,
           "shape": "capsule",
           "uses_energy": true

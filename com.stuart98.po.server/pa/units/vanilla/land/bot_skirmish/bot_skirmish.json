@@ -5,7 +5,7 @@
       "head": [
         0,
         0,
-        7.4
+        4.81
       ],
       "root": [
         0,
@@ -28,27 +28,31 @@
     }
   },
   "base_spec": "/pa/units/legion/land/base_bot/base_bot.json",
-  "build_metal_cost": 1700,
-  "description": "Heavy Assault Walker- Virtually unstoppable. Equipped with four heavy machine guns and a heavy plasma projector.",
-  "display_name": "Monstrosity",
+  "build_metal_cost": 800,
+  "description": "Skirmish Bot- Long range, medium damage. Medium armor. Low firing arc.",
+  "display_name": "Cerberus",
   "events": {
     "build_complete": {
-      "audio_cue": "/SE/Build_Complete/bot"
+      "audio_cue": "/SE/Build_Complete/bot",
+      "effect_scale": 0.65
     },
     "died": {
       "audio_cue": "/SE/Death/Bot",
-      "effect_scale": 1.5
+      "effect_scale": 0.97499996
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
+      "effect_scale": 0.65,
       "effect_spec": "/pa/units/vanilla/land/bot_skirmish/muzzle_flash.pfx socket_muzzleMain /pa/units/vanilla/land/bot_skirmish/ground_smoke.pfx bone_root"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
+      "effect_scale": 0.65,
       "effect_spec": "/pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft01 /pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight01"
     },
     "fired2": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
+      "effect_scale": 0.65,
       "effect_spec": "/pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft02 /pa/units/legion/land/L_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight02"
     }
   },
@@ -90,7 +94,7 @@
       "intensity": 2,
       "offset": [
         0,
-        -0.6,
+        -0.39000002,
         0
       ],
       "radius": 1
@@ -104,18 +108,18 @@
       ],
       "intensity": 2,
       "offset": [
-        2,
-        -0.9,
-        0.625
+        1.3,
+        -0.585,
+        0.40625
       ],
       "radius": 1.5
     }
   ],
   "max_health": 6100,
   "mesh_bounds": [
-    10,
-    12,
-    13
+    6.5,
+    7.7999997,
+    8.45
   ],
   "model": {
     "animations": {
@@ -137,7 +141,7 @@
   },
   "nearby_target_tick_update_interval": 15,
   "physics": {
-    "radius": 3.5
+    "radius": 2.2749999
   },
   "recon": {
     "observer": {
