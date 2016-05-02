@@ -165,7 +165,7 @@ var Build = (function() {
 				
                 "/pa/units/vanilla/land/land_mine/land_mine.json": ["ammo", 14],
                 "/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["ammo", 15],
-                "/pa/units/vanilla/land/nuke_launcher/nuke_launcher_ammo.json": ["ammo", 16]
+                "/pa/units/vanilla/land/nuke_launcher/nuke_launcher_ammo.json": ["ammo", 16],
 
 
 		"/pa/units/legion/air/l_titan_air/l_titan_air.json": [ "L_factory", 8 ],
