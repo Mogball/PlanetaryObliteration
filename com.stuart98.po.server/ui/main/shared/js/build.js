@@ -298,7 +298,7 @@ var Build = (function() {
 				"/pa/units/legion/land/l_land_mine/l_land_mine.json": [ "L_ammo", 18 ],
 				"/pa/units/legion/sea/l_sea_mine/l_sea_mine.json": [ "L_ammo", 19 ],
 				"/pa/units/legion/land/l_anti_nuke_launcher/l_anti_nuke_launcher_ammo.json": [ "L_ammo", 21 ],
-				"/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher_ammo.json": [ "L_ammo", 22 ],
+				"/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher_ammo.json": [ "L_ammo", 22 ]
             }
         );
     };
