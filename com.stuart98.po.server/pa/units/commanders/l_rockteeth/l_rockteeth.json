@@ -1,6 +1,4 @@
 {
-  "display_name": "Rockteeth Commander",
-  "description": "Tank Rockteeth Commander ",
   "attachable": {
     "offsets": {
       "head": [
@@ -24,6 +22,8 @@
       "thumb_image": "/ui/main/shared/img/commanders/thumbs/img_l_rockteeth_thumb.png"
     }
   },
+  "description": "Tank Rockteeth Commander ",
+  "display_name": "Rockteeth Commander",
   "fx_offsets": [
     {
       "bone": "bone_laser",

@@ -1,6 +1,4 @@
 {
-  "display_name": "Wasushi",
-  "description": "Legion Wasushi Commander",
   "attachable": {
     "offsets": {
       "head": [
@@ -24,6 +22,8 @@
       "thumb_image": "/ui/main/shared/img/commanders/thumbs/img_l_wasushi_thumb.png"
     }
   },
+  "description": "Legion Wasushi Commander",
+  "display_name": "Wasushi",
   "events": {
     "fired": {
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"

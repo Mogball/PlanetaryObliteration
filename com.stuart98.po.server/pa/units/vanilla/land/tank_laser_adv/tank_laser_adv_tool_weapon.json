@@ -4,11 +4,11 @@
   "base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
   "carpet_fire": true,
   "carpet_wait_for_full_ammo": true,
+  "firing_arc_yaw": 15,
   "idle_aim_delay": 3,
   "max_range": 95,
   "pitch_range": 90,
   "pitch_rate": 15,
-  "firing_arc_yaw": 15,
   "rate_of_fire": 1,
   "spread_fire": true,
   "target_layers": [

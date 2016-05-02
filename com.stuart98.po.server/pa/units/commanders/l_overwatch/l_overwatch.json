@@ -1,6 +1,4 @@
 {
-  "display_name": "Overwatch Commander",
-  "description": "Legion Overwatch Commander",
   "attachable": {
     "offsets": {
       "head": [
@@ -24,6 +22,8 @@
       "thumb_image": "/ui/main/shared/img/commanders/thumbs/img_l_overwatch_thumb.png"
     }
   },
+  "description": "Legion Overwatch Commander",
+  "display_name": "Overwatch Commander",
   "events": {
     "fired": {
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx muzzle"

@@ -4,8 +4,8 @@
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/bot_spark_impact",
-      "effect_spec": "/pa/effects/specs/l_uber_hit.pfx",
-	  "effect_scale": 0.65
+      "effect_scale": 0.65,
+      "effect_spec": "/pa/effects/specs/l_uber_hit.pfx"
     }
   },
   "full_damage_splash_radius": 2,
