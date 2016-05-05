@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/ammo/base_bullet/base_bullet.json",
-  "damage": 19.5,
+  "damage": 55,
   "fx_trail": {
     "filename": "/pa/effects/specs/laser_blast_light_proj_trail.pfx",
     "offset": [
@@ -15,6 +15,6 @@
   "model": {
     "filename": ""
   },
-  "splash_damage": 0,
-  "splash_radius": 0
+  "splash_damage": 55,
+  "splash_radius": 0.5
 }
