@@ -9,7 +9,7 @@
   "base_spec": "/pa/tools/uber_cannon/uber_cannon.json",
   "carpet_fire": true,
   "carpet_wait_for_full_ammo": true,
-  "firing_standard_deviation": 5,
+  "firing_standard_deviation": 2.5,
   "manual_fire": true,
   "max_range": 100,
   "pitch_range": 90,
