@@ -1,4 +1,3 @@
-11 sloc) 396 Bytes
 {
   "base_spec": "/pa/ammo/base_beam/base_beam.json",
   "collision_check": "target",
