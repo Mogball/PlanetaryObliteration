@@ -60,7 +60,7 @@
   "guard_layer": "WL_AnySurface",
   "guard_radius": 120,
   "maintain_priority_target": false,
-  "max_health": 120,
+  "max_health": 200,
   "mesh_bounds": [
     14,
     7.5,
@@ -72,12 +72,16 @@
   },
   "navigation": {
     "acceleration": 75,
-    "aggressive_height": 100,
+    "aggressive_distance": 50.0,
+    "aggressive_height": 100.0,
     "brake": 20,
-    "dodge_multiplier": 0,
+    "dodge_multiplier": 0.0,
     "dodge_radius": 0,
-    "move_speed": 75,
-    "turn_speed": 95,
+    "hover_time": -1.0,
+    "move_speed": 65,
+    "turn_speed": 55,
+    "type": "air",
+    "vertical_speed": 40,
     "wobble_factor": 0.05,
     "wobble_speed": 0.1
   },
@@ -91,13 +95,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 200,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 200,
+          "radius": 120,
           "shape": "capsule"
         }
       ]

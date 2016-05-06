@@ -34,7 +34,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 2400,
+  "build_metal_cost": 800,
   "buildable_types": "Custom1 & (Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Air & Titan)",
   "command_caps": [
     "ORDER_Move",
@@ -95,7 +95,7 @@
     }
   ],
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 160,
+  "max_health": 320,
   "mesh_bounds": [
     10.5,
     7.52258,
@@ -114,7 +114,7 @@
     "brake": 30,
     "circle_max_time": 3,
     "circle_min_time": 1,
-    "move_speed": 30,
+    "move_speed": 25,
     "turn_speed": 180
   },
   "physics": {
@@ -126,12 +126,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }
