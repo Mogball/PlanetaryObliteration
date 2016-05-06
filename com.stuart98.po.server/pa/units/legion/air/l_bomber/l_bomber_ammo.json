@@ -22,6 +22,6 @@
   "model": {
     "filename": ""
   },
-  "splash_damage": 150,
+  "splash_damage": 100,
   "splash_radius": 10
 }

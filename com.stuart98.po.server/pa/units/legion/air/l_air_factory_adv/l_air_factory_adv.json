@@ -14,7 +14,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
-  "build_metal_cost": 3600,
+  "build_metal_cost": 2000,
   "buildable_types": "Custom1 & ( Air & Mobile & FactoryBuild )",
   "command_caps": [
     "ORDER_Move",
@@ -251,7 +251,7 @@
       "radius": 4
     }
   ],
-  "max_health": 30000,
+  "max_health": 6000,
   "mesh_bounds": [
     60,
     61,
@@ -292,12 +292,6 @@
           "layer": "surface_and_air",
           "radius": 100,
           "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 100,
-          "shape": "capsule"
         }
       ]
     }
@@ -328,6 +322,10 @@
     "diameter": -79
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "storage": {
+    "energy": 1800,
+    "metal": 400
+  },
   "tools": [
     {
       "aim_bone": "bone_root",

@@ -23,7 +23,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 100,
+  "build_metal_cost": 115,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -66,7 +66,7 @@
       "type": "moving_forward"
     }
   ],
-  "max_health": 40,
+  "max_health": 280,
   "mesh_bounds": [
     13.42,
     22.2,
@@ -80,11 +80,11 @@
     "filename": "/pa/units/legion/air/l_transport/l_transport.papa"
   },
   "navigation": {
-    "acceleration": 30,
-    "brake": 20,
-    "move_speed": 70,
-    "turn_speed": 180,
-    "vertical_speed": 100
+    "acceleration": 10,
+    "brake": 10,
+    "move_speed": 55,
+    "turn_speed": 160,
+    "vertical_speed": 75
   },
   "physics": {
     "gravity_scalar": 0.001
@@ -120,7 +120,7 @@
   ],
   "usable": true,
   "useable": {
-    "range": 10,
+    "range": 15,
     "type": "transport"
   }
 }
