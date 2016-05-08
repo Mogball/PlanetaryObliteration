@@ -14,7 +14,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 820,
+  "build_metal_cost": 700,
   "description": "Advanced Fighter/Interceptor - Fast and Armored. Attacks Air. ",
   "display_name": "Firebird",
   "events": {
@@ -116,7 +116,7 @@
   ],
   "gravwell_velocity_multiplier": 6.0,
   "guard_layer": "WL_Air",
-  "max_health": 300,
+  "max_health": 370,
   "mesh_bounds": [
     4.5,
     9.2,
@@ -127,12 +127,12 @@
     "filename": "/pa/units/legion/air/l_fighter_adv/l_fighter_adv.papa"
   },
   "navigation": {
-    "acceleration": 90,
+    "acceleration": 75,
     "bank_factor": 2,
-    "brake": 90,
+    "brake": 75,
     "inter_planetary_type": "system",
-    "move_speed": 90,
-    "turn_speed": 300,
+    "move_speed": 75,
+    "turn_speed": 250,
     "vertical_speed": 50
   },
   "recon": {
@@ -141,12 +141,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 150,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 150,
           "shape": "capsule"
         }

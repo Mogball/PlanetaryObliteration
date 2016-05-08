@@ -60,7 +60,7 @@
     "brake": 30,
     "hover_time": -1.0,
     "move_speed": 80,
-    "turn_speed": 270,
+    "turn_speed": 220,
     "type": "air",
     "vertical_speed": 45
   },
