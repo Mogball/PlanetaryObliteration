@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "max_health": 325,
+  "max_health": 800,
   "mesh_bounds": [
     5.4351,
     6.7122006,
@@ -86,7 +86,7 @@
   "navigation": {
     "acceleration": 100,
     "brake": 100,
-    "move_speed": 8,
+    "move_speed": 16,
     "turn_speed": 90,
     "type": "land-small"
   },
@@ -113,7 +113,7 @@
     {
       "aim_bone": "socket_aim",
       "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/legion/l_tank_medium/l_tank_medium_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/l_tank_medium/l_tank_medium_tool_weapon.json"
     }
   ],
   "transportable": {
