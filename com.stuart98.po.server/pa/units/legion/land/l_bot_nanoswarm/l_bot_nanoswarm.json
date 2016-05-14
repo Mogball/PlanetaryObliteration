@@ -106,7 +106,7 @@
   "tools": [
     {
       "aim_bone": "bone_body",
-      "spec_id": "/pa/units/legion/land/bot_nanoswarm/bot_nanoswarm_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/l_bot_nanoswarm/l_bot_nanoswarm_tool_weapon.json"
     }
   ],
   "transportable": {
