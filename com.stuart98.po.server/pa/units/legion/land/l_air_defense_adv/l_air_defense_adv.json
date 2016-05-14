@@ -52,12 +52,6 @@
           "layer": "surface_and_air",
           "radius": 155,
           "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 155,
-          "shape": "capsule"
         }
       ]
     }
