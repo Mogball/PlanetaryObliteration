@@ -154,6 +154,7 @@
     "/pa/units/vanilla/air/air_factory_adv/air_factory_adv.json",
     "/pa/units/vanilla/air/base_flyer/base_flyer.json",
     "/pa/units/vanilla/air/bomber/bomber.json",
+    "/pa/units/vanilla/air/bomber/bmine/bmine.json",
     "/pa/units/vanilla/air/bomber_adv/bomber_adv.json",
     "/pa/units/vanilla/air/bomber_heavy/bomber_heavy.json",
     "/pa/units/vanilla/air/fabrication_aircraft/fabrication_aircraft.json",
