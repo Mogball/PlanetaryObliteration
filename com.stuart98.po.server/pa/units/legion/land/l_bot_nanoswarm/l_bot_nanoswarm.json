@@ -106,7 +106,7 @@
   "tools": [
     {
       "aim_bone": "bone_body",
-      "spec_id": "/pa/units/vanilla/land/bot_nanoswarm/bot_nanoswarm_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/bot_nanoswarm/bot_nanoswarm_tool_weapon.json"
     }
   ],
   "transportable": {
@@ -122,7 +122,8 @@
     "UNITTYPE_Deconstruction",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Hover",
-    "UNITTYPE_CannonBuildable"
+    "UNITTYPE_CannonBuildable",
+	"UNITTYPE_Custom1"
   ],
   "wreckage_health_frac": 0.0
 }
