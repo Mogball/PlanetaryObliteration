@@ -1,7 +1,7 @@
 {
   "ammo_capacity": 12500,
   "ammo_demand": 2500,
-  "ammo_id": "/pa/units/vanilla/land/apocalypse_apparatus/apocalypse_apparatus_ammo_top.json",
+  "ammo_id": "/pa/units/vanilla/land/l_apocalypse_apparatus/l_apocalypse_apparatus_ammo_top.json",
   "ammo_per_shot": 12500,
   "ammo_source": "energy",
   "auto_attack": true,

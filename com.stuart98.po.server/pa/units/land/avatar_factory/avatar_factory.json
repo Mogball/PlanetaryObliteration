@@ -15,9 +15,9 @@
       }
     }
   },
-  "base_spec": "/pa/units/vanilla/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json",
+  "base_spec": "/pa/units/legion/air/l_fabrication_aircraft_adv/l_fabrication_aircraft_adv.json",
   "build_metal_cost": 1,
-  "buildable_types": "(Structure & Basic | Structure & Advanced | FabBuild | FabAdvBuild | FabOrbBuild | Titan) - Custom1",
+  "buildable_types": "(Structure & Basic | Structure & Advanced | FabBuild | FabAdvBuild | FabOrbBuild | Titan) & Custom1",
   "description": "For debugging purposes",
   "display_name": "Avatar Commander",
   "max_health": 200000,

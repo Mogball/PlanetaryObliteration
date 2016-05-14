@@ -79,7 +79,7 @@
     "/pa/units/vanilla/land/artillery_short/artillery_short.json",
     "/pa/units/vanilla/land/assault_bot/assault_bot.json",
     "/pa/units/vanilla/land/assault_bot_adv/assault_bot_adv.json",
-    "/pa/units/vanilla/land/avatar_factory/avatar_factory.json",
+    "/pa/units/land/avatar_factory/avatar_factory.json",
     "/pa/units/vanilla/land/base_bot/base_bot.json",
     "/pa/units/vanilla/land/base_structure/base_structure.json",
     "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",

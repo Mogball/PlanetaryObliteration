@@ -34,7 +34,7 @@
   "fx_offsets": [
     {
       "bone": "socket_muzzleTop",
-      "filename": "/pa/units/vanilla/land/apocalypse_apparatus/top_electricity_puff.pfx",
+      "filename": "/pa/units/vanilla/land/l_apocalypse_apparatus/top_electricity_puff.pfx",
       "offset": [
         0,
         0,
@@ -57,8 +57,8 @@
   ],
   "model": [
     {
-      "animtree": "/pa/anim/anim_trees/apocalypse_apparatus_anim_tree.json",
-      "filename": "/pa/units/vanilla/land/apocalypse_apparatus/apocalypse_apparatus.papa",
+      "animtree": "/pa/anim/anim_trees/l_apocalypse_apparatus_anim_tree.json",
+      "filename": "/pa/units/vanilla/land/l_apocalypse_apparatus/l_apocalypse_apparatus.papa",
       "skirt_decal": "/pa/effects/specs/skirt_defense_adv.json"
     }
   ],
@@ -87,7 +87,7 @@
         "socket_muzzleBottomLeft"
       ],
       "record_index": 1,
-      "spec_id": "/pa/units/vanilla/land/apocalypse_apparatus/apocalypse_apparatus_tool_weapon_bottom.json"
+      "spec_id": "/pa/units/vanilla/land/l_apocalypse_apparatus/l_apocalypse_apparatus_tool_weapon_bottom.json"
     },
     {
       "aim_bone": "bone_pitch02",
@@ -96,7 +96,7 @@
         "socket_muzzleMiddle"
       ],
       "record_index": 2,
-      "spec_id": "/pa/units/vanilla/land/apocalypse_apparatus/apocalypse_apparatus_tool_weapon_middle.json"
+      "spec_id": "/pa/units/vanilla/land/l_apocalypse_apparatus/l_apocalypse_apparatus_tool_weapon_middle.json"
     },
     {
       "aim_bone": "bone_turret03",
@@ -105,7 +105,7 @@
         "socket_muzzleTop"
       ],
       "record_index": 3,
-      "spec_id": "/pa/units/vanilla/land/apocalypse_apparatus/apocalypse_apparatus_tool_weapon_top.json"
+      "spec_id": "/pa/units/vanilla/land/l_apocalypse_apparatus/l_apocalypse_apparatus_tool_weapon_top.json"
     }
   ],
   "unit_types": [
