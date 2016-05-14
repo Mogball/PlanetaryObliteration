@@ -217,7 +217,6 @@
     "/pa/units/vanilla/land/tank_nuke/tank_nuke.json",
     "/pa/units/vanilla/land/tank_orbital/tank_orbital.json",
     "/pa/units/vanilla/land/titan_bot/titan_bot.json",
-    "/pa/units/vanilla/land/titan_structure/titan_structure.json",
     "/pa/units/vanilla/land/titan_vehicle/titan_vehicle.json",
     "/pa/units/vanilla/land/unit_cannon/unit_cannon.json",
     "/pa/units/vanilla/land/vehicle_factory_adv/vehicle_factory_adv.json",
@@ -369,7 +368,6 @@
     "/pa/units/legion/orbital/l_titan_orbital/l_titan_orbital.json",
     "/pa/units/legion/orbital/l_orbital_railgun/l_orbital_railgun.json",
     "/pa/units/legion/orbital/l_orbital_probe/l_orbital_probe.json",
-    "/pa/units/legion/land/l_titan_structure/l_titan_structure.json",
     "/pa/units/legion/land/l_swarm_hive/l_swarm_hive.json",
     "/pa/units/legion/land/l_swarm_hive/l_hive_nanoswarm/l_hive_nanoswarm.json",
     "/pa/units/legion/sea/l_hover_ship/l_hover_ship.json"
