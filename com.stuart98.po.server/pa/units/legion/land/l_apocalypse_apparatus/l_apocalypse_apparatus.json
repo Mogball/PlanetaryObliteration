@@ -57,7 +57,7 @@
   ],
   "model": [
     {
-      "animtree": "/pa/anim/anim_trees/l_apocalypse_apparatus_anim_tree.json",
+      "animtree": "/pa/anim/anim_trees/apocalypse_apparatus_anim_tree.json",
       "filename": "/pa/units/legion/land/l_apocalypse_apparatus/l_apocalypse_apparatus.papa",
       "skirt_decal": "/pa/effects/specs/skirt_defense_adv.json"
     }
