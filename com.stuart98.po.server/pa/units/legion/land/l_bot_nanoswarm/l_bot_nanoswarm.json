@@ -123,7 +123,7 @@
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Hover",
     "UNITTYPE_CannonBuildable",
-	"UNITTYPE_Custom1"
+    "UNITTYPE_Custom1"
   ],
   "wreckage_health_frac": 0.0
 }

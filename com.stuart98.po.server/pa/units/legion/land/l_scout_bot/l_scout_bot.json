@@ -37,7 +37,9 @@
     "ORDER_FireSecondaryWeapon"
   ],
   "death": {
-    "decals": [""]
+    "decals": [
+      ""
+    ]
   },
   "description": "Scout Bot - Deploys into a Hidden Short Range Radar via Alt-Fire.",
   "display_name": "Investigator",
