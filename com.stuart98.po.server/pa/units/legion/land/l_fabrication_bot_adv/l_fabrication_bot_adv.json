@@ -37,7 +37,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
-  "build_metal_cost": 2000,
+  "build_metal_cost": 400,
   "buildable_types": "Custom1 & (Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Bot & Titan)",
   "command_caps": [
     "ORDER_Move",
@@ -71,7 +71,7 @@
     }
   ],
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 150,
+  "max_health": 300,
   "mesh_bounds": [
     4,
     2,
@@ -103,12 +103,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 100,
           "shape": "capsule"
         }

@@ -99,12 +99,6 @@
         },
         {
           "channel": "sight",
-          "layer": "underwater",
-          "radius": 100,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
           "layer": "mine",
           "radius": 100,
           "shape": "capsule"

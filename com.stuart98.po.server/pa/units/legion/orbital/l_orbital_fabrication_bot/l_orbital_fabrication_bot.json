@@ -106,12 +106,6 @@
           "layer": "orbital",
           "radius": 250,
           "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 100,
-          "shape": "capsule"
         }
       ]
     }
