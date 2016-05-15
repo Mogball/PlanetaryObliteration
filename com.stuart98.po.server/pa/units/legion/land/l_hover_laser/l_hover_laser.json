@@ -120,7 +120,7 @@
     {
       "aim_bone": "turret00",
       "muzzle_bone": "muzzle00",
-      "spec_id": "/pa/units/leg/land/l_hover_laser/l_hover_laser_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/l_hover_laser/l_hover_laser_tool_weapon.json"
     }
   ],
   "transportable": {
@@ -135,6 +135,7 @@
     "UNITTYPE_Basic",
     "UNITTYPE_Hover",
     "UNITTYPE_AirDefense",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+	"UNITTYPE_Custom1"
   ]
 }

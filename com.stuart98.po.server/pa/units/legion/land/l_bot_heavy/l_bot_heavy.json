@@ -38,7 +38,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/structure/laser_defense_double_fire",
-      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx muzzle00 /pa/effects/specs/default_muzzle_flash.pfx muzzle01 /pa/effects/specs/default_muzzle_flash.pfx muzzle02 /pa/effects/specs/default_muzzle_flash.pfx muzzle03"
+      "effect_spec": "/pa/units/legion/land/l_t1_turret_adv/muzzle_flash.pfx muzzle00 /pa/units/legion/land/l_t1_turret_adv/muzzle_flash.pfx muzzle01 /pa/units/legion/land/l_t1_turret_adv/muzzle_flash.pfx muzzle02 /pa/units/legion/land/l_t1_turret_adv/muzzle_flash.pfx muzzle03"
     }
   },
   "guard_layer": "WL_AnySurface",
