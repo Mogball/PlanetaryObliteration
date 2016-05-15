@@ -29,7 +29,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 275,
+  "build_metal_cost": 325,
   "description": "Hover Anti-Air. Good speed; long range low damage light anti-air railgun.",
   "display_name": "Thunderbolt",
   "events": {
@@ -76,7 +76,7 @@
     }
   ],
   "guard_layer": "WL_Air",
-  "max_health": 325,
+  "max_health": 400,
   "mesh_bounds": [
     4,
     5.6,
@@ -84,15 +84,15 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/vanilla/land/hover_aa/Vaa22_anim_idle.papa"
+      "idle": "/pa/units/legion/land/l_hover_laser/l_hover_laser_anim_idle.papa"
     },
     "animtree": "/pa/anim/one_turret_idle.json",
-    "filename": "/pa/units/vanilla/land/hover_aa/Vaa22.papa"
+    "filename": "/pa/units/legion/land/l_hover_laser/l_hover_laser.papa"
   },
   "navigation": {
-    "acceleration": 35,
-    "brake": 35,
-    "move_speed": 16,
+    "acceleration": 100,
+    "brake": 10,
+    "move_speed": 14,
     "turn_in_place": false,
     "turn_speed": 45,
     "type": "hover"
@@ -107,7 +107,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 120,
+          "radius": 100,
           "shape": "capsule"
         }
       ]
@@ -120,7 +120,7 @@
     {
       "aim_bone": "turret00",
       "muzzle_bone": "muzzle00",
-      "spec_id": "/pa/units/vanilla/land/hover_aa/hover_aa_tool_weapon.json"
+      "spec_id": "/pa/units/leg/land/l_hover_laser/l_hover_laser_tool_weapon.json"
     }
   ],
   "transportable": {
