@@ -162,7 +162,11 @@
     ]
   ],
   "selection_icon": {
-    "diameter": -49
+    "diameter": 49
+  },
+  "storage": {
+    "energy": 1000,
+    "metal": 250
   },
   "tools": [
     {

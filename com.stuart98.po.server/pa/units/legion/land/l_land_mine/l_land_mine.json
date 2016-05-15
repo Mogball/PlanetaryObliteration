@@ -115,7 +115,7 @@
     }
   },
   "selection_icon": {
-    "diameter": -7
+    "diameter": 7
   },
   "spawn_layers": "WL_LandHorizontal",
   "strategic_icon_priority": 3,

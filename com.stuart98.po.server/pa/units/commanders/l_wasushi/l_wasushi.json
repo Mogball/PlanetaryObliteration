@@ -110,7 +110,7 @@
     "walk_speed": 5.5
   },
   "selection_icon": {
-    "diameter": -16.6
+    "diameter": 16.6
   },
   "tools": [
     {

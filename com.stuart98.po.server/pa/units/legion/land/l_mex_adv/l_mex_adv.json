@@ -9,7 +9,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
-  "build_metal_cost": 1400,
+  "build_metal_cost": 1800,
   "consumption": {
     "energy": 0
   },
@@ -43,7 +43,7 @@
       "radius": 5.0
     }
   ],
-  "max_health": 5000,
+  "max_health": 500,
   "mesh_bounds": [
     15.5,
     13.3685,
@@ -63,7 +63,7 @@
     16
   ],
   "production": {
-    "metal": 23
+    "metal": 9
   },
   "recon": {
     "observer": {
@@ -81,7 +81,7 @@
     "/pa/units/legion/land/l_mex/l_mex.json"
   ],
   "selection_icon": {
-    "diameter": -28
+    "diameter": 28
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "strategic_icon_priority": 5,

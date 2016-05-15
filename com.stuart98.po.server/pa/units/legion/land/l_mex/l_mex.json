@@ -9,7 +9,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
-  "build_metal_cost": 250,
+  "build_metal_cost": 300,
   "consumption": {
     "energy": 0
   },
@@ -55,7 +55,7 @@
     16
   ],
   "production": {
-    "metal": 8
+    "metal": 6
   },
   "recon": {
     "observer": {
@@ -73,7 +73,7 @@
     "/pa/units/legion/land/l_mex_adv/l_mex_adv.json"
   ],
   "selection_icon": {
-    "diameter": -24
+    "diameter": 24
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "unit_types": [

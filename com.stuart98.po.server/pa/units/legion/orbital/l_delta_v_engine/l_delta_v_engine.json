@@ -401,7 +401,7 @@
     }
   },
   "selection_icon": {
-    "diameter": -69.0,
+    "diameter": 69.0,
     "vertical_offset": 3.0
   },
   "unit_types": [

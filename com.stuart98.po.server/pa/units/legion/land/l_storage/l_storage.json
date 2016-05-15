@@ -9,7 +9,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
-  "build_metal_cost": 500,
+  "build_metal_cost": 700,
   "death_weapon": {
     "ground_ammo_spec": "/pa/units/legion/land/l_storage/l_storage_death_weapon.json"
   },
@@ -56,7 +56,7 @@
       "type": "idle"
     }
   ],
-  "max_health": 7500,
+  "max_health": 4000,
   "mesh_bounds": [
     28,
     28,
@@ -86,12 +86,12 @@
     }
   },
   "selection_icon": {
-    "diameter": -40
+    "diameter": 40
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "storage": {
-    "energy": 75000,
-    "metal": 15000
+    "energy": 300000,
+    "metal": 40000
   },
   "unit_types": [
     "UNITTYPE_Structure",

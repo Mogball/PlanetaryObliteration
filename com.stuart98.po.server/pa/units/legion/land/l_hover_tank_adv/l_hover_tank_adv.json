@@ -29,7 +29,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 1200,
+  "build_metal_cost": 800,
   "description": "Hover Assault - Medium Range Rockets. Attacks Land, Air, Naval, and Orbital.",
   "display_name": "Panzer",
   "events": {
@@ -149,7 +149,7 @@
       ]
     }
   ],
-  "max_health": 200,
+  "max_health": 700,
   "mesh_bounds": [
     4.93769,
     6.4,
@@ -165,7 +165,7 @@
   "navigation": {
     "acceleration": 100,
     "brake": 100,
-    "move_speed": 10,
+    "move_speed": 14,
     "turn_speed": 40,
     "type": "hover"
   },
@@ -186,7 +186,7 @@
     }
   },
   "selection_icon": {
-    "diameter": -14
+    "diameter": 14
   },
   "tools": [
     {
