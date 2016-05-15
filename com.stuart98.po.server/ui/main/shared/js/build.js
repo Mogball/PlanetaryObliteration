@@ -55,10 +55,8 @@ var Build = (function() {
                 "/pa/units/vanilla/land/bot_factory/bot_factory.json": ["factory", 22],
                 "/pa/units/vanilla/land/vehicle_factory/vehicle_factory.json": ["factory", 23],
 
-
-		"/pa/units/vanilla/land/apocalypse_apparatus/apocalypse_apparatus.json": ["combat", 6],
                 "/pa/units/vanilla/land/laser_defense_adv/laser_defense_adv.json": ["combat", 7],
-		"/pa/units/vanilla/land/laser_defense_sniper/laser_defense_sniper.json": ["combat", 8],
+		"/pa/units/vanilla/land/laser_defense_sniper/laser_defense_sniper.json": ["combat", 6],
                 "/pa/units/vanilla/land/artillery_long/artillery_long.json": ["combat", 9],
                 "/pa/units/vanilla/land/air_defense_adv/air_defense_adv.json": ["combat", 10],
                 "/pa/units/vanilla/land/tactical_missile_launcher/tactical_missile_launcher.json": ["combat", 11],
@@ -184,38 +182,41 @@ var Build = (function() {
 		"/pa/units/legion/land/l_bot_factory/l_bot_factory.json": [ "L_factory", 21 ],
 		"/pa/units/legion/land/l_vehicle_factory/l_vehicle_factory.json": [ "L_factory", 22 ],
 
-				
-		"/pa/units/legion/land/l_flame_turret/l_flame_turret.json": [ "L_combat", 9 ],
-		"/pa/units/legion/land/l_artillery_long/l_artillery_long.json": [ "L_combat", 8 ],
-		"/pa/units/legion/land/l_rocket_barrage/l_rocket_barrage.json": [ "L_combat", 6 ],
-		"/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher.json": [ "L_combat", 10 ],
+		
+		"/pa/units/legion/land/l_apocalypse_apparatus/l_apocalypse_apparatus.json": [ "L_combat", 6 ],
+		"/pa/units/legion/land/l_flame_turret/l_flame_turret.json": [ "L_combat", 8 ],
+		"/pa/units/legion/land/l_artillery_long/l_artillery_long.json": [ "L_combat", 9 ],
+		"/pa/units/legion/land/l_rocket_barrage/l_rocket_barrage.json": [ "L_combat", 11 ],
+		"/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher.json": [ "L_combat", 13 ],
 		"/pa/units/legion/land/l_t1_turret_adv/l_t1_turret_adv.json": [ "L_combat", 12 ],
-		"/pa/units/legion/land/l_air_defense_adv/l_air_defense_adv.json": [ "L_combat", 13 ],
-		"/pa/units/legion/land/l_swarm_hive/l_swarm_hive.json": [ "L_combat", 14 ],
-		"/pa/units/legion/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv.json": [ "L_combat", 15 ],
-		"/pa/units/legion/land/l_anti_nuke_launcher/l_anti_nuke_launcher.json": [ "L_combat", 16 ],
+		"/pa/units/legion/land/l_air_defense_adv/l_air_defense_adv.json": [ "L_combat", 10 ],
+		"/pa/units/legion/land/l_air_defense_medium/l_air_defense_medium.json": [ "L_combat", 14 ],
+		"/pa/units/legion/land/l_swarm_hive/l_swarm_hive.json": [ "L_combat", 15 ],
+		"/pa/units/legion/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv.json": [ "L_combat", 16 ],
+		"/pa/units/legion/land/l_anti_nuke_launcher/l_anti_nuke_launcher.json": [ "L_combat", 17 ],
 		"/pa/units/legion/land/l_t1_turret_basic/l_t1_turret_basic.json": [ "L_combat", 18 ],
-		"/pa/units/legion/land/l_air_defense/l_air_defense.json": [ "L_combat", 19 ],
-		"/pa/units/legion/land/l_artillery_short/l_artillery_short.json": [ "L_combat", 20 ],
-		"/pa/units/legion/sea/l_torpedo_launcher/l_torpedo_launcher.json": [ "L_combat", 21 ],
-		"/pa/units/legion/orbital/l_ion_defense/l_ion_defense.json": [ "L_combat", 22 ],
+		"/pa/units/legion/land/l_land_barrier/l_land_barrier.json": [ "L_combat", 19 ],
+		"/pa/units/legion/land/l_air_defense/l_air_defense.json": [ "L_combat", 20 ],
+		"/pa/units/legion/land/l_artillery_short/l_artillery_short.json": [ "L_combat", 21 ],
+		"/pa/units/legion/sea/l_torpedo_launcher/l_torpedo_launcher.json": [ "L_combat", 22 ],
+		"/pa/units/legion/orbital/l_ion_defense/l_ion_defense.json": [ "L_combat", 23 ],
 
-				
+		
 		"/pa/units/legion/land/l_control_module/l_control_module.json": [ "L_utility", 7 ],
-		"/pa/units/legion/land/l_energy_plant_adv/l_energy_plant_adv.json": [ "L_utility", 9 ],
-		"/pa/units/legion/land/l_mex_adv/l_mex_adv.json": [ "L_utility", 10 ],
+		"/pa/units/legion/land/l_energy_plant_adv/l_energy_plant_adv.json": [ "L_utility", 10 ],
+		"/pa/units/legion/land/l_mex_adv/l_mex_adv.json": [ "L_utility", 11 ],
 		"/pa/units/legion/orbital/l_deep_space_radar/l_deep_space_radar.json": [ "L_utility", 11 ],
 		"/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine.json": [ "L_utility", 12 ],
-		"/pa/units/legion/land/l_radar_adv/l_radar_adv.json": [ "L_utility", 14 ],
-		"/pa/units/legion/land/l_energy_plant/l_energy_plant.json": [ "L_utility", 15 ],
-		"/pa/units/legion/land/l_mex/l_mex.json": [ "L_utility", 16 ],
-		"/pa/units/legion/land/l_land_barrier/l_land_barrier.json": [ "L_utility", 18 ],
+		"/pa/units/legion/land/l_radar_adv/l_radar_adv.json": [ "L_utility", 8 ],
+		"/pa/units/legion/land/l_energy_plant/l_energy_plant.json": [ "L_utility", 22 ],
+		"/pa/units/legion/land/l_mex/l_mex.json": [ "L_utility", 23 ],
 		"/pa/units/legion/land/l_teleporter/l_teleporter.json": [ "L_utility", 19 ],
 		"/pa/units/legion/land/l_radar/l_radar.json": [ "L_utility", 20 ],
-		"/pa/units/legion/land/l_storage/l_storage.json": [ "L_utility", 21 ],
+		"/pa/units/legion/land/l_storage/l_storage.json": [ "L_utility", 16 ],
 
 		
 		"/pa/units/legion/sea/l_hover_ship/l_hover_ship.json": [ "L_vehicleadv", 12 ],
+		"/pa/units/legion/land/l_tank_goliath/l_tank_goliath.json": [ "L_vehicleadv", 13 ],
 		"/pa/units/legion/land/l_fabrication_vehicle_adv/l_fabrication_vehicle_adv.json": [ "L_vehicleadv", 18 ],
 		"/pa/units/legion/land/l_tank_laser_adv/l_tank_laser_adv.json": [ "L_vehicleadv", 19 ],
 		"/pa/units/legion/land/l_tank_heavy_armor/l_tank_heavy_armor.json": [ "L_vehicleadv", 20 ],
@@ -224,6 +225,7 @@ var Build = (function() {
 		"/pa/units/legion/land/l_sniper_tank/l_sniper_tank.json": [ "L_vehicleadv", 23 ],
 				
 		"/pa/units/legion/land/l_tank_medium/l_tank_medium.json": [ "L_vehicle", 12 ],
+		"/pa/units/legion/land/l_hover_laser/l_hover_laser.json": [ "L_vehicle", 13 ],
 		"/pa/units/legion/land/l_fabrication_vehicle/l_fabrication_vehicle.json": [ "L_vehicle", 18 ],
 		"/pa/units/legion/land/l_tank_shank/l_tank_shank.json": [ "L_vehicle", 19 ],
 		"/pa/units/legion/land/l_shotgun_tank/l_shotgun_tank.json": [ "L_vehicle", 20 ],
@@ -231,7 +233,7 @@ var Build = (function() {
 		"/pa/units/legion/land/l_hover_tank/l_hover_tank.json": [ "L_vehicle", 22 ],
 		"/pa/units/legion/land/l_fabrication_vehicle_combat/l_fabrication_vehicle_combat.json": [ "L_vehicle", 23 ],
 
-				
+		
 		"/pa/units/legion/land/l_bot_support_commander/l_bot_support_commander.json": [ "L_botadv", 12 ],
 		"/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv.json": [ "L_botadv", 18 ],
 		"/pa/units/legion/land/l_riot_bot/l_riot_bot.json": [ "L_botadv", 19 ],
@@ -240,6 +242,7 @@ var Build = (function() {
 		"/pa/units/legion/land/l_bot_nanoswarm/l_bot_nanoswarm.json": [ "L_botadv", 22 ],
 		"/pa/units/legion/land/l_necromancer/l_necromancer.json": [ "L_botadv", 23 ],
 		
+		"/pa/units/legion/land/l_bot_artillery/l_bot_artillery.json": [ "L_bot", 12 ],
 		"/pa/units/legion/land/l_fabrication_bot/l_fabrication_bot.json": [ "L_bot", 18 ],
 		"/pa/units/legion/land/l_assault_bot/l_assault_bot.json": [ "L_bot", 19 ],
 		"/pa/units/legion/land/l_sniper_bot/l_sniper_bot.json": [ "L_bot", 20 ],
