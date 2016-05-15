@@ -136,6 +136,6 @@
     "UNITTYPE_Hover",
     "UNITTYPE_AirDefense",
     "UNITTYPE_FactoryBuild",
-	"UNITTYPE_Custom1"
+    "UNITTYPE_Custom1"
   ]
 }

@@ -126,7 +126,7 @@
     "UNITTYPE_Land",
     "UNITTYPE_Structure",
     "UNITTYPE_Basic",
-	"UNITTYPE_CmdBuild",
+    "UNITTYPE_CmdBuild",
     "UNITTYPE_FabBuild",
     "UNITTYPE_CombatFabBuild",
     "UNITTYPE_Recon",
