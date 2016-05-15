@@ -84,13 +84,13 @@
   ],
   "model": {
     "animations": {
-      "death01": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01X.papa",
-      "idle": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_idleX.papa",
-      "walk": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_runX.papa"
+      "death01": "/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01X.papa",
+      "idle": "/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_idleX.papa",
+      "walk": "/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_runX.papa"
     },
     "animtree": "/pa/anim/anim_trees/fabrication_bot_combat_adv_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_advX.papa",
+    "filename": "/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_advX.papa",
     "walk_speed": 12
   },
   "navigation": {
