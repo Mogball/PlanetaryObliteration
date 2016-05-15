@@ -50,17 +50,17 @@
   ],
   "model": {
     "animations": {
-      "idle": "/pa/units/vanilla/land/raptor_bot_1/raptor_bot_1_anim_idleX.papa",
-      "walk": "/pa/units/vanilla/land/raptor_bot_1/raptor_bot_1_anim_walkX.papa"
+      "idle": "/pa/units/legion/land/l_bot_heavy/l_bot_heavy_anim_idle.papa",
+      "walk": "/pa/units/legion/land/l_bot_heavy/l_bot_heavy_anim_walk.papa"
     },
-    "animtree": "/pa/units/vanilla/land/raptor_bot_1/raptor_bot_1_anim_tree.json",
-    "filename": "/pa/units/vanilla/land/raptor_bot_1/raptor_bot_1X.papa",
+    "animtree": "/pa/units/legion/land/l_bot_heavy/l_bot_heavy_anim_tree.json",
+    "filename": "/pa/units/legion/land/l_bot_heavy/l_bot_heavy.papa",
     "walk_speed": 5
   },
   "navigation": {
     "acceleration": 250,
     "brake": -1,
-    "move_speed": 6,
+    "move_speed": 8,
     "turn_speed": 720,
     "type": "land-small"
   },
@@ -89,7 +89,7 @@
         "muzzle00"
       ],
       "record_index": 0,
-      "spec_id": "/pa/units/vanilla/land/raptor_bot_1/raptor_bot_1_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/l_bot_heavy/l_bot_heavy_tool_weapon.json"
     },
     {
       "aim_bone": "turret00",
@@ -97,7 +97,7 @@
         "muzzle01"
       ],
       "record_index": 0,
-      "spec_id": "/pa/units/vanilla/land/raptor_bot_1/raptor_bot_1_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/l_bot_heavy/l_bot_heavy_tool_weapon.json"
     },
     {
       "aim_bone": "turret00",
@@ -105,7 +105,7 @@
         "muzzle02"
       ],
       "record_index": 0,
-      "spec_id": "/pa/units/vanilla/land/raptor_bot_1/raptor_bot_1_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/l_bot_heavy/l_bot_heavy_tool_weapon.json"
     },
     {
       "aim_bone": "turret00",
@@ -113,7 +113,7 @@
         "muzzle03"
       ],
       "record_index": 0,
-      "spec_id": "/pa/units/vanilla/land/raptor_bot_1/raptor_bot_1_tool_weapon.json"
+      "spec_id": "/pa/units/legion/land/l_bot_heavy/l_bot_heavy_tool_weapon.json"
     }
   ],
   "transportable": {
@@ -125,6 +125,7 @@
     "UNITTYPE_Land",
     "UNITTYPE_Offense",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+	"UNITTYPE_Custom1"
   ]
 }

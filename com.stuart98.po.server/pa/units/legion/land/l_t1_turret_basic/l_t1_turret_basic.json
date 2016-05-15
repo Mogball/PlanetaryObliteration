@@ -4,7 +4,7 @@
   "atrophy_cool_down": 15,
   "atrophy_rate": 5,
   "base_spec": "/pa/units/vanilla/land/base_structure/base_structure.json",
-  "build_metal_cost": 150,
+  "build_metal_cost": 100,
   "command_caps": [
     "ORDER_Attack"
   ],
@@ -24,7 +24,7 @@
     }
   },
   "guard_layer": "WL_AnyHorizontalGroundOrWaterSurface",
-  "max_health": 750,
+  "max_health": 500,
   "mesh_bounds": [
     10,
     13.799,
@@ -49,12 +49,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 130,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 130,
           "shape": "capsule"
         }

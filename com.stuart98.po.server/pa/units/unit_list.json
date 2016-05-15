@@ -280,6 +280,7 @@
     "/pa/units/legion/land/l_artillery_short/l_artillery_short.json",
     "/pa/units/legion/land/l_assault_bot/l_assault_bot.json",
     "/pa/units/legion/land/l_riot_bot/l_riot_bot.json",
+    "/pa/units/legion/land/l_bot_heavy/l_bot_heavy.json",
     "/pa/units/legion/land/l_bot_aa/l_bot_aa.json",
     "/pa/units/legion/land/l_bot_aa_adv/l_bot_aa_adv.json",
     "/pa/units/legion/land/l_bot_bomb/l_bot_bomb.json",
