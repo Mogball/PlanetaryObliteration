@@ -35,7 +35,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
-  "build_metal_cost": 7000,
+  "build_metal_cost": 3000,
   "buildable_types": "(Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Titan & Bot) & Custom1",
   "command_caps": [
     "ORDER_Move",
@@ -47,6 +47,11 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
+  "death_weapon": {
+    "air_ammo_spec": "/pa/units/vanilla/land/bot_support_commander/supcom_death.json",
+    "air_height_threshold": 50,
+    "ground_ammo_spec": "/pa/units/vanilla/land/bot_support_commander/supcom_death.json"
+  },
   "description": "Auxiliary Commander - Can Build Structures. High Health and Heavily Armed.",
   "display_name": "Praetorian",
   "events": {
@@ -66,7 +71,7 @@
       "type": "build"
     }
   ],
-  "max_health": 10000,
+  "max_health": 6000,
   "mesh_bounds": [
     9.97,
     10.233,
@@ -84,7 +89,7 @@
   "navigation": {
     "acceleration": 120,
     "brake": 120,
-    "move_speed": 12,
+    "move_speed": 16,
     "turn_speed": 90,
     "type": "amphibious"
   },
@@ -98,12 +103,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 150,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 150,
           "shape": "capsule"
         }

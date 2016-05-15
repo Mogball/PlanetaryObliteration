@@ -89,9 +89,9 @@ var Build = (function() {
                 "/pa/units/vanilla/land/tank_light_laser/tank_light_laser.json": ["vehicle", 12],
                 "/pa/units/vanilla/land/tank_heavy_armor/tank_heavy_armor.json": ["vehicle", 13],
                 "/pa/units/vanilla/land/land_scout/land_scout.json": ["vehicle", 14],
-		"/pa/units/vanilla/land/tank_attack/tank_attack.json": ["vehicle", 19],
+				"/pa/units/vanilla/land/tank_attack/tank_attack.json": ["vehicle", 19],
                 "/pa/units/vanilla/land/aa_missile_vehicle/aa_missile_vehicle.json": ["vehicle", 20],
-		"/pa/units/vanilla/land/tank_heavy_artillery/tank_heavy_artillery.json": ["vehicle", 22],
+				"/pa/units/vanilla/land/tank_heavy_artillery/tank_heavy_artillery.json": ["vehicle", 22],
                 "/pa/units/vanilla/land/tank_hover/tank_hover.json": ["vehicle", 23],
 
 
@@ -237,7 +237,7 @@ var Build = (function() {
 		"/pa/units/legion/land/l_riot_bot/l_riot_bot.json": [ "L_botadv", 19 ],
 		"/pa/units/legion/land/l_bot_heavy/l_bot_heavy.json": [ "L_botadv", 20 ],
 		"/pa/units/legion/land/l_bot_aa_adv/l_bot_aa_adv.json": [ "L_botadv", 21 ],
-		"/pa/units/legion/land/l_bot_artillery/l_bot_artillery.json": [ "L_botadv", 22 ],
+		"/pa/units/legion/land/l_bot_nanoswarm/l_bot_nanoswarm.json": [ "L_botadv", 22 ],
 		"/pa/units/legion/land/l_necromancer/l_necromancer.json": [ "L_botadv", 23 ],
 		
 		"/pa/units/legion/land/l_fabrication_bot/l_fabrication_bot.json": [ "L_bot", 18 ],
