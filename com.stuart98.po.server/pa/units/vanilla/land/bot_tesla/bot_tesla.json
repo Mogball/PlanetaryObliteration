@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
-  "build_metal_cost": 300,
+  "build_metal_cost": 200,
   "description": "Riot Bot - Heavy anti-light fire with high aoe. Slow.",
   "display_name": "Spark",
   "events": {
@@ -45,7 +45,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 310,
+  "max_health": 400,
   "mesh_bounds": [
     5,
     5,
@@ -63,7 +63,7 @@
   "navigation": {
     "acceleration": 140,
     "brake": -1,
-    "move_speed": 8,
+    "move_speed": 9,
     "turn_speed": 720,
     "type": "land-small"
   },
