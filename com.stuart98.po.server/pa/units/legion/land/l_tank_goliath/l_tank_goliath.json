@@ -80,7 +80,7 @@
   "model": {
     "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/legion/l_tank_goliath/l_tank_goliath.papa"
+    "filename": "/pa/units/legion/land/l_tank_goliath/l_tank_goliath.papa"
   },
   "navigation": {
     "acceleration": 1.5,

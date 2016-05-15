@@ -58,8 +58,8 @@
     "animations": {
       "fire": "/pa/units/vanilla/sea/battlecruiser/nassault23a_anim_fire.papa"
     },
-    "animtree": "/pa/units/sea/vanilla/battlecruiser/nassault23a_anim_tree.json",
-    "filename": "/pa/units/sea/vanilla/battlecruiser/nassault23a.papa"
+    "animtree": "/pa/units/vanilla/sea/battlecruiser/nassault23a_anim_tree.json",
+    "filename": "/pa/units/vanilla/sea/battlecruiser/nassault23a.papa"
   },
   "navigation": {
     "acceleration": 2,
