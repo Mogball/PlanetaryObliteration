@@ -31,8 +31,8 @@
     }
   },
   "base_spec": "/pa/units/vanilla/sea/base_ship/base_ship.json",
-  "build_metal_cost": 800,
-  "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild",
+  "build_metal_cost": 500,
+  "buildable_types": "(Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild) - Custom1",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -89,7 +89,7 @@
       "type": "moving_forward"
     }
   ],
-  "max_health": 500,
+  "max_health": 900,
   "mesh_bounds": [
     6.8,
     15,
@@ -100,11 +100,12 @@
     "filename": "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.papa"
   },
   "navigation": {
-    "acceleration": 10,
-    "brake": 10,
-    "move_speed": 30,
+    "acceleration": 1,
+    "brake": 1,
+    "move_speed": 15,
     "park_stamp_cost": 10,
     "park_stamp_type": "sphere",
+    "turn_accel": 45,
     "turn_speed": 90,
     "type": "deepwater"
   },
@@ -143,7 +144,7 @@
     "UNITTYPE_Construction",
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
-    "UNITTYPE_Advanced",
+    "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild"
   ]
 }

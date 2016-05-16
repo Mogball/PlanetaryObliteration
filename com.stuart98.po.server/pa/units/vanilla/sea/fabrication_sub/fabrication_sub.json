@@ -31,8 +31,8 @@
     }
   },
   "base_spec": "/pa/units/vanilla/sea/base_ship/base_ship.json",
-  "build_metal_cost": 450,
-  "buildable_types": "Custom3",
+  "build_metal_cost": 550,
+  "buildable_types": "(Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild) - Custom1",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -41,8 +41,8 @@
     "ORDER_Repair",
     "ORDER_Assist"
   ],
-  "description": "Support Sub - Repairs units, builds metal extractors and sea defenses. Can only be hit by torpedos.",
-  "display_name": "Remora",
+  "description": "Fabrication - Builds advanced structures. Can only be hit by torpedos.",
+  "display_name": "Advanced Fabrication Sub",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
@@ -146,7 +146,7 @@
     "UNITTYPE_Construction",
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
-    "UNITTYPE_Basic",
+    "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild"
   ]
 }
