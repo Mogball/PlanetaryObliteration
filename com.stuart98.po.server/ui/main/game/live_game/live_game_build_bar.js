@@ -60,7 +60,7 @@ $(document).ready(function () {
             new BuildTab('seaadv', '!LOC:sea'),
             new BuildTab('orbital', '!LOC:orbital'),
             new BuildTab('orbital_structure', 'orbital structure'),
-            new BuildTab('ammo', '!LOC:ammo', true)
+            new BuildTab('ammo', '!LOC:ammo', true),
             new BuildTab('L_factory', '!LOC:factory'),
             new BuildTab('L_combat', '!LOC:combat'),
             new BuildTab('L_utility', '!LOC:utility'),

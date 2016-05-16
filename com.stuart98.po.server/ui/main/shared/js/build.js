@@ -128,20 +128,20 @@ var Build = (function() {
                 "/pa/units/vanilla/air/transport/transport.json": ["air", 22],
                 "/pa/units/vanilla/air/solar_drone/solar_drone.json": ["air", 21],
 
-     
+
+				"/pa/units/vanilla/sea/fabrication_sub/fabrication_sub.json": ["seaadv", 18],
                 "/pa/units/vanilla/sea/drone_carrier/carrier/carrier.json": ["seaadv",23],
-                "/pa/units/vanilla/sea/fabrication_ship_adv/fabrication_ship_adv.json": ["seaadv",18],
                 "/pa/units/vanilla/sea/battlecruiser/battlecruiser.json": ["seaadv", 19],
                 "/pa/units/vanilla/sea/missile_ship/missile_ship.json": ["seaadv", 20],
                 "/pa/units/vanilla/sea/nuclear_sub/nuclear_sub.json": ["seaadv", 21],
                 "/pa/units/vanilla/sea/frigate/frigate.json": ["seaadv", 22],
 		 
+                "/pa/units/vanilla/sea/fabrication_ship_adv/fabrication_ship_adv.json": ["sea",18],
                 "/pa/units/vanilla/sea/boat_torpedo/boat_torpedo.json": ["sea", 20],
                 "/pa/units/vanilla/sea/destroyer/destroyer.json": ["sea", 21],
                 "/pa/units/vanilla/sea/attack_sub/attack_sub.json": ["sea", 22],
                 "/pa/units/vanilla/sea/sea_scout/sea_scout.json": ["sea", 19],
-		"/pa/units/vanilla/sea/fabrication_sub/fabrication_sub.json": ["sea", 23],
-                "/pa/units/vanilla/sea/fabrication_barge/fabrication_barge.json": ["sea",18],
+                "/pa/units/vanilla/sea/fabrication_barge/fabrication_barge.json": ["sea",23],
 
 
                 "/pa/units/vanilla/orbital/titan_orbital/titan_orbital.json": ["orbital_structure", 6],
