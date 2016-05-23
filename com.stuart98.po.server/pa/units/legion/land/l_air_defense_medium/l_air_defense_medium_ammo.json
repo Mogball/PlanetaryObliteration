@@ -23,7 +23,7 @@
   "max_velocity": 180,
   "min_velocity": 20,
   "model": {
-    "filename": "/pa/units/air/shell_large/shell_large.papa"
+    "filename": "/pa/units/air/bomb_guided/bomb_guided.papa"
   },
   "physics": {
     "add_to_spatial_db": true,

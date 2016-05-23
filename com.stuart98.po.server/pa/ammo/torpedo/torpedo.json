@@ -9,7 +9,7 @@
     }
   },
   "flight_layer": "Underwater",
-  "flight_type": "Seeking",
+  "flight_type": "Direct",
   "fx_trail": {
     "filename": "/pa/effects/specs/torpedo_proj_trail.pfx",
     "offset": [

@@ -8,6 +8,7 @@
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     }
   },
+  "flight_type": "Seeking",
   "initial_velocity": 60.0,
   "lifetime": 4,
   "max_velocity": 60.0,
