@@ -29,8 +29,28 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/vanilla/sea/attack_sub/attack_sub_wake.pfx",
-      "type": "moving_forward"
+      "type": "moving_forward",
+      "filename": "/pa/units/vanilla/sea/attack_sub/attack_sub_wake.pfx"
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/sea/attack_sub/bubbles.pfx",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "type": "idle"
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/vanilla/sea/attack_sub/wtrail_generated.pfx",
+      "offset": [
+        0,
+        7.5,
+        0
+      ],
+      "type": "moving"
     }
   ],
   "guard_layer": "WL_AnyWater",

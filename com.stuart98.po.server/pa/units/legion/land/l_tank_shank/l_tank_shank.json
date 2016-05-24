@@ -33,7 +33,7 @@
   "display_name": "Shank",
   "events": {
     "fired": {
-      "audio_cue": "/SE/Weapons/veh/tank_light_fire",
+      "audio_cue": "/SE/Weapons/veh/land_scout_fire",
       "effect_scale": 1.0,
       "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle"
     }
