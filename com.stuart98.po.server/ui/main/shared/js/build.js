@@ -205,13 +205,14 @@ var Build = (function() {
 		"/pa/units/legion/land/l_control_module/l_control_module.json": [ "L_utility", 7 ],
 		"/pa/units/legion/land/l_energy_plant_adv/l_energy_plant_adv.json": [ "L_utility", 10 ],
 		"/pa/units/legion/land/l_mex_adv/l_mex_adv.json": [ "L_utility", 11 ],
-		"/pa/units/legion/orbital/l_deep_space_radar/l_deep_space_radar.json": [ "L_utility", 11 ],
+		"/pa/units/legion/sea/l_sonar_adv/l_sonar_adv.json": [ "L_utility", 9 ],
 		"/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine.json": [ "L_utility", 12 ],
 		"/pa/units/legion/land/l_radar_adv/l_radar_adv.json": [ "L_utility", 8 ],
 		"/pa/units/legion/land/l_energy_plant/l_energy_plant.json": [ "L_utility", 22 ],
 		"/pa/units/legion/land/l_mex/l_mex.json": [ "L_utility", 23 ],
 		"/pa/units/legion/land/l_teleporter/l_teleporter.json": [ "L_utility", 19 ],
 		"/pa/units/legion/land/l_radar/l_radar.json": [ "L_utility", 20 ],
+		"/pa/units/legion/sea/l_sonar/l_sonar.json": [ "L_utility", 21],
 		"/pa/units/legion/land/l_storage/l_storage.json": [ "L_utility", 16 ],
 
 		
@@ -235,6 +236,7 @@ var Build = (function() {
 
 		
 		"/pa/units/legion/land/l_bot_support_commander/l_bot_support_commander.json": [ "L_botadv", 12 ],
+		"/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv.json": [ "L_botadv", 13 ],
 		"/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv.json": [ "L_botadv", 18 ],
 		"/pa/units/legion/land/l_riot_bot/l_riot_bot.json": [ "L_botadv", 19 ],
 		"/pa/units/legion/land/l_bot_heavy/l_bot_heavy.json": [ "L_botadv", 20 ],

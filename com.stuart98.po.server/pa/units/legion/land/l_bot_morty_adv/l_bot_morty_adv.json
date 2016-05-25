@@ -4,7 +4,7 @@
       "head": [
         0,
         0,
-        12
+        4
       ]
     }
   },
@@ -24,20 +24,20 @@
   "display_name": "Enthraller",
   "events": {
     "died": {
-      "effect_scale": 3,
+      "effect_scale": 1,
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     }
   },
   "guard_layer": "WL_AnySurface",
   "max_health": 550,
   "mesh_bounds": [
-    30,
-    30,
-    24
+    10,
+    10,
+    8
   ],
   "model": {
     "animations": {
-      "walk": "/pa/unitslegion/land/l_bot_morty_adv/l_bot_morty_adv_anim_walk.papa"
+      "walk": "/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv_anim_walk.papa"
     },
     "animtree": "/pa/anim/one_turret_walk.json",
     "filename": "/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv.papa",
@@ -51,7 +51,7 @@
     "turn_speed": 180
   },
   "physics": {
-    "radius": 2.0
+    "radius": 0.6666667
   },
   "recon": {
     "observer": {
