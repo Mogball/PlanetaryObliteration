@@ -1,4 +1,3 @@
-
 {
   "attachable": {
     "offsets": {
@@ -14,8 +13,7 @@
       "move": {
         "cue": "/SE/Movement/commander/Commander_move_loop_quad"
       }
-    }
-  },
+    },
     "selection_response": {
       "cue": "/SE/Selection/bot/T2_assault"
     }

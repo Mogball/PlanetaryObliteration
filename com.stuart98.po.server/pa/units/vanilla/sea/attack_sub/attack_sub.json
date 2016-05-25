@@ -29,8 +29,8 @@
   },
   "fx_offsets": [
     {
-      "type": "moving_forward",
-      "filename": "/pa/units/sea/attack_sub/attack_sub_wake.pfx"
+      "filename": "/pa/units/sea/attack_sub/attack_sub_wake.pfx",
+      "type": "moving_forward"
     },
     {
       "bone": "bone_root",

@@ -83,18 +83,18 @@
       "record_index": 1,
       "spec_id": "/pa/units/legion/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv_wave_tool_weapon.json"
     },
-	{
-	  "aim_bone": "bone_turret",
-	  "fire_event": "fired2",
-	  "muzzle_bone": [
-	    "socket_muzzle01",
-		"socket_muzzle01",
-		"socket_muzzle03"
-	  ],
-	  "projectiles_per_fire": 1,
-	  "record_index": 2,
-	  "spec_id": "/pa/units/legion/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv_tool_weapon.json"
-	}
+    {
+      "aim_bone": "bone_turret",
+      "fire_event": "fired2",
+      "muzzle_bone": [
+        "socket_muzzle01",
+        "socket_muzzle01",
+        "socket_muzzle03"
+      ],
+      "projectiles_per_fire": 1,
+      "record_index": 2,
+      "spec_id": "/pa/units/legion/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv_tool_weapon.json"
+    }
   ],
   "unit_types": [
     "UNITTYPE_Structure",
