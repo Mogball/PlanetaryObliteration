@@ -9,7 +9,7 @@
     }
   },
   "flight_layer": "Underwater",
-  "flight_type": "Direct",
+  "flight_type": "Seeking",
   "fx_trail": {
     "filename": "/pa/effects/specs/torpedo_proj_trail.pfx",
     "offset": [
@@ -36,5 +36,5 @@
     }
   },
   "spawn_layers": "WL_Underwater",
-  "turn_rate": 45
+  "turn_rate": 0
 }
