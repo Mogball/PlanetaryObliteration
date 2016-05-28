@@ -41,7 +41,7 @@
       "effect_scale": 0.97499996
     },
     "fired0": {
-      "audio_cue": "/SE/Weapons/veh/tank_T2_sheller"
+      "audio_cue": "/SE/Weapons/veh/tank_T2_sheller",
       "effect_scale": 0.65,
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzleMain /pa/units/vanilla/land/bot_skirmish/ground_smoke.pfx bone_root"
     },
