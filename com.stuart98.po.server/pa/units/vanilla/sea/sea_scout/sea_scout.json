@@ -32,10 +32,25 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/vanilla/sea/sea_scout/sea_scout_wake.pfx",
-      "type": "moving_forward"
+      "bone": "bone_root",
+      "filename": "/pa/units/vanilla/sea/sea_scout/wtrail_generated.pfx",
+      "offset": [
+        0,
+        5.5,
+        0
+      ],
+      "type": "moving"
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/vanilla/sea/sea_scout/front_strings.pfx",
+      "offset": [
+        0,
+        -5.5,
+        0
+      ],
+      "type": "moving"
     }
-  ],
   "max_health": 350,
   "mesh_bounds": [
     4,

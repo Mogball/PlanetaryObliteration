@@ -41,7 +41,7 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/vanilla/sea/destroyer/destroyer_wake.pfx",
+      "filename": "/pa/units/sea/destroyer/destroyer_wake.pfx",
       "type": "moving_forward"
     }
   ],

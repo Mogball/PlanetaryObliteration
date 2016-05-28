@@ -36,7 +36,7 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/vanilla/sea/frigate/frigate_wake.pfx",
+      "filename": "/pa/units/sea/frigate/frigate_wake.pfx",
       "type": "moving_forward"
     }
   ],

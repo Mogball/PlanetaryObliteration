@@ -37,7 +37,7 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/vanilla/sea/missile_ship/missile_ship_wake.pfx",
+      "filename": "/pa/units/sea/missile_ship/missile_ship_wake.pfx",
       "type": "moving_forward"
     }
   ],
