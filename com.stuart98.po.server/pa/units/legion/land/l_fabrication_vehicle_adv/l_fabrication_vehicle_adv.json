@@ -108,6 +108,7 @@
   "selection_icon": {
     "diameter": 12
   },
+  "si_name": "fabrication_vehicle_adv",
   "tools": [
     {
       "aim_bone": "bone_pitch",

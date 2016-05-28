@@ -104,6 +104,7 @@
   "selection_icon": {
     "diameter": 12
   },
+  "si_name": "fabrication_vehicle",
   "tools": [
     {
       "aim_bone": "bone_root",

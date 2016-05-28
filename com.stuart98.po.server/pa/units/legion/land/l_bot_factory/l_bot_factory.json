@@ -164,6 +164,7 @@
   "selection_icon": {
     "diameter": 49
   },
+  "si_name": "bot_factory",
   "storage": {
     "energy": 1000,
     "metal": 250

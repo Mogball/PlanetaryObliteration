@@ -72,6 +72,7 @@
   "selection_icon": {
     "diameter": 8.0
   },
+  "si_name": "bot_skirmish",
   "tools": [
     {
       "aim_bone": "pitch00",
