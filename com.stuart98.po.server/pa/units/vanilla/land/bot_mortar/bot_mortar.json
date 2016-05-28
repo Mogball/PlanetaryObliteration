@@ -28,7 +28,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_bot/base_bot.json",
-  "build_metal_cost": 170,
+  "build_metal_cost": 180,
   "description": "Artillery - Lobs shots over wreckage, but does low damage. Amphibious.",
   "display_name": "Smasher",
   "events": {
@@ -41,7 +41,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 400,
+  "max_health": 600,
   "mesh_bounds": [
     4,
     2,

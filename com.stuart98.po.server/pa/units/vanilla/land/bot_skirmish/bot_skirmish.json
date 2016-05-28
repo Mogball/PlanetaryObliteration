@@ -41,17 +41,17 @@
       "effect_scale": 0.97499996
     },
     "fired0": {
-      "audio_cue": "/SE/Weapons/bot/sniper_fire",
+      "audio_cue": "/SE/Weapons/veh/tank_T2_sheller"
       "effect_scale": 0.65,
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzleMain /pa/units/vanilla/land/bot_skirmish/ground_smoke.pfx bone_root"
     },
     "fired1": {
-      "audio_cue": "/SE/Weapons/bot/sniper_fire",
+      "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire",
       "effect_scale": 0.65,
       "effect_spec": "/pa/units/legion/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft01 /pa/units/legion/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight01"
     },
     "fired2": {
-      "audio_cue": "/SE/Weapons/bot/sniper_fire",
+      "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire",
       "effect_scale": 0.65,
       "effect_spec": "/pa/units/legion/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleLeft02 /pa/units/legion/land/l_t1_turret_basic/muzzle_flash.pfx socket_muzzleRight02"
     }
