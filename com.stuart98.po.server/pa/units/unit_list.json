@@ -243,8 +243,8 @@
     "/pa/units/vanilla/sea/frigate/frigate.json",
     "/pa/units/vanilla/sea/sonar/sonar.json",
     "/pa/units/vanilla/sea/sonar_adv/sonar_adv.json",
-	"/pa/units/legion/sea/l_sonar/l_sonar.json",
-	"/pa/units/legion/sea/l_sonar_adv/l_sonar_adv.json",
+    "/pa/units/legion/sea/l_sonar/l_sonar.json",
+    "/pa/units/legion/sea/l_sonar_adv/l_sonar_adv.json",
     "/pa/units/vanilla/sea/hover_ship/hover_ship.json",
     "/pa/units/vanilla/sea/naval_factory_adv/naval_factory_adv.json",
     "/pa/units/vanilla/sea/torpedo_launcher/torpedo_launcher.json",
@@ -364,6 +364,6 @@
     "/pa/units/legion/land/l_swarm_hive/l_swarm_hive.json",
     "/pa/units/legion/land/l_swarm_hive/l_hive_nanoswarm/l_hive_nanoswarm.json",
     "/pa/units/legion/sea/l_hover_ship/l_hover_ship.json",
-	"/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv.json"
+    "/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv.json"
   ]
 }

@@ -40,6 +40,7 @@
     "radius": 5
   },
   "show_strategic_icon": true,
+  "si_name": "anti_nuke_launcher_ammo",
   "spawn_layers": "WL_Air",
   "splash_damage": 1,
   "splash_radius": 0,

@@ -83,6 +83,7 @@
   "selection_icon": {
     "diameter": 28
   },
+  "si_name": "metal_extractor_adv",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "strategic_icon_priority": 5,
   "unit_types": [

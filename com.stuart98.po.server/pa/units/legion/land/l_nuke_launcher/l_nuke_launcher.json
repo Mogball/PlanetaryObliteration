@@ -146,6 +146,7 @@
   "selection_icon": {
     "diameter": 50
   },
+  "si_name": "nuke_launcher",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {

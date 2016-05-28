@@ -23,13 +23,13 @@
   "description": "Light Long-Ranged Artillery - Very long range and good speed, but low damage and armor.",
   "display_name": "Enthraller",
   "events": {
-    "fired": {
-      "audio_cue": "/SE/Weapons/veh/tank_T2_sheller",
-      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx muzzle00"
-    },
     "died": {
       "effect_scale": 1,
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/veh/tank_T2_sheller",
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx muzzle00"
     }
   },
   "guard_layer": "WL_AnySurface",

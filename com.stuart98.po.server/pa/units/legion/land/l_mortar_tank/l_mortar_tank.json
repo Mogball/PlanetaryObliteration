@@ -80,6 +80,7 @@
   "selection_icon": {
     "diameter": 11.0
   },
+  "si_name": "tank_heavy_artillery",
   "tools": [
     {
       "aim_bone": "bone_turret",
