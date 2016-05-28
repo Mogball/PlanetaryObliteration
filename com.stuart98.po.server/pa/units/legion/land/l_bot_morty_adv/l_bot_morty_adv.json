@@ -24,7 +24,7 @@
   "display_name": "Enthraller",
   "events": {
     "fired": {
-      "audio_cue": "/SE/Weapons/veh/tank_T2_sheller"
+      "audio_cue": "/SE/Weapons/veh/tank_T2_sheller",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx muzzle00"
     },
     "died": {
