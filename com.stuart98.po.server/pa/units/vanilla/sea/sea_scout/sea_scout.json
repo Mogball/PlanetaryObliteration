@@ -51,6 +51,7 @@
       ],
       "type": "moving"
     }
+  ],
   "max_health": 350,
   "mesh_bounds": [
     4,
