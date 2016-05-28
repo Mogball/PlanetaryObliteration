@@ -78,6 +78,7 @@
   "selection_icon": {
     "diameter": 8
   },
+  "si_name": "bot_grenadier",
   "tools": [
     {
       "aim_bone": "bone_turret",

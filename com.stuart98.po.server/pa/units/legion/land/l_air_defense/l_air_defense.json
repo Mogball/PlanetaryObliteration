@@ -65,6 +65,7 @@
   "selection_icon": {
     "diameter": 22
   },
+  "si_name": "rocket_defense",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {

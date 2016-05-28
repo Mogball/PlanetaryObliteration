@@ -80,6 +80,7 @@
   "selection_icon": {
     "diameter": 26
   },
+  "si_name": "artillery_short",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {
