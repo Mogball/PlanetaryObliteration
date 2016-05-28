@@ -120,6 +120,7 @@
   "selection_icon": {
     "diameter": 15
   },
+  "si_name": "fabrication_aircraft",
   "tools": [
     {
       "aim_bone": "turret",

@@ -151,6 +151,7 @@
     "diameter": 20.0,
     "vertical_offset": -2.0
   },
+  "si_name": "fighter_adv",
   "system_velocity_multiplier": 15.0,
   "tools": [
     {

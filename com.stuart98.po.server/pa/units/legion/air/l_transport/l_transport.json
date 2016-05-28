@@ -104,6 +104,7 @@
   "selection_icon": {
     "diameter": 24
   },
+  "si_name": "transport",
   "transporter": {
     "capacity": 1,
     "transportable_attach_offset": "head",

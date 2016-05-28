@@ -135,6 +135,7 @@
   "selection_icon": {
     "diameter": 17
   },
+  "si_name": "fabrication_aircraft_adv",
   "tools": [
     {
       "aim_bone": "bone_root",

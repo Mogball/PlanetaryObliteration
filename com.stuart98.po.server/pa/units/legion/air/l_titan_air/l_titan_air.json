@@ -124,6 +124,7 @@
   "selection_icon": {
     "diameter": 72.0
   },
+  "si_name": "titan",
   "tools": [
     {
       "aim_bone": "bone_turret_main",

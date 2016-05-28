@@ -105,6 +105,8 @@
     "diameter": 20.0,
     "vertical_offset": -2.0
   },
+  },
+  "si_name": "bomber_adv",
   "tools": [
     {
       "aim_bone": "bone_altDrop",
