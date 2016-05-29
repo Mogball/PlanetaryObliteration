@@ -1,5 +1,5 @@
 {
-  "ammo_capacity": 1600,
+  "ammo_capacity": 1200,
   "ammo_demand": 800,
   "ammo_id": "/pa/units/legion/land/l_t1_turret_adv/l_t1_turret_adv_ammo.json",
   "ammo_per_shot": 160,
