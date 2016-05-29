@@ -9,7 +9,7 @@
   },
   "full_damage_splash_radius": 6,
   "fx_trail": {
-    "filename": "/pa/units/land/tank_light_laser/tank_light_laser_proj.pfx",
+    "filename": "/pa/units/vanilla/land/tank_light_laser/tank_light_laser_proj.pfx",
     "offset": [
       0.0,
       0.0,
