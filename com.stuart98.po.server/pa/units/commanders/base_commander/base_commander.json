@@ -27,7 +27,7 @@
       "cue": "/SE/Selection/commander"
     }
   },
-  "build_metal_cost": 6000,
+  "build_metal_cost": 5000,
   "buildable_types": "CmdBuild - Custom1",
   "command_caps": [
     "ORDER_Move",
@@ -63,7 +63,7 @@
       "type": "build"
     }
   ],
-  "max_health": 12500,
+  "max_health": 15000,
   "mesh_bounds": [
     12.6,
     8.71255,
