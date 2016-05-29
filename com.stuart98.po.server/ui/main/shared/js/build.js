@@ -86,16 +86,16 @@ var Build = (function() {
                 "/pa/units/vanilla/land/fabrication_vehicle/fabrication_vehicle.json": ["vehicle", 18],
                 "/pa/units/vanilla/land/tank_light_laser/tank_light_laser.json": ["vehicle", 12],
                 "/pa/units/vanilla/land/tank_heavy_armor/tank_heavy_armor.json": ["vehicle", 21],
-                "/pa/units/vanilla/land/land_scout/land_scout.json": ["vehicle", 14],
+                "/pa/units/vanilla/land/land_scout/land_scout.json": ["vehicle", 13],
 				"/pa/units/vanilla/land/tank_attack/tank_attack.json": ["vehicle", 19],
                 "/pa/units/vanilla/land/aa_missile_vehicle/aa_missile_vehicle.json": ["vehicle", 20],
 				"/pa/units/vanilla/land/tank_heavy_artillery/tank_heavy_artillery.json": ["vehicle", 22],
                 "/pa/units/vanilla/land/tank_hover/tank_hover.json": ["vehicle", 23],
 
 
-                "/pa/units/vanilla/land/bot_support_commander/bot_support_commander.json": ["botadv", 13],
+                "/pa/units/vanilla/land/bot_support_commander/bot_support_commander.json": ["botadv", 12],
 		"/pa/units/vanilla/land/bot_ubercannon/bot_ubercannon.json": ["botadv", 14],
-		"/pa/units/vanilla/land/bot_skirmish/bot_skirmish.json": ["botadv", 15],
+		"/pa/units/vanilla/land/bot_skirmish/bot_skirmish.json": ["botadv", 13],
                 "/pa/units/vanilla/land/fabrication_bot_adv/fabrication_bot_adv.json": ["botadv", 18],
                 "/pa/units/vanilla/land/assault_bot_adv/assault_bot_adv.json": ["botadv", 19],
 		"/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv.json": ["botadv", 20],
@@ -226,12 +226,11 @@ var Build = (function() {
 		"/pa/units/legion/land/l_sniper_tank/l_sniper_tank.json": [ "L_vehicleadv", 23 ],
 				
 		"/pa/units/legion/land/l_tank_medium/l_tank_medium.json": [ "L_vehicle", 12 ],
-		"/pa/units/legion/land/l_hover_laser/l_hover_laser.json": [ "L_vehicle", 13 ],
 		"/pa/units/legion/land/l_fabrication_vehicle/l_fabrication_vehicle.json": [ "L_vehicle", 18 ],
 		"/pa/units/legion/land/l_tank_shank/l_tank_shank.json": [ "L_vehicle", 19 ],
 		"/pa/units/legion/land/l_shotgun_tank/l_shotgun_tank.json": [ "L_vehicle", 20 ],
 		"/pa/units/legion/land/l_mortar_tank/l_mortar_tank.json": [ "L_vehicle", 21 ],
-		"/pa/units/legion/land/l_hover_tank/l_hover_tank.json": [ "L_vehicle", 22 ],
+		"/pa/units/legion/land/l_hover_laser/l_hover_laser.json": [ "L_vehicle", 22 ],
 		"/pa/units/legion/land/l_fabrication_vehicle_combat/l_fabrication_vehicle_combat.json": [ "L_vehicle", 23 ],
 
 		
