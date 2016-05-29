@@ -89,6 +89,7 @@
   "selection_icon": {
     "diameter": 75
   },
+  "si_name": "teleporter",
   "teleporter": {
     "energy_demand": 10000
   },

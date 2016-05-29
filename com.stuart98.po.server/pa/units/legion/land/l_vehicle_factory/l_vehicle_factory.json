@@ -238,6 +238,7 @@
   "selection_icon": {
     "diameter": 50
   },
+  "si_name": "vehicle_factory",
   "storage": {
     "energy": 1000,
     "metal": 250

@@ -93,6 +93,7 @@
   "selection_icon": {
     "diameter": 15
   },
+  "si_name": "tank_laser_adv",
   "tools": [
     {
       "aim_bone": "bone_turret",

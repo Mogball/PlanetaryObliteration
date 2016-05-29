@@ -58,6 +58,7 @@
   "selection_icon": {
     "diameter": 23
   },
+  "si_name": "laser_defense_single",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {

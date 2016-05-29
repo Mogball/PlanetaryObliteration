@@ -177,6 +177,7 @@
   "selection_icon": {
     "diameter": 68.0
   },
+  "si_name": "titan",
   "teleportable": null,
   "tools": [
     {

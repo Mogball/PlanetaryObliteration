@@ -113,6 +113,7 @@
   "selection_icon": {
     "diameter": 30
   },
+  "si_name": "tactical_missile_launcher",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {

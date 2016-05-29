@@ -109,6 +109,7 @@
   "selection_icon": {
     "diameter": 11
   },
+  "si_name": "tank_light_laser",
   "tools": [
     {
       "aim_bone": "socket_aim",

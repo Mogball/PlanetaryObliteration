@@ -81,6 +81,7 @@
   "selection_icon": {
     "diameter": 13
   },
+  "si_name": "tank_heavy_armor",
   "tools": [
     {
       "aim_bone": "bone_turret",
