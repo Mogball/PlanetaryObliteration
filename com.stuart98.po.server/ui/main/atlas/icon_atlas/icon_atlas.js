@@ -140,7 +140,7 @@ $(document).ready(function () {
 			'l_air_scout_adv',
 			'l_bot_artillery',
 			'l_bot_heavy',
-			'l_bot_riot',
+			'l_riot_bot',
 			'l_bot_support_commander',
 			'l_commander',
 			'l_fabrication_ship_adv',
