@@ -8,15 +8,16 @@
   "context": "client",
   "date": "2016/6/3",
   "dependencies": [
-    "com.stuart98.po.server"
+    "com.stuart98.po.server.dev"
   ],
   "description": "A complete rework of PA from the top down focussed on creating a more fluid experience with a TA derived feel.",
   "display_name": "Planetary Obliteration Client v0.DEV",
   "enabled": true,
   "forum": "https://forums.uberent.com/threads/soon.70525/",
   "icon": "http://i.imgur.com/g8m0AAg.png?1",
-  "identifier": "com.stuart98.po.client",
+  "identifier": "com.stuart98.po.client.dev",
   "priority": 100,
   "signature": "(not yet implemented)",
-  "version": "0.DEV"
+  "version": "0.DEV",
+  "hidden": true
 }
