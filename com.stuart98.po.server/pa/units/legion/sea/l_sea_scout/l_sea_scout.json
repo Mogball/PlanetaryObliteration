@@ -28,7 +28,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 255,
+  "max_health": 400,
   "mesh_bounds": [
     4.401,
     12.124,
@@ -39,9 +39,9 @@
     "filename": "/pa/units/legion/sea/l_sea_scout/l_sea_scout.papa"
   },
   "navigation": {
-    "acceleration": 40,
-    "brake": -1,
-    "move_speed": 20,
+    "acceleration": 4,
+    "brake": 10,
+    "move_speed": 25,
     "turn_accel": 150,
     "turn_in_place": false,
     "turn_speed": 150

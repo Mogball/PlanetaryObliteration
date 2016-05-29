@@ -93,7 +93,7 @@
   ],
   "guard_layer": "WL_AnySurface",
   "has_death_effects": true,
-  "max_health": 80000,
+  "max_health": 30000,
   "mesh_bounds": [
     5,
     5,
@@ -162,12 +162,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 200,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 200,
           "shape": "capsule"
         }

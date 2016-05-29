@@ -46,7 +46,7 @@
       "type": "moving_forward"
     }
   ],
-  "max_health": 14000,
+  "max_health": 10000,
   "mesh_bounds": [
     15.396,
     35.345,
@@ -74,12 +74,6 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 200,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
           "radius": 200,
           "shape": "capsule"
         }

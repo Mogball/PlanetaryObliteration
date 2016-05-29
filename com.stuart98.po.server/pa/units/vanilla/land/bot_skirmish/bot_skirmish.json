@@ -133,10 +133,10 @@
   "navigation": {
     "acceleration": 40,
     "aggressive_distance": 90,
-    "brake": 30,
+    "brake": -1,
     "group_preference": "front",
     "move_speed": 14,
-    "turn_speed": 60,
+    "turn_speed": 720,
     "type": "land-small"
   },
   "nearby_target_tick_update_interval": 15,
@@ -149,13 +149,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 150,
-          "shape": "capsule"
-        },
-        {
-          "channel": "sight",
-          "layer": "underwater",
-          "radius": 150,
+          "radius": 100,
           "shape": "capsule"
         }
       ]
