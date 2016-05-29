@@ -182,6 +182,8 @@ $(document).ready(function () {
 			'l_tank_goliath',
 			'l_tank_shank',
 			'l_tank_swarm',
+			'l_frigate',
+			'l_sea_mine',
 			
         ]);
 

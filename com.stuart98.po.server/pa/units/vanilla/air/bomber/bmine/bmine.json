@@ -53,6 +53,7 @@
   "selection_icon": {
     "diameter": 7.0
   },
+  "si_name": "land_mine",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "strategic_icon_priority": 3,
   "tools": [
