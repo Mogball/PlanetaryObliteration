@@ -91,7 +91,6 @@
         "socket_leftMuzzle",
         "socket_rightMuzzle"
       ],
-      "projectiles_per_fire": 1,
       "spec_id": "/pa/units/vanilla/land/assault_bot/assault_bot_tool_weapon.json"
     }
   ],
