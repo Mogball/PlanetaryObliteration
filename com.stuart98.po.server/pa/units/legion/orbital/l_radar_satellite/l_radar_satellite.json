@@ -136,6 +136,7 @@
   "selection_icon": {
     "diameter": 35
   },
+  "si_name": "radar_satellite",
   "unit_types": [
     "UNITTYPE_Mobile",
     "UNITTYPE_Orbital",

@@ -105,6 +105,7 @@
   "selection_icon": {
     "diameter": 30.0
   },
+  "si_name": "orbital_railgun",
   "tools": [
     {
       "aim_bone": "bone_recoilBody",

@@ -404,6 +404,7 @@
     "diameter": 69.0,
     "vertical_offset": 3.0
   },
+  "si_name": "delta_v_engine",
   "unit_types": [
     "UNITTYPE_Orbital",
     "UNITTYPE_Structure",

@@ -82,6 +82,7 @@
   "selection_icon": {
     "diameter": 83
   },
+  "si_name": "mining_platform",
   "storage": {
     "energy": 50000,
     "metal": 10000

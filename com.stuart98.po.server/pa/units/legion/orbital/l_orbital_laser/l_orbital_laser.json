@@ -74,6 +74,7 @@
   "selection_icon": {
     "diameter": 46
   },
+  "si_name": "orbital_laser",
   "tools": [
     {
       "aim_bone": "bone_tusks",
