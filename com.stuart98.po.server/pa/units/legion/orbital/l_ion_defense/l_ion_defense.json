@@ -71,8 +71,8 @@
   "selection_icon": {
     "diameter": 32
   },
-  "si_name": "ion_defense",
   "show_in_orbital_layer": false,
+  "si_name": "ion_defense",
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {

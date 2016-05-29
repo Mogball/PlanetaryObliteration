@@ -14,10 +14,10 @@
   "display_name": "Planetary Obliteration Client v0.DEV",
   "enabled": true,
   "forum": "https://forums.uberent.com/threads/soon.70525/",
+  "hidden": true,
   "icon": "http://i.imgur.com/g8m0AAg.png?1",
   "identifier": "com.stuart98.po.client.dev",
   "priority": 100,
   "signature": "(not yet implemented)",
-  "version": "0.DEV",
-  "hidden": true
+  "version": "0.DEV"
 }

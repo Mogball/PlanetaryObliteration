@@ -364,6 +364,7 @@
     "/pa/units/legion/land/l_swarm_hive/l_swarm_hive.json",
     "/pa/units/legion/land/l_swarm_hive/l_hive_nanoswarm/l_hive_nanoswarm.json",
     "/pa/units/legion/sea/l_hover_ship/l_hover_ship.json",
-    "/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv.json"
+    "/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv.json",
+    "/pa/units/legion/land/l_flame_bot/l_flame_bot.json"
   ]
 }

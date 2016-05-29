@@ -80,7 +80,6 @@ $(document).ready(function () {
             'anti_nuke_launcher',
             'nuke_launcher_ammo',
             'anti_nuke_launcher_ammo',
-            'avatar',
             'teleporter',
             'orbital_fabrication_bot',
             'gunship',
@@ -165,6 +164,7 @@ $(document).ready(function () {
 			'l_tank_swarm',
 			'l_frigate',
 			'l_sea_mine',
+			'l_flame_bot',
 			
         ]);
 
