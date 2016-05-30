@@ -86,9 +86,9 @@
         "socket_muzzleBottomRight",
         "socket_muzzleBottomLeft"
       ],
+      "projectiles_per_fire": 2,
       "record_index": 1,
-      "spec_id": "/pa/units/legion/land/l_apocalypse_apparatus/l_apocalypse_apparatus_tool_weapon_bottom.json",
-	  "projectiles_per_fire": 2
+      "spec_id": "/pa/units/legion/land/l_apocalypse_apparatus/l_apocalypse_apparatus_tool_weapon_bottom.json"
     },
     {
       "aim_bone": "bone_pitch02",

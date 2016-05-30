@@ -22,9 +22,7 @@
     "energy": 100
   },
   "death": {
-    "decals": [
-      ""
-    ]
+    "decals": []
   },
   "description": "Radar vision but immobile",
   "display_name": "Scout Bot Radar mode collision check",
