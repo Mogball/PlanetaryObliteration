@@ -17,7 +17,7 @@
   "hidden": true,
   "icon": "http://i.imgur.com/g8m0AAg.png?1",
   "identifier": "com.stuart98.po.client.dev",
-  "priority": 100,
+  "priority": 95,
   "signature": "(not yet implemented)",
   "version": "0.DEV"
 }

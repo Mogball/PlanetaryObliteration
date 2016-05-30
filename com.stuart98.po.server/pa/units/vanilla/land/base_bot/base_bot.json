@@ -125,11 +125,5 @@
     "UNITTYPE_Land",
     "UNITTYPE_NoBuild"
   ],
-  "wreckage": {
-    "collision": [
-      "none"
-    ],
-    "remove_ground_cost_stamp": true
-  },
   "wreckage_health_frac": 2.5
 }
