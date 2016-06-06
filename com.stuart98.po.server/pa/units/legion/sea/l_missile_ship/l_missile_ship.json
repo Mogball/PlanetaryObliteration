@@ -45,9 +45,9 @@
     "filename": "/pa/units/legion/sea/l_missile_ship/l_missile_ship.papa"
   },
   "navigation": {
-    "acceleration": 30,
-    "brake": 80,
-    "move_speed": 8,
+    "acceleration": 3,
+    "brake": 3,
+    "move_speed": 18,
     "turn_accel": 15,
     "turn_speed": 45
   },
