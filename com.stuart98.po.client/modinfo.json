@@ -1,23 +1,21 @@
 {
   "author": "Stuart98",
-  "build": "89755",
+  "build": "94684",
   "category": [
     "Units",
     "Balance"
   ],
   "context": "client",
-  "date": "2016/6/3",
+  "date": "2015/8/21",
   "dependencies": [
     "com.stuart98.po.server.dev"
   ],
-  "description": "A complete rework of PA from the top down focussed on creating a more fluid experience with a TA derived feel.",
-  "display_name": "Planetary Obliteration Client v0.DEV",
+  "description": "Legion + New Units + New Balance = New & Better Experience",
+  "display_name": "Planetary Obliteration: Client Component",
   "enabled": true,
-  "forum": "https://forums.uberent.com/threads/soon.70525/",
   "hidden": true,
-  "icon": "http://i.imgur.com/g8m0AAg.png?1",
   "identifier": "com.stuart98.po.client.dev",
   "priority": 95,
   "signature": "(not yet implemented)",
-  "version": "0.DEV"
+  "version": "0.DEV.releaseOne"
 }
