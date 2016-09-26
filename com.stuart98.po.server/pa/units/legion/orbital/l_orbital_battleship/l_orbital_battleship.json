@@ -10,7 +10,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 14000,
+  "build_metal_cost": 5000,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -84,7 +84,7 @@
     "brake": 80,
     "circle_max_time": 4,
     "circle_min_time": 2,
-    "move_speed": 20,
+    "move_speed": 15,
     "turn_accel": 20,
     "turn_speed": 30
   },
