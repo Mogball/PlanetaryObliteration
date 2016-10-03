@@ -58,7 +58,7 @@
       "spec_id": "/pa/units/vanilla/sea/torpedo_launcher_adv/torpedo_launcher_adv.json"
     },
     "AdvancedNavalFabber": {
-      "spec_id": "/pa/units/vanilla/sea/fabrication_ship_adv/fabrication_ship_adv.json"
+      "spec_id": "/pa/units/vanilla/sea/fabrication_sub/fabrication_sub.json"
     },
     "AdvancedNavalFactory": {
       "spec_id": "/pa/units/vanilla/sea/naval_factory_adv/naval_factory_adv.json"
@@ -166,7 +166,7 @@
       "spec_id": "/pa/units/vanilla/sea/torpedo_launcher/torpedo_launcher.json"
     },
     "BasicNavalFabber": {
-      "spec_id": "/pa/units/vanilla/sea/fabrication_ship/fabrication_ship.json"
+      "spec_id": "/pa/units/vanilla/sea/fabrication_ship_adv/fabrication_ship_adv.json"
     },
     "BasicNavalFactory": {
       "spec_id": "/pa/units/vanilla/sea/naval_factory/naval_factory.json"
@@ -372,6 +372,12 @@
     "SolarDrone": {
       "spec_id": "/pa/units/vanilla/air/solar_drone/solar_drone.json"
     },
+	"BasicSonar": {
+	  "spec_id": "/pa/units/vanilla/sea/sonar/sonar.json"
+	},
+	"AdvancedSonar": {
+	  "spec_id": "/pa/units/vanilla/sea/sonar_adv/sonar_adv.json"
+	},
     "SupportBarge": {
       "spec_id": "/pa/units/vanilla/sea/fabrication_barge/fabrication_barge.json"
     },
