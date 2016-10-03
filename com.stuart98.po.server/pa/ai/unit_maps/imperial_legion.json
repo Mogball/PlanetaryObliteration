@@ -123,6 +123,9 @@
     "LegionDefenseAdvancedAir": {
       "spec_id": "/pa/units/legion/land/l_air_defense_adv/l_air_defense_adv.json"
     },
+	"LegionDefenseMediumAir": {
+	  "spec_id": "/pa/units/legion/land/l_air_defense_medium/l_air_defense_medium.json"
+	},
     "LegionDefenseAdvancedAntiNuke": {
       "spec_id": "/pa/units/legion/land/l_anti_nuke_launcher/l_anti_nuke_launcher_ammo.json"
     },
