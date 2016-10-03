@@ -348,9 +348,6 @@
     "MotherShip": {
       "spec_id": "/pa/units/vanilla/orbital/titan_orbital/titan_orbital.json"
     },
-    "NanoSwarm": {
-      "spec_id": "/pa/units/vanilla/land/bot_nanoswarm/bot_nanoswarm.json"
-    },
     "NukeTank": {
       "spec_id": "/pa/units/vanilla/land/tank_nuke/tank_nuke.json"
     },
@@ -362,9 +359,6 @@
     },
     "OrbitalRailgun": {
       "spec_id": "/pa/units/vanilla/orbital/orbital_railgun/orbital_railgun.json"
-    },
-    "PlanetSplitter": {
-      "spec_id": "/pa/units/vanilla/land/titan_structure/titan_structure.json"
     },
     "SeismicBot": {
       "spec_id": "/pa/units/vanilla/land/titan_bot/titan_bot.json"

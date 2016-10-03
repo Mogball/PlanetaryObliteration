@@ -69,12 +69,21 @@
     "LegionBotAdvancedAA": {
       "spec_id": "/pa/units/legion/land/l_bot_aa_adv/l_bot_aa_adv.json"
     },
-    "LegionBotAdvancedArtillery": {
+    "LegionBotBasicArtillery": {
       "spec_id": "/pa/units/legion/land/l_bot_artillery/l_bot_artillery.json"
     },
+	"LegionBotAdvancedArtillery": {
+	  "spec_id": "/pa/units/legion/land/l_bot_mortar_adv/l_bot_mortar_adv.json"
+	},
     "LegionBotAdvancedAssault": {
       "spec_id": "/pa/units/legion/land/l_riot_bot/l_riot_bot.json"
     },
+	"LegionBotAdvancedLaser": {
+	  "spec_id": "/pa/units/legion/land/l_bot_heavy/l_bot_heavy.json"
+	},
+	"LegionBotAdvancedFlame": {
+	  "spec_id": "/pa/units/legion/land/l_bot_flame/l_bot_flame.json"
+	},
     "LegionBotAdvancedBomb": {
       "spec_id": "/pa/units/legion/land/l_necromancer/l_necromancer.json"
     },
@@ -90,6 +99,9 @@
     "LegionBotBasicAA": {
       "spec_id": "/pa/units/legion/land/l_bot_aa/l_bot_aa.json"
     },
+	"LegionBotBasicAO": {
+	  "spec_id": "/pa/units/legion/land/l_bot_orbital/l_bot_orbital.json"
+	},
     "LegionBotBasicAssault": {
       "spec_id": "/pa/units/legion/land/l_assault_bot/l_assault_bot.json"
     },
@@ -124,8 +136,11 @@
       "spec_id": "/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine.json"
     },
     "LegionDefenseAdvancedLand": {
-      "spec_id": "/pa/units/legion/land/l_flame_turret/l_flame_turret.json"
+      "spec_id": "/pa/units/legion/land/l_apocalypse_apparatus/l_apocalypse_apparatus.json"
     },
+	"LegionDefenseFlameLand": {
+	  "spec_id": "/pa/units/legion/land/l_flame_turret/l_flame_turret"
+	},
     "LegionDefenseAdvancedModule": {
       "spec_id": "/pa/units/legion/land/l_control_module/l_control_module.json"
     },
@@ -222,8 +237,17 @@
     "LegionIntelBasicRadar": {
       "spec_id": "/pa/units/legion/land/l_radar/l_radar.json"
     },
+	"LegionIntelBasicSonar": {
+	  "spec_id": "/pa/units/legion/sea/l_sonar/l_sonar.json"
+	},
+	"LegionIntelAdvancedSonar": {
+	  "spec_id": "/pa/units/legion/sea/l_sonar_adv/l_sonar_adv.json"
+	},
+    "LegionNanoSwarm": {
+      "spec_id": "/pa/units/legion/land/l_bot_nanoswarm/l_bot_nanoswarm.json"
+    },
     "LegionNavalAdvancedBattleship": {
-      "spec_id": "/pa/units/legion/sea/l_battleship/l_battleship.json"
+      "spec_id": "/pa/units/legion/sea/l_battlecruiser/l_battlecruiser.json"
     },
     "LegionNavalAdvancedDestroyer": {
       "spec_id": "/pa/units/legion/sea/l_sea_tank/l_sea_tank.json"
@@ -246,6 +270,9 @@
     "LegionNavalBasicDestroyer": {
       "spec_id": "/pa/units/legion/sea/l_destroyer/l_destroyer.json"
     },
+	"LegionNavalBasicTorpBoat": {
+	  "spec_id": "/pa/units/legion/sea/l_boat_torpedo/l_boat_torpedo.json"
+	},
     "LegionNavalBasicFabber": {
       "spec_id": "/pa/units/legion/sea/l_fabrication_ship/l_fabrication_ship.json"
     },
@@ -300,9 +327,6 @@
     "LegionTitanAdvancedOrbital": {
       "spec_id": "/pa/units/legion/orbital/l_titan_orbital/l_titan_orbital.json"
     },
-    "LegionTitanAdvancedStructure": {
-      "spec_id": "/pa/units/legion/land/l_titan_structure/l_titan_structure.json"
-    },
     "LegionTitanAdvancedVehicle": {
       "spec_id": "/pa/units/legion/land/l_titan_vehicle/l_titan_vehicle.json"
     },
@@ -318,6 +342,9 @@
     "LegionVehicleAdvancedLaser": {
       "spec_id": "/pa/units/legion/land/l_tank_laser_adv/l_tank_laser_adv.json"
     },
+	"LegionVehicleAdvancedHeavy": {
+	  "spec_id": "/pa/units/legion/land/l_tank_goliath/l_tank_goliath.json"
+	},
     "LegionVehicleAdvancedSniper": {
       "spec_id": "/pa/units/legion/land/l_sniper_tank/l_sniper_tank.json"
     },
@@ -327,8 +354,8 @@
     "LegionVehicleBasicArmor": {
       "spec_id": "/pa/units/legion/land/l_shotgun_tank/l_shotgun_tank.json"
     },
-    "LegionVehicleBasicArtillery": {
-      "spec_id": "/pa/units/legion/land/l_hover_tank/l_hover_tank.json"
+    "LegionVehicleBasicHover": {
+      "spec_id": "/pa/units/legion/land/l_hover_laser/l_hover_laser.json"
     },
     "LegionVehicleBasicCFab": {
       "spec_id": "/pa/units/legion/land/l_fabrication_vehicle_combat/l_fabrication_vehicle_combat.json"
@@ -336,11 +363,14 @@
     "LegionVehicleBasicFabber": {
       "spec_id": "/pa/units/legion/land/l_fabrication_vehicle/l_fabrication_vehicle.json"
     },
-    "LegionVehicleBasicHover": {
+    "LegionVehicleBasicArtillery": {
       "spec_id": "/pa/units/legion/land/l_mortar_tank/l_mortar_tank.json"
     },
     "LegionVehicleBasicLaser": {
       "spec_id": "/pa/units/legion/land/l_tank_shank/l_tank_shank.json"
-    }
+    },
+	"LegionVehicleBasicShell": {
+	  "spec_id": "/pa/units/legion/land/l_tank_medium/l_tank_medium.json"
+	}
   }
 }
