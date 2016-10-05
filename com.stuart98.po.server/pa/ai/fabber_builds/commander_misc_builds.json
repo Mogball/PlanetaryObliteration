@@ -1,1 +1,32 @@
-{"build_list":[{"name":"Teleport Commander To Planet","instance_count":1,"priority":1001,"builders":["UberCommander"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"WantCommanderOffPlanetByTeleporter","boolean":true},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Structure & Teleporter","compare0":">","value0":0}]],"task_type":"TeleportFabberToPlanet"}]}
+{
+  "build_list": [
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": true,
+            "test_type": "WantCommanderOffPlanetByTeleporter"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
+        ]
+      ],
+      "builders": [
+        "UberCommander"
+      ],
+      "instance_count": 1,
+      "name": "Teleport Commander To Planet",
+      "priority": 1001,
+      "task_type": "TeleportFabberToPlanet"
+    }
+  ]
+}

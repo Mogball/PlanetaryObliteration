@@ -1,1 +1,185 @@
-{"build_list":[{"name":"Probe - Other planet","to_build":"OrbitalProbe","instance_count":1,"shared_instance_count":"ReconAssistance","cross_planet_shared_count":true,"priority":200,"builders":["OrbitalLauncher","OrbitalFactory"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"CanAffordPotentialDrain","string0":"OrbitalProbe"},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Orbital & Fighter","compare0":">","value0":2},{"test_type":"OtherPlanetNeedsReconAssistance","boolean":true}]]},{"name":"Orbital Railgun","to_build":"OrbitalRailgun","instance_count":1,"max_num_assisters":5,"priority":195,"builders":["OrbitalFactory"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"SystemThreat","string0":"Orbital","compare0":">","value0":0},{"test_type":"UnitCountPerPlanetRadius","unit_type_string0":"Orbital & Fighter & Advanced","compare0":"<","value0":15}]]},{"name":"Orbital Railgun - Threat","to_build":"OrbitalRailgun","instance_count":1,"min_num_assisters":2,"max_num_assisters":5,"priority":205,"builders":["OrbitalFactory"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"SystemThreat","string0":"Orbital","compare0":">","value0":0},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Orbital & Fighter & Advanced","compare0":"<","value0":3}],[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"BaseThreat","string0":"Orbital","compare0":">","value0":0},{"test_type":"UnitCountInBase","unit_type_string0":"Orbital & Fighter & Advanced","compare0":"<","value0":3}],[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"PlanetHighestEnemyArmyThreatRatio","string0":"Orbital","string1":"AntiOrbital","compare0":">","value0":1}]]},{"name":"Orbital Battleship","to_build":"OrbitalBattleShip","instance_count":1,"max_num_assisters":5,"priority":195,"builders":["OrbitalFactory"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"SystemThreat","string0":"Orbital","compare0":">","value0":0},{"test_type":"UnitRatioOnPlanet","unit_type_string0":"Orbital & Fighter & Heavy","unit_type_string1":"Orbital & Fighter","compare0":"<","value0":0.2}]]}]}
+{
+  "build_list": [
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "string0": "OrbitalProbe",
+            "test_type": "CanAffordPotentialDrain"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Orbital & Fighter",
+            "value0": 2
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsReconAssistance"
+          }
+        ]
+      ],
+      "builders": [
+        "OrbitalLauncher",
+        "OrbitalFactory"
+      ],
+      "cross_planet_shared_count": true,
+      "instance_count": 1,
+      "name": "Probe - Other planet",
+      "priority": 200,
+      "shared_instance_count": "ReconAssistance",
+      "to_build": "OrbitalProbe"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": ">",
+            "string0": "Orbital",
+            "test_type": "SystemThreat",
+            "value0": 0
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountPerPlanetRadius",
+            "unit_type_string0": "Orbital & Fighter & Advanced",
+            "value0": 15
+          }
+        ]
+      ],
+      "builders": [
+        "OrbitalFactory"
+      ],
+      "instance_count": 1,
+      "max_num_assisters": 5,
+      "name": "Orbital Railgun",
+      "priority": 195,
+      "to_build": "OrbitalRailgun"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": ">",
+            "string0": "Orbital",
+            "test_type": "SystemThreat",
+            "value0": 0
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Orbital & Fighter & Advanced",
+            "value0": 3
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": ">",
+            "string0": "Orbital",
+            "test_type": "BaseThreat",
+            "value0": 0
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Orbital & Fighter & Advanced",
+            "value0": 3
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": ">",
+            "string0": "Orbital",
+            "string1": "AntiOrbital",
+            "test_type": "PlanetHighestEnemyArmyThreatRatio",
+            "value0": 1
+          }
+        ]
+      ],
+      "builders": [
+        "OrbitalFactory"
+      ],
+      "instance_count": 1,
+      "max_num_assisters": 5,
+      "min_num_assisters": 2,
+      "name": "Orbital Railgun - Threat",
+      "priority": 205,
+      "to_build": "OrbitalRailgun"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": ">",
+            "string0": "Orbital",
+            "test_type": "SystemThreat",
+            "value0": 0
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "Orbital & Fighter & Heavy",
+            "unit_type_string1": "Orbital & Fighter",
+            "value0": 0.2
+          }
+        ]
+      ],
+      "builders": [
+        "OrbitalFactory"
+      ],
+      "instance_count": 1,
+      "max_num_assisters": 5,
+      "name": "Orbital Battleship",
+      "priority": 195,
+      "to_build": "OrbitalBattleShip"
+    }
+  ]
+}

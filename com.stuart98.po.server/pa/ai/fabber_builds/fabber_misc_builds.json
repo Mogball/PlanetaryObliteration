@@ -1,1 +1,388 @@
-{"build_list":[{"name":"Fabber Assist","instance_count":-1,"priority":1,"builders":["UberCommander","AnyUberBasicFabber","AnyUberAdvancedFabber","UberSupportCommander","OrbitalFabber"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"}],[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CurrentMetalEfficiency","compare0":">","value0":1},{"test_type":"MetalStorageFrac","compare0":">","value0":0.2},{"test_type":"CurrentEnergyEfficiency","compare0":">=","value0":1}]],"task_type":"BuilderAssist"},{"name":"Teleporter - Need Land","to_build":"Teleporter","instance_count":1,"shared_instance_count":"Teleporter","priority":615,"min_num_assisters":3,"max_num_assisters":5,"builders":["UberCommander","AnyUberBasicFabber","AnyUberAdvancedFabber","UberSupportCommander","OrbitalFabber"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"ThisPlanetNeedsLandUnitAssistance","boolean":true},{"test_type":"OtherPlanetCanProvideLandUnitAssistance","boolean":true},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Structure & Teleporter","compare0":"<","value0":1}],[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"OtherPlanetNeedsLandUnitAssistance","boolean":true},{"test_type":"PlanetHighestEnemyArmyThreatRatio","string0":"Land","string1":"Land","compare0":"<","value0":0.8},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Structure & Teleporter","compare0":"<","value0":1}],[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"WantCommanderOffPlanet","boolean":true},{"test_type":"PresenceOnOtherPlanet","boolean":true},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Structure & Teleporter","compare0":"<","value0":1}]],"placement_rules":{"buffer":6,"placement_type":"FromBaseCenter","threat":{"influence_type":"AntiSurface","compare_type":"<","radius":10,"value":50}}},{"name":"Teleporter - Need Fabber","to_build":"Teleporter","instance_count":1,"shared_instance_count":"Teleporter","priority":615,"min_num_assisters":3,"max_num_assisters":5,"builders":["OrbitalFabber"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Structure & Teleporter","compare0":"<","value0":1},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Fabber - Air","compare0":"<","value0":1}]],"placement_rules":{"buffer":6,"placement_type":"FromBaseCenter","threat":{"influence_type":"AntiSurface","compare_type":"<","radius":10,"value":50}}},{"name":"Teleporter - Other Planet Needs Fabber","to_build":"Teleporter","instance_count":1,"shared_instance_count":"Teleporter","priority":606,"min_num_assisters":1,"max_num_assisters":5,"builders":["UberCommander","AnyUberBasicFabber","AnyUberAdvancedFabber","UberSupportCommander","OrbitalFabber"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"PlanetWithoutFabberWithTeleporter","boolean":true},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Structure & Teleporter","compare0":"<","value0":1},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Fabber - Air","compare0":">=","value0":2}]],"placement_rules":{"buffer":6,"placement_type":"FromBaseCenter","threat":{"influence_type":"AntiSurface","compare_type":"<","radius":10,"value":50}}},{"name":"Teleporter","to_build":"Teleporter","instance_count":1,"shared_instance_count":"Teleporter","priority":258,"builders":["UberCommander","AnyUberBasicFabber","AnyUberAdvancedFabber","UberSupportCommander","OrbitalFabber"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"PresenceOnOtherPlanet","boolean":true},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Structure & Teleporter","compare0":"<","value0":1}]],"placement_rules":{"buffer":6,"placement_type":"FromBaseCenter","threat":{"influence_type":"AntiSurface","compare_type":"<","radius":10,"value":50}}},{"name":"Teleporter - Not Alone","to_build":"Teleporter","instance_count":1,"shared_instance_count":"Teleporter","priority":380,"builders":["UberCommander","AnyUberBasicFabber","AnyUberAdvancedFabber","UberSupportCommander","OrbitalFabber"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"AloneOnPlanet","boolean":false},{"test_type":"PresenceOnOtherPlanet","boolean":true},{"test_type":"CanAffordBuildDemand"},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Structure & Teleporter","compare0":"<","value0":1}]],"placement_rules":{"buffer":6,"placement_type":"FromBaseCenter","threat":{"influence_type":"AntiSurface","compare_type":"<","radius":10,"value":50}}},{"name":"Teleport Fabber To Planet","instance_count":1,"priority":801,"builders":["BasicBotFabber","BasicVehicleFabber","AdvancedBotFabber","UberSupportCommander","AdvancedVehicleFabber"],"build_conditions":[[{"test_type":"HasPersonalityTag","string0":"Vanilla","boolean":true},{"test_type":"PlanetWithoutFabberWithTeleporter","boolean":true},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Structure & Teleporter","compare0":">","value0":0},{"test_type":"UnitCountOnPlanet","unit_type_string0":"Fabber - Air","compare0":">=","value0":2}]],"task_type":"TeleportFabberToPlanet"}]}
+{
+  "build_list": [
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "compare0": ">",
+            "test_type": "CurrentMetalEfficiency",
+            "value0": 1
+          },
+          {
+            "compare0": ">",
+            "test_type": "MetalStorageFrac",
+            "value0": 0.2
+          },
+          {
+            "compare0": ">=",
+            "test_type": "CurrentEnergyEfficiency",
+            "value0": 1
+          }
+        ]
+      ],
+      "builders": [
+        "UberCommander",
+        "AnyUberBasicFabber",
+        "AnyUberAdvancedFabber",
+        "UberSupportCommander",
+        "OrbitalFabber"
+      ],
+      "instance_count": -1,
+      "name": "Fabber Assist",
+      "priority": 1,
+      "task_type": "BuilderAssist"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "ThisPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetCanProvideLandUnitAssistance"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 1
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": "<",
+            "string0": "Land",
+            "string1": "Land",
+            "test_type": "PlanetHighestEnemyArmyThreatRatio",
+            "value0": 0.8
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 1
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "WantCommanderOffPlanet"
+          },
+          {
+            "boolean": true,
+            "test_type": "PresenceOnOtherPlanet"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 1
+          }
+        ]
+      ],
+      "builders": [
+        "UberCommander",
+        "AnyUberBasicFabber",
+        "AnyUberAdvancedFabber",
+        "UberSupportCommander",
+        "OrbitalFabber"
+      ],
+      "instance_count": 1,
+      "max_num_assisters": 5,
+      "min_num_assisters": 3,
+      "name": "Teleporter - Need Land",
+      "placement_rules": {
+        "buffer": 6,
+        "placement_type": "FromBaseCenter",
+        "threat": {
+          "compare_type": "<",
+          "influence_type": "AntiSurface",
+          "radius": 10,
+          "value": 50
+        }
+      },
+      "priority": 615,
+      "shared_instance_count": "Teleporter",
+      "to_build": "Teleporter"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 1
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Fabber - Air",
+            "value0": 1
+          }
+        ]
+      ],
+      "builders": [
+        "OrbitalFabber"
+      ],
+      "instance_count": 1,
+      "max_num_assisters": 5,
+      "min_num_assisters": 3,
+      "name": "Teleporter - Need Fabber",
+      "placement_rules": {
+        "buffer": 6,
+        "placement_type": "FromBaseCenter",
+        "threat": {
+          "compare_type": "<",
+          "influence_type": "AntiSurface",
+          "radius": 10,
+          "value": 50
+        }
+      },
+      "priority": 615,
+      "shared_instance_count": "Teleporter",
+      "to_build": "Teleporter"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "PlanetWithoutFabberWithTeleporter"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 1
+          },
+          {
+            "compare0": ">=",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Fabber - Air",
+            "value0": 2
+          }
+        ]
+      ],
+      "builders": [
+        "UberCommander",
+        "AnyUberBasicFabber",
+        "AnyUberAdvancedFabber",
+        "UberSupportCommander",
+        "OrbitalFabber"
+      ],
+      "instance_count": 1,
+      "max_num_assisters": 5,
+      "min_num_assisters": 1,
+      "name": "Teleporter - Other Planet Needs Fabber",
+      "placement_rules": {
+        "buffer": 6,
+        "placement_type": "FromBaseCenter",
+        "threat": {
+          "compare_type": "<",
+          "influence_type": "AntiSurface",
+          "radius": 10,
+          "value": 50
+        }
+      },
+      "priority": 606,
+      "shared_instance_count": "Teleporter",
+      "to_build": "Teleporter"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "PresenceOnOtherPlanet"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 1
+          }
+        ]
+      ],
+      "builders": [
+        "UberCommander",
+        "AnyUberBasicFabber",
+        "AnyUberAdvancedFabber",
+        "UberSupportCommander",
+        "OrbitalFabber"
+      ],
+      "instance_count": 1,
+      "name": "Teleporter",
+      "placement_rules": {
+        "buffer": 6,
+        "placement_type": "FromBaseCenter",
+        "threat": {
+          "compare_type": "<",
+          "influence_type": "AntiSurface",
+          "radius": 10,
+          "value": 50
+        }
+      },
+      "priority": 258,
+      "shared_instance_count": "Teleporter",
+      "to_build": "Teleporter"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "boolean": true,
+            "test_type": "PresenceOnOtherPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 1
+          }
+        ]
+      ],
+      "builders": [
+        "UberCommander",
+        "AnyUberBasicFabber",
+        "AnyUberAdvancedFabber",
+        "UberSupportCommander",
+        "OrbitalFabber"
+      ],
+      "instance_count": 1,
+      "name": "Teleporter - Not Alone",
+      "placement_rules": {
+        "buffer": 6,
+        "placement_type": "FromBaseCenter",
+        "threat": {
+          "compare_type": "<",
+          "influence_type": "AntiSurface",
+          "radius": 10,
+          "value": 50
+        }
+      },
+      "priority": 380,
+      "shared_instance_count": "Teleporter",
+      "to_build": "Teleporter"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": true,
+            "test_type": "PlanetWithoutFabberWithTeleporter"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          },
+          {
+            "compare0": ">=",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Fabber - Air",
+            "value0": 2
+          }
+        ]
+      ],
+      "builders": [
+        "BasicBotFabber",
+        "BasicVehicleFabber",
+        "AdvancedBotFabber",
+        "UberSupportCommander",
+        "AdvancedVehicleFabber"
+      ],
+      "instance_count": 1,
+      "name": "Teleport Fabber To Planet",
+      "priority": 801,
+      "task_type": "TeleportFabberToPlanet"
+    }
+  ]
+}
