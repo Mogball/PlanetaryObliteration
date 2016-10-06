@@ -54,7 +54,7 @@ function ai_types() {
             personality_tags:
             [
                 "PreventsWaste",
-				"Vanilla"
+				"vanilla"
             ],
             metal_drain_check: 0.54,
             energy_drain_check: 0.65,
