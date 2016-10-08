@@ -454,26 +454,6 @@
             "test_type": "CanFindPlaceToBuild"
           }
         ],
-        [
-          {
-            "compare0": "<",
-            "test_type": "PotentialEnergyEfficiency",
-            "value0": 1
-          },
-          {
-            "string0": "OrbitalExtractor",
-            "test_type": "CanFindPlaceToBuild"
-          }
-        ],
-        [
-          {
-            "test_type": "DesireEnergy"
-          },
-          {
-            "string0": "OrbitalExtractor",
-            "test_type": "CanFindPlaceToBuild"
-          }
-        ]
       ],
       "builders": [
         "OrbitalFabber"
@@ -487,6 +467,42 @@
       },
       "priority": 360,
       "to_build": "OrbitalExtractor"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "compare0": "<",
+            "test_type": "PotentialEnergyEfficiency",
+            "value0": 1
+          },
+          {
+            "string0": "SolarArray",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ],
+        [
+          {
+            "test_type": "DesireEnergy"
+          },
+          {
+            "string0": "SolarArray",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ],
+      "builders": [
+        "OrbitalFabber"
+      ],
+      "instance_count": 1,
+      "max_num_assisters": 5,
+      "min_num_assisters": 3,
+      "name": "Solar Array",
+      "placement_rules": {
+        "buffer": 15
+      },
+      "priority": 360,
+      "to_build": "SolarArray"
     },
     {
       "build_conditions": [

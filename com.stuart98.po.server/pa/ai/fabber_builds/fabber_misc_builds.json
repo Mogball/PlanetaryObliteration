@@ -104,8 +104,7 @@
         "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
-        "UberSupportCommander",
-        "OrbitalFabber"
+        "UberSupportCommander"
       ],
       "instance_count": 1,
       "max_num_assisters": 5,
@@ -146,7 +145,7 @@
         ]
       ],
       "builders": [
-        "OrbitalFabber"
+        "AnyUberAdvancedFabber"
       ],
       "instance_count": 1,
       "max_num_assisters": 5,
@@ -194,8 +193,7 @@
         "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
-        "UberSupportCommander",
-        "OrbitalFabber"
+        "UberSupportCommander"
       ],
       "instance_count": 1,
       "max_num_assisters": 5,
@@ -237,8 +235,7 @@
         "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
-        "UberSupportCommander",
-        "OrbitalFabber"
+        "UberSupportCommander"
       ],
       "instance_count": 1,
       "name": "Teleporter",
@@ -282,8 +279,7 @@
         "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
-        "UberSupportCommander",
-        "OrbitalFabber"
+        "UberSupportCommander"
       ],
       "instance_count": 1,
       "name": "Teleporter - Not Alone",

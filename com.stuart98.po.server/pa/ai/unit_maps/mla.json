@@ -120,6 +120,9 @@
     "AnyUberBasicFabber": {
       "unit_types": "((Fabber & (Basic | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
     },
+	"AnyUberFabber": {
+	  "unit_types": "((Fabber | Debug) - Orbital) - Custom1 -Custom2 - Custom3 - Custom4",
+	},
     "AnyUberBotFactory": {
       "unit_types": "(Factory & Bot) - Custom1 - Custom2 - Custom3 - Custom4"
     },

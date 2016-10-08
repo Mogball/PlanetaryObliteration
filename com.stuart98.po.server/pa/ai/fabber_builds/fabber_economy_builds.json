@@ -746,7 +746,6 @@
         ]
       ],
       "builders": [
-        "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
         "UberSupportCommander"
       ],
@@ -783,7 +782,6 @@
         ]
       ],
       "builders": [
-        "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
         "UberSupportCommander"
       ],

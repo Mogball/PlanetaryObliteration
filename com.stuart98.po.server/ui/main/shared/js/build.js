@@ -113,12 +113,12 @@ var Build = (function() {
                 "/pa/units/vanilla/land/bot_tesla/bot_tesla.json": ["bot", 12],
 
 
-                "/pa/units/vanilla/air/support_platform/support_platform.json": ["airadv", 12],
+                "/pa/units/vanilla/air/support_platform/support_platform.json": ["airadv", 23],
                 "/pa/units/vanilla/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json": ["airadv", 18],
                 "/pa/units/vanilla/air/fighter_adv/fighter_adv.json": ["airadv", 19],
-                "/pa/units/vanilla/air/gunship/gunship.json": ["airadv", 21],
-                "/pa/units/vanilla/air/bomber_adv/bomber_adv.json": ["airadv", 22],
-                "/pa/units/vanilla/air/bomber_heavy/bomber_heavy.json": ["airadv", 23],
+                "/pa/units/vanilla/air/gunship/gunship.json": ["airadv", 20],
+                "/pa/units/vanilla/air/bomber_adv/bomber_adv.json": ["airadv", 21],
+                "/pa/units/vanilla/air/bomber_heavy/bomber_heavy.json": ["airadv", 22],
  
                 "/pa/units/vanilla/air/fabrication_aircraft/fabrication_aircraft.json": ["air", 18],
                 "/pa/units/vanilla/air/fighter/fighter.json": ["air", 19],
