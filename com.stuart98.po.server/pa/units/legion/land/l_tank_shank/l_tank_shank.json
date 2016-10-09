@@ -118,6 +118,6 @@
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_CannonBuildable",
     "UNITTYPE_Custom1",
-	"UNITTYPE_Custom4"
+    "UNITTYPE_Custom4"
   ]
 }

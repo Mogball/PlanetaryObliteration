@@ -245,7 +245,7 @@
             "compare_type": "<",
             "count": 2,
             "range": 75,
-            "unit_type_string": "Structure & Basic & Custom4 & AirDefense"	
+            "unit_type_string": "Structure & Basic & Custom4 & AirDefense"
           }
         ]
       },
@@ -1901,6 +1901,6 @@
       },
       "priority": 379,
       "to_build": "AdvancedSniperLandDefense"
-    },
+    }
   ]
 }

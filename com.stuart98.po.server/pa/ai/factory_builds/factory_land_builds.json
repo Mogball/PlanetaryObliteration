@@ -248,7 +248,7 @@
       ],
       "builders": [
         "BasicVehicleFactory",
-		"BasicNavalFactory",
+        "BasicNavalFactory",
         "UnitCannon"
       ],
       "instance_count": -1,

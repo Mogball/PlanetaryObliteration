@@ -121,8 +121,8 @@
       ],
       "builders": [
         "BasicVehicleFactory",
-		"UnitCannon",
-		"BasicNavalFactory"
+        "UnitCannon",
+        "BasicNavalFactory"
       ],
       "instance_count": -1,
       "max_num_assisters": 10,

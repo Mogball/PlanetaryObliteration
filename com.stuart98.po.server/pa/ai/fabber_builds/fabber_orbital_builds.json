@@ -453,7 +453,7 @@
             "string0": "OrbitalExtractor",
             "test_type": "CanFindPlaceToBuild"
           }
-        ],
+        ]
       ],
       "builders": [
         "OrbitalFabber"
