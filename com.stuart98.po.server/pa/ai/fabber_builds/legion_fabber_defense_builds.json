@@ -153,7 +153,7 @@
         ]
       ],
       "builders": [
-        "AnyLegionFabberBasic",
+        "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
       "name": "Medium Air Defense",
@@ -250,7 +250,6 @@
       "priority": 379,
       "to_build": "LegionDefenseMediumAir"
     },
-
     {
       "base_sort": "FromPerimeter",
       "build_conditions": [
@@ -1879,8 +1878,7 @@
         ]
       ],
       "builders": [
-        "AnyLegionFabberAdvanced",
-        "LegionBotAdvancedSupportCommander"
+        "AnyLegionFabber"
       ],
       "instance_count": 1,
       "name": "Legion - Anti Nuke Silo",

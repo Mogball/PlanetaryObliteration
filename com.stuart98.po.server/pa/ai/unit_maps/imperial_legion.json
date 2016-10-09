@@ -1,11 +1,11 @@
 {
   "unit_map": {
+    "AnyLegionFabber": {
+      "unit_types": "((Fabber | Debug) & Custom1) - Orbital"
+    },
     "AnyLegionFabberAdvanced": {
       "unit_types": "(Fabber & (Advanced | Debug) & Custom1) - Orbital"
     },
-	"AnyLegionFabber": {
-	  "unit_types": "((Fabber | Debug) & Custom1) - Orbital"
-	},
     "AnyLegionFabberBasic": {
       "unit_types": "(Fabber & (Basic | Debug) & Custom1) - Orbital"
     },
