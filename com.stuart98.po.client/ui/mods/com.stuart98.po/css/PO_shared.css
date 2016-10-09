@@ -1,0 +1,27 @@
+.PO .content_titans_badge {
+    height: 0%
+}
+
+.PO .section_title {
+    text-shadow: 0px 0px 20px rgba(0,190,0,0.9) !important;
+}
+
+.PO .section_title .content .title {
+    text-shadow: 0px 0px 20px rgba(0,190,0,0.9) !important;
+}
+
+.PO .body {
+    color: white !important;
+}
+
+.PO label {
+    color: white;
+}
+
+.PO label:hover {
+    color: white;
+}
+
+.PO label:active {
+    color: white;
+}

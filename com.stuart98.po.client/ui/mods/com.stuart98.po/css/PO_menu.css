@@ -1,0 +1,46 @@
+.POui .div_game_menu {
+    border-image: url(coui://ui/mods/com.stuart98.po/img/menu/img_game_menu_bground_PO.png) 26 26 26 26 fill !important;
+}
+
+.POui .active .div_game_menu_item:hover {
+    background: rgba(0,255,0,0.7);
+    border: 1px solid rgba(0,158,0,0.5);
+    box-shadow: inset 0px 0px 8px rgba(0,255,0,0.7);
+}
+
+.POui .active .div_game_menu_item:active {
+    background: rgba(0,255,0,0.85);
+    border: 1px solid rgba(0,158,0,0.5);
+    box-shadow: 0px 0px 30px rgba(0,255,0,0.85);
+}
+        
+.POui .div_game_menu_cont {
+    border-bottom: 1px solid rgba(0,158,0,0.5);
+}
+
+/*mixed not needed
+.mixedui .div_game_menu {
+    border-image: url(coui://ui/mods/com.stuart98.po/img/menu/img_game_menu_bground_mixed.png) 26 26 26 26 fill !important;
+}
+
+.mixedui .active .div_game_menu_item:hover {
+    background: rgba(179,74,218,0.7);
+    border: 1px solid rgba(99,14,138,0.5);
+    box-shadow: inset 0px 0px 8px rgba(179,74,218,0.7);
+}
+
+.mixedui .active .div_game_menu_item:active {
+    background: rgba(179,74,218,0.85);
+    border: 1px solid rgba(99,14,138,0.5);
+    box-shadow: 0px 0px 30px rgba(179,74,218,0.85);
+}
+        
+.mixedui .div_game_menu_cont {
+    border-bottom: 1px solid rgba(99,14,138,0.5);
+}
+
+/*shared*/
+.div_game_menu_item {
+    color: white !important;
+    text-shadow: 0px 0px 20px rgba(255,255,255,0.4) !important;
+}

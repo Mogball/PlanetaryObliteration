@@ -1,0 +1,65 @@
+.POui .div_planet_list_cont {
+    border-image: url(coui://ui/mods/com.stuart98.po/img/img-menu-bground-right-POui.png) 17 17 47 47 fill !important;
+}
+.POui .div_planet_list_item_group {
+    border: 1px solid rgba(0,255,0,0.5) !important;
+    box-shadow: inset 0px 0px 10px rgba(18,255,18,0.5) !important;
+}
+    .POui .div_planet_list_item_group:hover {
+        border: 1px solid rgba(0,255,0,1) !important;
+        background: rgba(0,160,0,0.8) !important;
+    }
+
+    .POui .div_planet_list_item_group:active {
+        border: 1px solid rgba(0,255,0,1) !important;
+        background: rgba(0,255,0,1) !important;
+        box-shadow: inset 0px 0px 10px rgba(0,255,0,1) !important;
+    }
+
+.POui .div_planet_list_item_active {
+    background: rgba(0,160,0,1) !important;
+    border: 1px solid rgba(0,220,0,1) !important;
+    box-shadow: 0px 0px 30px rgba(0,255,0,1) !important;
+}
+
+.POui .list_control_btn:hover {
+        background: rgba(0,151,0,1);
+        border: 1px solid rgba(0,151,0,1);
+        box-shadow: inset 0px 0px 10px rgba(0,151,0,1);
+    }
+
+    .POui .list_control_btn:active {
+        background: rgba(0,144,0,1);
+        border: 1px solid rgba(0,144,0,1);
+        box-shadow: inset 0px 0px 10px rgba(0,144,0,1);
+    }
+
+.POui .div_planet_list_panel {
+    color: white !important;
+    text-shadow: 0px 0px 10px rgba(0,151,0,1) !important;
+}
+
+.POui .btn_planet_thumb {
+    border: 1px solid rgba(0,255,0,0.8) !important;
+    box-shadow: inset 0px 0px 10px rgba(0,255,0,0.8) !important;
+}
+
+    .POui .btn_planet_thumb:hover {
+        background:rgba(0,255,0,0.8) !important;
+    }
+
+.POui .btn_planet_thumb.btn_planet_thumb_active {
+    background:rgba(0,255,0,0.8) !important;
+}
+
+.POui .planet_title {
+    color:#FFF !important;
+}
+
+.POui .tooltip-inner {
+    box-shadow: 0px 0px 20px rgba(0,255,0,0.5) !important;
+}
+
+.POui .div_planet_list_item_cont {
+    box-shadow: none;
+}

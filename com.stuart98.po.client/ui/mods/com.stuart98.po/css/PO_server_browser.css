@@ -1,0 +1,76 @@
+.PO .lbl_titans.lbl_PO {
+    background: rgba(0,158,0,1);
+    border: 1px solid white;
+}
+
+.PO .section_title {
+    border-bottom: 20px solid rgba(0,50,0,0.1);
+    box-shadow: 0px 0px 15px rgba(0,255,0,0.2);
+}
+
+.PO .section_content_top_bar {
+    background: rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 25px rgba(0,255,0,0.25);
+}
+
+.PO .section_content_table {
+    box-shadow: inset 0px 0px 20px rgba(0,100,100,0, 0);
+}
+
+.PO .section_content {
+    background: rgba(0,10,0,0.8);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(140,255,140,.15);
+    border-top: 1px solid rgba(140,255,140,.15);
+}
+
+.PO .div_commit_cont {
+    background: rgba(0,0,0,0.45);
+    border-top: 14px solid rgba(0,0,0,.3);
+    box-shadow: 0px 10px 30px rgba(0,30,0,0.8);
+}
+
+.PO .div_data_table {
+    background: rgba(0,50,0,1);
+    border: 1px solid rgba(0,255,0,0.25);
+    box-shadow: inset 0px 0px 50px rgba(0,130,0,0.2);
+}
+
+.PO #game-list-header > div {
+    border-bottom: 1px solid rgba(0,255,0,0.45);
+    border-right: 1px solid rgba(0,255,0,0.45);
+    text-shadow: 0px 0px 20px rgba(0,200,0,0.8);
+    box-shadow: inset 0px 0px 20px rgba(0,255,0,0.2);
+}
+
+.PO .ui-selected {
+    background: rgba(0,255,0,0.8) !important;
+    border:1px solid rgba(0,158,0,0.1) !important;
+    box-shadow: 0px 0px 10px rgba(0,255,0,0.2) !important;
+}
+
+.PO .div_data_table .table_glow {
+    box-shadow: 0px 0px 20px rgba(0,255,0,0.6);
+}
+
+.PO #detail-pane h3 {
+    text-shadow: 0px 0px 15px rgba(0,255,0,0.7);
+}
+
+.PO #detail-pane .item .text {
+    text-shadow: 0px 0px 15px rgba(0,255,0,.5);
+}
+
+.PO #detail-pane .item .open {
+    text-shadow: 0px 0px 20px rgba(0,200,0,1);
+}
+    
+.PO #detail-pane .item {
+    border: 1px solid rgba(140,255,140,.1);
+    box-shadow: inset 0px 0px 4px rgba(140,200,140, 0.15);
+}
+
+.PO .form-group label,
+    .PO #detail-pane .col-header {
+        color: rgb(230,230,230);
+    }
