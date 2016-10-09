@@ -589,7 +589,7 @@
                                                                                                             <loc>Remove</loc>
                                                                                                         </div>
 																										<div class="army-button btn_add_ai" data-bind="visible: slot.ai(),click: function() { model.changeLegionAI(slot.playerId());}">To Legion</div>
-																										<div class="army-button btn_add_ai" data-bind="visible: slot.ai() && !model.isNotLegion(slot.commander()),click: function() { model.changeVanillaAI(slot.playerId());}">To MLA</div>
+																										<div class="army-button btn_add_ai" data-bind="visible: slot.ai(),click: function() { model.changeVanillaAI(slot.playerId());}">To MLA</div>
                                                                                                         
                                                                                                         <div class="form-control-landing" data-bind="visible: $root.systemHasMultiPlanetSpawns">
                                                                                                             <select data-bind="options: $root.aiLandingPolicyOptions, optionsText: $root.getAILandingPolicyDescription, selectPicker: slot.aiLandingPolicy"
