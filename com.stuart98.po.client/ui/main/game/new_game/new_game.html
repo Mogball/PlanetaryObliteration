@@ -412,12 +412,8 @@
                                                                                                         <span class="btn-item-remove" style="margin: -3px -18px 0px 0px" data-bind="click: army.removeSlot"></span>
                                                                                                         <!-- /ko -->
 
-                                                                                                        <div class="army-button btn_add_ai" data-bind="click: function () { model.targetAIArmyIndex(army.index()); model.targetAISlotIndex($index()); model.addMLAAI(); }, click_sound: 'default', rollover_sound: 'default'">
-                                                                                                            <loc>Add MLA AI</loc>
-                                                                                                        </div>
-
-                                                                                                        <div class="army-button btn_add_ai" data-bind="click: function () { model.targetAIArmyIndex(army.index()); model.targetAISlotIndex($index()); model.addLegionAI(); }, click_sound: 'default', rollover_sound: 'default'">
-                                                                                                            <loc>Add Legion AI</loc>
+                                                                                                        <div class="army-button btn_add_ai" data-bind="click: function () { model.targetAIArmyIndex(army.index()); model.targetAISlotIndex($index()); model.addAI(); }, click_sound: 'default', rollover_sound: 'default'">
+                                                                                                            <loc>Add AI</loc>
                                                                                                         </div>
                                                                                                     </div>
 
@@ -592,6 +588,8 @@
                                                                                                             data-bind="click: function () { model.kickUser(slot.playerId()); }, click_sound: 'default', rollover_sound: 'default'">
                                                                                                             <loc>Remove</loc>
                                                                                                         </div>
+																										<div class="army-button btn_add_ai" data-bind="visible: slot.ai(),click: function() { model.changeLegionAI(slot.playerId());}">To Legion</div>
+																										<div class="army-button btn_add_ai" data-bind="visible: slot.ai() && !model.isNotLegion(slot.commander()),click: function() { model.changeVanillaAI(slot.playerId());}">To MLA</div>
                                                                                                         
                                                                                                         <div class="form-control-landing" data-bind="visible: $root.systemHasMultiPlanetSpawns">
                                                                                                             <select data-bind="options: $root.aiLandingPolicyOptions, optionsText: $root.getAILandingPolicyDescription, selectPicker: slot.aiLandingPolicy"
