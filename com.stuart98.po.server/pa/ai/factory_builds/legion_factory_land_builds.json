@@ -1808,6 +1808,50 @@
             "test_type": "AloneOnPlanet"
           },
           {
+            "boolean": true,
+            "test_type": "CanDeployLandFromBase"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetCanReceiveLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
+        ]
+      ],
+      "builders": [
+        "LegionFactoryAdvancedVehicle"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 15,
+      "name": "Legion - Advanced Heavy Tank",
+      "priority": 199,
+      "to_build": "LegionVehicleAdvancedHeavy"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
