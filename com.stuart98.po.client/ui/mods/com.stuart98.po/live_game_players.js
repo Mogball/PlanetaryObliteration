@@ -164,10 +164,10 @@ if ( ! POLoaded )
                     result = "coui://ui/main/game/live_game/img/players_list_panel/icon_player_outline.png";
                 break;
                 case "legion":
-                    result = "coui://ui/mods/com.pa.legion-expansion/img/icon_player_outline_l.png";
+                    result = "coui://ui/mods/com.stuart98.po/img/icon_player_outline_l.png";
                 break;
                 case "mixed":
-                    result = "coui://ui/mods/com.pa.legion-expansion/img/icon_player_outline_m.png";
+                    result = "coui://ui/mods/com.stuart98.po/img/icon_player_outline_m.png";
                 break;
                 default:
                     result ="coui://ui/main/game/live_game/img/players_list_panel/icon_player_outline.png"
