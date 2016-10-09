@@ -14,7 +14,8 @@
     }
   },
   "base_spec": "/pa/units/commanders/raptor_base_uber/raptor_base.json",
-  "catalog_object_name": "BeastRaptor",
+  "catalog_object_name": "RaptorBest",
+  "custom": true,
   "client": {
     "ui": {
       "image": "/ui/main/shared/img/commanders/img_raptor_beast.png",

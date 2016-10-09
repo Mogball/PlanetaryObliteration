@@ -3,7 +3,7 @@ var Q = require('thirdparty/q');
 var file_utils = require('file_utils');
 
 function commanderSpec(name) { return '/pa/units/commanders/' + name + '/' + name + '.json'; }
-var default_commanders = _.map(['raptor_centurion', 'raptor_rallus', 'tank_aeson', 'quad_osiris', 'raptor_nemicus', 'imperial_invictus', 'raptor_beast', 'l_cyclops', 'l_overwatch', 'l_rockteeth', 'l_wasushi'], commanderSpec)
+var default_commanders = _.map(['raptor_centurion', 'raptor_rallus', 'tank_aeson', 'quad_osiris', 'raptor_nemicus', 'imperial_invictus', 'raptor_best', 'l_cyclops', 'l_overwatch', 'l_rockteeth', 'l_wasushi'], commanderSpec)
 
 var commanders = [];
 var specObjectNameMap = {};
