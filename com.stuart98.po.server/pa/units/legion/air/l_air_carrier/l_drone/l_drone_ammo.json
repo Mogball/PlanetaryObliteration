@@ -19,6 +19,6 @@
     "filename": ""
   },
   "splash_damage": 20,
-  "splash_radius": 0.75
+  "splash_radius": 0.75,
   "turn_rate": 360
 }
