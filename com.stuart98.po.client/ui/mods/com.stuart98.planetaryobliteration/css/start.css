@@ -1,0 +1,98 @@
+.planetaryobliteration .nav_sub_item {
+  border: 0px !important;
+}
+
+.planetaryobliteration .secondary_bar {
+  background: rgba(0,0,0,.15) !important;
+}
+
+.planetaryobliteration #start_column{
+  background: rgba(0,0,0,.15) !important;
+}
+
+.planetaryobliteration .full_update{
+  background: linear-gradient(to top, rgba(0, 50, 0, 0.8) 0%, rgba(0, 60, 0, 1) 85%) !important;
+  border: 1px solid rgba(0,255, 0, 0.2) !important;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.7) !important;
+  color: white;
+}
+
+.planetaryobliteration .ytv-list a{
+  color: white;
+}
+
+.planetaryobliteration .ytv-views {
+    color: rgb(180,180,180);
+    opacity: 1;
+}
+
+.planetaryobliteration .username{
+  text-shadow: 0px 0px 20px rgba(0,70,0,0.9) !important;
+}
+
+.planetaryobliteration .update_title{
+  color: white !important;
+}
+
+.planetaryobliteration .copyright{
+  color: white;
+}
+
+.planetaryobliteration .div_kickstarter_watermark{
+  background: url(coui://ui/main/game/start/img/img_kickstarter_logo_hover.png) top center no-repeat !important;
+  background-size: 32px 32px;
+}
+
+.planetaryobliteration .div_uber_watermark{
+  background: url(coui://ui/main/game/start/img/img_uber_logo_hover.png) top center no-repeat !important;
+  background-size: 44px 44px;
+}
+
+.planetaryobliteration .div_kickstarter_watermark:hover{
+  background: url(coui://ui/main/game/start/img/img_kickstarter_logo_rest.png) top center no-repeat !important;
+  background-size: 32px 32px;
+}
+
+.planetaryobliteration .div_uber_watermark:hover{
+  background: url(coui://ui/main/game/start/img/img_uber_logo_rest.png) top center no-repeat !important;
+  background-size: 32px 44px;
+}
+
+.planetaryobliteration .input_text{
+    background:rgba(0, 70, 0, 1) !important;
+    border:1px solid rgba(0, 158, 0, 0.1) !important;
+}
+
+.planetaryobliterationplayerOpen {
+  position: fixed; 
+  left: 10%; 
+  top: 10%; 
+  width: 80%; /*really css*/
+  height: 80%; 
+  z-index: 11111; 
+  /*background-color: black;*/
+  border:none;
+}
+
+.planetaryobliterationplayerClosed {
+  position: fixed; 
+  left: 0; 
+  top: 0; 
+  width: 1%; 
+  height: 1%; 
+  z-index: -11111;
+  border:none;
+}
+
+#planetaryobliterationplayer {
+  outline: 1.5px solid rgba(0, 110, 0, 1);
+  outline-offset: -1px;
+  box-shadow: 0px 0px 25px rgba(0,240,0,0.3);
+}
+
+.planetaryobliteration .tooltip-inner {
+    max-width: 190px !important;
+    padding: 6px 8px;
+    background-color: rgba(0,70,0,1) !important;
+    box-shadow: 0px 0px 25px rgba(0,255,0,0.7) !important;
+}

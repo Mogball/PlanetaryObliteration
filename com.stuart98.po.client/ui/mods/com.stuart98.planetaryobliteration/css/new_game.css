@@ -1,0 +1,183 @@
+/*planetaryobliteration theme skin*/
+.planetaryobliteration .section_content {
+    background: rgba(0,15,0,0.3) !important;
+    color: (white);
+}
+
+.planetaryobliteration .section_content_table {
+    border-image: url('coui://ui/mods/com.stuart98.planetaryobliteration/img/img_panel_std.png') 29 53 53 29 fill;
+}
+
+.planetaryobliteration .game_roster {
+    border-image: url('coui://ui/mods/com.stuart98.planetaryobliteration/img/img_panel_secondary.png') 33 46 46 33 fill;
+}
+
+.planetaryobliteration .section_content .section_header {
+    text-shadow: 0px 0px 15px rgba(0,255,0,.5); 
+}
+
+.planetaryobliteration .chat_container {
+    border: 1px solid rgba(0,130,0,0.4);
+}
+
+.planetaryobliteration .section .section_header, .spectator_section_header {
+    border-top: 1px solid rgba(0,130,0,0.35);
+    text-shadow: 0px 0px 10px rgba(0,255,0,0.5) !important;
+}
+
+.planetaryobliteration .div-system-picker {
+    background: rgba(0,60,0,1);
+    box-shadow: 0px 0px 10px rgba(0,255,0,0.2);
+    border:1px solid rgba(0, 158, 0, 1);
+}
+
+.planetaryobliteration .nav-pills > li > a {
+    border:1px solid rgba(0, 158, 0, 1) !important;
+    box-shadow: 0px 0px 10px rgba(0,255,0,0.3) !important;
+}
+
+.planetaryobliteration .nav-pills > li > a:hover {
+    background: rgba(0,255, 0, 0.85) !important;
+    border:1px solid rgba(0, 158, 0, 1) !important;
+    box-shadow: 0px 0px 20px rgba(0,255,0,0.8) !important;
+}
+
+.planetaryobliteration .nav-pills > li.active > a, .planetaryobliteration .nav-pills > li.active > a:focus {
+    background: rgba(0,255,0,0.7) !important;
+    border:1px solid rgba(0, 158, 0, 1) !important;
+    box-shadow: 0px 0px 20px rgba(0,255,0,0.5) !important;
+}
+
+.planetaryobliteration .container_embed.spectator {
+    border: 1px solid rgba(0,158,0,0.5);
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.8);
+    background: rgba(0,35,0,0.8);
+    color: white !important;
+}
+
+.planetaryobliteration .spectator-item-contents {
+    border: 1px solid rgba(0,158,0,0.5);
+    background: rgba(0,70,0,1);
+    box-shadow: inset 0px 0px 8px rgba(0,255,0, 0.4);
+}
+
+.planetaryobliteration .spectator-name {
+    background: url('coui://ui/mods/com.stuart98.planetaryobliteration/img/players_list_panel/red/icon_visibility.png') left center no-repeat;
+}
+
+.planetaryobliteration .spectator-name.host {
+    color: rgb(0,255,0);
+    text-shadow: 0px 0px 20px rgba(0,255,0,0.8);
+}
+
+.planetaryobliteration .mods-class {
+    border: 1px solid rgba(0,158,0,0.5);
+    box-shadow: inset 0px 0px 15px rgba(0,15,0,0.8);
+    background: rgba(0,70,0,1);
+}
+
+.planetaryobliteration .army-header {
+    text-shadow: 0px 0px 10px rgba(0,255,0,0.5);
+}
+
+.planetaryobliteration .div-commander-picker-item.planetaryobliterationcommander .profile-commander-name {
+    border-top: 1px solid rgba(0,255,0,0.3) !important;
+}
+
+.planetaryobliteration .div-commander-picker-cont > .dropdown-menu-cont {
+    width: 622px !important;
+}
+
+.planetaryobliteration .div-color-picker {
+    background: rgba(0,20,0,1);
+    box-shadow: inset 0px 0px 10px rgba(0,90,0,0.5);
+    border: 1px solid rgba(0,120,0,0.6);
+}
+
+.planetaryobliteration .div-commander-picker {
+    background: rgba(0,20,0,1);
+    box-shadow: inset 0px 0px 10px rgba(0,90,0,0.5);
+    border: 1px solid rgba(0,120,0,0.6);
+    padding: 1px;
+}
+
+.planetaryobliteration .div-commander-picker-item {
+    background: rgba(0,50,70,0.5) !important;
+    border: 1px solid rgba(0,179,255,1) !important;
+}
+
+.planetaryobliteration .div-commander-picker-item.btn_std_ix:hover {
+    background: rgba(0,179,255,0.75) !important;
+    border: 1px solid rgba(0,179,255,0.1) !important;
+    box-shadow: 0px 0px 15px rgba(0,179,255,0.8) !important;
+}
+
+.planetaryobliteration .div-commander-picker-item.btn_std_ix:active {
+    background: rgba(0,179,255,1) !important;
+    border:1px solid rgba(0,179, 255, 1) !important;
+    box-shadow: 0px 0px 30px rgba(0,179,255,1) !important;
+}
+
+.planetaryobliteration .div-commander-picker-item.btn_std_ix {
+    color: rgb(200,255,255) !important;
+}
+
+.planetaryobliteration .btn_hero {
+    margin: 0px 0px 0px 0px !important;
+}
+
+.planetaryobliteration .slot-controls .btn {    
+    background: none !important;
+    box-shadow: inset 0px 0px 8px rgba(255,255,255,0.5) !important;
+    border: 1px solid black !important;
+    color: white !important;    
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.planetaryobliteration .slot-controls .dropdown-menu .text {
+    text-shadow: 0px 0px 15px rgba(255,255,255,.2) !important;
+}
+
+.planetaryobliteration .slot-controls .dropdown-menu {    
+    background: rgba(70,70,70,1) !important;
+    border: 1px solid #262626 !important;
+}
+
+.planetaryobliteration .slot-controls .dropdown-menu > li > a {
+    border-top: 1px solid rgba(0,0,0,1) !important;
+    box-shadow: 0px 0px 10px rgba(255,255,255,.3) !important;
+}
+
+.planetaryobliteration .slot-controls .dropdown-menu > li > a:hover {
+    background: rgba(100,100,100,1) !important;
+    border: 1px solid rgba(50,50,50,0.5) !important;
+    box-shadow: inset 0px 0px 8px rgba(255,255,255,.3) !important;
+}
+
+.planetaryobliteration .slot-controls .dropdown-menu > li > a:focus {
+    background: rgba(120,120,120,1) !important;
+    border: 1px solid rgba(50,50,50,0.5) !important;
+    outline: none !important;
+    box-shadow: inset 0px 0px 8px rgba(255,255,255,.3) !important;
+}
+
+.planetaryobliteration .form-control-personality .btn-group .btn{
+    border: 1px solid #262626 !important;
+    box-shadow: inset 0px 0px 8px rgba(255,255,255,.3) !important;
+    background: none !important;
+}
+
+.planetaryobliteration .form-control-personality .dropdown-menu .text {
+    text-shadow: 0px 0px 15px rgba(255,255,255,.2) !important;
+}
+
+.planetaryobliteration .armies-wrapper {
+    color: white;
+}
+
+.planetaryobliteration:not(.lobby-system-preview) .armies-wrapper {
+    background: rgba(100,0,0,0.5);
+    border: 1px solid rgba(0,158,0,0.25);
+    box-shadow: inset 0px 0px 30px rgba(0, 30, 0, 0.5);
+}

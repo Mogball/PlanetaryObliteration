@@ -4,7 +4,8 @@
   "category": [
     "units",
     "balance",
-    "titans"
+    "titans",
+    "faction"
   ],
   "companions": [
     "com.stuart98.po.client.dev"
@@ -19,6 +20,12 @@
   "enabled": true,
   "identifier": "com.stuart98.po.server.dev",
   "priority": 95,
+  "scenes": {
+    "new_game": [
+      "coui://ui/mods/com.stuart98.planetaryobliteration/new_game.js"
+    ]
+  },
   "signature": "(not yet implemented)",
+  "titansOnly": true,
   "version": "0.DEV.releaseTen"
 }

@@ -1,0 +1,132 @@
+.planetaryobliterationui .div_planet_list_cont {
+    border-image: url(coui://ui/mods/com.stuart98.planetaryobliteration/img/img-menu-bground-right-planetaryobliterationui.png) 17 17 47 47 fill !important;
+}
+.planetaryobliterationui .div_planet_list_item_group {
+    border: 1px solid rgba(0, 255, 0, 0.5) !important;
+    box-shadow: inset 0px 0px 10px rgba(18, 255, 18, 0.5) !important;
+}
+    .planetaryobliterationui .div_planet_list_item_group:hover {
+        border: 1px solid rgba(0,255,0,1) !important;
+        background: rgba(0,160,0,0.8) !important;
+    }
+
+    .planetaryobliterationui .div_planet_list_item_group:active {
+        border: 1px solid rgba(0,255,0,1) !important;
+        background: rgba(0,255,0,1) !important;
+        box-shadow: inset 0px 0px 10px rgba(0,255,0,1) !important;
+    }
+
+.planetaryobliterationui .div_planet_list_item_active {
+    background: rgba(0,160,0,1) !important;
+    border: 1px solid rgba(0,220,0,1) !important;
+    box-shadow: 0px 0px 30px rgba(0,255,0,1) !important;
+}
+
+.planetaryobliterationui .list_control_btn:hover {
+        background: #009700;
+        border: 1px solid #009700;
+        box-shadow: inset 0px 0px 10px #009700;
+    }
+
+    .planetaryobliterationui .list_control_btn:active {
+        background: #009000;
+        border: 1px solid #009000;
+        box-shadow: inset 0px 0px 10px #009000;
+    }
+
+.planetaryobliterationui .div_planet_list_panel {
+    color: white !important;
+    text-shadow: 0px 0px 10px #009700 !important;
+}
+
+.planetaryobliterationui .btn_planet_thumb {
+    border: 1px solid rgba(0,255,0,0.8) !important;
+    box-shadow: inset 0px 0px 10px rgba(0,255,0,0.8) !important;
+}
+
+    .planetaryobliterationui .btn_planet_thumb:hover {
+        background:rgba(0,255,0,0.8) !important;
+    }
+
+.planetaryobliterationui .btn_planet_thumb.btn_planet_thumb_active {
+    background:rgba(0,255,0,0.8) !important;
+}
+
+.planetaryobliterationui .planet_title {
+    color:#FFF !important;
+}
+
+.planetaryobliterationui .tooltip-inner {
+    box-shadow: 0px 0px 20px rgba(0,255,0,0.5) !important;
+}
+
+.planetaryobliterationui .div_planet_list_item_cont {
+    box-shadow: none;
+}
+/* MIXED */
+.mixedui .div_planet_list_cont {
+    border-image: url(coui://ui/mods/com.stuart98.planetaryobliteration/img/img-menu-bground-right-mixed.png) 17 17 47 47 fill !important;
+}
+
+.mixedui .div_planet_list_item_group {
+    border: 1px solid rgba(34, 119, 158, 0.4) !important;
+    box-shadow: inset 0px 0px 10px rgba(34, 119, 158, 0.4) !important;
+}
+    .mixedui .div_planet_list_item_group:hover {
+        border: 1px solid #009700 !important;
+        background: rgba(14, 99, 138, 0.8) !important;
+    }
+
+    .mixedui .div_planet_list_item_group:active {
+        border: 1px solid #009700 !important;
+        background: #009700 !important;
+        box-shadow: inset 0px 0px 10px #009700 !important;
+    }
+
+.mixedui .div_planet_list_item_active {
+    background: rgba(14, 99, 138, 1) !important;
+    border: 1px solid #009700 !important;
+    box-shadow: 0px 0px 30px #009700 !important;
+}
+
+.mixedui .list_control_btn:hover {
+        background: #009000;
+        border: 1px solid #660066;
+        box-shadow: inset 0px 0px 10px #660066;
+    }
+
+    .mixedui .list_control_btn:active {
+        background: #009000;
+        border: 1px solid #009000;
+        box-shadow: inset 0px 0px 10px #009000;
+    }
+
+.mixedui .div_planet_list_panel {
+    color:#009000 !important;
+    text-shadow: 0px 0px 10px #009000 !important;
+}
+
+.mixedui .btn_planet_thumb {
+    border: 1px solid #009000 !important;
+    box-shadow: inset 0px 0px 10px rgba(14, 99, 138, 0.5) !important;
+}
+
+    .mixedui .btn_planet_thumb:hover {
+        background:#009000 !important;
+    }
+
+.mixedui .btn_planet_thumb.btn_planet_thumb_active {
+    background:#009000 !important;
+}
+
+.mixedui .planet_title {
+    color:#FFF !important;
+}
+
+.mixedui .tooltip-inner {
+    box-shadow: 0px 0px 20px rgba(14,99,138,0.5) !important;
+}
+
+.mixedui .div_planet_list_item_cont {
+    box-shadow: none;
+}
