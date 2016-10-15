@@ -46,11 +46,11 @@ function ai_types() {
     var result = {
         'Planetary Obliteration': {
             display_name: 'Planetary Obliteration',
-            percent_vehicle: 0.45,
-            percent_bot: 0.25,
+            percent_vehicle: 0.2,
+            percent_bot: 0.2,
             percent_air: 0.2,
-            percent_naval: 0.05,
-            percent_orbital: 0.05,
+            percent_naval: 0.2,
+            percent_orbital: 0.2,
             personality_tags:
             [
                 "PreventsWaste",
@@ -68,14 +68,14 @@ function ai_types() {
             adv_eco_mod: 1.3,
             adv_eco_mod_alone: 0.85,
             fabber_to_factory_ratio_basic: 1.0,
-            fabber_to_factory_ratio_advanced: 1.0,
+            fabber_to_factory_ratio_advanced: 0.2,
             fabber_alone_on_planet_mod: 2.0,
-            basic_to_advanced_factory_ratio: 0,
+            basic_to_advanced_factory_ratio: 8,
             factory_alone_on_planet_mod: 0.5,
             min_basic_fabbers: 2,
-            max_basic_fabbers: 6,
+            max_basic_fabbers: 100,
             min_advanced_fabbers: 3,
-            max_advanced_fabbers: 20
+            max_advanced_fabbers: 100
         },
         'Idle': {
             display_name: '!LOC:Idle',

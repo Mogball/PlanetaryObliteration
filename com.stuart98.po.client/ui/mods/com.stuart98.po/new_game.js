@@ -24,7 +24,7 @@ if (!POLoaded) {
 
             var aiPersonalities = newBuild ? model.aiPersonalities() : model.aiPersonalities;
 
-            var defaultAiPersonalities = ['Idle', 'Normal', 'Hard', 'Relentless', 'Absurd'];
+            var defaultAiPersonalities = ['Planetary Obliteration', 'Idle'];
 
             _.forEach( aiPersonalities, function(personality, name) {
                 if(defaultAiPersonalities.indexOf(name) != -1) {
@@ -148,9 +148,9 @@ if (!POLoaded) {
 
             //NEED PATCHED lobby.js
             //To Legion Button
-            $('.army-button.slot-remove-button.slot-remove-button-team').parent().append('<div class="army-button btn_add_ai" data-bind="visible: slot.ai() && model.isNotLegion(slot.commander()),click: function() { model.changeLegionAI(slot.playerId());}">To Legion</div>');
+            $('.army-button.slot-remove-button.slot-remove-button-team').parent().append('<div class="army-button btn_add_ai" data-bind="visible: slot.ai(),click: function() { model.changeLegionAI(slot.playerId());}">To Legion</div>');
             //To Vanilla Button
-            $('.army-button.slot-remove-button.slot-remove-button-team').parent().append('<div class="army-button btn_add_ai" data-bind="visible: slot.ai() && !model.isNotLegion(slot.commander()),click: function() { model.changeVanillaAI(slot.playerId());}">To MLA</div>');
+            $('.army-button.slot-remove-button.slot-remove-button-team').parent().append('<div class="army-button btn_add_ai" data-bind="visible: slot.ai(),click: function() { model.changeVanillaAI(slot.playerId());}">To MLA</div>');
             //ENDOF NEED PATCHED lobby.js
         }
  
