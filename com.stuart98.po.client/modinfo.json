@@ -6,7 +6,7 @@
     "Balance"
   ],
   "context": "client",
-  "date": "2016/10/15",
+  "date": "2016/11/05",
   "dependencies": [
     "com.stuart98.po.server.dev"
   ],
@@ -76,5 +76,5 @@
     ]
   },
   "signature": "(not yet implemented)",
-  "version": "0.Alpha.Three"
+  "version": "0.Alpha.Four"
 }
