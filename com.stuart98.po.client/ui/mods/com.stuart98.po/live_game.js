@@ -15,7 +15,7 @@ if ( ! POLoaded )
 
         if (model.ammoBuildHover)
         {
-            model.ammoBuildHover["/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json"] = {
+            model.ammoBuildHover["/pa/units/legion/land/l_anti_nuke_launcher/l_anti_nuke_launcher_ammo.json"] = {
                 name: 'Iron Dome Interceptor',
                 description: 'Anti-nuke - Intercepts incoming nuclear missiles.',
                 cost: 9000,
@@ -29,7 +29,7 @@ if ( ! POLoaded )
                 sicon_override: 'nuke_launcher_ammo',
                 damage: 100000
             };
-            model.ammoBuildHover["/pa/units/legion/land/l_anti_nuke_launcher/l_anti_nuke_launcher_ammo.json"] = {
+            model.ammoBuildHover["/pa/units/vanilla/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json"] = {
                 name: 'SR-24 -Shield- Missile Defense',
                 description: 'Anti-nuke - Intercepts incoming nuclear missiles.',
                 cost: 9000,
