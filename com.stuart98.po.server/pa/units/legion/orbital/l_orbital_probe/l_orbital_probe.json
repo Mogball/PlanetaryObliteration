@@ -143,7 +143,7 @@
     "diameter": 28.0
   },
   "si_name": "orbital_probe",
-  "system_velocity_multiplier": 40.0
+  "system_velocity_multiplier": 40.0,
   "unit_types": [
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
