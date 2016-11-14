@@ -29,7 +29,6 @@ if ( ! POLoaded )
                 sicon_override: 'nuke_launcher_ammo',
                 damage: 100000
             };
-{
             model.ammoBuildHover["/pa/units/legion/land/l_anti_nuke_launcher/l_anti_nuke_launcher_ammo.json"] = {
                 name: 'SR-24 -Shield- Missile Defense',
                 description: 'Anti-nuke - Intercepts incoming nuclear missiles.',
@@ -43,7 +42,8 @@ if ( ! POLoaded )
                 cost: 20000,
                 sicon_override: 'nuke_launcher_ammo',
                 damage: 100000
-            };        }
+            };
+        }
     }
 
     try
