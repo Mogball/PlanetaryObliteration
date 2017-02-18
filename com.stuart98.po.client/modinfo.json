@@ -15,7 +15,7 @@
   "display_name": "Planetary Obliteration: Client Component",
   "enabled": true,
   "hidden": true,
-  "identifier": "com.stuart98.po.client.dev",
+  "identifier": "com.stuart98.po.client1.dev",
   "priority": 95,
   "scenes": {
     "live_game": [
@@ -77,5 +77,5 @@
     ]
   },
   "signature": "(not yet implemented)",
-  "version": "0.Alpha.Eight.2"
+  "version": "0.Alpha.Eight.3"
 }
