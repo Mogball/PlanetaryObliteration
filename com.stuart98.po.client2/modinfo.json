@@ -1,0 +1,22 @@
+{
+  "author": "Stuart98",
+  "build": "94684",
+  "category": [
+    "Units",
+    "Balance"
+  ],
+  "context": "client",
+  "date": "2017/02/18",
+  "dependencies": [
+    "com.stuart98.po.server.dev",
+	"com.stuart98.po.client.dev"
+  ],
+  "description": "Legion + New Units + New Balance = New & Better Experience",
+  "display_name": "Planetary Obliteration: Client Component",
+  "enabled": true,
+  "hidden": true,
+  "identifier": "com.stuart98.po.client2.dev",
+  "priority": 95,
+  "signature": "(not yet implemented)",
+  "version": "0.Alpha.Eight.2"
+}
