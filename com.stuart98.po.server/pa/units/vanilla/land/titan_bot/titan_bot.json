@@ -98,7 +98,7 @@
   "guard_layer": "WL_AnySurface",
   "guard_radius": 100,
   "has_death_effects": true,
-  "max_health": 40000,
+  "max_health": 10000,
   "mesh_bounds": [
     35,
     35,
