@@ -14,6 +14,7 @@
   "description": "Legion + New Units + New Balance = New & Better Experience",
   "display_name": "Planetary Obliteration: Client Component",
   "enabled": true,
+  "forum": "https://forums.uberent.com/threads/wip-server-planetary-obliteration.71781/",
   "hidden": true,
   "identifier": "com.stuart98.po.client1.dev",
   "priority": 95,
@@ -77,5 +78,5 @@
     ]
   },
   "signature": "(not yet implemented)",
-  "version": "0.Alpha.Nine"
+  "version": "0.Alpha.Nine1"
 }
