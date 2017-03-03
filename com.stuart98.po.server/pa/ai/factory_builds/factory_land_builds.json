@@ -1902,7 +1902,7 @@
       ]
     },
     {
-      "name": "Vanguard",
+      "name": "Inferno",
       "to_build": "AdvancedArmorTank",
       "instance_count": -1,
       "max_num_assisters": 15,
