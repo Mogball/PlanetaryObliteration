@@ -1,7 +1,7 @@
 {
   "build_list": [
     {
-      "name": "Basic Air Defense - Mex",
+      "name": "Slinger - Mex",
       "to_build": "BasicAirDefense",
       "instance_count": 1,
       "shared_instance_count": "BasicAirDefense",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "name": "Basic Land Defense Single - Mex",
+      "name": "Needler - Mex",
       "to_build": "BasicLandDefenseSingle",
       "instance_count": 1,
       "shared_instance_count": "BasicLandDefense",
@@ -213,7 +213,7 @@
       }
     },
     {
-      "name": "Basic Air Defense",
+      "name": "Slinger",
       "to_build": "BasicAirDefense",
       "instance_count": 1,
       "shared_instance_count": "BasicAirDefense",
@@ -298,7 +298,7 @@
       }
     },
     {
-      "name": "Basic Air Defense - Threat",
+      "name": "Slinger - Threat",
       "to_build": "BasicAirDefense",
       "instance_count": 1,
       "shared_instance_count": "BasicAirDefense",
@@ -370,7 +370,7 @@
       }
     },
     {
-      "name": "Basic Land Defense Single",
+      "name": "Needler",
       "to_build": "BasicLandDefenseSingle",
       "instance_count": 1,
       "shared_instance_count": "BasicLandDefense",
@@ -475,7 +475,7 @@
       }
     },
     {
-      "name": "Basic Land Defense Single - Threat",
+      "name": "Needler - Threat",
       "to_build": "BasicLandDefenseSingle",
       "instance_count": 1,
       "shared_instance_count": "BasicLandDefense",
@@ -551,7 +551,7 @@
       }
     },
     {
-      "name": "Basic Land Defense",
+      "name": "Rapier",
       "to_build": "BasicLandDefense",
       "instance_count": 1,
       "priority": 85,
@@ -645,7 +645,7 @@
       }
     },
     {
-      "name": "Basic Land Defense - Threat",
+      "name": "Rapier - Threat",
       "to_build": "BasicLandDefense",
       "instance_count": 1,
       "priority": 262,
@@ -715,7 +715,7 @@
       }
     },
     {
-      "name": "Basic Artillery",
+      "name": "Pelter",
       "to_build": "BasicArtillery",
       "instance_count": 1,
       "min_num_assisters": 2,
@@ -793,7 +793,7 @@
       }
     },
     {
-      "name": "Advanced Air Defense",
+      "name": "Tornado",
       "to_build": "AdvancedAirDefense",
       "instance_count": 1,
       "priority": 255,
@@ -893,7 +893,7 @@
       }
     },
     {
-      "name": "Advanced Air Defense - Threat",
+      "name": "Tornado - Threat",
       "to_build": "AdvancedAirDefense",
       "instance_count": 1,
       "priority": 379,
@@ -969,7 +969,7 @@
       }
     },
     {
-      "name": "Advanced Land Defense",
+      "name": "Queller",
       "to_build": "AdvancedLandDefense",
       "instance_count": 1,
       "priority": 255,
@@ -1064,7 +1064,7 @@
       }
     },
     {
-      "name": "Advanced Land Defense - Threat",
+      "name": "Queller - Threat",
       "to_build": "AdvancedLandDefense",
       "instance_count": 1,
       "priority": 379,
@@ -1429,7 +1429,7 @@
       }
     },
     {
-      "name": "Anti Nuke Silo",
+      "name": "Preserver",
       "to_build": "AntiNukeSilo",
       "instance_count": 1,
       "shared_instance_count": "AntiNukeSilo",
@@ -1518,7 +1518,7 @@
       }
     },
     {
-      "name": "Anti Nuke Silo - Rush",
+      "name": "Preserver - Rush",
       "to_build": "AntiNukeSilo",
       "instance_count": 1,
       "shared_instance_count": "AntiNukeSilo",
