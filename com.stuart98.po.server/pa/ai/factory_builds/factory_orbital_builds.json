@@ -124,7 +124,7 @@
       ]
     },
     {
-      "name": "Probe - Other planet",
+      "name": "Hermes - Other planet",
       "to_build": "OrbitalProbe",
       "instance_count": 1,
       "shared_instance_count": "ReconAssistance",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "name": "Basic Radar Sattelite",
+      "name": "ARKYD",
       "to_build": "BasicRadarSattelite",
       "instance_count": 1,
       "priority": 100,
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "name": "Basic Radar Sattelite - Pri",
+      "name": "ARKYD - Pri",
       "to_build": "BasicRadarSattelite",
       "instance_count": 1,
       "priority": 102,
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "name": "Basic Radar Sattelite - Other planet",
+      "name": "ARKYD - Other planet",
       "to_build": "BasicRadarSattelite",
       "instance_count": 1,
       "shared_instance_count": "ReconAssistance",
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "name": "Orbital Fighter",
+      "name": "Avenger",
       "to_build": "OrbitalFighter",
       "instance_count": 1,
       "max_num_assisters": 5,
@@ -313,7 +313,7 @@
       ]
     },
     {
-      "name": "Orbital Fighter - Threat",
+      "name": "Avenger - Threat",
       "to_build": "OrbitalFighter",
       "instance_count": 1,
       "min_num_assisters": 2,
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "name": "Orbital Railgun",
+      "name": "Artemis",
       "to_build": "OrbitalRailgun",
       "instance_count": 1,
       "max_num_assisters": 5,
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "name": "Orbital Railgun - Threat",
+      "name": "Artemis - Threat",
       "to_build": "OrbitalRailgun",
       "instance_count": 1,
       "min_num_assisters": 2,
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "name": "Orbital Lander",
+      "name": "Astraeus",
       "to_build": "OrbitalLander",
       "instance_count": 1,
       "max_num_assisters": 5,
@@ -566,7 +566,7 @@
       ]
     },
     {
-      "name": "Orbital Death Laser",
+      "name": "SXX-1304 Laser Platform",
       "to_build": "OrbitalDeathLaser",
       "instance_count": 1,
       "priority": 195,
@@ -605,7 +605,7 @@
       ]
     },
     {
-      "name": "Orbital Battleship",
+      "name": "Omega",
       "to_build": "OrbitalBattleShip",
       "instance_count": 1,
       "max_num_assisters": 5,
@@ -640,7 +640,7 @@
       ]
     },
     {
-      "name": "Advanced Radar Sattelite",
+      "name": "Advanced Radar Satellite",
       "to_build": "AdvancedRadarSattelite",
       "instance_count": 1,
       "shared_instance_count": "ReconAssistance",
