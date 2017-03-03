@@ -97,7 +97,7 @@
       ]
     },
     {
-      "name": "Basic Assault Bot",
+      "name": "Dox",
       "to_build": "BasicAssaultBot",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "name": "Basic Artillery Bot",
+      "name": "Smasher",
       "to_build": "BasicArtilleryBot",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -341,7 +341,7 @@
       ]
     },
     {
-      "name": "Tesla Bot",
+      "name": "Spark",
       "to_build": "TeslaBot",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -540,7 +540,7 @@
       ]
     },
     {
-      "name": "Boom Bot",
+      "name": "Boom",
       "to_build": "BoomBot",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -609,7 +609,7 @@
       ]
     },
     {
-      "name": "Basic Combat Fabber Bot",
+      "name": "Stitch",
       "to_build": "BasicBotCombatFabber",
       "instance_count": 1,
       "priority": 97,
@@ -686,7 +686,7 @@
       ]
     },
     {
-      "name": "Land Scout - Intel",
+      "name": "Skitter - Intel",
       "to_build": "LandScout",
       "instance_count": 1,
       "shared_instance_count": "LandScout",
@@ -760,7 +760,7 @@
       ]
     },
     {
-      "name": "Land Scout",
+      "name": "Skitter",
       "to_build": "LandScout",
       "instance_count": 1,
       "shared_instance_count": "LandScout",
@@ -828,7 +828,7 @@
       ]
     },
     {
-      "name": "Light Laser Tank",
+      "name": "Ant",
       "to_build": "LightLaserTank",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -883,7 +883,7 @@
       ]
     },
     {
-      "name": "Basic Armor Tank",
+      "name": "Ant",
       "to_build": "BasicArmorTank",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -956,7 +956,7 @@
       ]
     },
     {
-      "name": "Basic AA Vehicle",
+      "name": "Spinner",
       "to_build": "BasicAAVehicle",
       "instance_count": 1,
       "priority": 97,
@@ -1076,7 +1076,7 @@
       ]
     },
     {
-      "name": "Hover Tank",
+      "name": "Drifter",
       "to_build": "HoverTank",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -1245,7 +1245,7 @@
       ]
     },
     {
-      "name": "Support Commander",
+      "name": "Colonel",
       "to_build": "UberSupportCommander",
       "instance_count": 1,
       "max_num_assisters": 15,
@@ -1281,7 +1281,7 @@
       ]
     },
     {
-      "name": "Advanced Assault Bot",
+      "name": "Slammer",
       "to_build": "AdvancedAssaultBot",
       "instance_count": -1,
       "max_num_assisters": 15,
@@ -1332,7 +1332,7 @@
       ]
     },
     {
-      "name": "Advanced Combat Fabber Bot",
+      "name": "Mend",
       "to_build": "AdvancedBotCombatFabber",
       "instance_count": 1,
       "priority": 199,
@@ -1399,75 +1399,7 @@
       ]
     },
     {
-      "name": "Advanced Artillery Bot",
-      "to_build": "AdvancedArtilleryBot",
-      "instance_count": -1,
-      "max_num_assisters": 15,
-      "priority": 199,
-      "builders": [
-        "AdvancedBotFactory"
-      ],
-      "build_conditions": [
-        [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
-            "test_type": "AloneOnPlanet",
-            "boolean": false
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "CanDeployLandFromBase",
-            "boolean": true
-          },
-          {
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Artillery",
-            "unit_type_string1": "(Tank | Bot) - Fabber",
-            "compare0": "<",
-            "value0": 0.35
-          }
-        ],
-        [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
-            "test_type": "AloneOnPlanet",
-            "boolean": true
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Artillery",
-            "unit_type_string1": "(Tank | Bot) - Fabber",
-            "compare0": "<",
-            "value0": 0.35
-          },
-          {
-            "test_type": "OtherPlanetCanReceiveLandUnitAssistance",
-            "boolean": true
-          },
-          {
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Structure & Teleporter",
-            "compare0": ">",
-            "value0": 0
-          }
-        ]
-      ]
-    },
-    {
-      "name": "Advanced Tactical Bot",
+      "name": "Bluehawk",
       "to_build": "TMLBot",
       "instance_count": -1,
       "max_num_assisters": 15,
@@ -1654,7 +1586,7 @@
       ]
     },
     {
-      "name": "Nano Swarm",
+      "name": "Locust",
       "to_build": "NanoSwarm",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -1733,7 +1665,7 @@
       ]
     },
     {
-      "name": "Advanced Laser Tank",
+      "name": "Leveller",
       "to_build": "AdvancedLaserTank",
       "instance_count": -1,
       "max_num_assisters": 15,
@@ -1787,7 +1719,7 @@
       ]
     },
     {
-      "name": "Advanced Armor Tank",
+      "name": "Vanguard",
       "to_build": "AdvancedArmorTank",
       "instance_count": -1,
       "max_num_assisters": 15,
@@ -1855,7 +1787,7 @@
       ]
     },
     {
-      "name": "Advanced Artillery Vehicle",
+      "name": "Sheller",
       "to_build": "AdvancedArtilleryVehicle",
       "instance_count": -1,
       "max_num_assisters": 15,
@@ -1923,7 +1855,7 @@
       ]
     },
     {
-      "name": "Advanced AA Vehicle",
+      "name": "Storm",
       "to_build": "FlakTank",
       "instance_count": -1,
       "max_num_assisters": 10,
