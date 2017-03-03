@@ -49,7 +49,7 @@
       ]
     },
     {
-      "name": "Air Scout",
+      "name": "Firefly",
       "to_build": "AirScout",
       "instance_count": 1,
       "priority": 98,
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "name": "Basic Air Fighter",
+      "name": "Hummingbird",
       "to_build": "BasicFighter",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "name": "Basic Air Bomber",
+      "name": "Bumblebee",
       "to_build": "BasicBomber",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "name": "Advanced Air Bomber",
+      "name": "Hornet",
       "to_build": "AdvancedBomber",
       "instance_count": -1,
       "max_num_assisters": 15,
@@ -356,7 +356,7 @@
       ]
     },
     {
-      "name": "Advanced Gunship",
+      "name": "Kestrel",
       "to_build": "AdvancedGunship",
       "instance_count": -1,
       "max_num_assisters": 15,
@@ -402,7 +402,7 @@
       ]
     },
     {
-      "name": "Advanced Air Bomber",
+      "name": "Wyrm",
       "to_build": "HeavyBomber",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -448,7 +448,7 @@
       ]
     },
     {
-      "name": "Support Platform",
+      "name": "Angel",
       "to_build": "SupportPlatform",
       "instance_count": 1,
       "max_num_assisters": 10,
