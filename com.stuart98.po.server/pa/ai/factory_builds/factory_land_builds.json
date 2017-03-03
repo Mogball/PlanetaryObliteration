@@ -2278,44 +2278,6 @@
           }
         ]
       ]
-    },
-    {
-      "name": "Jaeger",
-      "to_build": "HoverShip",
-      "instance_count": -1,
-      "max_num_assisters": 15,
-      "priority": 199,
-      "builders": [
-        "AdvancedVehicleFactory"
-      ],
-      "build_conditions": [
-        [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
-            "test_type": "AloneOnPlanet",
-            "boolean": false
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "Tank & Hover",
-            "unit_type_string1": "(Tank | Bot) - Fabber",
-            "compare0": "<",
-            "value0": 0.2
-          }
-        ]
-      ]
     }
   ]
 }
