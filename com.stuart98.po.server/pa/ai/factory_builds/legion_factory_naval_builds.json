@@ -4,6 +4,11 @@
       "build_conditions": [
         [
           {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
             "boolean": false,
             "test_type": "BaseThreatened"
           },
@@ -35,6 +40,47 @@
       "build_conditions": [
         [
           {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "CanDeployNavalFromBase"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Naval & Mobile & Construction) - Fabber",
+            "unit_type_string1": "(Naval & Mobile) - Fabber",
+            "value0": 0.1
+          }
+        ]
+      ],
+      "builders": [
+        "LegionFactoryBasicNaval"
+      ],
+      "instance_count": 1,
+      "name": "Legion - Fabrication Barge",
+      "priority": 97,
+      "to_build": "LegionNavalBasicCFab"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
             "boolean": false,
             "test_type": "AloneOnPlanet"
           },
@@ -60,37 +106,10 @@
       "build_conditions": [
         [
           {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
             "boolean": true,
-            "test_type": "CanDeployNavalFromBase"
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
           },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "compare0": "<=",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "Naval & Basic & Custom4",
-            "unit_type_string1": "(Naval & Basic & Offense - Custom4 | Construction | Sub | Scout) | Naval & Basic & Offense & Custom4",
-            "value0": 0.4
-          }
-        ]
-      ],
-      "builders": [
-        "LegionFactoryBasicNaval"
-      ],
-      "instance_count": -1,
-      "max_num_assisters": 10,
-      "name": "Legion - Torpedo Boat",
-      "priority": 98,
-      "to_build": "LegionNavalBasicTorpBoat"
-    },
-    {
-      "build_conditions": [
-        [
           {
             "boolean": false,
             "test_type": "AloneOnPlanet"
@@ -130,40 +149,10 @@
       "build_conditions": [
         [
           {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
             "boolean": true,
-            "test_type": "CanDeployNavalFromBase"
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
           },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "boolean": true,
-            "test_type": "HaveSeenEnemyUnits",
-            "unit_type_string0": "Offense | Economy | FactoryBuild | CmdBuild"
-          },
-          {
-            "boolean": false,
-            "test_type": "HaveSeenEnemyUnits",
-            "unit_type_string0": "Recon & Naval"
-          }
-        ]
-      ],
-      "builders": [
-        "LegionFactoryBasicNaval"
-      ],
-      "instance_count": -1,
-      "max_num_assisters": 10,
-      "name": "Legion Attack Sub - Smells Blood",
-      "priority": 300,
-      "to_build": "LegionNavalBasicSub"
-    },
-    {
-      "build_conditions": [
-        [
           {
             "boolean": false,
             "test_type": "AloneOnPlanet"
@@ -190,6 +179,11 @@
           }
         ],
         [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
           {
             "boolean": false,
             "test_type": "AloneOnPlanet"
@@ -218,6 +212,11 @@
         ],
         [
           {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
             "compare0": ">",
             "string0": "Air",
             "string1": "AntiAir",
@@ -238,6 +237,11 @@
     {
       "build_conditions": [
         [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
           {
             "boolean": false,
             "test_type": "AloneOnPlanet"
@@ -263,6 +267,11 @@
     {
       "build_conditions": [
         [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
           {
             "boolean": false,
             "test_type": "BaseThreatened"
@@ -295,6 +304,11 @@
       "build_conditions": [
         [
           {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
             "boolean": false,
             "test_type": "AloneOnPlanet"
           },
@@ -326,6 +340,11 @@
       "build_conditions": [
         [
           {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
             "boolean": false,
             "test_type": "AloneOnPlanet"
           },
@@ -350,6 +369,11 @@
     {
       "build_conditions": [
         [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
           {
             "boolean": false,
             "test_type": "AloneOnPlanet"
@@ -376,6 +400,11 @@
       "build_conditions": [
         [
           {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
             "boolean": false,
             "test_type": "AloneOnPlanet"
           },
@@ -401,6 +430,11 @@
       "build_conditions": [
         [
           {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
             "boolean": false,
             "test_type": "AloneOnPlanet"
           },
@@ -410,8 +444,7 @@
         ]
       ],
       "builders": [
-        "LegionFactoryAdvancedNaval",
-        "LegionFactoryAdvancedVehicle"
+        "LegionFactoryAdvancedNaval"
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
