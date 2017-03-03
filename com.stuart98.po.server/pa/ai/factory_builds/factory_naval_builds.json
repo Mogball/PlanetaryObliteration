@@ -110,8 +110,8 @@
       ]
     },
     {
-      "name": "Narwhal",
-      "to_build": "Frigate",
+      "name": "Piranha",
+      "to_build": "SeaScout",
       "instance_count": -1,
       "max_num_assisters": 10,
       "priority": 97,
