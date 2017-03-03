@@ -4,6 +4,11 @@
       "build_conditions": [
         [
           {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
             "boolean": false,
             "test_type": "AloneOnPlanet"
           },
@@ -31,7 +36,7 @@
         ]
       ],
       "builders": [
-        "AnyLegionFabberAdvanced",
+        "LegionBotAdvancedFabber",
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
@@ -47,13 +52,18 @@
           "value": 50
         }
       },
-      "priority": 480,
+      "priority": 0,
       "shared_instance_count": "Titan",
       "to_build": "LegionTitanAdvancedBot"
     },
     {
       "build_conditions": [
         [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
           {
             "boolean": false,
             "test_type": "AloneOnPlanet"
@@ -82,8 +92,7 @@
         ]
       ],
       "builders": [
-        "AnyLegionFabberAdvanced",
-        "LegionBotAdvancedSupportCommander"
+        "LegionVehicleAdvancedFabber"
       ],
       "instance_count": 1,
       "max_num_assisters": 15,
@@ -98,13 +107,18 @@
           "value": 50
         }
       },
-      "priority": 480,
+      "priority": 0,
       "shared_instance_count": "Titan",
       "to_build": "LegionTitanAdvancedVehicle"
     },
     {
       "build_conditions": [
         [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
           {
             "boolean": false,
             "test_type": "AloneOnPlanet"
@@ -133,8 +147,7 @@
         ]
       ],
       "builders": [
-        "AnyLegionFabberAdvanced",
-        "LegionBotAdvancedSupportCommander"
+        "LegionAirAdvancedFabber"
       ],
       "instance_count": 1,
       "max_num_assisters": 15,
@@ -156,6 +169,11 @@
     {
       "build_conditions": [
         [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
           {
             "test_type": "CanAffordBuildDemand"
           },
@@ -194,6 +212,94 @@
       "priority": 480,
       "shared_instance_count": "Titan",
       "to_build": "LegionTitanAdvancedOrbital"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": true,
+            "test_type": "EnemyPresenceOnPlanet"
+          },
+          {
+            "compare0": ">",
+            "string0": "Economy",
+            "test_type": "PlanetThreat",
+            "value0": 5000
+          },
+          {
+            "boolean": false,
+            "test_type": "PlanetIsRespawnable"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": ">=",
+            "test_type": "PlanetCount",
+            "value0": 2
+          },
+          {
+            "string0": "LegionTitanAdvancedStructure",
+            "test_type": "CanAffordPotentialDrain"
+          },
+          {
+            "boolean": false,
+            "test_type": "PlanetHasUseablePlanetWeapon"
+          },
+          {
+            "boolean": false,
+            "test_type": "PlanetIsMainEcoBase"
+          },
+          {
+            "compare0": ">=",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Factory - Orbital",
+            "value0": 1
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Advanced & SelfDestruct",
+            "value0": 1
+          },
+          {
+            "boolean": true,
+            "compare0": "<=",
+            "test_type": "AlliedUnitCountOnPlanet",
+            "unit_type_string0": "Structure & Advanced & SelfDestruct",
+            "value0": 0
+          },
+          {
+            "string0": "LegionTitanAdvancedStructure",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ],
+      "builders": [
+        "AnyLegionFabberAdvanced"
+      ],
+      "instance_count": 1,
+      "max_num_assisters": 15,
+      "min_num_assisters": 3,
+      "name": "Legion - Structure Titan",
+      "placement_rules": {
+        "buffer": 5,
+        "placement_type": "FromMainBaseCenter",
+        "threat": {
+          "compare_type": "<",
+          "influence_type": "AntiSurface",
+          "radius": 10,
+          "value": 50
+        }
+      },
+      "priority": 480,
+      "shared_instance_count": "Titan",
+      "to_build": "LegionTitanAdvancedStructure"
     }
   ]
 }
