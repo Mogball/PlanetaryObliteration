@@ -15,7 +15,7 @@ if (!POLoaded) {
             if(POEnabled) {
                 return;
             }
-            
+
             console.log('PO new_game.js enabled');
 
             POEnabled = true;
@@ -24,7 +24,7 @@ if (!POLoaded) {
 
             var aiPersonalities = newBuild ? model.aiPersonalities() : model.aiPersonalities;
 
-            var defaultAiPersonalities = ['Planetary Obliteration', 'Idle'];
+            var defaultAiPersonalities = ['Idle', 'Normal', 'Hard', 'Relentless', 'Absurd'];
 
             _.forEach( aiPersonalities, function(personality, name) {
                 if(defaultAiPersonalities.indexOf(name) != -1) {
@@ -36,10 +36,10 @@ if (!POLoaded) {
                 model.aiPersonalities.valueHasMutated();
             } else {
                 model.aiPersonalityNames(_.keys(aiPersonalities));
-            }  
+            }
 
             model.POClientModLoaded = ko.observable(false);
-            
+
             /*welcome splash
             model.legionDoNotShowWelcome = ko.observable(false).extend({ local: 'legion_welcome_dontshow'});
 
@@ -75,15 +75,15 @@ if (!POLoaded) {
                 loadCSS('coui://ui/mods/com.stuart98.po/css/PO_shared.css');
                 loadCSS('coui://ui/mods/com.stuart98.po/css/PO_buttons.css');
                 loadCSS("coui://ui/mods/com.stuart98.po/css/PO_background_no_logo.css");
-                loadCSS('coui://ui/mods/com.stuart98.po/css/PO_new_game.css');                
+                loadCSS('coui://ui/mods/com.stuart98.po/css/PO_new_game.css');
                 $('body').addClass("PO");
             }
-            
+
             //legion commander picker colouring
             loadCSS('coui://ui/mods/com.stuart98.po/css/legion_commander_picker.css');
-            
+
             /*legion welcome screen
-            loadCSS('coui://ui/mods/com.pa.legion-expansion/css/welcome.css');  
+            loadCSS('coui://ui/mods/com.pa.legion-expansion/css/welcome.css');
             $("body").append(loadHtml('coui://ui/mods/com.pa.legion-expansion/new_game/welcome.html'));
 
             api.mods.getMountedMods('client', function(mods) {
@@ -116,13 +116,13 @@ if (!POLoaded) {
                     return true;
                 }
             }
-            
+
             model.isMLA = function(commander,isEmpty){
                 if(!isEmpty){
                     return !_.includes(legioncommanders, commander);
                 }
             }
-            
+
 
             //Style Commander Picker Legion
             $('.div-commander-picker-item.btn_std_ix').attr("data-bind","css: {legioncommander: !model.isNotLegion($data)}, click: function () { model.setCommander($index()) }, click_sound: 'default', rollover_sound: 'default'");
@@ -153,7 +153,7 @@ if (!POLoaded) {
             $('.army-button.slot-remove-button.slot-remove-button-team').parent().append('<div class="army-button btn_add_ai" data-bind="visible: slot.ai(),click: function() { model.changeVanillaAI(slot.playerId());}">To MLA</div>');
             //ENDOF NEED PATCHED lobby.js
         }
- 
+
         if (_.intersection(model.gameModIdentifiers(), ['com.stuart98.po.server','com.stuart98.po.server.dev']).length > 0) {
                model.enablePO();
         }
