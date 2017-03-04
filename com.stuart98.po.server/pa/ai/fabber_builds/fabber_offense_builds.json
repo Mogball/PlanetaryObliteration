@@ -1,7 +1,7 @@
 {
   "build_list": [
     {
-      "name": "TML",
+      "name": "Catapult",
       "to_build": "TML",
       "instance_count": 1,
       "min_num_assisters": 2,
@@ -373,7 +373,7 @@
       }
     },
     {
-      "name": "Long Range Artillery",
+      "name": "Holkins",
       "to_build": "LongRangeArtillery",
       "instance_count": 1,
       "min_num_assisters": 3,
@@ -449,7 +449,7 @@
       }
     },
     {
-      "name": "Control Module",
+      "name": "Catalyst",
       "to_build": "ControlModule",
       "instance_count": 1,
       "min_num_assisters": 8,
