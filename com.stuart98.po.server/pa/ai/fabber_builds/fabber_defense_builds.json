@@ -1334,7 +1334,7 @@
           },
           {
             "test_type": "CanFindPlaceToBuild",
-            "string0": "BasicArtillery"
+            "string0": "MiniUnitCannon"
           }
         ]
       ],
