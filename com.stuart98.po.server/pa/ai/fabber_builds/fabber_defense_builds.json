@@ -1780,7 +1780,7 @@
           },
           {
             "test_type": "CanFindPlaceToBuild",
-            "string0": "AdvancedLandDefense"
+            "string0": "AdvancedSniperLandDefense"
           }
         ]
       ],
@@ -1852,7 +1852,7 @@
           },
           {
             "test_type": "CanFindPlaceToBuild",
-            "string0": "AdvancedLandDefense"
+            "string0": "AdvancedSniperLandDefense"
           }
         ]
       ],
