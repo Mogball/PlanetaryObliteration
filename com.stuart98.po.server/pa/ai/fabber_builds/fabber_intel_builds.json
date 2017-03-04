@@ -7,6 +7,7 @@
       "shared_instance_count": "BasicRadar",
       "priority": 90,
       "builders": [
+        "UberCommander",
         "AnyUberBasicFabber"
       ],
       "build_conditions": [
@@ -66,6 +67,7 @@
       "shared_instance_count": "BasicRadar",
       "priority": 246,
       "builders": [
+        "UberCommander",
         "AnyUberBasicFabber"
       ],
       "build_conditions": [
@@ -131,6 +133,7 @@
       "shared_instance_count": "BasicRadar",
       "priority": 605,
       "builders": [
+        "UberCommander",
         "AnyUberBasicFabber"
       ],
       "build_conditions": [
