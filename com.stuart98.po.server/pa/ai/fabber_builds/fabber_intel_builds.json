@@ -176,6 +176,118 @@
       }
     },
     {
+      "name": "Basic Sonar",
+      "to_build": "BasicSonar",
+      "instance_count": 1,
+      "shared_instance_count": "BasicSonar",
+      "priority": 90,
+      "builders": [
+        "AnyUberBasicFabber"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "CanDeployNavalFromBase",
+            "boolean": true
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Naval & Structure & Recon & Basic",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "CanAffordPotentialDrain",
+            "string0": "BasicSonar"
+          },
+          {
+            "test_type": "UnitCountAroundBase",
+            "unit_type_string0": "Naval & Structure & Recon & Basic",
+            "string0": "Ally",
+            "value0": 200,
+            "compare0": "<",
+            "value1": 1
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "BasicSonar"
+          }
+        ]
+      ],
+      "placement_rules": {
+        "buffer": 2,
+        "threat": {
+          "influence_type": "AntiSurface",
+          "compare_type": "<",
+          "radius": 10,
+          "value": 50
+        }
+      }
+    },
+    {
+      "name": "Basic Sonar - Have none",
+      "to_build": "BasicSonar",
+      "instance_count": 1,
+      "shared_instance_count": "BasicSonar",
+      "priority": 605,
+      "builders": [
+        "AnyUberBasicFabber"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "CanDeployNavalFromBase",
+            "boolean": true
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "(Factory & Construction) - Orbital - NukeDefense - Nuke - SelfDestruct",
+            "compare0": ">",
+            "value0": 1
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Naval & ((Recon & Structure - Orbital) | (Recon & Orbital - Structure))",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "CanAffordPotentialDrain",
+            "string0": "BasicSonar"
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "BasicSonar"
+          }
+        ]
+      ],
+      "placement_rules": {
+        "buffer": 2,
+        "threat": {
+          "influence_type": "AntiSurface",
+          "compare_type": "<",
+          "radius": 10,
+          "value": 50
+        }
+      }
+    },
+    {
       "name": "Advanced Radar",
       "to_build": "AdvancedRadar",
       "instance_count": 1,
@@ -322,6 +434,114 @@
           {
             "test_type": "CanFindPlaceToBuild",
             "string0": "AdvancedRadar"
+          }
+        ]
+      ],
+      "placement_rules": {
+        "buffer": 2,
+        "threat": {
+          "influence_type": "AntiSurface",
+          "compare_type": "<",
+          "radius": 10,
+          "value": 50
+        }
+      }
+    },
+    {
+      "name": "Advanced Sonar",
+      "to_build": "AdvancedSonar",
+      "instance_count": 1,
+      "shared_instance_count": "AdvancedSonar",
+      "priority": 91,
+      "builders": [
+        "AnyUberAdvancedFabber",
+        "UberSupportCommander"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "CanDeployNavalFromBase",
+            "boolean": true
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Naval & Structure & Recon & Advanced",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "CanAffordPotentialDrain",
+            "string0": "AdvancedSonar"
+          },
+          {
+            "test_type": "UnitCountAroundBase",
+            "unit_type_string0": "Naval & Structure & Recon & Advanced",
+            "string0": "Ally",
+            "value0": 350,
+            "compare0": "<",
+            "value1": 1
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "AdvancedSonar"
+          }
+        ]
+      ],
+      "placement_rules": {
+        "buffer": 2,
+        "threat": {
+          "influence_type": "AntiSurface",
+          "compare_type": "<",
+          "radius": 10,
+          "value": 50
+        }
+      }
+    },
+    {
+      "name": "Advanced Radar - Have none",
+      "to_build": "AdvancedSonar",
+      "instance_count": 1,
+      "shared_instance_count": "AdvancedSonar",
+      "priority": 265,
+      "builders": [
+        "AnyUberAdvancedFabber",
+        "UberSupportCommander"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "CanDeployNavalFromBase",
+            "boolean": true
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Naval & ((Recon & Structure - Orbital) | (Recon & Orbital - Structure))",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "CanAffordPotentialDrain",
+            "string0": "AdvancedSonar"
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "AdvancedSonar"
           }
         ]
       ],
