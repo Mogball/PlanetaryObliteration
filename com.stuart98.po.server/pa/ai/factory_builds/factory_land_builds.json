@@ -1771,7 +1771,7 @@
       ]
     },
     {
-      "name": "Leveller",
+      "name": "Leveler",
       "to_build": "AdvancedLaserTank",
       "instance_count": -1,
       "max_num_assisters": 15,
