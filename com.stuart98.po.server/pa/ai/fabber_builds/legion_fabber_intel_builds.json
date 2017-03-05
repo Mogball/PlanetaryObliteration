@@ -215,7 +215,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Radar",
+      "name": "Legion - Overseer",
       "placement_rules": {
         "buffer": 2,
         "threat": {
@@ -275,7 +275,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Radar - Need for Ranged",
+      "name": "Legion - Overseer - Need for Ranged",
       "placement_rules": {
         "buffer": 2,
         "threat": {
@@ -321,7 +321,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Radar - Have none",
+      "name": "Legion - Overseer - Have none",
       "placement_rules": {
         "buffer": 2,
         "threat": {
