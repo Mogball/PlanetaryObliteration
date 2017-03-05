@@ -824,6 +824,41 @@
       }
     },
     {
+      "name": "Solar Array - Desire",
+      "to_build": "SolarArray",
+      "instance_count": 1,
+      "priority": 615,
+      "builders": [
+        "OrbitalFabber"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "DesireEnergy"
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "SolarArray"
+          }
+        ]
+      ],
+      "placement_rules": {
+        "buffer": 10,
+        "placement_type": "FromBaseCenter",
+        "threat": {
+          "influence_type": "AntiSurface",
+          "compare_type": "<",
+          "radius": 10,
+          "value": 50
+        }
+      }
+    },
+    {
       "name": "Energy Storage",
       "to_build": "EnergyStorage",
       "instance_count": 1,
