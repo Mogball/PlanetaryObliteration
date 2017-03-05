@@ -983,6 +983,11 @@
             "boolean": true
           },
           {
+            "test_type": "HasPersonalityTag",
+            "string0": "Tutorial",
+            "boolean": false
+          },
+          {
             "test_type": "UnitRatioOnPlanet",
             "unit_type_string0": "(Tank | Bot) & Artillery",
             "unit_type_string1": "(Tank | Bot) - Fabber",
@@ -1002,6 +1007,11 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Tutorial",
+            "boolean": false
           },
           {
             "test_type": "UnitRatioOnPlanet",
