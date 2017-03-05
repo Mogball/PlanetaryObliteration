@@ -59,8 +59,7 @@
         "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
-        "UberSupportCommander",
-        "OrbitalFabber"
+        "UberSupportCommander"
       ],
       "build_conditions": [
         [
@@ -151,52 +150,6 @@
       }
     },
     {
-      "name": "Teleporter - Need Fabber",
-      "to_build": "Teleporter",
-      "instance_count": 1,
-      "shared_instance_count": "Teleporter",
-      "priority": 615,
-      "min_num_assisters": 3,
-      "max_num_assisters": 5,
-      "builders": [
-        "OrbitalFabber"
-      ],
-      "build_conditions": [
-        [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Structure & Teleporter",
-            "compare0": "<",
-            "value0": 1
-          },
-          {
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber - Air",
-            "compare0": "<",
-            "value0": 1
-          }
-        ]
-      ],
-      "placement_rules": {
-        "buffer": 6,
-        "placement_type": "FromBaseCenter",
-        "threat": {
-          "influence_type": "AntiSurface",
-          "compare_type": "<",
-          "radius": 10,
-          "value": 50
-        }
-      }
-    },
-    {
       "name": "Teleporter - Other Planet Needs Fabber",
       "to_build": "Teleporter",
       "instance_count": 1,
@@ -208,8 +161,7 @@
         "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
-        "UberSupportCommander",
-        "OrbitalFabber"
+        "UberSupportCommander"
       ],
       "build_conditions": [
         [
@@ -260,8 +212,7 @@
         "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
-        "UberSupportCommander",
-        "OrbitalFabber"
+        "UberSupportCommander"
       ],
       "build_conditions": [
         [
@@ -306,8 +257,7 @@
         "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber",
-        "UberSupportCommander",
-        "OrbitalFabber"
+        "UberSupportCommander"
       ],
       "build_conditions": [
         [
