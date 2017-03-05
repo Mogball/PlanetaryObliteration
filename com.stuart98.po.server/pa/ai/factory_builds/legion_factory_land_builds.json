@@ -165,7 +165,7 @@
         "LegionFactoryBasicBot"
       ],
       "instance_count": 1,
-      "name": "Legion - Land Scout - Intel",
+      "name": "Legion - Investigator - Intel",
       "priority": 98,
       "shared_instance_count": "LandScout",
       "to_build": "LegionBotBasicScout"
@@ -233,7 +233,7 @@
         "LegionFactoryBasicBot"
       ],
       "instance_count": 1,
-      "name": "Legion - Land Scout",
+      "name": "Legion - Investigator",
       "priority": 97,
       "shared_instance_count": "LandScout",
       "to_build": "LegionBotBasicScout"
@@ -339,7 +339,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Basic Assault Bot",
+      "name": "Legion - Peacekeeper",
       "priority": 97,
       "to_build": "LegionBotBasicAssault"
     },
@@ -408,7 +408,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Basic Sniper Bot",
+      "name": "Legion - Lancer",
       "priority": 97,
       "to_build": "LegionBotBasicSniper"
     },
@@ -540,7 +540,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Suicide Bot",
+      "name": "Legion - Purger",
       "priority": 97,
       "to_build": "LegionBotBasicBomb"
     },
@@ -660,7 +660,7 @@
         "LegionOrbitalAdvancedCannon"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic AA Bot",
+      "name": "Legion - Patriot",
       "priority": 97,
       "to_build": "LegionBotBasicAA"
     },
@@ -727,7 +727,7 @@
         "LegionFactoryBasicVehicle"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Combat Fabber Vehicle",
+      "name": "Legion - Guardian",
       "priority": 97,
       "to_build": "LegionVehicleBasicCFab"
     },
@@ -782,7 +782,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Light Laser Tank",
+      "name": "Legion - Shank",
       "priority": 97,
       "to_build": "LegionVehicleBasicLaser"
     },
@@ -850,7 +850,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Basic Armor Tank",
+      "name": "Legion - Maul",
       "priority": 97,
       "to_build": "LegionVehicleBasicArmor"
     },
@@ -915,7 +915,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Amphibious Tank",
+      "name": "Legion - Stoke",
       "priority": 97,
       "to_build": "LegionVehicleBasicHover"
     },
@@ -980,7 +980,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Hover Artillery",
+      "name": "Legion - Corsair",
       "priority": 97,
       "to_build": "LegionVehicleBasicArtillery"
     },
@@ -1130,7 +1130,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Assault Bot",
+      "name": "Legion - Enforcer",
       "priority": 199,
       "to_build": "LegionBotAdvancedAssault"
     },
@@ -1198,7 +1198,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Artillery Bot",
+      "name": "Legion - Miniman",
       "priority": 199,
       "to_build": "LegionBotAdvancedArtillery"
     },
@@ -1266,7 +1266,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Heavy Bot",
+      "name": "Legion - Monstrosity",
       "priority": 199,
       "to_build": "LegionBotAdvancedTactical"
     },
@@ -1302,7 +1302,7 @@
       ],
       "instance_count": 1,
       "max_num_assisters": 15,
-      "name": "Legion - Support Commander",
+      "name": "Legion - Praetorian",
       "priority": 199,
       "to_build": "LegionBotAdvancedSupportCommander"
     },
@@ -1370,7 +1370,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Advanced Suicide Bot",
+      "name": "Legion - Necromancer",
       "priority": 199,
       "to_build": "LegionBotAdvancedBomb"
     },
@@ -1486,132 +1486,13 @@
         ]
       ],
       "builders": [
-        "LegionFactoryAdvancedBot"
-      ],
-      "instance_count": -1,
-      "max_num_assisters": 10,
-      "name": "Legion - Advanced AA Bot",
-      "priority": 199,
-      "to_build": "LegionBotAdvancedAA"
-    },
-    {
-      "build_conditions": [
-        [
-          {
-            "boolean": true,
-            "string0": "Vanilla",
-            "test_type": "HasPersonalityTag"
-          },
-          {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "compare0": ">",
-            "string0": "Air",
-            "test_type": "PlanetThreat",
-            "value0": 0
-          },
-          {
-            "boolean": true,
-            "test_type": "CanDeployLandFromBase"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & AirDefense",
-            "unit_type_string1": "(Tank | Bot) - Fabber",
-            "value0": 0.1
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "string0": "Vanilla",
-            "test_type": "HasPersonalityTag"
-          },
-          {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "compare0": ">",
-            "string0": "Air",
-            "string1": "AntiAir",
-            "test_type": "PlanetHighestEnemyArmyThreatRatio",
-            "value0": 1
-          },
-          {
-            "boolean": true,
-            "test_type": "CanDeployLandFromBase"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & AirDefense",
-            "unit_type_string1": "(Tank | Bot) - Fabber",
-            "value0": 0.25
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "string0": "Vanilla",
-            "test_type": "HasPersonalityTag"
-          },
-          {
-            "compare0": ">",
-            "string0": "Air",
-            "string1": "AntiAir",
-            "test_type": "BaseThreatRatio",
-            "value0": 1
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "string0": "Vanilla",
-            "test_type": "HasPersonalityTag"
-          },
-          {
-            "boolean": true,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & AirDefense",
-            "unit_type_string1": "(Tank | Bot) - Fabber",
-            "value0": 0.1
-          },
-          {
-            "boolean": true,
-            "test_type": "OtherPlanetCanReceiveLandUnitAssistance"
-          },
-          {
-            "compare0": ">",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Structure & Teleporter",
-            "value0": 0
-          }
-        ]
-      ],
-      "builders": [
+        "LegionFactoryAdvancedBot",
         "LegionOrbitalAdvancedCannon"
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Advanced AA Bot",
-      "priority": 97,
+      "name": "Legion - Orbweaver",
+      "priority": 199,
       "to_build": "LegionBotAdvancedAA"
     },
     {
@@ -1743,7 +1624,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Laser Tank",
+      "name": "Legion - Scorpion",
       "priority": 199,
       "to_build": "LegionVehicleAdvancedLaser"
     },
@@ -1811,7 +1692,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Armor Tank",
+      "name": "Legion - Earthshaker",
       "priority": 199,
       "to_build": "LegionVehicleAdvancedArmor"
     },
@@ -1927,7 +1808,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Artillery Vehicle",
+      "name": "Legion - Panzer",
       "priority": 199,
       "to_build": "LegionVehicleAdvancedHover"
     },
@@ -1991,7 +1872,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Sniper Vehicle",
+      "name": "Legion - Deathmark",
       "priority": 199,
       "to_build": "LegionVehicleAdvancedSniper"
     },
@@ -2059,7 +1940,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Swarm Tank",
+      "name": "Legion - Havoc",
       "priority": 199,
       "to_build": "LegionVehicleAdvancedSwarm"
     }
