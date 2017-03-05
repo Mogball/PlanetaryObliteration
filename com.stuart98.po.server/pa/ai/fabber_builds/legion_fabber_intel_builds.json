@@ -42,6 +42,7 @@
         ]
       ],
       "builders": [
+        "LegionCommander",
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
@@ -107,6 +108,7 @@
         ]
       ],
       "builders": [
+        "LegionCommander",
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
@@ -158,6 +160,7 @@
         ]
       ],
       "builders": [
+        "LegionCommander",
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
