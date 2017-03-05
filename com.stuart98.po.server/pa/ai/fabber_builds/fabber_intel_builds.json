@@ -185,6 +185,7 @@
       "shared_instance_count": "BasicSonar",
       "priority": 90,
       "builders": [
+        "UberCommander",
         "AnyUberBasicFabber"
       ],
       "build_conditions": [
@@ -242,6 +243,7 @@
       "shared_instance_count": "BasicSonar",
       "priority": 605,
       "builders": [
+        "UberCommander",
         "AnyUberBasicFabber"
       ],
       "build_conditions": [
