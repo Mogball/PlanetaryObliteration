@@ -42,7 +42,7 @@
       "instance_count": 1,
       "max_num_assisters": 15,
       "min_num_assisters": 3,
-      "name": "Legion - Bot Titan",
+      "name": "Legion - Thor",
       "placement_rules": {
         "placement_type": "FromMainBaseCenter",
         "threat": {
@@ -97,7 +97,7 @@
       "instance_count": 1,
       "max_num_assisters": 15,
       "min_num_assisters": 3,
-      "name": "Legion - Vehicle Titan",
+      "name": "Legion - Odin",
       "placement_rules": {
         "placement_type": "FromMainBaseCenter",
         "threat": {
@@ -152,7 +152,7 @@
       "instance_count": 1,
       "max_num_assisters": 15,
       "min_num_assisters": 3,
-      "name": "Legion - Air Titan",
+      "name": "Legion - Loki",
       "placement_rules": {
         "placement_type": "FromMainBaseCenter",
         "threat": {
@@ -199,7 +199,7 @@
       "instance_count": 1,
       "max_num_assisters": 15,
       "min_num_assisters": 3,
-      "name": "Legion - Orbital Titan",
+      "name": "Legion - Tyr",
       "placement_rules": {
         "placement_type": "FromMainBaseCenter",
         "threat": {
