@@ -2174,6 +2174,7 @@
       "instance_count": 1,
       "priority": 378,
       "builders": [
+        "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber"
       ],
@@ -2295,6 +2296,7 @@
       "instance_count": 1,
       "priority": 386,
       "builders": [
+        "UberCommander",
         "AnyUberBasicFabber",
         "AnyUberAdvancedFabber"
       ],
