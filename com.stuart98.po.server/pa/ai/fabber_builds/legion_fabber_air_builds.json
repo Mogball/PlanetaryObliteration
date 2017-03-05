@@ -13,6 +13,27 @@
             "test_type": "HaveEcoForAdvanced"
           },
           {
+            "test_type": "UnitCount",
+            "unit_type_string0": "Factory - Orbital",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "string0": "LegionFactoryBasicAir",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": false,
+            "test_type": "HaveEcoForAdvanced"
+          },
+          {
             "boolean": false,
             "test_type": "NeedBasicAirFactory"
           },
