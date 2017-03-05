@@ -1,7 +1,7 @@
 {
   "build_list": [
     {
-      "name": "Seismic Bot",
+      "name": "Atlas",
       "to_build": "SeismicBot",
       "instance_count": 1,
       "min_num_assisters": 3,
@@ -57,7 +57,7 @@
       }
     },
     {
-      "name": "Fortress Vehicle",
+      "name": "Ares",
       "to_build": "FortressVehicle",
       "instance_count": 1,
       "min_num_assisters": 3,
@@ -112,7 +112,7 @@
       }
     },
     {
-      "name": "Tesla Gunship",
+      "name": "Zeus",
       "to_build": "TeslaGunship",
       "instance_count": 1,
       "min_num_assisters": 3,
@@ -167,7 +167,7 @@
       }
     },
     {
-      "name": "Orbital Mothership",
+      "name": "Helios",
       "to_build": "MotherShip",
       "instance_count": 1,
       "min_num_assisters": 3,
