@@ -32,10 +32,6 @@
             "boolean": false
           },
           {
-            "test_type": "NeedBasicAirFactory",
-            "boolean": false
-          },
-          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "BasicAirFactory"
           }
