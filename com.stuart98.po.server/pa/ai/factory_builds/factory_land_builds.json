@@ -1436,8 +1436,7 @@
       "max_num_assisters": 15,
       "priority": 199,
       "builders": [
-        "AdvancedBotFactory",
-        "UnitCannon"
+        "AdvancedBotFactory"
       ],
       "build_conditions": [
         [
