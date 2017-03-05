@@ -23,14 +23,14 @@
             "boolean": true
           },
           {
+            "test_type": "HaveEcoForAdvanced",
+            "boolean": false
+          },
+          {
             "test_type": "UnitCount",
             "unit_type_string0": "Factory - Orbital",
             "compare0": "<",
             "value0": 1
-          },
-          {
-            "test_type": "HaveEcoForAdvanced",
-            "boolean": false
           },
           {
             "test_type": "CanFindPlaceToBuild",
