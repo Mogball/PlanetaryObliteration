@@ -70,7 +70,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Air Defense - Mex",
+      "name": "Legion - Shredder - Mex",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBasePerimeter",
@@ -171,7 +171,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Land Defense Single - Mex",
+      "name": "Legion - Jackal - Mex",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBasePerimeter",
@@ -262,7 +262,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Air Defense",
+      "name": "Legion - Shredder",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBasePerimeter",
@@ -329,7 +329,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Air Defense - Threat",
+      "name": "Legion - Shredder - Threat",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
@@ -424,7 +424,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Land Defense Single",
+      "name": "Legion - Jackal",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBasePerimeter",
@@ -495,7 +495,7 @@
         "LegionCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Land Defense Single - Threat",
+      "name": "Legion - Jackal - Threat",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
@@ -580,7 +580,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Land Defense",
+      "name": "Legion - Scarab",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBasePerimeter",
@@ -645,7 +645,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Land Defense - Threat",
+      "name": "Legion - Scarab - Threat",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
@@ -712,7 +712,7 @@
       "instance_count": 1,
       "max_num_assisters": 5,
       "min_num_assisters": 2,
-      "name": "Legion - Basic Artillery",
+      "name": "Legion - Theodor",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBasePerimeter",
@@ -813,7 +813,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Air Defense",
+      "name": "Legion - Archer",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBasePerimeter",
@@ -884,7 +884,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Air Defense - Threat",
+      "name": "Legion - Archer - Threat",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
@@ -979,7 +979,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Land Defense",
+      "name": "Legion - Decimator",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBasePerimeter",
@@ -1074,7 +1074,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Land Defense II",
+      "name": "Legion - Arsonist",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBasePerimeter",
@@ -1145,7 +1145,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Land Defense - Threat",
+      "name": "Legion - Decimator - Threat",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
@@ -1216,7 +1216,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Land Defense II - Threat",
+      "name": "Legion - Arsonist - Threat",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
@@ -1396,7 +1396,7 @@
         "AnyLegionFabberAdvanced"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Orbital Defense",
+      "name": "Legion - Tola",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
@@ -1517,7 +1517,7 @@
         "AnyLegionFabberAdvanced"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Orbital Defense - Rush",
+      "name": "Legion - Tola - Rush",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
@@ -1598,7 +1598,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Anti Nuke Silo",
+      "name": "Legion - Iron Dome",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
@@ -1763,7 +1763,7 @@
       "instance_count": 1,
       "max_num_assisters": 12,
       "min_num_assisters": 5,
-      "name": "Legion - Anti Nuke Silo - Rush",
+      "name": "Legion - Iron Dome - Rush",
       "placement_rules": {
         "buffer": 2,
         "placement_type": "FromMainBaseCenter",
