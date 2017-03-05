@@ -883,7 +883,7 @@
       ]
     },
     {
-      "name": "Thumper",
+      "name": "Shielder",
       "to_build": "BasicArmorTank",
       "instance_count": -1,
       "max_num_assisters": 10,
