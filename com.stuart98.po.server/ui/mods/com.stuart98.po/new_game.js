@@ -202,8 +202,8 @@ if (!POLoaded) {
                     display_name: '!LOC:Absurd Naval',
                     percent_vehicle: 0.05,
                     percent_bot: 0.05,
-                    percent_air: 0.4,
-                    percent_naval: 0.55,
+                    percent_air: 0.25,
+                    percent_naval: 0.7,
                     percent_orbital: 0.05,
                     personality_tags:
                     [
