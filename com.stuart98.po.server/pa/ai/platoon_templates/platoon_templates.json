@@ -444,6 +444,14 @@
                 }
             ]
         },
+        "Naval_Scout": {
+            "units": [
+                {
+                    "unit_types": "(Naval & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan",
+                    "max_count": 1
+                }
+            ]
+        },
         "BomberGunship_Attack_Small": {
             "units": [
                 {
