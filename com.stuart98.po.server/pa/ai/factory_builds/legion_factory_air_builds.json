@@ -131,7 +131,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Basic Air Fighter",
+      "name": "Legion - Scythe",
       "priority": 97,
       "to_build": "LegionAirBasicFighter"
     },
@@ -164,7 +164,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Basic Air Bomb",
+      "name": "Legion - Nova",
       "priority": 97,
       "to_build": "LegionAirBasicBomb"
     },
@@ -210,7 +210,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Basic Air Bomber",
+      "name": "Legion - Dauntless",
       "priority": 97,
       "to_build": "LegionAirBasicBomber"
     },
@@ -256,7 +256,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Basic Air Gunship",
+      "name": "Legion - Marauder",
       "priority": 97,
       "to_build": "LegionAirBasicGunship"
     },
@@ -384,7 +384,7 @@
         "LegionFactoryAdvancedAir"
       ],
       "instance_count": 1,
-      "name": "Legion - Air Scout",
+      "name": "Legion - Infiltrator",
       "priority": 199,
       "to_build": "LegionAirAdvancedScout"
     },
@@ -471,7 +471,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Air Fighter",
+      "name": "Legion - Firebird",
       "priority": 198,
       "to_build": "LegionAirAdvancedFighter"
     },
@@ -517,7 +517,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Air Bomber",
+      "name": "Legion - Salamander",
       "priority": 198,
       "to_build": "LegionAirAdvancedBomber"
     },
@@ -563,7 +563,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Gunship",
+      "name": "Legion - Lockheed",
       "priority": 198,
       "to_build": "LegionAirAdvancedGunship"
     },
@@ -589,7 +589,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Advanced Air Carrier",
+      "name": "Legion - Meteor",
       "priority": 198,
       "to_build": "LegionAirAdvancedCarrier"
     }
