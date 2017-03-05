@@ -527,45 +527,6 @@
       ]
     },
     {
-      "name": "Solar Array",
-      "to_build": "SolarArray",
-      "instance_count": 1,
-      "priority": 195,
-      "builders": [
-        "OrbitalFactory"
-      ],
-      "build_conditions": [
-        [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
-            "test_type": "PotentialEnergyEfficiency",
-            "compare0": "<",
-            "value0": 1
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          }
-        ],
-        [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
-            "test_type": "DesireEnergy"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          }
-        ]
-      ]
-    },
-    {
       "name": "SXX-1304 Laser Platform",
       "to_build": "OrbitalDeathLaser",
       "instance_count": 1,
