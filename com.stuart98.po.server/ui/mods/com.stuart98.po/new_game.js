@@ -42,6 +42,7 @@ if (!POLoaded) {
                     percent_orbital: 0.05,
                     personality_tags:
                     [
+                        "Vanilla",
                         "PreventsWaste"
                     ],
                     metal_drain_check: 0.54,
@@ -76,6 +77,7 @@ if (!POLoaded) {
                 percent_orbital: 0.05,
                 personality_tags:
                 [
+                    "Vanilla",
                     "PreventsWaste"
                 ],
                 metal_drain_check: 0.54,
