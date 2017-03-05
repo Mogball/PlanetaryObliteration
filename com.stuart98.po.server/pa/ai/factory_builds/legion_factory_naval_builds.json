@@ -68,7 +68,7 @@
         "LegionFactoryBasicNaval"
       ],
       "instance_count": 1,
-      "name": "Legion - Fabrication Barge",
+      "name": "Legion - Wrasse",
       "priority": 97,
       "to_build": "LegionNavalBasicCFab"
     },
@@ -98,9 +98,9 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Destroyer",
+      "name": "Legion - Bowhead",
       "priority": 97,
-      "to_build": "LegionNavalBasicDestroyer"
+      "to_build": "LegionNavalBasicBowhead"
     },
     {
       "build_conditions": [
@@ -141,7 +141,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Attack Sub",
+      "name": "Legion - Akula",
       "priority": 97,
       "to_build": "LegionNavalBasicSub"
     },
@@ -230,7 +230,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Frigate",
+      "name": "Legion - Talos",
       "priority": 97,
       "to_build": "LegionNavalBasicAA"
     },
@@ -260,7 +260,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Legion - Scout",
+      "name": "Legion - Catfish",
       "priority": 97,
       "to_build": "LegionNavalBasicScout"
     },
@@ -332,7 +332,7 @@
         "LegionFactoryAdvancedNaval"
       ],
       "instance_count": 1,
-      "name": "Legion - Fabrication Sub",
+      "name": "Legion - Remora",
       "priority": 199,
       "to_build": "LegionNavalAdvancedFabberSub"
     },
@@ -362,7 +362,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Battleship",
+      "name": "Legion - Epoch",
       "priority": 199,
       "to_build": "LegionNavalAdvancedBattleship"
     },
@@ -392,7 +392,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Frigate",
+      "name": "Legion - Manta",
       "priority": 199,
       "to_build": "LegionNavalAdvancedTactical"
     },
@@ -422,35 +422,9 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Advanced Destroyer",
+      "name": "Legion - Hammerhead",
       "priority": 199,
       "to_build": "LegionNavalAdvancedDestroyer"
-    },
-    {
-      "build_conditions": [
-        [
-          {
-            "boolean": true,
-            "string0": "Vanilla",
-            "test_type": "HasPersonalityTag"
-          },
-          {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          }
-        ]
-      ],
-      "builders": [
-        "LegionFactoryAdvancedNaval"
-      ],
-      "instance_count": -1,
-      "max_num_assisters": 15,
-      "name": "Legion - Hover Ship",
-      "priority": 199,
-      "to_build": "LegionNavalAdvancedHover"
     }
   ]
 }
