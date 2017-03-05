@@ -206,7 +206,7 @@
             "value0": 1
           },
           {
-            "string0": "LegionIntelBasicRadar",
+            "string0": "LegionIntelBasicSonar",
             "test_type": "CanAffordPotentialDrain"
           },
           {
@@ -218,7 +218,7 @@
             "value1": 1
           },
           {
-            "string0": "LegionIntelBasicRadar",
+            "string0": "LegionIntelBasicSonar",
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -276,7 +276,7 @@
             "value0": 0
           },
           {
-            "string0": "LegionIntelBasicRadar",
+            "string0": "LegionIntelBasicSonar",
             "test_type": "CanAffordPotentialDrain"
           },
           {
@@ -288,7 +288,7 @@
             "value1": 1
           },
           {
-            "string0": "LegionIntelBasicRadar",
+            "string0": "LegionIntelBasicSonar",
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -340,11 +340,11 @@
             "value0": 1
           },
           {
-            "string0": "LegionIntelBasicRadar",
+            "string0": "LegionIntelBasicSonar",
             "test_type": "CanAffordPotentialDrain"
           },
           {
-            "string0": "LegionIntelBasicRadar",
+            "string0": "LegionIntelBasicSonar",
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -546,7 +546,7 @@
             "value0": 1
           },
           {
-            "string0": "LegionIntelAdvancedRadar",
+            "string0": "LegionIntelAdvancedSonar",
             "test_type": "CanAffordPotentialDrain"
           },
           {
@@ -558,7 +558,7 @@
             "value1": 1
           },
           {
-            "string0": "LegionIntelAdvancedRadar",
+            "string0": "LegionIntelAdvancedSonar",
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -600,11 +600,11 @@
             "value0": 1
           },
           {
-            "string0": "LegionIntelAdvancedRadar",
+            "string0": "LegionIntelAdvancedSonar",
             "test_type": "CanAffordPotentialDrain"
           },
           {
-            "string0": "LegionIntelAdvancedRadar",
+            "string0": "LegionIntelAdvancedSonar",
             "test_type": "CanFindPlaceToBuild"
           }
         ]
