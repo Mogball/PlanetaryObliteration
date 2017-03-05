@@ -848,14 +848,7 @@
         ]
       ],
       "placement_rules": {
-        "buffer": 10,
-        "placement_type": "FromBaseCenter",
-        "threat": {
-          "influence_type": "AntiSurface",
-          "compare_type": "<",
-          "radius": 10,
-          "value": 50
-        }
+        "buffer": 10
       }
     },
     {
