@@ -848,7 +848,13 @@
         ]
       ],
       "placement_rules": {
-        "buffer": 10
+        "buffer": 10,
+        "threat": {
+          "influence_type": "AntiOrbital",
+          "compare_type": "<",
+          "radius": 10,
+          "value": 50
+        }
       }
     },
     {
