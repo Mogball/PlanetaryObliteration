@@ -32,10 +32,6 @@
             "boolean": false
           },
           {
-            "test_type": "NeedBasicBotFactory",
-            "boolean": false
-          },
-          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "BasicBotFactory"
           }
@@ -180,10 +176,6 @@
           },
           {
             "test_type": "HaveEcoForAdvanced",
-            "boolean": false
-          },
-          {
-            "test_type": "NeedBasicVehicleFactory",
             "boolean": false
           },
           {

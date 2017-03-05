@@ -33,10 +33,6 @@
             "boolean": false
           },
           {
-            "test_type": "NeedBasicNavalFactory",
-            "boolean": false
-          },
-          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "BasicNavalFactory"
           }
