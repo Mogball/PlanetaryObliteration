@@ -1386,9 +1386,9 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Monstrosity",
+      "name": "Legion - Eviscerator",
       "priority": 199,
-      "to_build": "LegionBotAdvancedTactical"
+      "to_build": "LegionBotAdvancedLaser"
     },
     {
       "build_conditions": [
