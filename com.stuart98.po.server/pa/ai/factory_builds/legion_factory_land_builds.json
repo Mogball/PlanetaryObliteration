@@ -1268,6 +1268,56 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetCanReceiveLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
+        ]
+      ],
+      "builders": [
+        "LegionFactoryAdvancedBot"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 15,
+      "name": "Legion - Pyro",
+      "priority": 199,
+      "to_build": "LegionBotAdvancedFlame"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
           },
           {
             "boolean": true,
