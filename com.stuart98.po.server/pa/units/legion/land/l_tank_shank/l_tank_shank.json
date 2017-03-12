@@ -76,8 +76,8 @@
     "filename": "/pa/units/legion/land/l_tank_shank/l_tank_shank.papa"
   },
   "navigation": {
-    "acceleration": 60,
-    "brake": 60,
+    "acceleration": 30,
+    "brake": 30,
     "move_speed": 16,
     "turn_speed": 80
   },

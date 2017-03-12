@@ -51,8 +51,8 @@
     "filename": "/pa/units/legion/land/l_tank_heavy_armor/l_tank_heavy_armor.papa"
   },
   "navigation": {
-    "acceleration": 100,
-    "brake": -1,
+    "acceleration": 10,
+    "brake": 10,
     "group_preference": "front",
     "move_speed": 10,
     "turn_speed": 180
