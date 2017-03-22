@@ -226,6 +226,11 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
+            "test_type": "HaveSeenEnemyUnits",
+            "unit_type_string0": "Naval & Factory",
+            "boolean": true
+          },
+          {
             "test_type": "DistFromMainBase",
             "compare0": ">=",
             "value0": 150
@@ -952,6 +957,11 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
+            "test_type": "HaveSeenEnemyUnits",
+            "unit_type_string0": "Naval & Factory",
+            "boolean": true
+          },
+          {
             "test_type": "UnitCountInBase",
             "unit_type_string0": "Structure & Basic & Naval & Defense",
             "compare0": "<",
@@ -1042,6 +1052,11 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "HaveSeenEnemyUnits",
+            "unit_type_string0": "Naval & Factory",
+            "boolean": true
           },
           {
             "test_type": "UnitCountInBase",
