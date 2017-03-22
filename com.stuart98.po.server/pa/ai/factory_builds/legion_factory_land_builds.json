@@ -1153,6 +1153,7 @@
       ],
       "builders": [
         "LegionFactoryBasicVehicle",
+        "LegionFactoryBasicNaval",
         "LegionOrbitalAdvancedCannon"
       ],
       "instance_count": -1,
