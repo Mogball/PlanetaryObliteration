@@ -1934,6 +1934,61 @@
             "test_type": "AloneOnPlanet"
           },
           {
+            "boolean": true,
+            "test_type": "CanDeployLandFromBase"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetCanReceiveLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
+        ]
+      ],
+      "builders": [
+        "LegionFactoryAdvancedVehicle",
+        "LegionOrbitalAdvancedCannon"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 15,
+      "name": "Legion - Obliterator",
+      "priority": 199,
+      "to_build": "LegionVehicleAdvancedHeavy"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
