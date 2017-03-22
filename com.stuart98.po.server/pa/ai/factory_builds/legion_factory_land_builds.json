@@ -1807,11 +1807,6 @@
             "boolean": true
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "AloneOnPlanet",
             "boolean": false
           },
@@ -1835,11 +1830,6 @@
             "test_type": "HasPersonalityTag",
             "string0": "Vanilla",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "AloneOnPlanet",
