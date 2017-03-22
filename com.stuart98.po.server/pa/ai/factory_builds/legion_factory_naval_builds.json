@@ -274,6 +274,36 @@
           },
           {
             "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "boolean": true,
+            "test_type": "CanDeployNavalFromBase"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ]
+      ],
+      "builders": [
+        "LegionFactoryBasicNaval"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 10,
+      "name": "Legion - Seabass",
+      "priority": 97,
+      "to_build": "LegionNavalBasicTorpBoat"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": false,
             "test_type": "BaseThreatened"
           },
           {
