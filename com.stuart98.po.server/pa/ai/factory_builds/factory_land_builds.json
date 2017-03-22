@@ -228,11 +228,6 @@
           {
             "test_type": "CanDeployLandFromBase",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           }
         ],
         [
@@ -290,11 +285,6 @@
             "boolean": true
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "UnitRatioOnPlanet",
             "unit_type_string0": "(Tank | Bot) & Artillery",
             "unit_type_string1": "(Tank | Bot) - Fabber",
@@ -314,11 +304,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "UnitRatioOnPlanet",
@@ -365,11 +350,6 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "CanDeployLandFromBase",
             "boolean": true
           },
@@ -390,11 +370,6 @@
           {
             "test_type": "AloneOnPlanet",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "CanAffordBuildDemand"
@@ -635,11 +610,6 @@
             "boolean": true
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "UnitRatioOnPlanet",
             "unit_type_string0": "(Bot & Construction) - Fabber",
             "unit_type_string1": "(Tank | Bot) - Fabber",
@@ -659,11 +629,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "UnitRatioOnPlanet",
@@ -910,11 +875,6 @@
             "boolean": true
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "UnitRatioOnPlanet",
             "unit_type_string0": "Tank & Heavy",
             "unit_type_string1": "(Tank | Bot) - Fabber",
@@ -983,11 +943,6 @@
             "boolean": true
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "UnitRatioOnPlanet",
             "unit_type_string0": "(Tank | Bot) & Artillery",
             "unit_type_string1": "(Tank | Bot) - Fabber",
@@ -1007,11 +962,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "UnitRatioOnPlanet",
@@ -1175,11 +1125,6 @@
             "boolean": false
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -1242,11 +1187,6 @@
           },
           {
             "test_type": "AloneOnPlanet",
-            "boolean": false
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
             "boolean": false
           },
           {
@@ -1505,11 +1445,6 @@
           {
             "test_type": "CanDeployLandFromBase",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           }
         ],
         [
@@ -1560,11 +1495,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           }
         ],
         [

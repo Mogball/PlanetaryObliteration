@@ -27,11 +27,6 @@
             "string0": "OrbitalLauncher"
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "WantCommanderOffPlanet",
             "boolean": false
           },
@@ -61,11 +56,6 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "OrbitalLauncher"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "PlanetWithoutPresence",
@@ -118,11 +108,6 @@
             "test_type": "NeedOrbitalLauncher"
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "UnitCountOnPlanet",
             "unit_type_string0": "Factory - Orbital - Nuke - NukeDefense",
             "compare0": ">=",
@@ -154,11 +139,6 @@
           {
             "test_type": "UnableToExpand",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "PlanetWithoutPresence",
@@ -199,11 +179,6 @@
           {
             "test_type": "AloneOnPlanet",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "PlanetWithoutPresence",
@@ -260,11 +235,6 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "CanAffordPotentialDrain",
             "string0": "OrbitalFactory"
           },
@@ -306,11 +276,6 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "UnitCountInBase",
             "unit_type_string0": "Orbital & OrbitalDefense",
             "compare0": "<",
@@ -336,11 +301,6 @@
           {
             "test_type": "PlanetIsGasGiant",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "CanAffordBuildDemand"
@@ -370,11 +330,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "UnitCountInBase",
@@ -432,11 +387,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "PlanetCount",

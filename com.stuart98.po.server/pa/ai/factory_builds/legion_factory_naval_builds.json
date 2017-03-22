@@ -503,11 +503,6 @@
             "boolean": false
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "CanAffordBuildDemand"
           },
           {
