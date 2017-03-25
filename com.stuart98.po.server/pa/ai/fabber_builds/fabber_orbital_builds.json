@@ -505,7 +505,7 @@
         ]
       ],
       "placement_rules": {
-        "buffer": 15
+        "buffer": 75
       }
     },
     {
