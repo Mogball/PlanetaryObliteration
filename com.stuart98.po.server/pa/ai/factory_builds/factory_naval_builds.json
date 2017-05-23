@@ -21,8 +21,8 @@
             "boolean": false
           },
           {
-            "test_type": "UnitCount",
-            "unit_type_string0": "Naval & Fabber & Basic",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Fabber & Basic - Land - Orbital",
             "compare0": "<",
             "value0": 2
           }
