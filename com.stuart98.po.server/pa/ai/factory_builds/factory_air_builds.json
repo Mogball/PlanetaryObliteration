@@ -316,7 +316,7 @@
       "max_num_assisters": 10,
       "priority": 97,
       "builders": [
-        "BasicAirFactory"
+        "AdvancedAirFactory"
       ],
       "build_conditions": [
         [
