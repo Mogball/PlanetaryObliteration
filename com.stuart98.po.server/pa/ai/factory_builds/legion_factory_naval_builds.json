@@ -13,6 +13,23 @@
             "test_type": "BaseThreatened"
           },
           {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Fabber & Basic - Land - Orbital",
+            "value0": 2
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": false,
+            "test_type": "BaseThreatened"
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
