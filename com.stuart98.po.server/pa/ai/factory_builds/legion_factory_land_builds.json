@@ -1792,7 +1792,7 @@
     },
     {
       "name": "Locust",
-      "to_build": "NanoSwarm",
+      "to_build": "LegionNanoSwarm",
       "instance_count": -1,
       "max_num_assisters": 10,
       "priority": 199,
