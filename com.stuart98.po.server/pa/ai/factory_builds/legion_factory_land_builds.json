@@ -1913,10 +1913,6 @@
             "test_type": "AloneOnPlanet"
           },
           {
-            "boolean": true,
-            "test_type": "CanDeployLandFromBase"
-          },
-          {
             "test_type": "CanAffordBuildDemand"
           }
         ],
