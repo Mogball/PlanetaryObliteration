@@ -270,9 +270,9 @@
             "value0": 1
           },
           {
-            "test_type": "PlanetHighestEnemyArmyThreat",
-            "string0": "Sub",
             "compare0": ">",
+            "string0": "Sub",
+            "test_type": "PlanetThreat",
             "value0": 0
           },
           {
@@ -604,9 +604,9 @@
             "test_type": "CanAffordPotentialDrain"
           },
           {
-            "test_type": "PlanetHighestEnemyArmyThreat",
-            "string0": "Sub",
             "compare0": ">",
+            "string0": "Sub",
+            "test_type": "PlanetThreat",
             "value0": 0
           },
           {

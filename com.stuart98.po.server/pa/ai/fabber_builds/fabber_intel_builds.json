@@ -275,7 +275,7 @@
             "value0": 1
           },
           {
-            "test_type": "PlanetHighestEnemyArmyThreat",
+            "test_type": "PlanetThreat",
             "string0": "Sub",
             "compare0": ">",
             "value0": 0
@@ -613,7 +613,7 @@
             "string0": "AdvancedSonar"
           },
           {
-            "test_type": "PlanetHighestEnemyArmyThreat",
+            "test_type": "PlanetThreat",
             "string0": "Sub",
             "compare0": ">",
             "value0": 0
