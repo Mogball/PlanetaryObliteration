@@ -578,7 +578,6 @@
             "string0": "Vanilla",
             "boolean": true
           },
-          {
             "test_type": "AloneOnPlanet",
             "boolean": true
           },
@@ -705,10 +704,6 @@
             "value0": 200
           },
           {
-            "test_type": "CanDeployLandFromBase",
-            "boolean": true
-          },
-          {
             "test_type": "HaveFullPlanetIntel",
             "boolean": false
           }
@@ -734,10 +729,6 @@
             "unit_type_string0": "Land & Scout",
             "compare0": "<",
             "value0": 1
-          },
-          {
-            "test_type": "CanDeployLandFromBase",
-            "boolean": true
           },
           {
             "test_type": "HaveFullPlanetIntel",
@@ -768,10 +759,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "CanDeployLandFromBase",
-            "boolean": true
           },
           {
             "test_type": "UnitRatioOnPlanet",
