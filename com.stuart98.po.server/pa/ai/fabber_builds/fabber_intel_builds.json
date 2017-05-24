@@ -154,7 +154,7 @@
           },
           {
             "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "(Recon & Structure - Orbital) | (Recon & Orbital - Structure)",
+            "unit_type_string0": "(Recon & Structure - Orbital - Naval) | (Recon & Orbital - Structure)",
             "compare0": "<",
             "value0": 1
           },
@@ -203,6 +203,12 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Naval & Structure & Recon & Advanced",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
             "test_type": "UnitCountInBase",
             "unit_type_string0": "Naval & Structure & Recon & Basic",
             "compare0": "<",
@@ -211,6 +217,72 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "BasicSonar"
+          },
+          {
+            "test_type": "UnitCountAroundBase",
+            "unit_type_string0": "Naval & Structure & Recon & Basic",
+            "string0": "Ally",
+            "value0": 200,
+            "compare0": "<",
+            "value1": 1
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "BasicSonar"
+          }
+        ]
+      ],
+      "placement_rules": {
+        "buffer": 2,
+        "threat": {
+          "influence_type": "AntiSurface",
+          "compare_type": "<",
+          "radius": 10,
+          "value": 50
+        }
+      }
+    },
+    {
+      "name": "Basic Sonar - Subs Spotted",
+      "to_build": "BasicSonar",
+      "instance_count": 1,
+      "shared_instance_count": "BasicSonar",
+      "priority": 246,
+      "builders": [
+        "UberCommander",
+        "AnyUberBasicFabber"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Naval & Structure & Recon & Advanced",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Naval & Structure & Recon & Basic",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "PlanetHighestEnemyArmyThreat",
+            "string0": "Sub",
+            "compare0": ">",
+            "value0": 0
+          },
+          {
+            "test_type": "CanAffordPotentialDrain",
+            "string0": "BasicRadar"
           },
           {
             "test_type": "UnitCountAroundBase",
@@ -268,7 +340,7 @@
           },
           {
             "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Naval & ((Recon & Structure - Orbital) | (Recon & Orbital - Structure))",
+            "unit_type_string0": "Naval & Recon & Structure",
             "compare0": "<",
             "value0": 1
           },
@@ -428,7 +500,7 @@
           },
           {
             "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "(Recon & Structure - Orbital) | (Recon & Orbital - Structure)",
+            "unit_type_string0": "(Recon & Structure - Orbital - Naval) | (Recon & Orbital - Structure)",
             "compare0": "<",
             "value0": 1
           },
@@ -511,7 +583,67 @@
       }
     },
     {
-      "name": "Advanced Radar - Have none",
+      "name": "Advanced Sonar - Subs Spotted",
+      "to_build": "AdvancedSonar",
+      "instance_count": 1,
+      "shared_instance_count": "AdvancedSonar",
+      "priority": 247,
+      "builders": [
+        "AnyUberAdvancedFabber",
+        "UberSupportCommander"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Naval & Structure & Recon & Advanced",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "CanAffordPotentialDrain",
+            "string0": "AdvancedSonar"
+          },
+          {
+            "test_type": "PlanetHighestEnemyArmyThreat",
+            "string0": "Sub",
+            "compare0": ">",
+            "value0": 0
+          },
+          {
+            "test_type": "UnitCountAroundBase",
+            "unit_type_string0": "Naval & Structure & Recon & Advanced",
+            "string0": "Ally",
+            "value0": 350,
+            "compare0": "<",
+            "value1": 1
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "AdvancedSonar"
+          }
+        ]
+      ],
+      "placement_rules": {
+        "buffer": 2,
+        "threat": {
+          "influence_type": "AntiSurface",
+          "compare_type": "<",
+          "radius": 10,
+          "value": 50
+        }
+      }
+    },
+    {
+      "name": "Advanced Sonar - Have none",
       "to_build": "AdvancedSonar",
       "instance_count": 1,
       "shared_instance_count": "AdvancedSonar",
@@ -536,7 +668,7 @@
           },
           {
             "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Naval & ((Recon & Structure - Orbital) | (Recon & Orbital - Structure))",
+            "unit_type_string0": "Naval & Structure & Recon",
             "compare0": "<",
             "value0": 1
           },
