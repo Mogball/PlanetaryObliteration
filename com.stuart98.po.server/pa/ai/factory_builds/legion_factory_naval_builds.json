@@ -431,9 +431,7 @@
         ]
       ],
       "builders": [
-        "LegionFactoryBasicVehicle",
-        "LegionFactoryBasicNaval",
-        "LegionOrbitalAdvancedCannon"
+        "LegionFactoryBasicNaval"
       ],
       "instance_count": -1,
       "max_num_assisters": 10,

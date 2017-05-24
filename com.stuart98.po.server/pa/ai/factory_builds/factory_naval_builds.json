@@ -327,7 +327,6 @@
       "max_num_assisters": 10,
       "priority": 97,
       "builders": [
-        "BasicVehicleFactory",
         "BasicNavalFactory"
       ],
       "build_conditions": [
