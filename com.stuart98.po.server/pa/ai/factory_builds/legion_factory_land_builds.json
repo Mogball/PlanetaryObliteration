@@ -1267,6 +1267,10 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "CanDeployLandFromBase"
           }
         ],
         [
@@ -1317,6 +1321,10 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "CanDeployLandFromBase"
           }
         ],
         [
