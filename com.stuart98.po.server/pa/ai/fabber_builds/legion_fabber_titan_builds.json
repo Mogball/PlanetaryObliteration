@@ -44,7 +44,8 @@
       "min_num_assisters": 3,
       "name": "Legion - Thor",
       "placement_rules": {
-        "placement_type": "FromMainBaseCenter",
+        "buffer": 5,
+        "placement_type": "FromBasePerimeter",
         "threat": {
           "compare_type": "<",
           "influence_type": "AntiSurface",
@@ -99,7 +100,8 @@
       "min_num_assisters": 3,
       "name": "Legion - Odin",
       "placement_rules": {
-        "placement_type": "FromMainBaseCenter",
+        "buffer": 5,
+        "placement_type": "FromBasePerimeter",
         "threat": {
           "compare_type": "<",
           "influence_type": "AntiSurface",
@@ -154,7 +156,8 @@
       "min_num_assisters": 3,
       "name": "Legion - Loki",
       "placement_rules": {
-        "placement_type": "FromMainBaseCenter",
+        "buffer": 5,
+        "placement_type": "FromBasePerimeter",
         "threat": {
           "compare_type": "<",
           "influence_type": "AntiSurface",
