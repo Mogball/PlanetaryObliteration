@@ -560,6 +560,7 @@
             "string0": "Vanilla",
             "boolean": true
           },
+          {
             "test_type": "AloneOnPlanet",
             "boolean": true
           },
