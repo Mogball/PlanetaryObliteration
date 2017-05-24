@@ -859,10 +859,6 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "test_type": "CanDeployLandFromBase",
-            "boolean": true
-          },
-          {
             "test_type": "UnitRatioOnPlanet",
             "unit_type_string0": "Tank & Heavy",
             "unit_type_string1": "(Tank | Bot) - Fabber",
