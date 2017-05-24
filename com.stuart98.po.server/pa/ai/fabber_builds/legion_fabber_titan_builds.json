@@ -156,8 +156,7 @@
       "min_num_assisters": 3,
       "name": "Legion - Loki",
       "placement_rules": {
-        "buffer": 5,
-        "placement_type": "FromBasePerimeter",
+        "placement_type": "FromMainBaseCenter",
         "threat": {
           "compare_type": "<",
           "influence_type": "AntiSurface",

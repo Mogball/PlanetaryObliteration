@@ -159,8 +159,7 @@
         ]
       ],
       "placement_rules": {
-        "buffer": 5,
-        "placement_type": "FromBasePerimeter",
+        "placement_type": "FromMainBaseCenter",
         "threat": {
           "influence_type": "AntiSurface",
           "compare_type": "<",
