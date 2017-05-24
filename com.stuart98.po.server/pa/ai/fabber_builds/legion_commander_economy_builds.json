@@ -20,7 +20,7 @@
             "boolean": true,
             "compare0": "<",
             "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber - Orbital",
+            "unit_type_string0": "Fabber - Orbital - Naval",
             "value0": 1
           }
         ],
