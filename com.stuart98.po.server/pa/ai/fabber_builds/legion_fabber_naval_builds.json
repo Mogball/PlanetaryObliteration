@@ -13,7 +13,7 @@
             "test_type": "HaveEcoForAdvanced"
           },
           {
-            "test_type": "UnitCount",
+            "test_type": "UnitCountOnPlanet",
             "unit_type_string0": "Factory - Orbital",
             "compare0": "<",
             "value0": 1
@@ -22,7 +22,30 @@
             "string0": "LegionFactoryBasicNaval",
             "test_type": "CanFindPlaceToBuild"
           }
-        ],
+        ]
+      ],
+      "builders": [
+        "LegionCommander"
+      ],
+      "instance_count": 1,
+      "max_num_assisters": 5,
+      "min_num_assisters": 2,
+      "name": "Legion - Basic Naval Factory - Naval Planet",
+      "placement_rules": {
+        "buffer": 3,
+        "threat": {
+          "compare_type": "<",
+          "influence_type": "AntiSurface",
+          "radius": 10,
+          "value": 50
+        }
+      },
+      "priority": 377,
+      "shared_instance_count": "BasicFactory",
+      "to_build": "LegionFactoryBasicNaval"
+    },
+    {
+      "build_conditions": [
         [
           {
             "boolean": true,
