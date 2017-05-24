@@ -228,7 +228,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Sonar",
+      "name": "Legion - Scanner",
       "placement_rules": {
         "buffer": 2,
         "threat": {
@@ -298,7 +298,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Sonar - Subs Spotted",
+      "name": "Legion - Scanner - Subs Spotted",
       "placement_rules": {
         "buffer": 2,
         "threat": {
@@ -354,7 +354,7 @@
         "AnyLegionFabberBasic"
       ],
       "instance_count": 1,
-      "name": "Legion - Basic Sonar - Have none",
+      "name": "Legion - Scanner - Have none",
       "placement_rules": {
         "buffer": 2,
         "threat": {
@@ -568,7 +568,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Sonar",
+      "name": "Legion - Advanced Scanner",
       "placement_rules": {
         "buffer": 2,
         "threat": {
@@ -628,7 +628,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Sonar - Subs Spotted",
+      "name": "Legion - Advanced Scanner - Subs Spotted",
       "placement_rules": {
         "buffer": 2,
         "threat": {
@@ -674,7 +674,7 @@
         "LegionBotAdvancedSupportCommander"
       ],
       "instance_count": 1,
-      "name": "Legion - Advanced Sonar - Have none",
+      "name": "Legion - Advanced Scanner - Have none",
       "placement_rules": {
         "buffer": 2,
         "threat": {
