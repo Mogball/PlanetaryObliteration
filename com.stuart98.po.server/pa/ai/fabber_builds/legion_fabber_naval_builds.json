@@ -13,27 +13,6 @@
             "test_type": "HaveEcoForAdvanced"
           },
           {
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Factory - Orbital",
-            "compare0": "<",
-            "value0": 1
-          },
-          {
-            "string0": "LegionFactoryBasicNaval",
-            "test_type": "CanFindPlaceToBuild"
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "string0": "Vanilla",
-            "test_type": "HasPersonalityTag"
-          },
-          {
-            "boolean": false,
-            "test_type": "HaveEcoForAdvanced"
-          },
-          {
             "boolean": false,
             "test_type": "NeedBasicNavalFactory"
           },
