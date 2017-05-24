@@ -2146,7 +2146,7 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 15,
-      "name": "Legion - Berzerker",
+      "name": "Legion - Berserker",
       "priority": 199,
       "to_build": "LegionVehicleAdvancedHover"
     },
