@@ -52,6 +52,131 @@
       "build_conditions": [
         [
           {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "BaseThreatened",
+            "boolean": false
+          },
+          {
+            "test_type": "UnitCountPerPlanetRadius",
+            "unit_type_string0": "Air & Scout",
+            "compare0": "<",
+            "value0": 200
+          },
+          {
+            "test_type": "HaveFullPlanetIntel",
+            "boolean": false
+          }
+        ],
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "BaseThreatened",
+            "boolean": false
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Air & Scout",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "HaveFullPlanetIntel",
+            "boolean": false
+          }
+        ],
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "BaseThreatened",
+            "boolean": false
+          },
+          {
+            "test_type": "AloneOnPlanet",
+            "boolean": false
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Air & Scout",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "HaveFullPlanetIntel",
+            "boolean": true
+          }
+        ]
+      ],
+      "builders": [
+        "LegionFactoryBasicAir"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 10,
+      "name": "Legion - Marauder - Intel",
+      "priority": 98,
+      "to_build": "LegionAirBasicGunship"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "string0": "Vanilla",
+            "test_type": "HasPersonalityTag"
+          },
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountPerPlanetRadius",
+            "unit_type_string0": "Gunship",
+            "value0": 20
+          }
+        ]
+      ],
+      "builders": [
+        "LegionFactoryBasicAir"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 10,
+      "name": "Legion - Marauder",
+      "priority": 97,
+      "to_build": "LegionAirBasicGunship"
+    },
+    {
+      "build_conditions": [
+        [
+          {
             "boolean": true,
             "string0": "Vanilla",
             "test_type": "HasPersonalityTag"
@@ -213,52 +338,6 @@
       "name": "Legion - Dauntless",
       "priority": 97,
       "to_build": "LegionAirBasicBomber"
-    },
-    {
-      "build_conditions": [
-        [
-          {
-            "boolean": true,
-            "string0": "Vanilla",
-            "test_type": "HasPersonalityTag"
-          },
-          {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "string0": "Vanilla",
-            "test_type": "HasPersonalityTag"
-          },
-          {
-            "boolean": true,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitCountPerPlanetRadius",
-            "unit_type_string0": "Gunship",
-            "value0": 20
-          }
-        ]
-      ],
-      "builders": [
-        "LegionFactoryBasicAir"
-      ],
-      "instance_count": -1,
-      "max_num_assisters": 10,
-      "name": "Legion - Marauder",
-      "priority": 97,
-      "to_build": "LegionAirBasicGunship"
     },
     {
       "build_conditions": [
