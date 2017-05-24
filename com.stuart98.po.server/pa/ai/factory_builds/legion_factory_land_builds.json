@@ -1145,7 +1145,6 @@
       ],
       "builders": [
         "LegionFactoryBasicVehicle",
-        "LegionFactoryBasicNaval",
         "LegionOrbitalAdvancedCannon"
       ],
       "instance_count": -1,
@@ -1800,10 +1799,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "CanDeployLandFromBase",
-            "boolean": true
           },
           {
             "test_type": "UnitRatioOnPlanet",

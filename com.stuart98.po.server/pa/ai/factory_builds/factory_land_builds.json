@@ -1094,8 +1094,7 @@
       "max_num_assisters": 10,
       "priority": 97,
       "builders": [
-        "BasicVehicleFactory",
-        "BasicNavalFactory"
+        "BasicVehicleFactory"
       ],
       "build_conditions": [
         [
@@ -1153,7 +1152,7 @@
       ]
     },
     {
-      "name": "Striker",
+      "name": "Striker - Land",
       "to_build": "LightHoverTank",
       "instance_count": -1,
       "max_num_assisters": 10,
@@ -2179,6 +2178,39 @@
             "unit_type_string0": "Structure & Teleporter",
             "compare0": ">",
             "value0": 0
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Kaiju",
+      "to_build": "LegionNavalAdvancedHover",
+      "instance_count": -1,
+      "max_num_assisters": 15,
+      "priority": 199,
+      "builders": [
+        "LegionFactoryAdvancedVehicle"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "AloneOnPlanet",
+            "boolean": false
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Tank | Bot | Naval) & Hover",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "compare0": "<",
+            "value0": 0.2
           }
         ]
       ]
