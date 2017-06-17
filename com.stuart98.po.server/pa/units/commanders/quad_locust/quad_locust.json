@@ -3,8 +3,8 @@
     "offsets": {
       "head": [
         0,
-        -0.5,
-        10.6
+        0.8,
+        12
       ],
       "root": [
         0,
@@ -13,18 +13,18 @@
       ]
     }
   },
-  "base_spec": "/pa/units/commanders/raptor_base_missile/raptor_base.json",
+  "base_spec": "/pa/units/commanders/quad_base/quad_base.json",
   "buildable_types": "CmdBuild & Custom1",
-  "catalog_object_name": "RaptorEnderstryke71",
+  "catalog_object_name": "QuadLocust",
   "client": {
     "ui": {
-      "image": "/ui/main/shared/img/commanders/img_raptor_enderstryke71.png",
-      "profile_image": "/ui/main/shared/img/commanders/profiles/profile_raptor_enderstryke71.png",
-      "thumb_image": "/ui/main/shared/img/commanders/thumbs/img_raptor_enderstryke71_thumb.png"
+      "image": "/ui/main/shared/img/commanders/img_quad_locust.png",
+      "profile_image": "/ui/main/shared/img/commanders/profiles/profile_quad_locust.png",
+      "thumb_image": "/ui/main/shared/img/commanders/thumbs/img_quad_locust_thumb.png"
     }
   },
-  "description": "Raptor Enderstryke71 Commander",
-  "display_name": "Enderstryke71 Commander",
+  "description": "Quadruped Locust Commander.",
+  "display_name": "Locust Commander",
   "fx_offsets": [
     {
       "bone": "socket_leftMuzzle",
@@ -47,9 +47,9 @@
       "near_height": 5.0,
       "near_width": 5.0,
       "offset": [
-        0,
-        -2.149,
-        1.488
+        0.0,
+        -1.2,
+        4.3
       ],
       "orientation": [
         0.0,
@@ -69,9 +69,9 @@
       ],
       "intensity": 5.0,
       "offset": [
-        0,
-        -4.1,
-        0.45
+        0.0,
+        -0.4,
+        5.3
       ],
       "radius": 2.0
     },
@@ -84,20 +84,15 @@
       ],
       "intensity": 2.0,
       "offset": [
-        0.4,
-        3.46,
-        -1.1
+        0.0,
+        -5.672,
+        1.33
       ],
       "radius": 4.0
     }
   ],
-  "mesh_bounds": [
-    10.5,
-    9.2,
-    13.0
-  ],
   "model": {
-    "filename": "/pa/units/commanders/raptor_enderstryke71/raptor_enderstryke71.papa"
+    "filename": "/pa/units/commanders/quad_locust/quad_locust.papa"
   },
   "si_name": "l_commander",
   "unit_types": [
