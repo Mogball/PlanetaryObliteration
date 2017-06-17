@@ -13,7 +13,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/commanders/raptor_base/raptor_base.json",
+  "base_spec": "/pa/units/commanders/raptor_base_laser/raptor_base.json",
   "buildable_types": "CmdBuild & Custom1",
   "catalog_object_name": "RaptorXOV",
   "client": {
@@ -99,6 +99,7 @@
   "model": {
     "filename": "/pa/units/commanders/raptor_xov/raptor_xov.papa"
   },
+  "si_name": "l_commander",
   "tools": [
     {
       "aim_bone": "bone_turret",
@@ -131,7 +132,6 @@
       "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_torpedo_weapon.json"
     }
   ],
-  "si_name": "l_commander",
   "unit_types": [
     "UNITTYPE_Commander",
     "UNITTYPE_Construction",

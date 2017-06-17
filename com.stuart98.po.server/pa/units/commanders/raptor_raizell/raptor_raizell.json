@@ -13,7 +13,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/commanders/raptor_base/raptor_base.json",
+  "base_spec": "/pa/units/commanders/raptor_base_uber/raptor_base.json",
   "buildable_types": "CmdBuild & Custom1",
   "catalog_object_name": "RaptorRaizell",
   "client": {

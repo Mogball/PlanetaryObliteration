@@ -13,7 +13,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/commanders/imperial_base/imperial_base.json",
+  "base_spec": "/pa/units/commanders/imperial_base_laser/imperial_base.json",
   "catalog_object_name": "ImperialJT100010117",
   "client": {
     "ui": {
@@ -91,37 +91,5 @@
   ],
   "model": {
     "filename": "/pa/units/commanders/imperial_jt100010117/imperial_jt100010117.papa"
-  },
-  "tools": [
-    {
-      "aim_bone": "bone_turret",
-      "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json"
-    },
-    {
-      "aim_bone": "bone_turret",
-      "muzzle_bone": "socket_rightMuzzle",
-      "primary_weapon": true,
-      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_laser_weapon.json"
-    },
-    {
-      "aim_bone": "bone_turret",
-      "muzzle_bone": "socket_rightMuzzle",
-      "secondary_weapon": true,
-      "spec_id": "/pa/tools/uber_cannon/uber_cannon.json"
-    },
-    {
-      "aim_bone": "bone_turret",
-      "muzzle_bone": "socket_rightMuzzle",
-      "primary_weapon": false,
-      "show_range": false,
-      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_aa_weapon.json"
-    },
-    {
-      "aim_bone": "bone_turret",
-      "muzzle_bone": "socket_rightMuzzle",
-      "primary_weapon": false,
-      "show_range": false,
-      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_torpedo_weapon.json"
-    }
-  ]
+  }
 }
