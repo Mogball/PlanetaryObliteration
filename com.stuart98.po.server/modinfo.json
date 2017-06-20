@@ -1,6 +1,6 @@
 {
   "author": "Stuart98, (See credits.txt)",
-  "build": "94684",
+  "build": "105067",
   "category": [
     "units",
     "balance",
@@ -11,7 +11,7 @@
     "com.stuart98.po.client1.dev"
   ],
   "context": "server",
-  "date": "2017/06/17",
+  "date": "2017/06/21",
   "dependencies": [
     "com.stuart98.po.client1.dev",
     "com.stuart98.po.client2.dev"
