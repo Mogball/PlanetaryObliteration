@@ -1,12 +1,12 @@
 {
   "author": "Stuart98",
-  "build": "94684",
+  "build": "105067",
   "category": [
     "Units",
     "Balance"
   ],
   "context": "client",
-  "date": "2017/03/22",
+  "date": "2017/06/21",
   "dependencies": [
     "com.stuart98.po.server.dev",
     "com.stuart98.po.client1.dev"
@@ -20,5 +20,5 @@
   "identifier": "com.stuart98.po.client2.dev",
   "priority": 95,
   "signature": "(not yet implemented)",
-  "version": "0.Alpha.12.1"
+  "version": "0.Alpha.14.5"
 }
