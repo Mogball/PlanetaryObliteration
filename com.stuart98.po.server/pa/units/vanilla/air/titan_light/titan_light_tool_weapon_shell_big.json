@@ -10,7 +10,7 @@
     "WL_Underwater",
     "WL_Seafloor",
     "WL_WaterSurface",
-	"WL_Air"
+    "WL_Air"
   ],
   "target_priorities": [
     "AirDefense - Air",
