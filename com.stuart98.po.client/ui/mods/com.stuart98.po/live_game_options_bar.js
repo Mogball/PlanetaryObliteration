@@ -49,6 +49,7 @@ if ( ! POLoaded )
                 $('img[src="img/ingame_options_bar/uberbar_show.png"]').attr("src","coui://ui/mods/com.stuart98.po/img/ingame_options_bar/green/uberbar_show.png");
                 $('img[src="img/ingame_options_bar/chronocam.png"]').attr("src","coui://ui/mods/com.stuart98.po/img/ingame_options_bar/green/chronocam.png");
                 $('img[src="img/ingame_options_bar/game_menu.png"]').attr("src","coui://ui/mods/com.stuart98.po/img/ingame_options_bar/green/game_menu.png");
+				$('img[src="img/ingame_options_bar/pov.png"]').attr("src","coui://ui/mods/com.stuart98.po/img/ingame_options_bar/green/pov.png");
         }
 
         /* mixed ui not needed
