@@ -72,8 +72,7 @@
   },
   "spawn_unit_on_death": "/pa/units/legion/air/l_air_bomb/triggered/l_air_bomb.json",
   "spawn_unit_on_death_with_velocity": false,
-
-"tools": [
+  "tools": [
     {
       "aim_bone": "bone_root",
       "primary_weapon": true,
