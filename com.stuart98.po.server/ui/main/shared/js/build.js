@@ -122,6 +122,8 @@ var Build = (function() {
                 "/pa/units/vanilla/air/bomber_adv/bomber_adv.json": ["airadv", 21],
                 "/pa/units/vanilla/air/bomber_heavy/bomber_heavy.json": ["airadv", 22],
  
+ 
+				"/pa/units/vanilla/air/bomber_naval/bomber_naval.json": ["air", 12],
                 "/pa/units/vanilla/air/fabrication_aircraft/fabrication_aircraft.json": ["air", 18],
                 "/pa/units/vanilla/air/fighter/fighter.json": ["air", 19],
                 "/pa/units/vanilla/air/bomber/bomber.json": ["air", 20],
