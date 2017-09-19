@@ -29,5 +29,6 @@
     ]
   },
   "signature": "(not yet implemented)",
-  "version": "0.Alpha.15"
+  "version": "0.Alpha.15",
+  "titansOnly": true
 }
