@@ -4,6 +4,7 @@
     "AT_Air": 0.0,
     "AT_Bot": 0.0,
     "AT_Naval": 0.0,
+    "AT_Commander": 0.0,
     "AT_Vehicle": 0.0
   },
   "burn_damage": 200,
