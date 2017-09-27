@@ -154,7 +154,7 @@ if (!POLoaded) {
             //ENDOF NEED PATCHED lobby.js
         }
 
-        if (_.intersection(model.gameModIdentifiers(), ['com.stuart98.po.server', 'com.stuart98.po.server.dev']).length > 0) {
+        if (_.intersection(model.gameModIdentifiers(), ['com.stuart98.po.server', 'com.stuart98.po.server.dev.redux']).length > 0) {
             model.enablePO();
         }
     }

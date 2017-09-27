@@ -5,7 +5,7 @@ if ( ! POLoaded )
 {
     
      api.mods.getMountedMods('server', function(mods) {
-         var POServerLoaded =  _.intersection( _.pluck( mods, 'identifier' ), ['com.stuart98.po.server.dev', 'com.stuart98.po.server'] ).length > 0;
+         var POServerLoaded =  _.intersection( _.pluck( mods, 'identifier' ), ['com.stuart98.po.server.dev.redux.redux', 'com.stuart98.po.server'] ).length > 0;
          //add PO watermark
          if(POServerLoaded){
             $(".div_ingame_options_bar_cont").prepend("<div class='watermark'>Planetary Obliteration &nbsp <span>ALPHA</span></div>"); 

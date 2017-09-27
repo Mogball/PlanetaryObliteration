@@ -8,8 +8,8 @@
   "context": "client",
   "date": "2017/09/19",
   "dependencies": [
-    "com.stuart98.po.server.dev",
-    "com.stuart98.po.client2.dev"
+    "com.stuart98.po.server.dev.redux",
+    "com.stuart98.po.client2.dev.redux"
   ],
   "description": "Legion + New Units + New Balance = New & Better Experience",
   "display_name": "Planetary Obliteration: Client Component",
@@ -17,7 +17,7 @@
   "forum": "https://forums.uberent.com/threads/wip-server-planetary-obliteration.71781/",
   "hidden": true,
   "icon": "http://i.imgur.com/OIRelUk.png",
-  "identifier": "com.stuart98.po.client1.dev",
+  "identifier": "com.stuart98.po.client1.dev.redux",
   "priority": 95,
   "scenes": {
     "live_game": [
