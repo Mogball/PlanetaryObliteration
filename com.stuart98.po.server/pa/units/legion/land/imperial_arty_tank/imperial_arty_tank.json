@@ -25,7 +25,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 325,
+  "build_metal_cost": 400,
   "description": "Laser artillery - fires long-range projectiles, and has a small machine gun",
   "display_name": "M2 Warsaw SPG",
   "events": {
@@ -36,10 +36,6 @@
       "audio_cue": "/SE/Weapons/bot/spark_fire",
       "effect_scale": 1.0,
       "effect_spec": "/pa/units/legion/land/imperial_arty_tank/muzzle_flash.pfx socket_muzzle"
-    },
-    "fired1": {
-      "audio_cue": "/SE/Weapons/sea/attack_sub_fire",
-      "effect_scale": 1.0
     }
   },
   "guard_layer": "WL_AnySurface",
@@ -58,12 +54,11 @@
   "navigation": {
     "acceleration": 50,
     "brake": 50,
-    "move_speed": 9,
-    "turn_speed": 150,
-    "type": "amphibious"
+    "move_speed": 14,
+    "turn_speed": 30
   },
   "physics": {
-    "radius": 4
+    "radius": 6
   },
   "recon": {
     "observer": {
@@ -71,7 +66,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 70,
+          "radius": 60,
           "shape": "capsule"
         }
       ]
@@ -88,14 +83,6 @@
       "muzzle_bone": "socket_muzzle",
       "record_index": 0,
       "spec_id": "/pa/units/legion/land/imperial_arty_tank/imperial_arty_tank_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_turret",
-      "fire_event": "fired1",
-      "muzzle_bone": "socket_muzzle",
-      "record_index": 1,
-      "show_range": false,
-      "spec_id": "/pa/units/legion/land/imperial_arty_tank/imperial_arty_tank_torpedo_tool_weapon.json"
     }
   ],
   "transportable": {
@@ -105,7 +92,6 @@
     "UNITTYPE_Tank",
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",
-    "UNITTYPE_Sub",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
     "UNITTYPE_CannonBuildable",
