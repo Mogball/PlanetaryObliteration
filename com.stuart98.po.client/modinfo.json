@@ -19,65 +19,6 @@
   "icon": "http://i.imgur.com/OIRelUk.png",
   "identifier": "com.stuart98.po.client1.dev.redux",
   "priority": 95,
-  "scenes": {
-    "live_game": [
-      "coui://ui/mods/com.stuart98.po/live_game.js"
-    ],
-    "live_game_action_bar": [
-      "coui://ui/mods/com.stuart98.po/live_game_action_bar.js"
-    ],
-    "live_game_build_bar": [
-      "coui://ui/mods/com.stuart98.po/live_game_build_bar.js"
-    ],
-    "live_game_build_hover": [
-      "coui://ui/mods/com.stuart98.po/live_game_build_hover.js"
-    ],
-    "live_game_control_group_bar": [
-      "coui://ui/mods/com.stuart98.po/live_game_control_group_bar.js"
-    ],
-    "live_game_econ": [
-      "coui://ui/mods/com.stuart98.po/live_game_econ.js"
-    ],
-    "live_game_menu": [
-      "coui://ui/mods/com.stuart98.po/live_game_menu.js"
-    ],
-    "live_game_options_bar": [
-      "coui://ui/mods/com.stuart98.po/live_game_options_bar.js"
-    ],
-    "live_game_planets": [
-      "coui://ui/mods/com.stuart98.po/live_game_planets.js"
-    ],
-    "live_game_players": [
-      "coui://ui/mods/com.stuart98.po/live_game_players.js"
-    ],
-    "live_game_sandbox": [
-      "coui://ui/mods/com.stuart98.po/live_game_sandbox.js"
-    ],
-    "live_game_selection": [
-      "coui://ui/mods/com.stuart98.po/live_game_selection.js"
-    ],
-    "live_game_time_bar": [
-      "coui://ui/mods/com.stuart98.po/live_game_time_bar.js"
-    ],
-    "load_planet": [
-      "coui://ui/mods/com.stuart98.po/load_planet.js"
-    ],
-    "new_game": [
-      "coui://ui/mods/com.stuart98.po/new_game.js"
-    ],
-    "server_browser": [
-      "coui://ui/mods/com.stuart98.po/server_browser.js"
-    ],
-    "settings": [
-      "coui://ui/mods/com.stuart98.po/settings.js"
-    ],
-    "shared_build": [
-      "coui://ui/mods/com.stuart98.po/shared_build.js"
-    ],
-    "start": [
-      "coui://ui/mods/com.stuart98.po/start.js"
-    ]
-  },
   "signature": "(not yet implemented)",
   "version": "0.Alpha.16",
   "titansOnly": true

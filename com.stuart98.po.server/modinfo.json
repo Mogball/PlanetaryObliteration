@@ -1,5 +1,5 @@
 {
-  "author": "Stuart98, (See credits.txt)",
+  "author": "iTossEggroll",
   "build": "105067",
   "category": [
     "units",
@@ -16,18 +16,13 @@
     "com.stuart98.po.client1.dev.redux",
     "com.stuart98.po.client2.dev.redux"
   ],
-  "description": "Legion + New Units + New Balance = New & Better Experience. Work in progress, please report bugs and other feedback to the forum thread.",
-  "display_name": "Planetary Obliteration Alpha (WIP)",
+  "description": "A variety salad of bugfixes and tweaks",
+  "display_name": "Community Bugfix Patch",
   "enabled": true,
   "forum": "https://forums.uberent.com/threads/wip-server-planetary-obliteration.71781/",
   "icon": "http://i.imgur.com/OIRelUk.png",
   "identifier": "com.stuart98.po.server.dev.redux",
   "priority": 95,
-  "scenes": {
-    "new_game": [
-      "coui://ui/mods/com.stuart98.po/new_game.js"
-    ]
-  },
   "signature": "(not yet implemented)",
   "version": "0.Alpha.16.1.3",
   "titansOnly": true
