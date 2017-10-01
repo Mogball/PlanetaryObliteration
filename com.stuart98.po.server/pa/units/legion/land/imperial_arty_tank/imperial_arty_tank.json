@@ -25,9 +25,9 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 350,
+  "build_metal_cost": 425,
   "description": "Laser artillery - fires long-range projectiles, and has a small machine gun",
-  "display_name": "M2 Warsaw SPG",
+  "display_name": "M2A3 Warsaw SPG",
   "events": {
     "died": {
       "effect_scale": 1.4
@@ -40,7 +40,7 @@
   },
   "guard_layer": "WL_AnySurface",
   "guard_radius": 10,
-  "max_health": 500,
+  "max_health": 675,
   "mesh_bounds": [
     5,
     6.7,
