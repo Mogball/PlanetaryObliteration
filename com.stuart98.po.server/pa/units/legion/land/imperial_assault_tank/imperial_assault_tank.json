@@ -22,9 +22,6 @@
         "should_start_func": "is_moving",
         "should_stop_func": "is_not_moving"
       }
-    },
-    "selection_response": {
-      "cue": "/SE/Selection/veh/tank_hover"
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
@@ -38,122 +35,19 @@
     "died": {
       "audio_cue": "/SE/Death/Veh"
     },
-    "fired": {
+    "fired0": {
       "audio_cue": "/SE/Weapons/structure/air_defense_fire",
+      "effect_scale": 1.0,
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleRight /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleLeft"
+    },
+    "fired1": {
+      "audio_cue": "/SE/Weapons/veh/aa_missile_vehicle_fire",
+      "effect_scale": 1.0,
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketLeftLeft /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketLeftLeft /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketLeftRight /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketLeftRight /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketRightLeft /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketRightLeft /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketRightRight /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketRightRight"
     }
   },
-  "fx_offsets": [
-    {
-      "bone": "bone_root",
-      "filename": "/pa/effects/specs/hover_idle_01.pfx",
-      "offset": [
-        -2.86,
-        -1.9,
-        0.96
-      ],
-      "orientation": [
-        0,
-        0,
-        -202.5
-      ],
-      "type": "idle"
-    },
-    {
-      "bone": "bone_root",
-      "filename": "/pa/effects/specs/hover_idle_01.pfx",
-      "offset": [
-        2.86,
-        -1.9,
-        0.96
-      ],
-      "orientation": [
-        0,
-        0,
-        22.5
-      ],
-      "type": "idle"
-    },
-    {
-      "bone": "bone_root",
-      "filename": "/pa/effects/specs/hover_idle_01.pfx",
-      "offset": [
-        2.13,
-        2.14,
-        2.22
-      ],
-      "orientation": [
-        0,
-        0,
-        -15
-      ],
-      "type": "idle"
-    },
-    {
-      "bone": "bone_root",
-      "filename": "/pa/effects/specs/hover_idle_01.pfx",
-      "offset": [
-        -2.13,
-        2.14,
-        2.22
-      ],
-      "orientation": [
-        0,
-        0,
-        195
-      ],
-      "type": "idle"
-    }
-  ],
   "guard_layer": "WL_LandHorizontal",
-  "headlights": [
-    {
-      "color": [
-        0.9,
-        0.92,
-        1.0
-      ],
-      "far_distance": 20.0,
-      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
-      "intensity": 1.4,
-      "near_distance": 1.2,
-      "near_height": 2.0,
-      "near_width": 2.0,
-      "offset": [
-        1.8,
-        -2,
-        1.0
-      ],
-      "orientation": [
-        0.0,
-        65.0,
-        0.0
-      ]
-    },
-    {
-      "color": [
-        0.9,
-        0.92,
-        1.0
-      ],
-      "far_distance": 20.0,
-      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
-      "intensity": 1.4,
-      "near_distance": 1.2,
-      "near_height": 2.0,
-      "near_width": 2.0,
-      "offset": [
-        -1.8,
-        -2,
-        1.0
-      ],
-      "orientation": [
-        0.0,
-        65.0,
-        0.0
-      ]
-    }
-  ],
+  "guard_radius": 100,
   "max_health": 650,
   "mesh_bounds": [
     5.08,
@@ -161,27 +55,20 @@
     3.6
   ],
   "model": {
-    "animations": {
-      "hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/L_hover_tank_anim_tree.json",
+    "animtree": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank.papa"
   },
   "navigation": {
-    "acceleration": 30,
-    "brake": 30,
+    "acceleration": 60,
+    "brake": 60,
     "dodge_multiplier": 1,
     "dodge_radius": 15,
     "move_speed": 18,
-    "turn_in_place": false,
-    "turn_speed": 65,
-    "type": "hover",
-    "wobble_factor": 0.1,
-    "wobble_speed": 0.2
+    "turn_speed": 45
   },
   "physics": {
-    "radius": 4
+    "radius": 8
   },
   "recon": {
     "observer": {
@@ -198,6 +85,7 @@
   "selection_icon": {
     "diameter": 15
   },
+  "si_name": "tank_hover",
   "tools": [
     {
       "aim_bone": "bone_turret",
@@ -205,7 +93,50 @@
         "socket_leftMuzzle",
         "socket_rightMuzzle"
       ],
+      "record_index": 0,
+      "fire_event": "fired0",
+      "projectiles_per_fire": 2,
       "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch_rocket",
+      "muzzle_bone": [
+        "socket_muzzle_rocketLeftLeft"
+      ],
+      "record_index": 1,
+      "fire_event": "fired1",
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch_rocket",
+      "muzzle_bone": [
+        "socket_muzzle_rocketLeftRight"
+      ],
+      "record_index": 1,
+      "fire_event": "fired1",
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch_rocket",
+      "muzzle_bone": [
+        "socket_muzzle_rocketRightLeft"
+      ],
+      "record_index": 1,
+      "fire_event": "fired1",
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch_rocket",
+      "muzzle_bone": [
+        "socket_muzzle_rocketRightRight"
+      ],
+      "record_index": 1,
+      "fire_event": "fired1",
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
     }
   ],
   "transportable": {

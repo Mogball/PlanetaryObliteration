@@ -29,8 +29,12 @@
   "description": "Laser artillery - fires long-range projectiles, and has a small machine gun",
   "display_name": "M2A3 Warsaw SPG",
   "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
     "died": {
-      "effect_scale": 1.4
+      "effect_scale": 1.4,
+      "audio_cue": "/SE/Death/Veh"
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/bot/spark_fire",
@@ -39,12 +43,12 @@
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire",
-      "effect_scale": 0.1,
+      "effect_scale": 1.0,
       "effect_spec": "/pa/units/legion/land/imperial_arty_tank/mg_muzzle_flash.pfx socket_muzzle_mgLeft"
     },
     "fired2": {
       "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire",
-      "effect_scale": 0.1,
+      "effect_scale": 1.0,
       "effect_spec": "/pa/units/legion/land/imperial_arty_tank/mg_muzzle_flash.pfx socket_muzzle_mgRight"
     }
   },
