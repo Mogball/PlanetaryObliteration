@@ -36,18 +36,28 @@
       "audio_cue": "/SE/Weapons/bot/spark_fire",
       "effect_scale": 1.0,
       "effect_spec": "/pa/units/legion/land/imperial_arty_tank/muzzle_flash.pfx socket_muzzle"
+    },
+    "fired1": {
+      "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire",
+      "effect_scale": 0.1,
+      "effect_spec": "/pa/units/legion/land/imperial_arty_tank/mg_muzzle_flash.pfx socket_muzzle_mgLeft"
+    },
+    "fired2": {
+      "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire",
+      "effect_scale": 0.1,
+      "effect_spec": "/pa/units/legion/land/imperial_arty_tank/mg_muzzle_flash.pfx socket_muzzle_mgRight"
     }
   },
   "guard_layer": "WL_AnySurface",
-  "guard_radius": 10,
+  "guard_radius": 200,
   "max_health": 675,
   "mesh_bounds": [
-    5,
-    6.7,
+    5.08,
+    8.92,
     2.6
   ],
   "model": {
-    "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
+    "animtree": "/pa/units/legion/land/imperial_arty_tank/imperial_arty_tank_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/legion/land/imperial_arty_tank/imperial_arty_tank.papa"
   },
@@ -58,7 +68,7 @@
     "turn_speed": 30
   },
   "physics": {
-    "radius": 6
+    "radius": 8
   },
   "recon": {
     "observer": {
@@ -73,7 +83,7 @@
     }
   },
   "selection_icon": {
-    "diameter": -11.0
+    "diameter": 15
   },
   "si_name": "tank_heavy_artillery",
   "tools": [
@@ -83,6 +93,20 @@
       "muzzle_bone": "socket_muzzle",
       "record_index": 0,
       "spec_id": "/pa/units/legion/land/imperial_arty_tank/imperial_arty_tank_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch_mgLeft",
+      "fire_event": "fired1",
+      "muzzle_bone": "socket_muzzle_mgLeft",
+      "record_index": 1,
+      "spec_id": "/pa/units/legion/land/imperial_arty_tank/imperial_arty_tank_machinegun_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch_mgRight",
+      "fire_event": "fired2",
+      "muzzle_bone": "socket_muzzle_mgRight",
+      "record_index": 2,
+      "spec_id": "/pa/units/legion/land/imperial_arty_tank/imperial_arty_tank_machinegun_tool_weapon.json"
     }
   ],
   "transportable": {

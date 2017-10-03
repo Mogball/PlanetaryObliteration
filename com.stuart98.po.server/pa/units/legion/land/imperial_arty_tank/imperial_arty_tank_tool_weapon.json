@@ -13,7 +13,7 @@
   "max_range": 220,
   "min_firing_velocity": 1,
   "pitch_range": 89,
-  "pitch_rate": 45,
+  "pitch_rate": 25,
   "rate_of_fire": 0.2,
   "spread_fire": true,
   "target_layers": [
@@ -27,5 +27,5 @@
     "Wall"
   ],
   "yaw_range": 180,
-  "yaw_rate": 45
+  "yaw_rate": 25
 }

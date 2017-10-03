@@ -1,0 +1,82 @@
+{
+  "blend_root": {
+    "type": "unit_state",
+    "nodes": {
+      "being_built": {
+        "type": "bind_pose"
+      },
+      "living": {
+        "type": "bind_pose"
+      },
+      "dead": {
+        "type": "bind_pose"
+      },
+      "ghost": {
+        "type": "bind_pose"
+      }
+    }
+  },
+  "skeleton_controls": [
+    {
+      "child": {
+        "rotation_axis": "z",
+        "rotation_bone": "bone_turret",
+        "type": "procedural_aim",
+        "weapon_index": 0
+      },
+      "lerp_func": "is_active",
+      "type": "fader"
+    },
+    {
+      "child": {
+        "rotation_axis": "x",
+        "rotation_bone": "bone_pitch",
+        "type": "procedural_aim",
+        "weapon_index": 0
+      },
+      "lerp_func": "is_active",
+      "type": "fader"
+    },
+    {
+      "type": "recoil",
+      "bone": "bone_recoil",
+      "recoil_dist": 1.0,
+      "restore_time": 2,
+      "unit_event": "fired0"
+    },
+    {
+      "child": {
+        "type": "procedural_aim",
+        "rotation_bone": "bone_pitch_mgLeft",
+        "rotation_axis": "x",
+        "weapon_index": 1
+      },
+      "lerp_func": "is_active",
+      "type": "fader"
+    },
+    {
+      "child": {
+        "type": "procedural_aim",
+        "rotation_bone": "bone_pitch_mgRight",
+        "rotation_axis": "x",
+        "weapon_index": 2
+      },
+      "lerp_func": "is_active",
+      "type": "fader"
+    },
+    {
+      "type": "recoil",
+      "bone": "bone_recoil_mgLeft",
+      "recoil_dist": 0.3,
+      "restore_time": 0.3,
+      "unit_event": "fired1"
+    },
+    {
+      "type": "recoil",
+      "bone": "bone_recoil_mgRight",
+      "recoil_dist": 0.3,
+      "restore_time": 0.3,
+      "unit_event": "fired2"
+    }
+  ]
+}
