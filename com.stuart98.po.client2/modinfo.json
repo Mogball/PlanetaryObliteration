@@ -16,9 +16,10 @@
   "enabled": true,
   "forum": "https://forums.uberent.com/threads/wip-server-planetary-obliteration.71781/",
   "hidden": true,
-  "icon": "http://i.imgur.com/OIRelUk.png",
+  "icon": "https://i.imgur.com/ulYqruZ.png",
   "identifier": "com.stuart98.po.client2.dev",
   "priority": 95,
   "signature": "(not yet implemented)",
-  "version": "0.Alpha.14.5"
+  "version": "0.Alpha.14.5",
+  "titansOnly": true
 }
