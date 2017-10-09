@@ -6,7 +6,7 @@
     "Balance"
   ],
   "context": "client",
-  "date": "2017/09/19",
+  "date": "2017/10/06",
   "dependencies": [
     "com.stuart98.po.server.dev.redux",
     "com.stuart98.po.client2.dev.redux"
@@ -16,10 +16,10 @@
   "enabled": true,
   "forum": "https://forums.uberent.com/threads/wip-server-planetary-obliteration.71781/",
   "hidden": true,
-  "icon": "http://i.imgur.com/OIRelUk.png",
+  "icon": "https://i.imgur.com/ulYqruZ.png",
   "identifier": "com.stuart98.po.client1.dev.redux",
   "priority": 95,
   "signature": "(not yet implemented)",
-  "version": "0.Alpha.16",
+  "version": "0.Alpha.16.2",
   "titansOnly": true
 }
