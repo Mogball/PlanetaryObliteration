@@ -4,9 +4,9 @@
   "base_spec": "/pa/tools/base_laserblast_turret/base_laserblast_turret.json",
   "firing_arc_pitch": 45,
   "firing_arc_yaw": 15,
-  "firing_standard_deviation": 1.7,
+  "firing_standard_deviation": 3,
   "max_range": 70,
-  "pitch_range": 37,
+  "pitch_range": 90,
   "pitch_rate": 180,
   "rate_of_fire": 8,
   "target_layers": [

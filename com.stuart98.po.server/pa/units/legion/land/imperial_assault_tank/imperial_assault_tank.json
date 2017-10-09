@@ -25,8 +25,8 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 425,
-  "description": "Fast Assault Vehicle - has two high rate-of-fire cannons and rocket pods",
+  "build_metal_cost": 350,
+  "description": "Mechanized Assault Vehicle - equipped with two high rate-of-fire light cannons and rocket pods",
   "display_name": "M2A4 Yosemite IFV/AA",
   "events": {
     "build_complete": {
@@ -37,17 +37,15 @@
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/structure/air_defense_fire",
-      "effect_scale": 1.0,
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleRight /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleLeft"
     },
-    "fired1": {
+    "fired": {
       "audio_cue": "/SE/Weapons/veh/aa_missile_vehicle_fire",
-      "effect_scale": 1.0,
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketLeftLeft /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketLeftLeft /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketLeftRight /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketLeftRight /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketRightLeft /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketRightLeft /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketRightRight /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketRightRight"
     }
   },
   "guard_layer": "WL_LandHorizontal",
-  "guard_radius": 100,
+  "guard_radius": 120,
   "max_health": 650,
   "mesh_bounds": [
     5.08,
@@ -88,55 +86,46 @@
   "si_name": "tank_hover",
   "tools": [
     {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_muzzle_rocketLeftLeft"
+      ],
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_muzzle_rocketLeftRight"
+      ],
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_muzzle_rocketRightLeft"
+      ],
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_muzzle_rocketRightRight"
+      ],
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
+    },
+    {
       "aim_bone": "bone_turret",
       "muzzle_bone": [
         "socket_leftMuzzle",
         "socket_rightMuzzle"
       ],
-      "record_index": 0,
       "fire_event": "fired0",
       "projectiles_per_fire": 2,
       "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch_rocket",
-      "muzzle_bone": [
-        "socket_muzzle_rocketLeftLeft"
-      ],
-      "record_index": 1,
-      "fire_event": "fired1",
-      "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch_rocket",
-      "muzzle_bone": [
-        "socket_muzzle_rocketLeftRight"
-      ],
-      "record_index": 1,
-      "fire_event": "fired1",
-      "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch_rocket",
-      "muzzle_bone": [
-        "socket_muzzle_rocketRightLeft"
-      ],
-      "record_index": 1,
-      "fire_event": "fired1",
-      "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch_rocket",
-      "muzzle_bone": [
-        "socket_muzzle_rocketRightRight"
-      ],
-      "record_index": 1,
-      "fire_event": "fired1",
-      "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank_missile_tool_weapon.json"
     }
   ],
   "transportable": {
@@ -144,14 +133,12 @@
   },
   "unit_types": [
     "UNITTYPE_Tank",
-    "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",
+    "UNITTYPE_Artillery",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
-    "UNITTYPE_Hover",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1",
-    "UNITTYPE_Custom4"
+    "UNITTYPE_Custom1"
   ]
 }

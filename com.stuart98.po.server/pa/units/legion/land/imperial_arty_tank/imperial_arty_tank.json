@@ -25,8 +25,8 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 450,
-  "description": "Laser artillery - fires long-range projectiles, and has a small machine gun",
+  "build_metal_cost": 510,
+  "description": "Mobile Laser Artillery - equiped with a slow-firing, long-range plasma cannon and a small machine gun",
   "display_name": "M2A3 Warsaw SPG",
   "events": {
     "build_complete": {
@@ -53,7 +53,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "guard_radius": 200,
+  "guard_radius": 240,
   "max_health": 675,
   "mesh_bounds": [
     5.08,
@@ -80,7 +80,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 60,
+          "radius": 40,
           "shape": "capsule"
         }
       ]
@@ -122,9 +122,7 @@
     "UNITTYPE_Offense",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
-    "UNITTYPE_CannonBuildable",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1",
-    "UNITTYPE_Custom4"
+    "UNITTYPE_Custom1"
   ]
 }
