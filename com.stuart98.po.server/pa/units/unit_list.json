@@ -391,7 +391,8 @@
     "/pa/units/legion/land/imperial_arty_tank/imperial_arty_tank.json",
     "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank.json",
     "/pa/units/legion/land/imperial_light_tank/imperial_light_tank.json",
-    "/pa/units/legion/land/imperial_mbt/imperial_mbt.json"
+    "/pa/units/legion/land/imperial_mbt/imperial_mbt.json",
+    "/pa/units/legion/land/imperial_aa_tank/imperial_aa_tank.json"
 
   ]
 }

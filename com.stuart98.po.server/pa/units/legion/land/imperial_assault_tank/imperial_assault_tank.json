@@ -25,7 +25,7 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 350,
+  "build_metal_cost": 410,
   "description": "Mechanized Assault Vehicle - equipped with two high rate-of-fire light cannons and rocket pods",
   "display_name": "M2A4 Yosemite IFV/AA",
   "events": {
@@ -44,8 +44,7 @@
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketLeftLeft /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketLeftLeft /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketLeftRight /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketLeftRight /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketRightLeft /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketRightLeft /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketRightRight /pa/units/legion/land/imperial_assault_tank/launch_smoke.pfx socket_muzzle_rocketRightRight"
     }
   },
-  "guard_layer": "WL_LandHorizontal",
-  "guard_radius": 120,
+  "guard_layer": "WL_AnySurface",
   "max_health": 650,
   "mesh_bounds": [
     5.08,

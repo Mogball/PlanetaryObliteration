@@ -1,0 +1,60 @@
+{
+  "blend_root": {
+    "nodes": {
+      "being_built": {
+        "type": "bind_pose"
+      },
+      "dead": {
+        "type": "bind_pose"
+      },
+      "ghost": {
+        "type": "bind_pose"
+      },
+      "living": {
+        "aim_bone_root": "bone_turret",
+        "type": "bind_pose"
+      }
+    },
+    "type": "unit_state"
+  },
+  "skeleton_controls": [
+    {
+      "rotation_axis": "z",
+      "rotation_bone": "bone_turret",
+      "type": "procedural_aim",
+      "weapon_index": 0
+    },
+    {
+      "rotation_axis": "x",
+      "rotation_bone": "bone_pitch",
+      "type": "procedural_aim",
+      "weapon_index": 0
+    },
+    {
+      "bone": "bone_recoil",
+      "recoil_dist": 1.5,
+      "restore_time": 1.3,
+      "type": "recoil",
+      "unit_event": "fired"
+    },
+    {
+      "rotation_axis": "z",
+      "rotation_bone": "bone_mg_turret",
+      "type": "procedural_aim",
+      "weapon_index": 1
+    },
+    {
+      "rotation_axis": "x",
+      "rotation_bone": "bone_mg_pitch",
+      "type": "procedural_aim",
+      "weapon_index": 1
+    },
+    {
+      "bone": "bone_mg_recoil",
+      "recoil_dist": 0.5,
+      "restore_time": 1.5,
+      "type": "recoil",
+      "unit_event": "fired0"
+    }
+  ]
+}

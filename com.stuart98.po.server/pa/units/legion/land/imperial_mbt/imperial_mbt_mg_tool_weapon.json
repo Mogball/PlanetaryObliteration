@@ -5,9 +5,9 @@
   "idle_aim_delay": 1,
   "max_range": 110,
   "pitch_range": 90,
-  "pitch_rate": 100,
-  "firing_standard_deviation": 0.3,
-  "rate_of_fire": 3.5,
+  "pitch_rate": 200,
+  "firing_standard_deviation": 1.2,
+  "rate_of_fire": 1.5,
   "spread_fire": true,
   "target_layers": [
     "WL_Air",
@@ -17,5 +17,5 @@
     "WL_Orbital"
   ],
   "yaw_range": 180,
-  "yaw_rate": 80
+  "yaw_rate": 160
 }

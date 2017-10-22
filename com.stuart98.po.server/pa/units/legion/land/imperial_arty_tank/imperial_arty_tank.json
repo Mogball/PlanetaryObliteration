@@ -52,8 +52,7 @@
       "effect_spec": "/pa/units/legion/land/imperial_arty_tank/mg_muzzle_flash.pfx socket_muzzle_mgRight"
     }
   },
-  "guard_layer": "WL_AnySurface",
-  "guard_radius": 240,
+  "guard_layer": "WL_LandHorizontal",
   "max_health": 675,
   "mesh_bounds": [
     5.08,
@@ -80,7 +79,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 40,
+          "radius": 80,
           "shape": "capsule"
         }
       ]
@@ -119,6 +118,7 @@
   "unit_types": [
     "UNITTYPE_Tank",
     "UNITTYPE_Mobile",
+    "UNITTYPE_Artillery",
     "UNITTYPE_Offense",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",

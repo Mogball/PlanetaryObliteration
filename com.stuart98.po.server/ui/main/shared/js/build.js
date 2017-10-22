@@ -241,6 +241,7 @@ var Build = (function() {
 	            "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank.json": [ "L_vehicle", 14 ],
 	            "/pa/units/legion/land/imperial_light_tank/imperial_light_tank.json": [ "L_vehicle", 15 ],
 	            "/pa/units/legion/land/imperial_mbt/imperial_mbt.json": [ "L_vehicle", 16 ],
+	            "/pa/units/legion/land/imperial_aa_tank/imperial_aa_tank.json": [ "L_vehicle", 17 ],
 
 		"/pa/units/legion/land/l_bot_support_commander/l_bot_support_commander.json": [ "L_botadv", 12 ],
 		"/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv.json": [ "L_botadv", 13 ],

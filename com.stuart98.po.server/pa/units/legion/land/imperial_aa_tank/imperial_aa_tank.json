@@ -1,5 +1,5 @@
 {
-  "TEMP_texelinfo": 5.84968,
+  "TEMP_texelinfo": 4.07719,
   "attachable": {
     "offsets": {
       "head": [
@@ -28,9 +28,9 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 350,
-  "description": "Medium Tank - Equipped with a reliable cannon",
-  "display_name": "M3 Vegas MT",
+  "build_metal_cost": 400,
+  "description": "Tesla Anti-Air - Fires high energy electron beams; attacks only air",
+  "display_name": "M3A2 Himalaya AA",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
@@ -40,22 +40,21 @@
       "audio_cue": "/SE/Death/Veh"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/veh/tank_light_fire",
-      "effect_scale": 1.3,
-      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
+      "audio_cue": "/SE/Weapons/bot/spark_fire",
+      "effect_spec": "/pa/units/legion/land/imperial_aa_tank/spark_muzzle_flash.pfx socket_muzzle"
     }
   },
-  "guard_layer": "WL_AnySurface",
-  "max_health": 850,
+  "guard_layer": "WL_Air",
+  "max_health": 610,
   "mesh_bounds": [
     5.5,
     7,
     2.394
   ],
   "model": {
-    "animtree": "/pa/units/legion/land/imperial_light_tank/imperial_light_tank_anim_tree.json",
+    "animtree": "/pa/units/legion/land/imperial_aa_tank/imperial_aa_tank_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/legion/land/imperial_light_tank/imperial_light_tank.papa"
+    "filename": "/pa/units/legion/land/imperial_aa_tank/imperial_aa_tank.papa"
   },
   "navigation": {
     "acceleration": 30,
@@ -82,12 +81,12 @@
   "selection_icon": {
     "diameter": 15
   },
-  "si_name": "tank_light_laser",
   "tools": [
     {
-      "aim_bone": "bone_turret",
+      "aim_bone": "bone_pitch",
       "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/legion/land/imperial_light_tank/imperial_light_tank_tool_weapon.json"
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/legion/land/imperial_aa_tank/imperial_aa_tank_tool_weapon.json"
     }
   ],
   "transportable": {
@@ -98,6 +97,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",
     "UNITTYPE_Land",
+    "UNITTYPE_AirDefense",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Custom1"
