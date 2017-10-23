@@ -1,0 +1,106 @@
+{
+  "TEMP_texelinfo": 4.07719,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        2.97
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/tank_light_laser_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    },
+    "selection_response": {
+      "cue": "/SE/Selection/veh/tank_light_laser"
+    }
+  },
+  "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
+  "build_metal_cost": 400,
+  "description": "Tesla Anti-Air - Fires high energy electron beams; attacks only air",
+  "display_name": "M3A2 Himalaya AA",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
+    "died": {
+      "effect_scale": 1.1,
+      "audio_cue": "/SE/Death/Veh"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/bot/spark_fire",
+      "effect_spec": "/pa/units/republic/tank/republic_aa_tank/spark_muzzle_flash.pfx socket_muzzle"
+    }
+  },
+  "guard_layer": "WL_Air",
+  "max_health": 610,
+  "mesh_bounds": [
+    5.5,
+    7,
+    2.394
+  ],
+  "model": {
+    "animtree": "/pa/units/republic/tank/republic_aa_tank/republic_aa_tank_anim_tree.json",
+    "arrows": 5,
+    "filename": "/pa/units/republic/tank/republic_aa_tank/republic_aa_tank.papa"
+  },
+  "navigation": {
+    "acceleration": 30,
+    "brake": 30,
+    "move_speed": 18,
+    "turn_speed": 90
+  },
+  "physics": {
+    "push_class": 60,
+    "radius": 6
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 70,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": 15
+  },
+  "si_name": "aa_missile_vehicle",
+  "tools": [
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": "socket_muzzle",
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/republic/tank/republic_aa_tank/republic_aa_tank_tool_weapon.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Land",
+    "UNITTYPE_AirDefense",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom4"
+  ]
+}

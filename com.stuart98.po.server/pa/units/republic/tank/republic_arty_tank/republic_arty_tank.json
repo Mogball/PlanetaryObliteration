@@ -1,0 +1,128 @@
+{
+  "TEMP_texelinfo": 9.31488,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        3.1
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/tank_heavy_mortar_loop_sheller_T2",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
+  "build_metal_cost": 510,
+  "description": "Mobile Laser Artillery - equiped with a slow-firing, long-range plasma cannon and a small machine gun",
+  "display_name": "M2A3 Warsaw SPG",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
+    "died": {
+      "effect_scale": 1.4,
+      "audio_cue": "/SE/Death/Veh"
+    },
+    "fired0": {
+      "audio_cue": "/SE/Weapons/bot/spark_fire",
+      "effect_scale": 1.0,
+      "effect_spec": "/pa/units/republic/tank/republic_arty_tank/muzzle_flash.pfx"
+    },
+    "fired1": {
+      "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire",
+      "effect_scale": 1.0,
+      "effect_spec": "/pa/units/republic/tank/republic_arty_tank/mg_muzzle_flash.pfx socket_muzzle_mgLeft"
+    },
+    "fired2": {
+      "audio_cue": "/SE/Weapons/structure/laser_defense_single_fire",
+      "effect_scale": 1.0,
+      "effect_spec": "/pa/units/republic/tank/republic_arty_tank/mg_muzzle_flash.pfx socket_muzzle_mgRight"
+    }
+  },
+  "guard_layer": "WL_LandHorizontal",
+  "max_health": 675,
+  "mesh_bounds": [
+    5.08,
+    8.92,
+    2.6
+  ],
+  "model": {
+    "animtree": "/pa/units/republic/tank/republic_arty_tank/republic_arty_tank_anim_tree.json",
+    "arrows": 5,
+    "filename": "/pa/units/republic/tank/republic_arty_tank/republic_arty_tank.papa"
+  },
+  "navigation": {
+    "acceleration": 50,
+    "brake": 50,
+    "move_speed": 14,
+    "turn_speed": 30
+  },
+  "physics": {
+    "radius": 8
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 70,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": 15
+  },
+  "si_name": "tank_heavy_artillery",
+  "tools": [
+    {
+      "aim_bone": "bone_turret",
+      "fire_event": "fired0",
+      "muzzle_bone": "socket_muzzle",
+      "record_index": 0,
+      "spec_id": "/pa/units/republic/tank/republic_arty_tank/republic_arty_tank_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch_mgLeft",
+      "fire_event": "fired1",
+      "muzzle_bone": "socket_muzzle_mgLeft",
+      "record_index": 1,
+      "spec_id": "/pa/units/republic/tank/republic_arty_tank/republic_arty_tank_mg_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch_mgRight",
+      "fire_event": "fired2",
+      "muzzle_bone": "socket_muzzle_mgRight",
+      "record_index": 2,
+      "spec_id": "/pa/units/republic/tank/republic_arty_tank/republic_arty_tank_mg_tool_weapon.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Artillery",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom4"
+  ]
+}

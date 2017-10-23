@@ -79,7 +79,6 @@
     "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_FabBuild",
     "UNITTYPE_FabAdvBuild",
-    "UNITTYPE_Custom3",
-    "UNITTYPE_Custom4"
+    "UNITTYPE_Custom3"
   ]
 }

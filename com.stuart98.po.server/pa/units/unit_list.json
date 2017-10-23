@@ -388,11 +388,13 @@
     "/pa/units/vanilla/land/titan_riot/titan_riot.json",
     "/pa/units/vanilla/air/bomber_naval/bomber_naval.json",
 
-    "/pa/units/legion/land/imperial_arty_tank/imperial_arty_tank.json",
-    "/pa/units/legion/land/imperial_assault_tank/imperial_assault_tank.json",
-    "/pa/units/legion/land/imperial_light_tank/imperial_light_tank.json",
-    "/pa/units/legion/land/imperial_mbt/imperial_mbt.json",
-    "/pa/units/legion/land/imperial_aa_tank/imperial_aa_tank.json"
 
+    "/pa/units/republic/tank/republic_arty_tank/republic_arty_tank.json",
+    "/pa/units/republic/tank/republic_assault_tank/republic_assault_tank.json",
+    "/pa/units/republic/tank/republic_medium_tank/republic_medium_tank.json",
+    "/pa/units/republic/tank/republic_heavy_tank/republic_heavy_tank.json",
+    "/pa/units/republic/tank/republic_aa_tank/republic_aa_tank.json",
+
+    "/pa/units/republic/factory/republic_tank_factory/republic_tank_factory.json"
   ]
 }

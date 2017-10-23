@@ -1,0 +1,141 @@
+{
+  "TEMP_texelinfo": 22.4238,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        3.1
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/tank_heavy_mortar_loop_sheller_T2",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
+  "build_metal_cost": 410,
+  "description": "Mechanized Assault Vehicle - equipped with two high rate-of-fire light cannons and rocket pods",
+  "display_name": "M2A4 Yosemite IFV/AA",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Veh"
+    },
+    "fired0": {
+      "audio_cue": "/SE/Weapons/structure/air_defense_fire",
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleRight /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleLeft"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/veh/aa_missile_vehicle_fire",
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketLeftLeft /pa/units/republic/tank/republic_assault_tank/launch_smoke.pfx socket_muzzle_rocketLeftLeft /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketLeftRight /pa/units/republic/tank/republic_assault_tank/launch_smoke.pfx socket_muzzle_rocketLeftRight /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketRightLeft /pa/units/republic/tank/republic_assault_tank/launch_smoke.pfx socket_muzzle_rocketRightLeft /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rocketRightRight /pa/units/republic/tank/republic_assault_tank/launch_smoke.pfx socket_muzzle_rocketRightRight"
+    }
+  },
+  "guard_layer": "WL_AnySurface",
+  "max_health": 650,
+  "mesh_bounds": [
+    5.08,
+    8.92,
+    3.6
+  ],
+  "model": {
+    "animtree": "/pa/units/republic/tank/republic_assault_tank/republic_assault_tank_anim_tree.json",
+    "arrows": 5,
+    "filename": "/pa/units/republic/tank/republic_assault_tank/republic_assault_tank.papa"
+  },
+  "navigation": {
+    "acceleration": 60,
+    "brake": 60,
+    "move_speed": 18,
+    "turn_speed": 45
+  },
+  "physics": {
+    "radius": 8
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 70,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": 15
+  },
+  "si_name": "tank_hover",
+  "tools": [
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_muzzle_rocketLeftLeft"
+      ],
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/republic/tank/republic_assault_tank/republic_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_muzzle_rocketLeftRight"
+      ],
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/republic/tank/republic_assault_tank/republic_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_muzzle_rocketRightLeft"
+      ],
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/republic/tank/republic_assault_tank/republic_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_muzzle_rocketRightRight"
+      ],
+      "projectiles_per_fire": 1,
+      "spec_id": "/pa/units/republic/tank/republic_assault_tank/republic_assault_tank_missile_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_turret",
+      "muzzle_bone": [
+        "socket_leftMuzzle",
+        "socket_rightMuzzle"
+      ],
+      "fire_event": "fired0",
+      "projectiles_per_fire": 2,
+      "spec_id": "/pa/units/republic/tank/republic_assault_tank/republic_assault_tank_tool_weapon.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_AirDefense",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom4"
+  ]
+}
