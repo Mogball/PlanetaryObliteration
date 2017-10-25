@@ -28,33 +28,37 @@
     }
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 400,
-  "description": "Tesla Anti-Air - Fires high energy electron beams; attacks only air",
-  "display_name": "M3A2 Himalaya AA",
+  "build_metal_cost": 600,
+  "description": "Reconnaissance Vehicle - Equiped with proximity radar and a small HMG",
+  "display_name": "M3A4 RECON",
   "events": {
     "build_complete": {
-      "audio_cue": "/SE/Build_Complete/veh"
+      "audio_cue": "/SE/Build_Complete/radar"
     },
     "died": {
-      "effect_scale": 1.1,
-      "audio_cue": "/SE/Death/Veh"
+      "effect_scale": 0.8,
+      "audio_cue": "/SE/Death/radar"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/bot/spark_fire",
-      "effect_spec": "/pa/units/republic/tank/republic_aa_tank/spark_muzzle_flash.pfx socket_muzzle"
+      "audio_cue": "/SE/Weapons/structure/air_defense_fire",
+      "effect_scale": 0.3,
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
     }
   },
   "guard_layer": "WL_Air",
-  "max_health": 610,
+  "max_health": 580,
   "mesh_bounds": [
     5.5,
     7,
     2.394
   ],
   "model": {
-    "animtree": "/pa/units/republic/tank/republic_aa_tank/republic_aa_tank_anim_tree.json",
+    "animtree": "/pa/units/republic/tank/republic_recon_tank/republic_recon_tank_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/republic/tank/republic_aa_tank/republic_aa_tank.papa"
+    "filename": "/pa/units/republic/tank/republic_recon_tank/republic_recon_tank.papa",
+    "animations": {
+      "idle": "/pa/units/republic/tank/republic_recon_tank/republic_recon_tank_idle.papa"
+    }
   },
   "navigation": {
     "acceleration": 30,
@@ -73,7 +77,22 @@
           "channel": "sight",
           "layer": "surface_and_air",
           "radius": 80,
-          "shape": "capsule"
+          "shape": "capsule",
+          "uses_energy": false
+        },
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 110,
+          "shape": "capsule",
+          "uses_energy": true
+        },
+        {
+          "channel": "radar",
+          "layer": "surface_and_air",
+          "radius": 150,
+          "shape": "capsule",
+          "uses_energy": true
         }
       ]
     }
@@ -87,7 +106,7 @@
       "aim_bone": "bone_pitch",
       "muzzle_bone": "socket_muzzle",
       "projectiles_per_fire": 1,
-      "spec_id": "/pa/units/republic/tank/republic_aa_tank/republic_aa_tank_tool_weapon.json"
+      "spec_id": "/pa/units/republic/tank/republic_recon_tank/republic_recon_tank_tool_weapon.json"
     }
   ],
   "transportable": {
@@ -96,10 +115,9 @@
   "unit_types": [
     "UNITTYPE_Tank",
     "UNITTYPE_Mobile",
-    "UNITTYPE_Offense",
     "UNITTYPE_Land",
-    "UNITTYPE_AirDefense",
     "UNITTYPE_Basic",
+    "UNITTYPE_Recon",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Custom4"
   ]

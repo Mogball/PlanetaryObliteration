@@ -6,6 +6,7 @@
         "type": "bind_pose"
       },
       "living": {
+        "aim_bone_root": "bone_turret",
         "type": "bind_pose"
       },
       "dead": {

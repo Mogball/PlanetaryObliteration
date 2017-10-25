@@ -31,8 +31,8 @@
       "/pa/effects/specs/scorch_c_01.json"
     ]
   },
-  "description": "Generalist Manufacturing - Builds Generalist Armor.",
-  "display_name": "Generalist Armour Foundry",
+  "description": "Tank Factory - Constructs basic armored vehicles",
+  "display_name": "Armor Factory",
   "factory_cooldown_time": 4,
   "fx_offsets": [
     {
@@ -236,7 +236,7 @@
     ]
   ],
   "selection_icon": {
-    "diameter": -50
+    "diameter": 50
   },
   "si_name": "vehicle_factory",
   "storage": {

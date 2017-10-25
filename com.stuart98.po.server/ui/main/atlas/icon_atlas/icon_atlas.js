@@ -165,6 +165,7 @@ $(document).ready(function () {
 			'l_boat_torpedo',
 			'tank_orbital',
 			'bomber_naval',
+            'patton'
         ]);
 
         self.sendIconList = function () {

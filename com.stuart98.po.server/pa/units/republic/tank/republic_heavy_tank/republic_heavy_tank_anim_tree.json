@@ -52,7 +52,7 @@
     {
       "bone": "bone_mg_recoil",
       "recoil_dist": 0.5,
-      "restore_time": 1.5,
+      "restore_time": 0.7,
       "type": "recoil",
       "unit_event": "fired0"
     }

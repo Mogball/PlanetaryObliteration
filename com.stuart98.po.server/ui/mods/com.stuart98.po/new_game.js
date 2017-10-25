@@ -40,34 +40,6 @@ if (!POLoaded) {
 
             model.POClientModLoaded = ko.observable(false);
 
-            /*welcome splash
-            model.legionDoNotShowWelcome = ko.observable(false).extend({ local: 'legion_welcome_dontshow'});
-
-            model.legionToggleDoNotShowWelcome = function() {
-                model.legionDoNotShowWelcome(!model.legionDoNotShowWelcome());
-            }
-
-            model.legionUrlClicked = function(data, event) {
-                 if (event && event.target && event.target.href) {
-                    model.legionOpenUrl(event.target.href);
-                }
-            }
-
-            model.legionOpenUrl = function(url) {
-                 engine.call('web.launchPage', url);
-            }
-
-            model.legionCloseWelcome = function() {
-                $('#legion-welcome').fadeOut();
-                $('body').off('keypress', model.legionCloseWelcome);
-            }
-
-            model.legionShowWelcome = function() {
-                $("body").on('keypress', model.legionCloseWelcome);
-                $('#legion-welcome').delay(1000).fadeIn();
-            }
-            */
-
             //load po theme
             var themesetting = api.settings.isSet('ui', 'POMenuThemeFunction', true) || 'ON';
             if (themesetting === "ON") {
@@ -82,26 +54,6 @@ if (!POLoaded) {
             //legion commander picker colouring
             loadCSS('coui://ui/mods/com.stuart98.po/css/legion_commander_picker.css');
 
-            /*legion welcome screen
-            loadCSS('coui://ui/mods/com.pa.legion-expansion/css/welcome.css');
-            $("body").append(loadHtml('coui://ui/mods/com.pa.legion-expansion/new_game/welcome.html'));
-
-            api.mods.getMountedMods('client', function(mods) {
-                var legionClientLoaded =  _.intersection( _.pluck( mods, 'identifier' ), [ 'com.pa.legion-expansion-client', ,'com.pa.legion-expansion-client-master', 'com.pa.legion-expansion-client-balance' ] ).length > 0;
-
-                model.legionClientModLoaded(legionClientLoaded);
-
-                if (!legionClientLoaded) {
-                    if (model.registerHoldReady) model.registerHoldReady('com.pa.legion-expansion-client', 'Legion Client Mod Missing');
-                    if (model.localChatMessage) model.localChatMessage('Legion Expansion', 'Legion Expansion client mod is not installed!');
-                }
-
-                if (!model.legionDoNotShowWelcome() && ! model.returnFromLoad()) {
-                    model.legionShowWelcome();
-                }
-            });
-            */
-
             loadScript("coui://ui/mods/com.pa.legion-expansion/common.js");
 
             var legioncommanders = ["/pa/units/commanders/l_rockteeth/l_rockteeth.json","/pa/units/commanders/l_overwatch/l_overwatch.json", "/pa/units/commanders/l_cyclops/l_cyclops.json", "/pa/units/commanders/l_wasushi/l_wasushi.json", "/pa/units/commanders/raptor_xov/raptor_XOV.json", "/pa/units/commanders/raptor_enderstryke71/raptor_enderstryke71.json", "/pa/units/commanders/tank_reaver/tank_reaver.json", "/pa/units/commanders/raptor_raizell/raptor_raizell.json", "/pa/units/commanders/quad_locust/quad_locust.json", "/pa/units/commanders/quad_potbelly79/quad_potbelly79.json", "/pa/units/commanders/quad_theflax/quad_theflax.json", "/pa/units/commanders/quad_gambitdfa/quad_gambitdfa.json", "/pa/units/commanders/quad_xinthar/quad_xinthar.json", "/pa/units/commanders/quad_armalisk/quad_armalisk.json"];
@@ -115,13 +67,13 @@ if (!POLoaded) {
                 else {
                     return true;
                 }
-            }
+            };
 
             model.isMLA = function (commander, isEmpty) {
                 if (!isEmpty) {
                     return !_.includes(legioncommanders, commander);
                 }
-            }
+            };
 
 
             //Style Commander Picker Legion
@@ -136,7 +88,7 @@ if (!POLoaded) {
                     id: playerid,
                     ai_commander: legioncommanders[_.random(legioncommanders.length - 1)]
                 });
-            }
+            };
 
             model.changeVanillaAI = function (playerid) {
                 //console.log("change to vanilla");
@@ -144,7 +96,7 @@ if (!POLoaded) {
                     id: playerid,
                     ai_commander: vanillacommanders[_.random(vanillacommanders.length - 1)]
                 });
-            }
+            };
 
             //NEED PATCHED lobby.js
             //To Legion Button
@@ -152,7 +104,7 @@ if (!POLoaded) {
             //To Vanilla Button
             $('.army-button.slot-remove-button.slot-remove-button-team').parent().append('<div class="army-button btn_add_ai" data-bind="visible: slot.ai(),click: function() { model.changeVanillaAI(slot.playerId());}">To MLA</div>');
             //ENDOF NEED PATCHED lobby.js
-        }
+        };
 
         if (_.intersection(model.gameModIdentifiers(), ['com.stuart98.po.server', 'com.stuart98.po.server.dev.redux']).length > 0) {
             model.enablePO();

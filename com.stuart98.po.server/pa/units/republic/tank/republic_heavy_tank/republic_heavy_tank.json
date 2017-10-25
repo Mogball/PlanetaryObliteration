@@ -29,7 +29,7 @@
   },
   "base_spec": "/pa/units/vanilla/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 650,
-  "description": "Heavy Tank - Well-armored and equipped with a two-burst plasma cannon with a long reload",
+  "description": "Heavy Tank - Well-armored; equipped with a two-burst plasma cannon and an HMG",
   "display_name": "M3A9 Nuremberg HT",
   "events": {
     "died": {
@@ -41,7 +41,7 @@
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/structure/air_defense_fire",
-      "effect_scale": 0.5,
+      "effect_scale": 0.3,
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_mg_muzzle"
     }
   },
@@ -63,7 +63,7 @@
     }
   ],
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 1300,
+  "max_health": 1500,
   "mesh_bounds": [
     6.8,
     7.5,
@@ -89,7 +89,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 65,
+          "radius": 80,
           "shape": "capsule"
         }
       ]

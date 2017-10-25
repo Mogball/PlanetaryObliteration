@@ -1,13 +1,13 @@
 {
-  "ammo_id": "/pa/units/republic/tank/republic_assault_tank/republic_assault_tank_ammo.json",
+  "ammo_id": "/pa/units/republic/tank/republic_recon_tank/republic_recon_tank_ammo.json",
   "auto_attack": true,
   "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
   "idle_aim_delay": 1,
-  "max_range": 110,
+  "max_range": 90,
   "pitch_range": 90,
-  "pitch_rate": 100,
-  "firing_standard_deviation": 0.3,
-  "rate_of_fire": 3.2,
+  "pitch_rate": 200,
+  "firing_standard_deviation": 2.1,
+  "rate_of_fire": 1.8,
   "spread_fire": true,
   "target_layers": [
     "WL_Air",
@@ -16,6 +16,6 @@
     "WL_WaterSurface",
     "WL_Orbital"
   ],
-  "yaw_range": 180,
-  "yaw_rate": 80
+  "yaw_range": 120,
+  "yaw_rate": 180
 }

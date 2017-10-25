@@ -1,0 +1,150 @@
+{
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        15.6
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "base_spec": "/pa/units/commanders/tank_base_uber/tank_base.json",
+  "buildable_types": "CmdBuild & Custom4",
+  "catalog_object_name": "TankReaver",
+  "client": {
+    "ui": {
+      "image": "/pa/units/republic/commanders/patton/img/img.png",
+      "profile_image": "/pa/units/republic/commanders/patton/img/profile.png",
+      "thumb_image": "/pa/units/republic/commanders/patton/img/thumb.png"
+    }
+  },
+  "navigation": {
+    "acceleration": 60,
+    "brake": 60,
+    "move_speed": 17,
+    "park_stamp": {
+      "cost": 20,
+      "shape": "sphere",
+      "type_data": [
+        {
+          "move_type": "land-small",
+          "stamp_type": "simple"
+        },
+        {
+          "move_type": "amphibious",
+          "stamp_type": "simple"
+        },
+        {
+          "move_type": "hover",
+          "stamp_type": "simple"
+        }
+      ]
+    },
+    "turn_in_place": false,
+    "turn_speed": 130,
+    "type": "amphibious"
+  },
+  "description": "First Commander of the United Earth Republic",
+  "display_name": "Patton Commander",
+  "fx_offsets": [
+    {
+      "bone": "socket_leftMuzzle",
+      "filename": "/pa/effects/specs/legion_fab_spray.pfx",
+      "type": "build"
+    }
+  ],
+  "headlights": [
+    {
+      "bone": "bone_spine",
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "far_distance": 30.0,
+      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+      "intensity": 6.0,
+      "near_distance": 3.0,
+      "near_height": 5.0,
+      "near_width": 5.0,
+      "offset": [
+        0,
+        -2.215,
+        3.802
+      ],
+      "orientation": [
+        0.0,
+        45.0,
+        0.0
+      ],
+      "shadow_resolution": 128
+    }
+  ],
+  "lamps": [
+    {
+      "bone": "bone_spine",
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 5.0,
+      "offset": [
+        0,
+        -4.85,
+        0.58
+      ],
+      "radius": 2.0
+    },
+    {
+      "bone": "bone_leftShoulder",
+      "color": [
+        0.4,
+        1.0,
+        0.01
+      ],
+      "intensity": 2.0,
+      "offset": [
+        0.4,
+        -4.06,
+        -1.1
+      ],
+      "radius": 4.0
+    }
+  ],
+  "mesh_bounds": [
+    11.1,
+    9.8,
+    15.4
+  ],
+  "model": {
+    "filename": "/pa/units/republic/commanders/patton/patton.papa"
+  },
+  "selection_icon": {
+    "diameter": 16
+  },
+  "si_name": "patton",
+  "unit_types": [
+    "UNITTYPE_Commander",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Land",
+    "UNITTYPE_NoBuild",
+    "UNITTYPE_Custom4"
+  ],
+  "production": {
+    "energy": 5000,
+    "metal": 50
+  },
+  "max_health": 20000,
+  "storage": {
+    "energy": 70000,
+    "metal": 2000
+  }
+}
