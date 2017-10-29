@@ -253,6 +253,7 @@
   "unit_types": [
     "UNITTYPE_Factory",
     "UNITTYPE_Custom4",
+    "UNITTYPE_Custom1",
     "UNITTYPE_Construction",
     "UNITTYPE_Land",
     "UNITTYPE_Tank",
